@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/john/meta-image2.jpg">
+	<meta name="description" content="A list of my goals as I complete Design for the Web's web dev and web design course.">
+<<<<<<< HEAD
+<<<<<<< HEAD
+	<title>Goals for DFTW and Beyond!</title>
+=======
+	<title></title>
+>>>>>>> Edits to header, footer and goal cards.
+=======
+	<title>Goals for DFTW and Beyond!</title>
+>>>>>>> Add SVG icons
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class='site-header'>
+		<div class='inner-column'>
+
+			<a href='' class='logo'>
+				<img src='images/mon.svg'>
+			</a>
+
+			<nav>
+				<ul>
+					<li><a href='../index.php' target='_blank'>Home</a></li>
+					<li><a href='../challenge-1/about.html' target='_blank'>About</a></li>
+					<li><a href='../challenge-1/contact.html' target='_blank'>Contact</a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+	<main class="page-content">
+		<section class="title">
+			<div class="inner-column">
+				<h1 class='loud-voice'>My Goals</h1>
+			</div>
+		</section>
+		
+		<section class="goals">
+			<div class="inner-column">
+				<div class="class-goals a">
+					<h2 class='attention-voice'>Class Goals</h2>
+					<ul> 
+						<li>Complete my Projects: 
+							<ul class='projects'>
+								<li>Build photo gallery</li>
+								<li>Build a menu you can order from</li>
+								<li>Build a app that automatically checks you in at Southwest Airlines</li>
+							</ul>
+						</li>
+						<li>Obtain a paid client</li>
+						<li>Blog weekly</li>
+						<li>Replicate a site once a week</li>
+					</ul>
+				</div>	
+				
+				<div class="class-goals b">
+					<h2 class='attention-voice'>Within 60 Days of Graduating</h2>
+					<ul> 
+						<li>Get a full time job as a Web Developer making 100k in total comp.</li>
+						<li>Ideal industries
+							<ul class='industries'>
+								<li>Sports (basketball)</li>
+								<li>Fashion</li>
+								<li>Music/Art/Architecture</li>
+								<li>Web3</li>
+							</ul>
+						</li>
+					</ul>
+				</div>		
+				
+				<div class="class-goals c">
+					<h2 class='attention-voice'>5 Year Goals</h2>
+					<ul> 
+						<li>Become a Senior Dev or Manager</li>
+						<li>Have steady freelance work</li>
+						<li>Move back to California</li>
+						<li>Own a home</li>
+					</ul>
+				</div>		
+			</div>
+		</section>	
+		
+	</main>
+
+	<footer>
+		<div class="inner-column">
+			<p>If you'd like to help keep me accountable, send me an encouraging message on Twitter or comment on a blog post.</p>
+
+			<div class="socials">
+				<a href='https://twitter.com/miyaocodes' target='_blank'><img class="twitter" src='images/twitter.png'></a>
+						
+				<a href='https://johnmiyao.substack.com/?utm_source=%2Fprofile%2F19685771-john-learns-to-code&utm_medium=reader2' target='_blank'><img class="substack" src='images/substack.png'></a>
+			</div>
+		</div>
+		
+	</footer>
+		
+	</body>
+</html>

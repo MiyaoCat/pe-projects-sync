@@ -1,0 +1,123 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+/*@import 'meyer-reset.css';*/
+=======
+@import 'meyer-reset.css';
+>>>>>>> save if/else function for nba card
+=======
+/*@import 'meyer-reset.css';*/
+>>>>>>> php practice
+
+* {
+	box-sizing: border-box;
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+body {
+	/*background-color: #d4dffd;*/
+	font-family: Helvetica;
+=======
+body * {
+	border:  1px solid rgba(0,0,0,.5);
+}
+
+body {
+	background-color: #d4dffd;
+>>>>>>> save if/else function for nba card
+=======
+body {
+	/*background-color: #d4dffd;*/
+	font-family: Helvetica;
+>>>>>>> php practice
+}
+
+picture {
+	display: block;
+}
+
+picture img {
+	display: block;
+	width:  100%;
+	height:  auto;
+}
+
+nav {
+	height: 100px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> php practice
+}
+
+h2 {
+	font-size: 22px;
+}
+
+p, li {
+
+	font-size: 15px;
+}
+
+/* 
+team-list = guitar-list;  
+team-card = guitar-card, 
+playoffsTag = salestag;
+in-playoffs = flag
+team.playoffsClass = guitar.saleClass
+playoff-bound = on-sale */
+
+.team-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+team-card {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	padding: 10px;
+	max-width: 300px;
+	position: relative;
+	background-color: hsl(20, 50%, 50%);
+}
+
+.team.playoff-bound team-card {
+	/*background-color: wheat;*/
+}
+
+team-card .in-playoffs {
+	background-color: red;
+	max-width: 80px;
+	padding: 8px;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: rotate(4deg) translate(10px, -6px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
+=======
+}
+>>>>>>> save if/else function for nba card
+=======
+>>>>>>> php practice

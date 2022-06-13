@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:image" content="[IMAGE URL]">
+	<meta name="description" content="[SHORT PAGE DESCRIPTION]">
+	<title></title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<section class='inner-column'>
+			<div class='top-row'>
+				<div class='header-left'>
+					<img class='menu-icon' src='./images/hamburger-menu-100.png'>
+					<img class='logo' src='./images/tpt-logo.png'>
+				</div>
+				<div class='header-right'>
+					<img src='#'>
+					<img src='#'>
+				</div>
+			</div>
+			<div class='bottom-row'>
+				<ul>
+					<li>Basketball</li>
+					<li>Football</li>
+					<li>Soccer</li>
+					<li>Hockey</li>
+					<li>Baseball</li>
+					<li>Other Sports</li>
+					<li>Videos</li>
+					<li>Silence is not an option</li>
+					<li>Knucleheads</li>
+					<li>Knucleheads</li>
+					<li>Knucleheads</li>
+					<li>Knucleheads</li>
+				</ul>
+			</div>
+		</section>
+	</header>
+
+	<main>
+		<section class="inner-column">
+
+		</section>
+
+	</main>
+
+	<footer>
+		<section class="inner-column">
+			
+		</section>
+	</footer>
+	
+</body>
+</html>

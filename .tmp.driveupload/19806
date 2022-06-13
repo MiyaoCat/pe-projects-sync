@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>John Learns to Code</title>
+	<meta name="description" content="John is learning the skills to become a pro Web Dev. Click or tap to see his work">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/john/challenge-1/images/index-meta-image2.png">
+
+	<style>
+
+		body {
+			background-color: #0502a2;
+			font-family: Gill Sans, Helvetica Neue, sans-serif;
+		}
+
+		h1 {
+			font-family: Gill Sans, Helvetica Neue, sans-serif;
+			font-size: 8em;
+			color: white;
+			text-align: center;
+			margin: 0 auto 0 auto;
+		}
+
+		footer {
+			margin-top: 2em;
+		}
+
+		ul {
+			text-align: center;
+		}
+
+		li {
+			color: white;
+			list-style-type: none;
+		}
+
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		a {
+			color: #fa660e;
+		}
+
+		a:hover {
+			color: white;
+		}
+
+
+	</style>
+
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="">Home</a>
+			<a href="projects/index.html">Projects</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+	
+	<img src="images/index-jordan-background.jpeg" alt="Michael Jordan dunking">
+	
+	<h1>Welcome!</h1>
+
+	<iframe src="https://johnmiyao.substack.com/embed" display="block" margin-left="auto" margin-right="auto" width="480" height="320" style="border:3px solid black" background:#0502a2;" frameborder="0" scrolling="no"></iframe>
+
+	<footer style="border: 1px solid black">
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="projects/index.html">Projects</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</footer>
+</body>
+</html>

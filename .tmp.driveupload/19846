@@ -1,0 +1,94 @@
+@import 'meyer-reset.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #d4dffd;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+
+picture {
+	display: block;
+	padding: 10px;
+}
+
+picture img {
+	display: block;
+	width:  100%;
+	height:  auto;
+	border: 5px solid black;
+}
+
+nav {
+	height: 100px;
+}
+
+.inner-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3em;
+}
+
+.instructions {
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+[for] {
+	/*font-size: 12px;*/
+}
+.loud-voice {
+	font-family: Times New Roman;
+	font-weight: 700;
+	font-size: clamp(80px, 10vw, 160px);
+	margin-top: 4rem;
+	margin-bottom: 6rem;
+}
+
+::placeholder {
+	text-align: center;
+	line-height: 20px;
+}
+input{
+   width: 100%;
+   padding: 5px;
+	border: 2px solid black;
+   font-size: large;
+   background-color: white;
+   text-align: center;
+   transition-duration: 0.2s;
+}
+input:focus:not(input[type="radio"]) {
+   border: none;
+   color: white;
+   background-color: black;
+   font-size: 25px;
+   line-height: 2;
+}
+
+/* BUTTON */
+button {
+	text-transform: uppercase;
+	width: 150px;
+	color: white;
+	background-color: black;
+	padding: 5px;
+	margin-top: 8px;
+	margin-bottom: 35px;
+	border-radius: 5px;
+
+
+}
+
+/* RETURNED NAME */
+span {
+	font-weight: 700;
+	text-decoration: underline;
+}

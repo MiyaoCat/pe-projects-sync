@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Watch these stars shine in the 2022 NBA playoffs!">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/john/069-responsive-layout/images/meta-finals.jpeg">
+	<title>2022 NBA Playoffs!</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class='inner-column'>
+			<nav>
+				<picture>
+					<img src='images/nba-logo.jpeg'>
+				</picture>
+				<h1 class='excited-voice'>2022 NBA Playoffs!</h1>
+			</nav>
+		</div>
+		
+
+		<section class='intro'>
+			<div class='inner-column'>
+					<picture>
+						<img src='images/playoff-bracket.jpg'>
+					</picture>
+				<div class='intro-text'>
+					<p>The 2022 NBA playoffs officially started. Below are my top 3 favorite players to watch in the playoffs. The playoffs is the best time to watch as they vie for an NBA Championship!</p>
+				</div>
+			</div>
+
+			<picture class='intro-cog'>
+				<img src='https://peprojects.dev/images/cog.png'>
+			</picture>
+
+			<picture class='intro-cloud'>
+				<img src='https://peprojects.dev/images/cloud.png'>
+			</picture>
+		</section>
+
+	</header>
+
+	<main>
+		<section class='inner-column'>
+			<div class='module'>
+				<picture class='headshot'>
+					<img src='images/steph.png'>
+				</picture>
+
+				<div class='player-bio'>
+					<h2  class='alert-voice'>Steph Curry</h2>
+					<p>The man that changed the game (for better or worse). Watch as much of him as you can because when he's gone you'll regret you didn't!</p>
+					<a href='https://www.basketball-reference.com/players/c/curryst01/gamelog-playoffs/'>Playoff Stats</a>
+				</div>
+			</div>
+
+			<div class='module'>
+				<picture class='headshot'>
+					<img src='images/morant.png'>
+				</picture>
+
+				<div class='player-bio'>
+					<h2 class='alert-voice'>Ja Morant</h2>
+					<p>He's young, athletic and hungry! Easily the most athletic player in the playoffs. If you didn't get to watch Allen Iverson, he's the next best thing.</p>
+					<a href='https://www.basketball-reference.com/players/m/moranja01/gamelog-playoffs/'>Playoff Stats</a>
+				</div>
+			</div> 
+
+			<div class='module'>
+				<picture class='headshot'>
+					<img src='images/trae.png'>
+				</picture>
+
+				<div class='player-bio'>
+					<h2 class='alert-voice'>Trae Young</h2>
+					<p>I almost chose Giannis, but I love watching Ice Trae. He's a product of Steph Curry with a little meanness in his game. I love that he embraces the villian role and plays it well. </p>
+					<a href='https://www.basketball-reference.com/players/y/youngtr01/gamelog-playoffs/'>Playoff Stats</a>			
+				</div>
+			</div>
+
+		</section>
+		<picture class='main-cog'>
+			<img src='https://peprojects.dev/images/cog.png'>
+		</picture>
+	</main>
+
+	<footer>
+		<section class='inner-column'>
+			<h2 class='alert-voice'><a href='https://www.nba.com/playoffs/2022'>Playoff Home</a></h2>
+			<h2 class='alert-voice'><a href='https://www.nba.com/schedule'>Playoff Schedule</a></h2>
+		</section>
+	</footer>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

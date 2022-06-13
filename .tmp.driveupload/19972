@@ -1,0 +1,341 @@
+@import 'meyer-reset.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body, body * {
+	/*border: 1px dashed rgba(255,255,255,.5);*/
+
+}
+
+body {
+	background-color: rgba(0,0,205,.7);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width:  100%;
+	height:  auto;
+}
+
+/* - - - TYPOGRAPHY - - - */
+body {
+	font-family: helvetica;
+}
+
+.excited-voice {
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.alert-voice {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.2;
+}
+
+/* - - - SITE-WIDE - - - */
+.inner-column {
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/* - - - NAV BAR - - - */
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	padding: 10px 15px;
+}
+
+nav picture img {
+	height: 40px;
+	width:  40px;
+	border-radius: 50%;
+}
+
+@media (min-width: 950px) {
+	nav {
+		padding: 10px 0;
+	}
+}
+/* - - - INTRO - - - */
+.intro {
+	display: flex;
+}
+.intro .inner-column {
+	display: flex;
+	flex-direction: column;
+	max-width: 450px;
+	padding: 20px 15px;
+}
+
+.intro {
+	background-color: rgba(0,0,0,.2);
+	width: 100%;
+	min-height: 300px;
+}
+
+
+.intro-text {
+	margin-top: 15px;
+}
+
+.intro  {
+	position: relative;
+}
+
+.intro-cog, .intro-cloud {
+	display: none;
+}
+/* - - INTRO MEDIUM SCREEN - - */
+@media (min-width: 720px) {
+	.inner-column {
+		min-width:  70vw;
+		padding: 0;
+	}
+
+	.intro .inner-column {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding-left: 15px;
+	}
+
+	.intro .inner-column picture {
+		min-width: 300px;
+	}
+
+	.intro-text {
+		margin: 0 15px;
+	}
+}
+
+/* - - INTRO LARGE SCREEN - - */
+@media (min-width: 950px) {
+	.intro .inner-column {
+		align-items: flex-start
+	}
+
+	.intro {
+		overflow: hidden;
+	}
+	.intro-cog {
+		display: block;
+		position: absolute;
+		max-width: 300px;
+		bottom: -35%;
+		left: -5%;
+		opacity: .5;
+	}
+	.intro-cloud {
+		display: block;
+		position: absolute;
+		max-width: 300px;
+		bottom: -20%;
+		right: 5%;
+		opacity: .5;
+	}
+
+	.intro-text p {
+		line-height: 2;
+	}
+}
+
+
+/* - - - MAIN - - - */
+main {   
+	padding: 0 15px;
+	position: relative;
+	flex-grow: 1;
+}
+
+.headshot {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin: 10px 0;
+	background-color: gray;
+	position: relative;
+	overflow: hidden;
+}
+
+.headshot img {
+	position: absolute;
+	bottom: 0;
+}
+
+main p {
+	margin: 10px 0;
+}
+
+
+.module {
+	margin: 30px 0;
+}
+
+.main-cog  {
+	display: none;
+}
+
+.player-bio {
+	margin-top: auto;
+}
+
+/* - - MAIN MEDIUM SCREEN - - */
+@media (min-width: 720px) {
+
+	.headshot {
+		min-width: 150px;
+		min-height: 150px;
+	}	
+
+	main .module img {
+		/*width: 150px;
+		height: 150px;*/
+	}
+
+	.module {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.player-bio {
+		margin-left: 10px;
+		margin-top: 15px;
+	}
+
+	main {
+		overflow: hidden;
+	}
+	.main-cog {
+		display: block;
+		max-width: 200px;
+		position: absolute;
+		right: -95px;
+		bottom: -50px;
+		opacity: .5;
+	}
+
+}
+
+/* - - MAIN LARGE SCREEN - - */
+@media (min-width: 950px) {
+	main .inner-column {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.module {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 50px;
+		max-width: 33%;
+	}
+
+	.player-bio {
+		text-align: center;
+		height: 100%;
+		margin: 0 10px;
+	}
+
+	.player-bio a {
+		background-color: black;
+		border-radius: 12px;
+		padding: 2px 15px;
+	}
+
+}
+
+/* - - - FOOTER - - - */
+footer {
+	background-color: rgba(0,0,0,.9);
+	width: 100%;
+	height: 12vh;
+	position: relative;
+}
+
+footer .inner-column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+footer h2 {
+	margin-top: 10px;
+}
+
+/* - - FOOTER MEDIUM SCREEN - - */
+@media (min-width: 720px) {
+	footer .inner-column {
+		display: flex;
+		flex-direction: row;
+	}
+
+	footer h2 {
+		padding: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Projects</title>
+	<meta name="description" content="Get to know all about John.">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/john/challenge-1/images/index-meta-image2.png">
+
+	<style>
+		body {
+			background-color: #0502a2;
+			font-family: Gill Sans, Helvetica Neue, Tahoma;
+		}
+
+		h1 {
+			font-family: Gill Sans, Helvetica Neue, Tahoma;
+			font-size: 8em;
+			color: white;
+			text-align: center;
+			margin: 0 auto 0 auto;
+
+		}
+
+		footer {
+			margin-top: 2em;
+		}
+
+		ul {
+			text-align: center;
+		}
+
+		li {
+			color: white;
+			list-style-type: none;
+		}
+
+		a {
+			color: #fa660e;
+		}
+
+		a:hover {
+			color: white;
+		}
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a href="./index.html">Home</a>
+			<a href="./projects/index.html">Projects</a>
+			<a href="./about.html">About</a>
+			<a href="./contact.html">Contact</a>
+		</nav>
+	</header>
+
+	<h1>About John</h1>
+	<img src="./images/contact-selfie.jpeg" alt="selfie of John">
+	
+</body>
+</html>

@@ -1,0 +1,161 @@
+@import 'meyer-reset.css';
+
+* {
+	box-sizing: border-box;
+}
+
+/*body * {
+	border:  2px solid rgba(0,0,0,.5);
+	margin: 5px;
+}*/
+
+body {
+	background-color: black;
+	font-family: Helvetica;
+	display: flex;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width:  100%;
+	height:  auto;
+}
+
+.screaming-voice {
+	font-size: 150px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: -0.06em;
+	color: white;
+}
+
+.loud-voice {
+	font-size: 46px;
+	font-weight: 300;
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	color: white;
+}
+
+strong {
+	font-size: 26px;
+	font-weight: 600;
+	color: white;
+}
+.attention-voice {
+	text-transform: uppercase;
+	font-weight: 300;
+	color: rgba(255,255,255,.3);
+}
+
+.bold-voice {
+	text-transform: uppercase;
+	color: white;
+}
+
+.normal-voice {
+	font-size: 14px;
+	color: white;
+}
+
+.calm-voice {
+	color: white;
+}
+
+.stoic-voice {
+	color: white;	
+}
+
+.quiet-voice {
+	font-size: 12px;
+	font-weight: 300;
+	color: rgba(255,255,255,.3);
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-grow: 1;
+	width: 90vw;	
+	gap: 170px;
+}
+
+/* - - CLIENT INFO - - */
+
+.info {
+	height: 415px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.client-info {
+	/*height: 415px;*/
+	padding-left: 20px;
+	margin-top: 19px;
+	border-left: 1px solid white;
+	flex-direction: column;
+	justify-content: flex-start;
+	/*border: 2px solid black;*/
+}
+.category {
+	margin-top: 20px;
+}
+
+.quiet-voice {
+	max-width: 200px;
+	margin-top: 40px;
+}
+/* - - PROJECT - - */
+.project {
+	/*border: 2px solid black;*/
+}
+.screaming-voice.bottom {
+	margin-left: 100.5px;
+}
+.project h2 {
+	max-width: 700px;
+}
+/* - - SIDEBAR - - */
+.logo {
+	max-width: 30px;
+	margin-left: 20px;
+}
+
+
+nav {
+	display: flex;
+	flex-direction: column;
+	/*transform: rotate(90deg);*/
+	/*position: relative;*/
+	/*border: 2px solid blue;*/
+	/*height: 40px;*/
+	/*padding-top: 250px;*/
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+.menu {
+	/*margin-top: 50px;*/
+}
+
+ .works, .about, .contact, .scroll {
+	transform: rotate(90deg);
+	/*border: 2px solid black;*/
+	height: 40px;
+	margin: 20px 0;
+}
+
+.works {
+	margin-top: 50px;
+}
+.scroll {
+	margin-top:  440px;
+}
