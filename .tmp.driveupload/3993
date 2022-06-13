@@ -1,0 +1,109 @@
+0000000000000000000000000000000000000000 0469a56bc5386af43cdf461335b406b3ec6ded4f john <jjmiyao@gmail.com> 1651364476 -0700	commit (initial): Recommiting Project Folder
+0469a56bc5386af43cdf461335b406b3ec6ded4f 29918e97d8848eff536fa5f31db4650f53524f91 john <jjmiyao@gmail.com> 1651535194 -0700	commit: hyperlink styling changes
+29918e97d8848eff536fa5f31db4650f53524f91 fd08f342f6fc239cacf51b17c0dad3a317237e57 john <jjmiyao@gmail.com> 1651737935 -0700	commit: starbucks update
+fd08f342f6fc239cacf51b17c0dad3a317237e57 f6dedd15c13386208e3486adb1f62c42fb947ea9 john <jjmiyao@gmail.com> 1651797423 -0700	commit: Added svg as php partial
+f6dedd15c13386208e3486adb1f62c42fb947ea9 31ed9ffe0b66d682116c30aa344daed837cb3602 john <jjmiyao@gmail.com> 1651911429 -0700	commit: layout and spacing project
+31ed9ffe0b66d682116c30aa344daed837cb3602 dc7326a3ad6f84d46a34d10371b3ca122b5049b6 john <jjmiyao@gmail.com> 1651912045 -0700	commit: changed font color
+dc7326a3ad6f84d46a34d10371b3ca122b5049b6 5d54627a56f9376dc85ee804c50d2585972fcd63 john <jjmiyao@gmail.com> 1651912993 -0700	commit: spacing
+5d54627a56f9376dc85ee804c50d2585972fcd63 db73fb00cd1bc1f22e8836f7071aa0e7d92b0892 john <jjmiyao@gmail.com> 1653546910 -0700	commit: php folder
+db73fb00cd1bc1f22e8836f7071aa0e7d92b0892 3f24f905658f3af6f873515bd63faf82d859bf55 john <jjmiyao@gmail.com> 1653633440 -0700	commit: arrays practice
+3f24f905658f3af6f873515bd63faf82d859bf55 5dcffc65627e127199f3fee5f69ccbb3b4aabd88 john <jjmiyao@gmail.com> 1653724950 -0700	commit: adopt a monster page and assets
+5dcffc65627e127199f3fee5f69ccbb3b4aabd88 59d359685e46dce3a1f29d19f7ebe3694582b960 john <jjmiyao@gmail.com> 1653764583 -0700	commit: Monsters page update
+59d359685e46dce3a1f29d19f7ebe3694582b960 fc33650ab60d483ca9d85469dbb4b30aae8cb5c6 john <jjmiyao@gmail.com> 1653784908 -0700	commit: Monsters page ready state
+fc33650ab60d483ca9d85469dbb4b30aae8cb5c6 4c46e2dadad8faf0585a133a2f17d39f9748e4f8 john <jjmiyao@gmail.com> 1653853919 -0700	commit: Working copy stuff
+4c46e2dadad8faf0585a133a2f17d39f9748e4f8 270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c john <jjmiyao@gmail.com> 1653853926 -0700	checkout: moving from master to main
+270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c 4c46e2dadad8faf0585a133a2f17d39f9748e4f8 john <jjmiyao@gmail.com> 1653853933 -0700	checkout: moving from main to master
+4c46e2dadad8faf0585a133a2f17d39f9748e4f8 270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c john <jjmiyao@gmail.com> 1653853973 -0700	checkout: moving from master to main
+270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c 4c46e2dadad8faf0585a133a2f17d39f9748e4f8 john <jjmiyao@gmail.com> 1653853993 -0700	checkout: moving from main to master
+4c46e2dadad8faf0585a133a2f17d39f9748e4f8 270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c john <jjmiyao@gmail.com> 1653854024 -0700	checkout: moving from master to main
+270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c 4c46e2dadad8faf0585a133a2f17d39f9748e4f8 john <jjmiyao@gmail.com> 1653854052 -0700	checkout: moving from main to master
+4c46e2dadad8faf0585a133a2f17d39f9748e4f8 b39df5fe0deb57404b41aa6ecd654be0c1d2e34f john <jjmiyao@gmail.com> 1653856823 -0700	commit: Added gracyscaale, centered content
+b39df5fe0deb57404b41aa6ecd654be0c1d2e34f a945cc5b42e3e1ff83256ad38f3589b459d1f422 john <jjmiyao@gmail.com> 1654144870 -0700	commit: project folder cleanup; some php practice
+a945cc5b42e3e1ff83256ad38f3589b459d1f422 3ce16b402a42f850f9d6119ff26c45b5b916be55 john <jjmiyao@gmail.com> 1654145151 -0700	commit: i dont know
+3ce16b402a42f850f9d6119ff26c45b5b916be55 c4e369cb323bcda88ba49bf9ecd73c29b88ef4ba john <jjmiyao@gmail.com> 1654158474 -0700	commit: php function work
+c4e369cb323bcda88ba49bf9ecd73c29b88ef4ba 5842bbfb3326e4c30b02ba1540e6ef8d04e70f7d john <jjmiyao@gmail.com> 1654240986 -0700	commit: save if/else function for nba card
+5842bbfb3326e4c30b02ba1540e6ef8d04e70f7d 185845a32afa3b7abbe54254f7186d795fc235fd john <jjmiyao@gmail.com> 1654331976 -0700	commit: added team-data, minor style changes
+185845a32afa3b7abbe54254f7186d795fc235fd dd1d40b7ad267705fe75e5c2178ab8cb8072917c john <jjmiyao@gmail.com> 1654541246 -0700	commit: php practice
+dd1d40b7ad267705fe75e5c2178ab8cb8072917c 723d00c5fbb8650f7b4aaf539fc00fa6e3f2d694 john <jjmiyao@gmail.com> 1654570136 -0700	commit: form practice and notes
+723d00c5fbb8650f7b4aaf539fc00fa6e3f2d694 19cbab36ac7ba8ba4f9793589e121c9abec95fae john <jjmiyao@gmail.com> 1654591388 -0700	commit: php form practice
+19cbab36ac7ba8ba4f9793589e121c9abec95fae 33a705cb53a9324a3d155ba11980593a0e0dd9f6 john <jjmiyao@gmail.com> 1654591834 -0700	commit: font change
+33a705cb53a9324a3d155ba11980593a0e0dd9f6 270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c john <jjmiyao@gmail.com> 1654636776 -0700	checkout: moving from master to main
+270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c 33a705cb53a9324a3d155ba11980593a0e0dd9f6 john <jjmiyao@gmail.com> 1654636779 -0700	checkout: moving from main to master
+33a705cb53a9324a3d155ba11980593a0e0dd9f6 46b15f3489fa646eeba6bb02cda3c5d8ae20a19c john <jjmiyao@gmail.com> 1654636808 -0700	commit: renamed project folder to ‘john’
+46b15f3489fa646eeba6bb02cda3c5d8ae20a19c 46b15f3489fa646eeba6bb02cda3c5d8ae20a19c john <jjmiyao@gmail.com> 1654637480 -0700	reset: moving to HEAD
+46b15f3489fa646eeba6bb02cda3c5d8ae20a19c 56402b6960cd704250d6f929b1570eef615c03f6 john <jjmiyao@gmail.com> 1654638011 -0700	commit: test push
+56402b6960cd704250d6f929b1570eef615c03f6 270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c john <jjmiyao@gmail.com> 1654638076 -0700	pull -v --progress --rebase origin refs/heads/main: checkout 270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c
+270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c 5392ba8cf47a6ecfc9ab724ece19b2126233fa69 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: Recommiting Project Folder
+5392ba8cf47a6ecfc9ab724ece19b2126233fa69 6e906c048e3f13d1f361ada27454a3e19d63f444 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: hyperlink styling changes
+6e906c048e3f13d1f361ada27454a3e19d63f444 21e1a70601bd0e0ec76ccd9d377016f943c27eae john <jjmiyao@gmail.com> 1654638096 -0700	rebase: starbucks update
+21e1a70601bd0e0ec76ccd9d377016f943c27eae fd63f47f76667c13d01c4011c4231e9a109d96c3 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: Added svg as php partial
+fd63f47f76667c13d01c4011c4231e9a109d96c3 295e1322618b10701ba31e9f53cd03ca45c46fef john <jjmiyao@gmail.com> 1654638096 -0700	rebase: layout and spacing project
+295e1322618b10701ba31e9f53cd03ca45c46fef 975de967eed9babfba626221e962288577b3bd8c john <jjmiyao@gmail.com> 1654638096 -0700	rebase: changed font color
+975de967eed9babfba626221e962288577b3bd8c f78d80fb4799bb1b512ff71924d578cfb3067649 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: spacing
+f78d80fb4799bb1b512ff71924d578cfb3067649 5498ff4a9456c7adbbf7717f407e6e6960a53851 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: php folder
+5498ff4a9456c7adbbf7717f407e6e6960a53851 da10194494df23f5df2f92f50275f5c85ee6e3b9 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: arrays practice
+da10194494df23f5df2f92f50275f5c85ee6e3b9 8efb430c74b682d9e4af96c5587f6e346e71567f john <jjmiyao@gmail.com> 1654638096 -0700	rebase: adopt a monster page and assets
+8efb430c74b682d9e4af96c5587f6e346e71567f fd49125a63ca1077feb8f9afa83a846c3feee309 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: Monsters page update
+fd49125a63ca1077feb8f9afa83a846c3feee309 dc0d0168214b4508db05d2ab1b94f2ff849881f3 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: Monsters page ready state
+dc0d0168214b4508db05d2ab1b94f2ff849881f3 02515ed6c299b3581b151deac1469c988d4d8799 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: Working copy stuff
+02515ed6c299b3581b151deac1469c988d4d8799 1645d839c0fa71653a31654acb0c7eea943e6cc1 john <jjmiyao@gmail.com> 1654638096 -0700	rebase: Added gracyscaale, centered content
+1645d839c0fa71653a31654acb0c7eea943e6cc1 9bfa0c215e1450e570d444e02856633b47edddc1 john <jjmiyao@gmail.com> 1654638131 -0700	rebase: project folder cleanup; some php practice
+9bfa0c215e1450e570d444e02856633b47edddc1 c2aaa058e58bc0bbcce05767ee34f3ddb03ae0c1 john <jjmiyao@gmail.com> 1654638131 -0700	rebase: i dont know
+c2aaa058e58bc0bbcce05767ee34f3ddb03ae0c1 56402b6960cd704250d6f929b1570eef615c03f6 john <jjmiyao@gmail.com> 1654638198 -0700	rebase: updating HEAD
+56402b6960cd704250d6f929b1570eef615c03f6 270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c john <jjmiyao@gmail.com> 1654638235 -0700	pull -v --progress --rebase origin refs/heads/main: checkout 270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c
+270d4eb5c5ed001106b1f336bd01c0bc1edf2c8c 4b99c112ce371bd5757caf5df9f6cb964ca7f962 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: Recommiting Project Folder
+4b99c112ce371bd5757caf5df9f6cb964ca7f962 93b91531a2003e9f83c687feed5a477dd6d50dd9 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: hyperlink styling changes
+93b91531a2003e9f83c687feed5a477dd6d50dd9 c73708641024f41e8bc2c29c9dabc32053d0a6b1 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: starbucks update
+c73708641024f41e8bc2c29c9dabc32053d0a6b1 ff48af4b9f01a83070523c8fb7ef4a58a4d7a7b3 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: Added svg as php partial
+ff48af4b9f01a83070523c8fb7ef4a58a4d7a7b3 85ca2486ac191c175f75dac5af371d33eff7864e john <jjmiyao@gmail.com> 1654638370 -0700	rebase: layout and spacing project
+85ca2486ac191c175f75dac5af371d33eff7864e bf95241fcbad385c61128a6546e390624eeab382 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: changed font color
+bf95241fcbad385c61128a6546e390624eeab382 87bd7574a3764cd85eb880a0455353b6066ec554 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: spacing
+87bd7574a3764cd85eb880a0455353b6066ec554 8b7eab1dbe6c879c97bdb8f6afde0d4a2f78aae5 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: php folder
+8b7eab1dbe6c879c97bdb8f6afde0d4a2f78aae5 ca8b6f43e4973eeff1f69393c6f2f989ce957997 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: arrays practice
+ca8b6f43e4973eeff1f69393c6f2f989ce957997 c29c272c35e08aca84095842bd6c0a855c940179 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: adopt a monster page and assets
+c29c272c35e08aca84095842bd6c0a855c940179 d5d3381d02f727d7c5aa035c0008a157038e5b76 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: Monsters page update
+d5d3381d02f727d7c5aa035c0008a157038e5b76 dc569400939377ee2b20022834692081da56fa36 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: Monsters page ready state
+dc569400939377ee2b20022834692081da56fa36 81bcd01d08ad8e50f98c1bcfe11da6fbac82bd61 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: Working copy stuff
+81bcd01d08ad8e50f98c1bcfe11da6fbac82bd61 b36a260b95cf91cc77239e74b666c209f2913c46 john <jjmiyao@gmail.com> 1654638370 -0700	rebase: Added gracyscaale, centered content
+b36a260b95cf91cc77239e74b666c209f2913c46 febb37da9ad986e6ea274d1c635c1c165c848055 john <jjmiyao@gmail.com> 1654638379 -0700	rebase: i dont know
+febb37da9ad986e6ea274d1c635c1c165c848055 ab5651f5340a57eaa48d65dff88d17e39d4534ee john <jjmiyao@gmail.com> 1654638402 -0700	rebase: php function work
+ab5651f5340a57eaa48d65dff88d17e39d4534ee f676596e2a1cae7e83fb691faf6e6309cfe7d280 john <jjmiyao@gmail.com> 1654638443 -0700	rebase: save if/else function for nba card
+f676596e2a1cae7e83fb691faf6e6309cfe7d280 475e88602793a7d51457fabfc377eac2d3a660bf john <jjmiyao@gmail.com> 1654638443 -0700	rebase: added team-data, minor style changes
+475e88602793a7d51457fabfc377eac2d3a660bf 84a81bc24703448f97fb8b760d37ef045801176c john <jjmiyao@gmail.com> 1654638443 -0700	rebase: php practice
+84a81bc24703448f97fb8b760d37ef045801176c ef7537dce475fca10730dff40e6f650ea83d148f john <jjmiyao@gmail.com> 1654638443 -0700	rebase: form practice and notes
+ef7537dce475fca10730dff40e6f650ea83d148f 0bb69f67d57d3e111992ee01d16adea22c93f0eb john <jjmiyao@gmail.com> 1654638443 -0700	rebase: php form practice
+0bb69f67d57d3e111992ee01d16adea22c93f0eb f7d830c66c5257913e9485428bc097fde1f0a734 john <jjmiyao@gmail.com> 1654638443 -0700	rebase: font change
+f7d830c66c5257913e9485428bc097fde1f0a734 3dfb99244414f9923c036076dacc49906019f306 john <jjmiyao@gmail.com> 1654638449 -0700	rebase: test push
+3dfb99244414f9923c036076dacc49906019f306 3dfb99244414f9923c036076dacc49906019f306 john <jjmiyao@gmail.com> 1654638449 -0700	rebase finished: returning to refs/heads/master
+3dfb99244414f9923c036076dacc49906019f306 4158ef2f67eb668cada16fa2a4413c285c4f0c05 john <jjmiyao@gmail.com> 1654638513 -0700	commit: test to see if error resolved
+4158ef2f67eb668cada16fa2a4413c285c4f0c05 a94507f88da317e54c004c7918ea223104765855 john <jjmiyao@gmail.com> 1654638525 -0700	commit: test to see if error resolved
+a94507f88da317e54c004c7918ea223104765855 1d6a9a9add882546d558cacee702818b76005f5e john <jjmiyao@gmail.com> 1654643299 -0700	commit: renamed project file to ‘john’
+1d6a9a9add882546d558cacee702818b76005f5e f2dedfdb25b02b51cc039f6c59577da916801dc3 john <jjmiyao@gmail.com> 1654643361 -0700	pull -v --progress --rebase origin refs/heads/master: checkout f2dedfdb25b02b51cc039f6c59577da916801dc3
+f2dedfdb25b02b51cc039f6c59577da916801dc3 54417ff64147b5b59f68cefcc74d3911de9c3cb5 john <jjmiyao@gmail.com> 1654643364 -0700	pull -v --progress --rebase origin refs/heads/master: Initial commit
+54417ff64147b5b59f68cefcc74d3911de9c3cb5 a400ae98adfe9d4332c5d8bb6de9bf6efddf6342 john <jjmiyao@gmail.com> 1654643364 -0700	pull -v --progress --rebase origin refs/heads/master: Initial commit of project folder
+a400ae98adfe9d4332c5d8bb6de9bf6efddf6342 8b7dafdfaa092e69bf1647c04dce9e289389814c john <jjmiyao@gmail.com> 1654643365 -0700	pull -v --progress --rebase origin refs/heads/master: Initial commit of project folder
+8b7dafdfaa092e69bf1647c04dce9e289389814c 70887b2c285f529b08685eb8915226caa290a36e john <jjmiyao@gmail.com> 1654643441 -0700	rebase: Ignore dsstore
+70887b2c285f529b08685eb8915226caa290a36e 8c8ebf8abf2da3710139eca9bad38989cb92658a john <jjmiyao@gmail.com> 1654643446 -0700	rebase: Goals
+8c8ebf8abf2da3710139eca9bad38989cb92658a bf17dc493d4347f6f64b6033579b07f4ed47e28e john <jjmiyao@gmail.com> 1654643459 -0700	rebase: Edits to header, footer and goal cards.
+bf17dc493d4347f6f64b6033579b07f4ed47e28e c277ead9569f5cf9ff6455f8ef29c5ed5d3cc081 john <jjmiyao@gmail.com> 1654643459 -0700	rebase: Initial commit of Starbucks replication
+c277ead9569f5cf9ff6455f8ef29c5ed5d3cc081 b16ee5a93980ff2e71378e041298976bdb4a6c7e john <jjmiyao@gmail.com> 1654643459 -0700	rebase: Actual Starbucks folder
+b16ee5a93980ff2e71378e041298976bdb4a6c7e 38309923e00639180a633f264a91f52fe22cbe19 john <jjmiyao@gmail.com> 1654643497 -0700	rebase: Add SVG icons
+38309923e00639180a633f264a91f52fe22cbe19 f8a0920f17f8f2813f608e6a421a1d92005b39d4 john <jjmiyao@gmail.com> 1654643497 -0700	rebase: Recommiting Project Folder
+f8a0920f17f8f2813f608e6a421a1d92005b39d4 b9599692c3c99abe7aa81dfeca0d2ed6712cdf91 john <jjmiyao@gmail.com> 1654643794 -0700	rebase: Working copy stuff
+b9599692c3c99abe7aa81dfeca0d2ed6712cdf91 e711e1ed6f72f68a326e302becb3339fba3f7544 john <jjmiyao@gmail.com> 1654643802 -0700	rebase: i dont know
+e711e1ed6f72f68a326e302becb3339fba3f7544 d31d865e2163b85eb584db555d460952e9b437f9 john <jjmiyao@gmail.com> 1654643823 -0700	rebase: php function work
+d31d865e2163b85eb584db555d460952e9b437f9 526c7bf364bff86f4c861b67fa080df084958c02 john <jjmiyao@gmail.com> 1654643842 -0700	rebase: save if/else function for nba card
+526c7bf364bff86f4c861b67fa080df084958c02 e5129757f04d2c976045108bcb8727eb41ff6218 john <jjmiyao@gmail.com> 1654643896 -0700	rebase: php practice
+e5129757f04d2c976045108bcb8727eb41ff6218 a22cc56d8af992d755973116df10723131d7cadb john <jjmiyao@gmail.com> 1654643896 -0700	rebase: php form practice
+a22cc56d8af992d755973116df10723131d7cadb 46b3606db22e8ed800f3fc16e2c5caa86d5c2815 john <jjmiyao@gmail.com> 1654643896 -0700	rebase: font change
+46b3606db22e8ed800f3fc16e2c5caa86d5c2815 ce2eaec708a043f93a20e6144acb929e3d854be5 john <jjmiyao@gmail.com> 1654643896 -0700	rebase: test push
+ce2eaec708a043f93a20e6144acb929e3d854be5 2ec0f96b908063f6238166e2481b715d2d1bb297 john <jjmiyao@gmail.com> 1654643911 -0700	rebase: test to see if error resolved
+2ec0f96b908063f6238166e2481b715d2d1bb297 de72f1582be5711b93bd62af5173aa64c6254b29 john <jjmiyao@gmail.com> 1654644031 -0700	rebase: renamed project file to ‘john’
+de72f1582be5711b93bd62af5173aa64c6254b29 de72f1582be5711b93bd62af5173aa64c6254b29 john <jjmiyao@gmail.com> 1654644031 -0700	rebase finished: returning to refs/heads/master
+de72f1582be5711b93bd62af5173aa64c6254b29 e399c7e2a67fa0a65ad56be47b08a5a6cc8da0bd john <jjmiyao@gmail.com> 1654649067 -0700	commit: Counting string characters with derek
+e399c7e2a67fa0a65ad56be47b08a5a6cc8da0bd 0ae9ba8dd3cad8c813eda4edd351886e7598610e john <jjmiyao@gmail.com> 1654815915 -0700	commit: hello, simple math and count character forms
+0ae9ba8dd3cad8c813eda4edd351886e7598610e d70f10b90dbd333805ec7d33949f9355df51b48e john <jjmiyao@gmail.com> 1654815958 -0700	pull -v --progress --rebase origin refs/heads/master: checkout d70f10b90dbd333805ec7d33949f9355df51b48e
+d70f10b90dbd333805ec7d33949f9355df51b48e 6810111d2f6d53a7793add2f19842af6b5658ab3 john <jjmiyao@gmail.com> 1654815963 -0700	pull -v --progress --rebase origin refs/heads/master: hello, simple math and count character forms
+6810111d2f6d53a7793add2f19842af6b5658ab3 6810111d2f6d53a7793add2f19842af6b5658ab3 john <jjmiyao@gmail.com> 1654815958 -0700	rebase finished: returning to refs/heads/master
+6810111d2f6d53a7793add2f19842af6b5658ab3 a72ae42e462d87d482d640a6d18bd713b7243d34 john <jjmiyao@gmail.com> 1654818408 -0700	commit: Style changes, index.php file added
+a72ae42e462d87d482d640a6d18bd713b7243d34 fb235d2bb2ae1c3d7d49a5e4b3840c8797641c6f john <jjmiyao@gmail.com> 1654824345 -0700	commit: class form testing notes

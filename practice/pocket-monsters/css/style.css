@@ -1,0 +1,38 @@
+/*@import 'meyer-reset.css';*/
+
+* {
+	box-sizing: border-box;
+}
+
+/*body, body * {
+	border:  3px solid rgba(0,0,0,.5);
+	padding: 2px;
+}
+body {
+	background-color: #d4dffd;
+}*/
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width:  100%;
+	height:  auto;
+}
+
+nav {
+	height: 100px;
+}
+
+ol {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+pokemon-card {
+	display: block;
+	background-color: yellow;
+	border: 2px solid red;
+}

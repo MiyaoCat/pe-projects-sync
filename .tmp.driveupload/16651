@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Miyaomix.com 🐅 </title>
+	<meta name="description" content="Welcome to John's world! Click or tap to view John's work!">
+	<meta property="og:image" content="https://peprojects.dev/alpha-4/john/meta-image2.jpg" />
+	
+	<style>
+		html {
+			font-family:  Helvetica Neue;
+			color: darkblue;
+			text-align: center;
+			max-width:  100em;
+			margin: 2em 10em 5em 10em;
+			background:  radial-gradient(#0C0F0A, #FF206E, #FBFF12, #41EAD4, #FFFFFF);
+		}
+
+		h2 {
+			margin-top: 40px;
+		}
+
+		h2.classmates {
+			margin-top: 90px;
+		}
+
+		}
+		ul.john {
+			margin: auto;
+			max-width: 70em;
+			text-align: center;
+		}
+
+		ul.john li {
+			padding: 1em 2em 1em 2em;
+			display: inline;
+			background: orange;
+		}
+
+		ul.classmates {
+			margin: auto;
+			max-width: 20em;
+			text-align: center;
+		}
+		
+		a {
+			color: midnightblue;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: white;
+			text-decoration: underline;
+		}
+
+		li {
+			font-family:  Georgia;
+			border: 1px solid orange;
+			line-height: 2em;
+			list-style-type: none;
+		}
+
+		li.andy {
+			background: #003049;
+		}
+
+		li.burooj {
+			background: #6b2c39;
+		}
+
+		li.jesse {
+			background: #d62828;
+		}
+
+		li.kriston {
+			background: #f77f00;
+		}
+
+		li.ned {
+			background: #fcbf49;
+		}
+
+		li.steve {
+			background: #eae2b7;
+		}
+
+	</style>
+
+</head>
+<body>
+	
+	<h1>Welcome! Watch John become a Web Dev, Like Spiderman!</h1>
+	
+	<p>If you want to follow along and see me progress as I learn to spin webs, then you're at the right place! Click the links below to check out my work!</p>
+
+	<h2>Index</h2>
+
+	<ul class="john">
+		<li><a href="000/my-faves.html">My Faves</a></li>
+		<li><a href="001/virtual-library.html">Johnslist</a></li>
+		<li><a href="002/90s-style-site.html">Bring Back the 90s!</a></li>
+		<li><a href="https://substack.com/profile/19685771-john-miyao?utm_source=user-menu" target="_blank">My bloggity blog</a></li>
+	</ul>
+
+	<h2 class="classmates">If you don't like my work, check out my classmate's!</h2>
+
+	<ul class="classmates">
+		<li class="andy"><a href="https://peprojects.dev/alpha-4/andy/" target="classmate">Andy</a></li> 
+		<li class="burooj"><a href="https://peprojects.dev/alpha-4/barooj/" target="classmate">Burooj</a></li>
+		<li class="jesse"><a href="https://peprojects.dev/alpha-4/jesse/" target="classmate">Jesse</a></li>
+		<li class="kriston"><a href="https://peprojects.dev/alpha-4/kriston/" target="classmate">Kriston</a></li>
+		<li class="ned"><a href="https://peprojects.dev/alpha-4/ned/" target="classmate">Ned</a></li>
+		<li class="steve"><a href="https://peprojects.dev/alpha-4/steve/" target="classmate">Steve</a></li>
+	</ul>
+
+</body>
+</html>

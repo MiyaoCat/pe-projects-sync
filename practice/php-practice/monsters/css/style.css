@@ -1,0 +1,204 @@
+@import 'meyer-reset.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Chalkboard;
+	background-color: hsl(172, 100%, 88%);
+}
+
+picture {
+	display: block;
+	border-radius: 10%;
+	max-width: 200px;
+}
+
+picture img {
+	display: block;
+	width:  100%;
+	height:  auto;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.inner-column {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* - - FONT - - */
+/*.header-voice {
+	font-family: Marker Felt;
+	font-size: clamp(40px, 5vw, 100px);
+	text-align: center;
+	margin: 40px 0;
+}
+
+.name {
+	font-family: Marker Felt;
+	font-size:  25px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.age {
+	font-weight: 700;
+	margin: 8px 0;
+}
+
+/* - - NAV BAR - - */
+/*nav {
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 2px solid gray;
+	background-color: hsl(172, 46%, 66%);
+}
+
+
+nav ul {
+	min-height: 70px;
+	display: none;
+}
+
+.menu {
+	max-width: 50px;
+}
+
+@media (min-width: 700px) {
+	.menu {
+		display: none;
+	}
+
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+		padding: 5px 10px;
+		font-size: 26px;
+	}
+}*/
+/* - - ADOPT BUTTON - - */
+/*.adopted .link {
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 10px;
+	background-color: hsl(1, 85%, 51%);
+	text-align: center;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.not-adopted .link {
+	text-transform: uppercase;
+	font-size:  20px;
+	padding: 10px;
+	background-color: hsl(127, 70%, 61%);
+	text-align: center;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px black;
+}
+*/
+
+/* - - MONSTER CARDS - - */
+/*ul {
+	display: flex;
+	flex-grow: 1;
+}
+
+.monster {
+	padding: 10px;
+}
+
+monster-card {
+	display: flex;
+	border-radius: 10px;
+	padding: 15px;
+	min-width: 270px;
+	min-height: 450px;
+	justify-content: center;
+}
+monster-card:hover {
+	transform: scale(1.2);
+	transition: all .2s ease-in-out;
+	z-index: 9;
+}
+
+@media (min-width: 700px) {
+	ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	mosnter-card {
+		min-height: 500px;
+	}
+}
+
+.adopted {
+	filter: grayscale(1);
+}
+
+.story {
+	margin: 15px 0;
+}
+#a001 {
+	background-color:  hsl(354, 70%, 61%);
+}
+
+#a002 {
+	background-color:  hsl(347, 70%, 61%);
+}
+
+#a003 {
+	background-color:  hsl(102, 70%, 61%);
+}
+
+#a004 {
+	background-color:  hsl(217, 70%, 61%);
+}
+
+#a005 {
+	background-color:  hsl(50, 70%, 61%);
+}
+
+#a006 {
+	background-color:  hsl(22, 70%, 61%);
+}
+
+#a007 {
+	background-color:  hsl(270, 70%, 61%);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
