@@ -1,4 +1,4 @@
 graphic-diptych {
-	display: block;
+	display: flex;
 	border: 5px solid red;
 }
