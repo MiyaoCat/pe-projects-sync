@@ -39,12 +39,12 @@ a:hover {
 	font-size: 30px;
 }
 
+/* - - PRODUCT NAME - - */
 .title {
 	font-family: var(--serif);
-	font-weight: 700;
 	/*text-transform: uppercase;*/
 	font-size: 1.4rem;
-	font-style: italic;
+	/*font-style: italic;*/
 }
 
 /* - - SITE MENU - - */
@@ -72,6 +72,7 @@ a:hover {
 		font-weight: 300;
 	}
 }
+
 :is(.calm-voice, p, li) em {
 	font-style: italic;
 }
