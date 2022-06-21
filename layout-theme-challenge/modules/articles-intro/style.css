@@ -3,6 +3,7 @@ articles-intro {
 	display: block;
 	/*border: 4px solid purple;*/
 	padding: 10vh 0;
+	text-transform: uppercase;
 }
 
 articles-intro header {

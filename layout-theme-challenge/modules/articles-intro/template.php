@@ -5,7 +5,7 @@
 	<header>
 		<h2 class='attention-voice'>Shop the Latest Trends</h2>
 
-		<p>All the clothes you never needed, but always wanted.</p>
+		<p>All the clothes you never needed, maybe  wanted, but always desired.</p>
 	</header>
 
 	<article-grid>

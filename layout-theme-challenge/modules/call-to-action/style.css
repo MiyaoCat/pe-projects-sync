@@ -6,6 +6,7 @@ call-to-action {
 	flex-direction: column;
 	align-items: center;
 	padding: 4vh 0;
+	text-transform: uppercase;
 }
 
 call-to-action .button {

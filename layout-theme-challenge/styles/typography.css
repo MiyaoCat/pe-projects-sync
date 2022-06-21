@@ -16,12 +16,14 @@ a:hover {
 }
 .loud-voice	{
 	font-family: var(--serif);
+	font-style: italic;
 	text-transform: uppercase;
 	font-size: clamp(36px, 5vw, 70px);
 }
 
 .company-voice {
 	font-family: var(--serif);
+	font-style: italic;
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -39,8 +41,10 @@ a:hover {
 
 .title {
 	font-family: var(--serif);
-	text-transform: uppercase;
-	font-size: 1.2rem;
+	font-weight: 700;
+	/*text-transform: uppercase;*/
+	font-size: 1.4rem;
+	font-style: italic;
 }
 
 /* - - SITE MENU - - */
