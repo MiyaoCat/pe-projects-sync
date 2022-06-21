@@ -41,7 +41,7 @@ section:is(.sign-up, .get-involved) inner-column {
 }
 
 section.get-involved {
-	background-color: var(--highlight);
+	background-color: var(--white);
 }
 
 section.get-involved .button {
@@ -51,19 +51,31 @@ section.get-involved .button {
 
 @media (prefers-color-scheme: dark) {
 	section.sign-up {
-		background-color: var(--color);
-		color: var(--black);
+		background-color: var(--paper);
+		color: var(--ink);
+	}
+	
+	section.get-involved {
+		background-color: var(--paper);
+		color: var(--ink);
 	}
 
 	section.sign-up .button {
-		background-color: var(--black);
-		color: var(--white);
-	}
-
-	section.get-involved {
-		background-color: var(--highlight);
+		background-color: var(--ink);
 		color: var(--black);
+		border: 1px solid black;
 	}
 
 	
+
+	section.get-involved .button {
+	background-color: var(--ink);
+	color: var(--black);
+	border: 1px solid black;
+	}
+
+	text-content .button {
+	background-color: var(--ink);
+	color: var(--black);
+	border: 1px solid black;
 }

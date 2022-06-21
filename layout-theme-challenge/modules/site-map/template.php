@@ -3,10 +3,12 @@
 
 
 	<nav class='site-menu'>
+		<h3 class="company-voice">Company Name</h3>
 		<ul>
 			<li>
 				<a href='#'>
-					<?php include('modules/logo.php'); ?>
+
+					<!-- <?php include('modules/logo.php'); ?> -->
 				</a>
 			</li>
 

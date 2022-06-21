@@ -3,9 +3,9 @@
 
 <articles-intro>
 	<header>
-		<h2 class='attention-voice'>Heading for this section here</h2>
+		<h2 class='attention-voice'>Shop the Latest Trends</h2>
 
-		<p>A short introduction explaining why these articles are here to help you understand if you want to read them.</p>
+		<p>All the clothes you never needed, but always wanted.</p>
 	</header>
 
 	<article-grid>

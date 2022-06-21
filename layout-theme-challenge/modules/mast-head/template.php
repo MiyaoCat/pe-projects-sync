@@ -25,7 +25,7 @@
 	</nav>
 
 	<nav class="company-name">
-		<h3 class="company-voice">Hi.So.</h3>
+		<h3 class="company-voice">Company Name</h3>
 	</nav>
 	
 	<nav class='user-menu'>

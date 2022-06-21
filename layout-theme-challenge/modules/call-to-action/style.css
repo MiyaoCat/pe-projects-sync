@@ -4,8 +4,8 @@ call-to-action {
 	/*border: 4px solid orange;*/
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	padding: 10vh 0;
+	align-items: center;
+	padding: 4vh 0;
 }
 
 call-to-action .button {
