@@ -1,0 +1,13 @@
+
+call-to-action {
+	display: block;
+	/*border: 4px solid orange;*/
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 10vh 0;
+}
+
+call-to-action .button {
+	margin-top: 20px;
+}

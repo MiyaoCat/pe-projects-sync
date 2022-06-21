@@ -31,10 +31,9 @@
 			
 				<h1 class='header-voice'>Adopt a Monster</h1>
 			
-			<?php include('monster-maker.php'); ?>
+				<?php include('monster-maker.php'); ?>
 			 
 				<?php 
-
 
 					echo "<ul>";
 
@@ -47,34 +46,32 @@
 
 							$story = "Boo! My name is " . $monster["name"] . ". My favorite food is " . $monster["favoriteFood"] . " and I love to " . $monster["interest"] . ".";
 
-							
-						$message = "I have a home!";
+							$message = "I have a home!";
 
-						if ($status == 1) {
-							$message;
-							$specialClass = "adopted";
-						} else {
-							$message = "Adopt me!";
-							$specialClass = "not-adopted";
-						} 					
+							if ($status == 1) {
+								$message;
+								$specialClass = "adopted";
+							} else {
+								$message = "Adopt me!";
+								$specialClass = "not-adopted";
+							} 					
 
 							echo "<li class='monster $specialClass'>";
 
-								echo 
-									"<monster-card id='$id'>" .
-										"<picture class='portrait'>" . "<img src='" . $portrait . "' . width='200'>" .
-										"<h2 class='name'>" . $name . "</h2>" .
-										"<h3 class='age'>" . "Age: " . $age . "</h3>" .
-										"<p class='story'>" . $story . "</p>" .
-										"<p class='link'>" . "<a href='#'>" . $message . "</a>" . "</p>" .
+							echo 
+								"<monster-card id='$id'>" .
+									"<picture class='portrait'>" . "<img src='" . $portrait . "' . width='200'>" .
+									"<h2 class='name'>" . $name . "</h2>" .
+									"<h3 class='age'>" . "Age: " . $age . "</h3>" .
+									"<p class='story'>" . $story . "</p>" .
+									"<p class='link'>" . "<a href='#'>" . $message . "</a>" . "</p>" .
 
-
-									"</monster-card>";
+								"</monster-card>";
 
 							echo "</li>";
 							
-						}
-					echo "</ul>";
+							}
+							echo "</ul>";
 				?>
 				
 				<?php 

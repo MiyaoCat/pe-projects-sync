@@ -1,0 +1,93 @@
+/* Should we pull in @fonts here? */
+html {
+	--sans-serif: Rubik, Helvetica;
+	--serif: Old Standard TT, Times New Roman;
+}
+
+a {
+	font-family: var(--sans-serif);
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .2rem;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.loud-voice	{
+	font-family: var(--serif);
+	text-transform: uppercase;
+	font-size: clamp(36px, 5vw, 70px);
+}
+
+.company-voice {
+	font-family: var(--serif);
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700; /* or variable font */
+	}
+}
+
+.attention-voice	{
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.title {
+	font-family: var(--serif);
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+/* - - SITE MENU - - */
+.x-menu .strong-voice	{
+	font-family: var(--sans-serif);
+	font-size:  1.2rem;
+	text-transform: uppercase;
+}
+
+.x-menu li {
+	font-size: .9rem;
+}
+.calm-voice, p, li {
+	font-family: var(--sans-serif);
+	font-size: .8rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 1.4;
+	letter-spacing: .2rem;
+}
+
+@media (min-width: 600px) {
+	.calm-voice, p, li {
+		font-size: 18px;
+		font-weight: 300;
+	}
+}
+:is(.calm-voice, p, li) em {
+	font-style: italic;
+}
+
+:is(.calm-voice, p, li) strong {
+	font-weight: 700;
+}
+
+/* these would be scoped to section or to an article element */
+/* this is just a loose setting for now */
+p + p {
+	margin-top: 1em;
+}
+
+h2 + p {
+	margin-top: 20px;
+}
+
+code {
+	font-family: monospace;
+	font-size: 1.1em;
+	color: green;
+}
