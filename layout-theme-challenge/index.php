@@ -63,7 +63,7 @@
 			<section class='get-involved' id='get-involved'>
 				<inner-column>
 
-					<?php include('modules/call-to-action/template.php'); ?>
+					<?php include('modules/call-to-action-b/template.php'); ?>
 
 				</inner-column>
 			</section>

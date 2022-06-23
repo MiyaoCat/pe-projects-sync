@@ -7,10 +7,25 @@
 ?>
 
 <article class='article-card'>
-	<picture>
-		<img src='images/<?=$thumbnail?>' alt='<?=$description?>'>
-	</picture>
 
+		<picture>
+			<img src='images/<?=$thumbnail?>' alt='<?=$description?>'>
+
+			<ul class='color-swatches'>
+				<?php 
+					$colors = $article['colors']; 
+
+					foreach ($colors as $color) {
+
+				 ?>
+
+			 	<li class="color <?=$color?>"></li>
+			 
+				<?php } ?>
+			</ul>
+		</picture>
+
+	 
 	<ul class="size-chart">
 		<?php 
 			$sizes = $article['sizes'];
@@ -22,12 +37,7 @@
 		
 		<?php } ?>
 	</ul>
-	<!-- <ul class='size-chart'>
-		<li class="calm-voice">S</li>
-		<li class="calm-voice">M</li>
-		<li class="calm-voice">L</li>
-		<li class="calm-voice">XL</li>
-	</ul> -->
+
 
 	<text-content>
 		<p class="strong-voice">$<?=$price?></p>

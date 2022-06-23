@@ -3,7 +3,7 @@
 
 
 	<nav class='site-menu'>
-		<h3 class="company-voice">Company Name</h3>
+		<h3 class="company-voice">Hi. So.</h3>
 		<ul>
 			<li>
 				<a href='#'>
@@ -13,34 +13,34 @@
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>Stores</a>
 			</li>
 
 			<li>
-				<a href='#'>Some other page</a>
+				<a href='#'>Newsletter</a>
 			</li>
 		</ul>
 	</nav>
 
 
 	<nav class='x-menu'>
-		<h3 class='strong-voice'>Menu heading here</h3>
+		<h3 class='strong-voice'>Shop</h3>
 
 		<ul>
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>Men</a>
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>Women</a>
 			</li>
 
 			<li>
-				<a href='#'>Some other page</a>
+				<a href='#'>Seasons</a>
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>Sales</a>
 			</li>
 		</ul>
 	</nav>
@@ -50,41 +50,41 @@
 		
 		<ul>
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>Twitterati</a>
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>The Facebook Club</a>
 			</li>
 
 			<li>
-				<a href='#'>Some other page</a>
+				<a href='#'>Instagranny</a>
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>Tik-Tak</a>
 			</li>
 		</ul>
 	</nav>
 
 	<nav class='x-menu'>
-		<h3 class='strong-voice'>Legal Stuff here</h3>
+		<h3 class='strong-voice'>Support</h3>
 		
 		<ul>
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>Cookie Recipe</a>
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>Private Parts</a>
 			</li>
 
 			<li>
-				<a href='#'>Some other page</a>
+				<a href='#'>Returns & Favors</a>
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>(French) Press</a>
 			</li>
 		</ul>
 	</nav>

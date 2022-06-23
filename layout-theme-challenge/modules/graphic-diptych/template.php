@@ -2,7 +2,7 @@
 <graphic-diptych>
 
 	<picture>
-		<img src='./images/background/hero.png' alt='hero image'>
+		<img src='./images/hero.png' alt='hero image'>
 	</picture>
 	
 	<text-content>
