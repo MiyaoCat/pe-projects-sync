@@ -33,12 +33,10 @@ body {
 	color: var(--ink);
 }
 
-header {
-	position: sticky;
-}
 inner-column {
-	padding: 0 10px;
+	padding: 0 5px;
 }
+
 section:is(.sign-up/*, .get-involved) inner-column*/ {
 	max-width: var(--tight);
 	/*max-width: var(--wide);*/

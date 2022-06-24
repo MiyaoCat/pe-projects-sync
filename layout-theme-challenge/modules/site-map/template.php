@@ -5,12 +5,12 @@
 	<nav class='site-menu'>
 		<h3 class="company-voice">Hi. So.</h3>
 		<ul>
-			<li>
-				<a href='#'>
+			<!-- <li>
+				<a href='#'> -->
 
 					<!-- <?php include('modules/logo.php'); ?> -->
-				</a>
-			</li>
+				<!-- </a>
+			</li> -->
 
 			<li>
 				<a href='#'>Stores</a>

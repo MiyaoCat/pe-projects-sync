@@ -23,25 +23,44 @@ cta-trio {
 
 cta-trio picture {
 	position: relative;
+	max-height: 250px;
 }
 
+cta-trio picture:hover {
+	border: 1px solid black;
+}
+
+cta-trio picture img {
+	transition: ease-in-out .2s;
+}
+cta-trio picture img:hover {
+	transform: scale(1.2);
+	transition: ease-in-out .5s;
+}
 /* - - FONT STYLE - - */
 cta-trio .loud-voice {
-	text-shadow: 0 0 5px wheat;
-	font-size: clamp(18px, 3vw, 70px);
+	text-shadow: 0 0 5px black;
+	font-size: clamp(2.4rem, 4vw, 6rem);
+	color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-	cta-trio .loud-voice {
-	text-shadow: 0 0 5px black;
+cta-trio .loud-voice {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
-} 
 
+/* - - BIG SCREEN - - */
 @media (min-width: 600px) {
 	cta-trio {
 		display: flex;
 		flex-direction: row;
 	}
+
+	cta-trio picture {
+		max-height: 100%;
+	}	
 
 	cta-trio .loud-voice {
 		position: absolute;

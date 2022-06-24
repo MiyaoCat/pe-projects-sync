@@ -4,7 +4,7 @@ $articles = [
 	[
 		"heading" => "Hi Priced T",
 		"description" => "Here's a really expensive t-shirt. The price, not the cotton will make you feel rich.",
-		"thumbnail" => "../images/t-shirt.png",
+		"thumbnail" => "../images/shirt2.jpg",
 		"price" => 220,
 		"sizes" => ["S", "M", "L", "XL"],
 		"colors" => ["pink", "brown", "blue", "orange", "black", "white"]
@@ -12,7 +12,7 @@ $articles = [
 	[
 		"heading" => "So Rich Long Sleeve",
 		"description" => "A long sleeve T shirt that looks cheap, but is actually sooo expensive.",
-		"thumbnail" => "../images/long-sleeve.png",
+		"thumbnail" => "../images/long-sleeve.jpg",
 		"price" => 500,
 		"sizes" => ["S", "M", "L", "XL"],
 		"colors" => ["salmon", "dodgerblue", "black", "white"]

@@ -7,7 +7,6 @@ graphic-diptych {
 }
 
 graphic-diptych picture {
-	border: 1px solid black;
 	position: relative;
 }
 
@@ -27,7 +26,7 @@ graphic-diptych text-content {
 	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: var(--ink);
+	color: white;
 
 }
 
