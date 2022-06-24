@@ -29,6 +29,10 @@ site-map h3 {
 site-map li {
 	padding: 2px 0;
 }
+
+.site-menu {
+
+}
 @media (min-width: 600px) {
 	site-map li {
 	padding: 5px 0;

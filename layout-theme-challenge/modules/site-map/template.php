@@ -76,7 +76,7 @@
 			</li>
 
 			<li>
-				<a href='#'>Private Parts</a>
+				<a href='#'>Privacy Police</a>
 			</li>
 
 			<li>

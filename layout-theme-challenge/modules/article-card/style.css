@@ -44,9 +44,10 @@ picture {
 	}
 }
 
-text-content  {
-	display: flex;
-	flex-grow: 1;
+.article-card text-content  {
+	/*display: flex;*/
+	/*flex-grow: 1;*/
+	max-width: 414px;
 }
 
 .title {
@@ -62,6 +63,7 @@ text-content  {
 
 	.article-card text-content {
 		align-items: flex-start;
+		/*max-width: var(--standard);*/
 	}
 }
 
@@ -72,7 +74,7 @@ text-content  {
 		overflow: hidden;
 	}
 
-	picture:hover {
+	.article-card picture:hover {
 		border: 1px solid black;
 	}
 
@@ -87,11 +89,7 @@ text-content  {
 	}
 
 	picture:hover .color-swatches {
-		/*display: flex;*/
-		/*flex-direction: column;*/
-		/*flex-wrap: wrap;*/
 		transform: translate(0, 0);
-		/*z-index: 1;*/
 		opacity: 1;
 		transition: .5s;
 	}

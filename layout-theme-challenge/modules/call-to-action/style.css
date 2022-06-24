@@ -13,6 +13,40 @@ call-to-action .button {
 	margin-top: 20px;
 }
 
-.symbol {
+cta-trio {
+	display: block;
+}
+
+/*.symbol {
 	width: clamp(50px, 5vw, 180px);
+}*/
+
+cta-trio picture {
+	position: relative;
+}
+
+/* - - FONT STYLE - - */
+cta-trio .loud-voice {
+	text-shadow: 0 0 5px wheat;
+	font-size: clamp(18px, 3vw, 70px);
+}
+
+@media (prefers-color-scheme: dark) {
+	cta-trio .loud-voice {
+	text-shadow: 0 0 5px black;
+	}
+} 
+
+@media (min-width: 600px) {
+	cta-trio {
+		display: flex;
+		flex-direction: row;
+	}
+
+	cta-trio .loud-voice {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 }

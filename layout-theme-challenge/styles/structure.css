@@ -11,10 +11,14 @@ main {
 
 inner-column {
 	display: block;
-	width: 98%;
-	max-width: var(--standard); /* could be a variable in settings */
+	/*width: 98%;*/
+	max-width: var(--wide); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.latest inner-column {
+	max-width: var(--standard);
 }
 
 inner-column.tight {

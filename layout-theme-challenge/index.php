@@ -7,7 +7,7 @@
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
 		<title>PSSST (CSS)</title>
-		<meta name='description' content='PSSST (CSS)'>
+		<meta name='description' content='HI. SO.'>
 		<meta property='og:image' content='A CSS methodology so great, it needed a name.'>
 		
 		<link rel='stylesheet' href='styles/site.css'>
@@ -44,7 +44,6 @@
 
 			<section class='sign-up' id='sign-up'>
 				<inner-column>
-
 					<?php include('modules/call-to-action/template.php'); ?>
 
 				</inner-column>
@@ -62,7 +61,7 @@
 
 			<section class='get-involved' id='get-involved'>
 				<inner-column>
-
+					
 					<?php include('modules/call-to-action-b/template.php'); ?>
 
 				</inner-column>

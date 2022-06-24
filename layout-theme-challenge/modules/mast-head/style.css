@@ -1,8 +1,13 @@
 
+header {
+	position: stick;
+}
+
 mast-head {
 	display: block;
 	border-bottom: 1px solid black;
 	margin: .5em 0;
+	position: relative;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,7 +39,7 @@ mast-head nav a:not(.home) {
 	padding-bottom: .5em;
 }
 
-.site-menu li a{
+mast-head .site-menu li a{
 	padding-right: 2em;
 }
 
@@ -57,5 +62,12 @@ mast-head nav a:not(.home) {
 
 	.site-menu, .user-menu {
 		display: block;
+	}
+
+	.company-name {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	}
 }

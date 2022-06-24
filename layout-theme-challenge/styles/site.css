@@ -33,11 +33,15 @@ body {
 	color: var(--ink);
 }
 
+header {
+	position: sticky;
+}
 inner-column {
 	padding: 0 10px;
 }
-section:is(.sign-up, .get-involved) inner-column {
+section:is(.sign-up/*, .get-involved) inner-column*/ {
 	max-width: var(--tight);
+	/*max-width: var(--wide);*/
 }
 
 section.get-involved {
@@ -54,7 +58,7 @@ section.get-involved .button {
 		background-color: var(--paper);
 		color: var(--ink);
 	}
-	
+
 	section.get-involved {
 		background-color: var(--paper);
 		color: var(--ink);

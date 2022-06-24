@@ -15,4 +15,11 @@
 	color: white;
 }
 
+@media (prefers-color-scheme: dark) {
+	.button {
+		background-color: var(--ink);
+		color: black;
+	}
+}
+
 @import 'forms.css';

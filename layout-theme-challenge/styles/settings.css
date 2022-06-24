@@ -17,6 +17,7 @@ html {
 
 	--standard: 1140px;
 	--tight: 800px;
+	--wide: 99vw;
 }
 
 @media (prefers-color-scheme: dark) {

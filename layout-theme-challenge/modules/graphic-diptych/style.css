@@ -1,6 +1,5 @@
 
 graphic-diptych {
-	display: block;
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
@@ -9,6 +8,7 @@ graphic-diptych {
 
 graphic-diptych picture {
 	border: 1px solid black;
+	position: relative;
 }
 
 graphic-diptych h1 {
@@ -23,7 +23,23 @@ graphic-diptych p {
 graphic-diptych text-content {
 	display: flex;
 	flex-direction: column;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: var(--ink);
+
 }
+
+@media (prefers-color-scheme: dark) {
+	graphic-diptych text-content {
+		color: var(--ink);
+	}
+}
+text-content :is(.loud-voice, .calm-voice) {
+	text-shadow: 0 0 5px black;
+}
+
 @media (min-width:  700px) {
 	graphic-diptych {
 		flex-direction: column;

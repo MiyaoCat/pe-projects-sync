@@ -1,6 +1,11 @@
 
+
 <call-to-action-b>
-	<h2 class='heading attention-voice'>Stay Cool in our SS22 Line</h2>
+	<picture>
+		<img src="./images/cta.png" alt="">
+	</picture>
+
+	<h2 class='heading attention-voice'>Step into Summer</h2>
 
 	<p class='story'>If they want to take some type of action. Maybe it's to tell them about something they can do.</p>
 
