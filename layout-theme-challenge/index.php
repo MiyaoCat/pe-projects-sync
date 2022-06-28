@@ -6,10 +6,9 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-		<title>PSSST (CSS)</title>
-		<meta name='description' content='HI. SO.'>
-		<meta property='og:image' content='A CSS methodology so great, it needed a name.'>
-		
+		<title>Hi. So.</title>
+		<meta name='description' content='Become a part of High Society and shop at Hi. So.'>
+		<meta property="og:image" content="https://peprojects.dev/alpha-4/john/projects/layout-theme-challenge/images/meta.jpg" />
 		<link rel='stylesheet' href='styles/site.css'>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
