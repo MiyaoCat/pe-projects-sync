@@ -17,20 +17,12 @@
 		}
 	?>
 
-<html lang='en'>
-	<head>
+	<html lang='en'>
 
-		<title>URL Queries</title>
-	</head>
+	<?php include ('head.php') ?>
 
-	<header>
-		<nav>
-			<a href="?page=home">Home</a>
-			<a href="?page=basketball">Basketball</a>
-			<a href="?page=football">Football</a>
-			<a href="?page=huskies">Huskies</a>
-	</header>
 
+	<?php include ('header.php') ?>
 	<body>
 		<?php if ($page == "home") { ?>
 			<h1>WA Pro Athletes Home</h1>
@@ -39,7 +31,9 @@
 		
 		<?php if ($page == "huskies") { ?>
 			<h1>Pro Athletes from UW</h1>
-
+			<?php if ($page == "uwbasketball") { ?>
+				<h1>Pro Basketball Athletes from UW</h1>
+			<?php } ?>
 		<?php } ?>
 
 		<?php if ($page == "basketball") { ?>
