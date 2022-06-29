@@ -55,6 +55,9 @@
 	if ($page == 'drama') {
 		include ('drama.php');
 	}
+	if ($page == 'details') {
+		include ('details.php');
+	}
 
 ?>
 

@@ -13,13 +13,14 @@
 
 		$title = $movie['title'];
 		$genre = $movie['genre'];
+		// $id = $movie['id'];
 	
 		if ($genre == 'action') {
-
+	
 ?>		
 	<ul>
 		<li><?=$title?></li>
-		<a href=""></a>
+		<a href="?page=details&id=<?=$movie['id']?>">Details</a>
 	</ul>
 
 <?php } } ?>	
