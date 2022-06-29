@@ -1,0 +1,42 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body * {
+	border:  1px solid rgba(0,0,0,.5);
+	padding: 5px;
+	margin: 5px;
+}
+body {
+	background-color: #d4dffd;
+}
+
+picture {
+	display: block;
+}
+
+picture img {
+	display: block;
+	width:  100%;
+	height:  auto;
+}
+
+nav {
+	/*height: 100px;*/
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: 700;
+}
+test-area {
+	border: 2px solid black;
+	background-color: lightgray;
+}
+
+nav {
+	display: flex;
+}
