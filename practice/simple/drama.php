@@ -1,6 +1,5 @@
 
 <h1>Drama</h1>
-<h2><a href="?page=home">home</a></h2>
 
 <?php 
 	include('movie-data.php');

@@ -1,6 +1,5 @@
 
-<h1>Action</h1>
-<h2><a href="?page=home">home</a></h2>
+<h1>Comedy</h1>
 
 <?php 
 	//get movie data
@@ -13,10 +12,9 @@
 
 		$title = $movie['title'];
 		$genre = $movie['genre'];
-		// $id = $movie['id'];
 	
-		if ($genre == 'action') {
-	
+		if ($genre == 'comedy') {
+
 ?>		
 	<ul>
 		<li><?=$title?></li>
@@ -24,5 +22,3 @@
 	</ul>
 
 <?php } } ?>	
-
-	
