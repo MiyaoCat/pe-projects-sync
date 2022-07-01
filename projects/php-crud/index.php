@@ -2,7 +2,7 @@
 
 <!doctype HTML>
 
-	<h1>URL View & Error</h1>
+	<h1 class='shout-voice'>URL View & Error</h1>
 
 	<test-area>
 		<?php current_url(); ?>
@@ -23,9 +23,48 @@
 
 <header>
 	<?php include ('site-menu.php') ?>
+
 </header>
 
 <body>
+	<section class="sports">
+
+		<?php include('data/players.php');
+		foreach ($playersData as $player);
+		echo $player['city'];
+		?>
+
+		<nav class='test'>
+			<h1 class="shout-voice">Filter by Sport</h1>
+			<a href="?page=basketball&sport=basketball">Basketball</a>
+			<a href="?page=football&sport=football">Football</a>
+			<a href="?page=huskies">Huskies</a>
+		</nav>
+
+
+		<?php 
+			$sport = null;
+			$filtered = [];
+
+			if ( isset($_GET['sport']) ) {
+				$sport = $_GET['sport'];
+			}
+
+			if ($sport) {
+				foreach ($playersData as $player) {
+					if ($player['sport'] ==  $sport) {
+						array_push($filtered, $player);
+					}
+				}
+
+				$playersData = $filtered;
+			}
+		 ?>
+
+	</section>	
+
+
+
 	<?php 
 		if ($page == "home") {
 			include("home.php");
@@ -41,6 +80,9 @@
 		}
 		if ($page == "detail") {
 			include("pages/detail.php");
+		}
+		if ($page == "create") {
+			include("pages/create.php");
 		}
 	?>
 		

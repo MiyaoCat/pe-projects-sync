@@ -1,3 +1,4 @@
+
 <?php 
 
 // Get data from data/players.php
@@ -28,4 +29,3 @@ foreach ($playersData as $player) {
 <picture class="portrait">
 	<img src="http://peprojects.dev/images/portrait.jpg" alt="$todo">
 </picture>
-

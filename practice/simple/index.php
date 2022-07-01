@@ -32,6 +32,9 @@
   	return $_SERVER['REQUEST_URI'];
 	}
 	echo currentUrl();
+
+	include('movie-data.php');
+	foreach ($movies as $movie);
 	?>
  </test-area>
 
@@ -43,16 +46,41 @@
  		<li><a href="?page=action&genre=action">action</a></li>
  		<li><a href="?page=comedy&genre=comedy">comedy</a></li>
  		<li><a href="?page=drama&genre=drama">drama</a></li>
- 	</ul>
+ 		<li><a href="?page=drama2&genre=drama">drama2</a></li>
+	</ul>
 </nav>
 
-	<?php 
-		$page = null;
 
+<nav>
+	<ul>
+		<li><a href="?page=home&genre=action">Action</a></li>
+		<li><a href="?page=home&genre=comedy">Comedy</a></li>
+		<li><a href="?page=home&genre=drama">Drama</a></li>
+	</ul>
+</nav>
+	<?php 
+		include('movie-data.php');
 		if ( isset($_GET['page']) ) { 
 			$page = $_GET['page']; //get URL page string
 		} else {
 			$page = 'page'; //default page
+		}
+
+		$genre = null; 
+		$filtered = [];//filtered is a new array to hold items specific by the filter
+
+		if ( isset($_GET['genre']) ) {
+			$genre = $_GET['genre'];
+		}
+
+		if ($genre) {
+			foreach ($movies as $movie) {
+				if ($movie['genre'] == $genre) {
+					array_push($filtered, $genre);
+				}
+			}
+
+			$movies = $filtered;
 		}
 
 		if ($page == 'home') {
@@ -70,7 +98,9 @@
 		if ($page == 'details') {
 			include ('details.php');
 		}
-
+		if ($page == 'drama2') {
+			include ('drama2.php');
+		}
 	?>
 
 

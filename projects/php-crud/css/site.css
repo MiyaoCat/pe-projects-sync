@@ -1,5 +1,6 @@
 @import 'meyer-reset.css';
 @import 'setup.css';
+@import 'typography.css';
 
 * {
 	box-sizing: border-box;
@@ -24,10 +25,6 @@ picture img {
 	height:  auto;
 }
 
-nav {
-	/*height: 100px;*/
-}
-
 h1 {
 	font-size: 22px;
 	font-weight: 700;
@@ -39,4 +36,18 @@ test-area {
 
 nav {
 	display: flex;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0;
+}
+
+field :is(label, input) {
+	display: block;
+}
+
+field + field {
+	margin: 20px 0;
 }

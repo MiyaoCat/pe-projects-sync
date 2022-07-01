@@ -30,6 +30,7 @@
   	<li><?=$currentMovie['actors'][1]?></li>	
 
 	<?php } ?>
+
 	<?php if ( isset($currentMovie['actors'][1]) ) {
  	?>	
   	
@@ -38,11 +39,4 @@
 	<?php } ?>
 
  </ul>
-
-<?php 
-	//create a link
-	//when it's clicked it takes the user to the previously visited page
-	// user clicks on link
-	// link GETS the previous page
- ?>
 
