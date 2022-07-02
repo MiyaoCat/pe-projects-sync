@@ -2,7 +2,7 @@
 <?php 
 
 // Get data from data/players.php
-include ("data/players.php");
+include ("data/players.json");
 
 //Setup any variables we need
 $currentPlayer = null;
@@ -22,10 +22,10 @@ foreach ($playersData as $player) {
 
  ?>
 
-<h1 class="name"><?=$currentPlayer["name"]?></h1>
+<h1 class="name"><?=$currentPlayer["firstName"]?></h1>
 <h2 class="sport">Sport: <?=$currentPlayer["sport"]?></h2>
 <h3 class="city">City: <?=$currentPlayer["city"]?></h3>
 <h3 class="high-school">High School: <?=$currentPlayer["high school"]?></h3>
 <picture class="portrait">
-	<img src="http://peprojects.dev/images/portrait.jpg" alt="$todo">
+	<img src="https://peprojects.dev/images/portrait.jpg" alt="player portrait">
 </picture>

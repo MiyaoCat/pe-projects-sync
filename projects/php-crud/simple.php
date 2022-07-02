@@ -80,7 +80,7 @@
 				//loop through player dataset
 				foreach ($playersData as $player) {
 
-					//IF the athlete's sport == basketball
+					//IF the athlete's sport == sport set from url
 					if ($player['sport'] == $_GET['sport']) {
 
 						//Add player to filtered array
@@ -88,9 +88,8 @@
 					}
 				}
 				$playersData = $filtered;
-			}
-
-		?>
+			} ?>
+			
 			<ul>
 				<?php foreach ($playersData as $player) { ?>
 				 	<li>

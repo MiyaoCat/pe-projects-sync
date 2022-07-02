@@ -2,7 +2,7 @@
 
 <?php 
 	//get player data
-	include('data/players.php');
+	// include('data/players.php');
 
 
 

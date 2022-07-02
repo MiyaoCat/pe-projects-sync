@@ -8,5 +8,6 @@ function current_url( ) {
 
 $json = file_get_contents('data/players.json');
 
-$playersData = json_decode($json, 1);
+$playersData = json_decode($json, true);
+$players = $playersData['playersData'];
 

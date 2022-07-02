@@ -4,15 +4,16 @@
 	$players = json_decode($json, true);
 
 	$currentId = '';
-	
-	if ( isset($_GET['id']) ) {
-		$currentId = $_GET['id'];
+
+	if ( isset($_GET['slug']) ) {
+		$currentId = $_GET['slug'];
 	}
 
 	foreach ($players as $player) {
-		if ($currentId == $player['id']) {
+		if ($currentId == $player['slug']) {
 			$selectedPlayer = $player;
 		}
+
 	} 
 	
  ?>

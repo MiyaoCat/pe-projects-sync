@@ -1,6 +1,5 @@
 <?php 
 	$json = file_get_contents('data/players.json');
-
 	$players = json_decode($json, true);
 
  ?>
@@ -15,10 +14,12 @@
 				<?=$player['lastName']?>
 			</h2> 
 
-			<h3 class="attention-voice">Sport: 
-				<?=$player['sport']?></h3>
+			<h3>Sport: 
+			<a href="?page=<?=$player['sport']?>&sport=<?=$player['sport']?>"><?=$player['sport']?>
+			</a>
+		</h3>
 
-			<a href="?page=detail&id=<?=$player['id']?>">
+			<a href="?page=detail&slug=<?=$player['slug']?>">
 				Player Bio
 			</a>
 		</athlete-card>

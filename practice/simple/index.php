@@ -59,27 +59,27 @@
 	</ul>
 </nav>
 	<?php 
-		include('movie-data.php');
 		if ( isset($_GET['page']) ) { 
 			$page = $_GET['page']; //get URL page string
 		} else {
 			$page = 'page'; //default page
 		}
 
-		$genre = null; 
-		$filtered = [];//filtered is a new array to hold items specific by the filter
-
+		$genre = null;
+		$filtered = [];
+		
 		if ( isset($_GET['genre']) ) {
 			$genre = $_GET['genre'];
 		}
 
 		if ($genre) {
+			
 			foreach ($movies as $movie) {
-				if ($movie['genre'] == $genre) {
+				if ($movie['genre'] == $_GET['genre']) {
+
 					array_push($filtered, $genre);
 				}
 			}
-
 			$movies = $filtered;
 		}
 
