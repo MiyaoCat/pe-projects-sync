@@ -1,0 +1,73 @@
+{
+	"playersData": { 
+		
+ 		"001": {
+			"slug": "doug-christie",
+			"firstName": "Doug",
+			"lastName": "Christie",
+			"sport": "Basketball",
+			"high school": "Rainer Beach",
+			"city": "Seattle",
+			"class": 1989,
+			"college": "Pepperdine",
+			"Pro Seasons": 16,
+			"retired": true
+		},
+			
+		"002": {
+			"slug": "jamal-crawford",
+			"firstName": "Jamal",
+			"lastName": "Crawford",
+			"sport": "Basketball",
+			"high school": "Rainer Beach",
+			"city": "Seattle",
+			"class": 1999,
+			"college": "University of Michigan",
+			"Pro Seasons": 20,
+			"retired": true
+		},
+
+		"003": {
+			"slug": "isaiah-thomas",
+			"firstName": "Isaiah",
+			"lastName": "Thomas",
+			"sport": "Basketball",
+			"high school": "Curtis",
+			"city": "Tacoma",
+			"class": 2010,
+			"college": "University of Washington",
+			"Pro Seasons": 11,
+			"retired": false
+		},
+
+		"004": {
+			"slug": "taylor-rapp",
+			"firstName": "Taylor",
+			"lastName": "Rapp",
+			"sport": "Football",
+			"high school": "Sehome",
+			"city": "Bellingham",
+			"class": 2008,
+			"college": "University of Washington",
+			"Pro Seasons": 3,
+			"retired": false
+		},
+
+		"005": {
+			"slug": "Budda-Baker",
+			"firstName": "Budda",
+			"lastName": "Baker",
+			"sport": "Football",
+			"high school": "Belleuve",
+			"city": "Belleuve",
+			"class": 2016,
+			"college": "University of Washington",
+			"Pro Seasons": 5,
+			"retired": false
+		}
+	}
+}
+		
+
+
+		

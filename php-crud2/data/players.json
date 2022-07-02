@@ -1,0 +1,76 @@
+[ 
+		{
+		"id": "001",
+		"slug": "doug-christie",
+		"firstName": "Doug",
+		"lastName": "Christie",
+		"sport": "basketball",
+		"highSchool": "Rainer Beach",
+		"city": "Seattle",
+		"class": 1989,
+		"college": "Pepperdine",
+		"proSeasons": 16,
+		"retired": true,
+		"accolades": ["mvp", "all star"]
+	},
+		
+	{
+		"id": "002",
+		"slug": "jamal-crawford",
+		"firstName": "Jamal",
+		"lastName": "Crawford",
+		"sport": "basketball",
+		"highSchool": "Rainer Beach",
+		"city": "Seattle",
+		"class": 1999,
+		"college": "University of Michigan",
+		"proSeasons": 20,
+		"retired": true,
+		"accolades": ["mvp", "all star"]
+	},
+
+	{
+		"id": "003",
+		"slug": "isaiah-thomas",
+		"firstName": "Isaiah",
+		"lastName": "Thomas",
+		"sport": "basketball",
+		"highSchool": "Curtis",
+		"city": "Tacoma",
+		"class": 2010,
+		"college": "University of Washington",
+		"proSeasons": 11,
+		"retired": false,
+		"accolades": ["mvp", "all star"]
+	},
+
+	{
+		"id": "004",
+		"slug": "taylor-rapp",
+		"firstName": "Taylor",
+		"lastName": "Rapp",
+		"sport": "football",
+		"highSchool": "Sehome",
+		"city": "Bellingham",
+		"class": 2008,
+		"college": "University of Washington",
+		"proSeasons": 3,
+		"retired": false,
+		"accolades": ["all star"]
+	},
+
+	{
+		"id": "005",
+		"slug": "Budda-Baker",
+		"firstName": "Budda",
+		"lastName": "Baker",
+		"sport": "football",
+		"highSchool": "Belleuve",
+		"city": "Belleuve",
+		"class": 2016,
+		"college": "University of Washington",
+		"proSeasons": 5,
+		"retired": false,
+		"accolades": ["mvp", "all star", "6th man"]
+	}
+]

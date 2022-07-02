@@ -1,0 +1,70 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+@import 'typography.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body * {
+	border:  1px solid rgba(0,0,0,.5);
+	padding: 5px;
+	margin: 5px;
+}
+body {
+	background-color: #d4dffd;
+}
+
+a {
+	text-decoration: underline;
+}
+
+nav {
+	display: flex;
+}
+picture {
+	display: block;
+}
+
+picture img {
+	display: block;
+	width:  300px;
+	height:  auto;
+}
+
+test-area {
+	border: 2px solid black;
+	background-color: lightgray;
+}
+
+nav {
+	display: flex;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0;
+}
+
+field :is(label, input) {
+	display: block;
+}
+
+field + field {
+	margin: 20px 0;
+}
+
+.page-content {
+	border: 2px dashed red;
+}
+
+athlete-card {
+	display: block;
+	border: 1px solid purple;
+	padding: 10px;
+}
+
+car-card a {
+	text-decoration: underline;
+}

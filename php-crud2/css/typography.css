@@ -1,0 +1,30 @@
+html {
+	--shout-voice: UniSans Book, Helvetica;
+	--loud-voice: UniSans Book, Helvetica;
+	--attention-voice: UniSans Book, Helvetica;
+	--normal-voice: Open Sans, Helvetica;
+}
+
+/* - H1 - */
+.shout-voice {
+	font-family: var(--shout-voice);
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+/* - H2 - */
+.loud-voice {
+	font-family: var(--loud-voice);
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+/* - H3 - */
+.attention-voice {
+	font-family: var(--attention-voice);
+	font-size: 1rem;
+}
+/* - P - */
+.normal-voice {
+	font-family: var(--normal-voice);
+	font-size: 1rem;
+	font-weight: 300;
+}
