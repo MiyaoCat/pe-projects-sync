@@ -1,0 +1,4 @@
+header inner-column nav {
+	display: flex;
+	flex-wrap: wrap;
+}

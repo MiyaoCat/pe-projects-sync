@@ -19,19 +19,36 @@
  ?>
 <?php if ( isset($selectedPlayer) ) { ?>
 
-<h1 class='loud-voice'><?=$selectedPlayer['firstName']?> <?=$selectedPlayer['lastName']?></h1>
+<h2 class='loud-voice'><?=$selectedPlayer['firstName']?> <?=$selectedPlayer['lastName']?></h1>
 
 <picture>
 	<img src="https://peprojects.dev/images/portrait.jpg" alt="portrait">
 </picture>
 
-<h2 class="loud-voice">Sport: <?=$selectedPlayer['sport']?></h2>
+<h3 class="loud-voice">Sport: <?=ucfirst($selectedPlayer['sport'])?></h3>
 
-<h2 class="loud-voice">City: <?=$selectedPlayer['city']?></h2>
+<h3 class="loud-voice">Hometown: <?=$selectedPlayer['city']?></h3>
 
-<h2 class="attention-voice">High School: <?=$selectedPlayer['highSchool']?></h2>
+<h3 class="attention-voice">High School: <?=$selectedPlayer['highSchool']?></h3>
 
-<h2 class="attention-voice">Accolades: </h2>
+<h3 class="attention-voice">Graduating Class: <?=$selectedPlayer['class']?></h3>
+
+<h3 class="attention-voice">College: <?=$selectedPlayer['college']?></h3>
+
+<?php 
+	
+	$status = "No";
+
+	if ($selectedPlayer['retired']) {
+		$status = "Yes"; 
+	} 
+
+ ?>
+
+<h4 class="attention-voice">Retired: <?=$status?></h4>
+
+
+<h4 class="attention-voice">Accolades: </h4>
 
 <ul>
 	<?php foreach ($selectedPlayer['accolades'] as $accolade) { ?>

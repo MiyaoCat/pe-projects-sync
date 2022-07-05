@@ -19,15 +19,22 @@
 	}
 
 	$filtered = [];
-	
+
+
 	if ($sport) {
 		foreach ($players as $player) {
 			if ($player['sport'] == $_GET['sport']) {
 				array_push($filtered, $player);
 			}
 		}
-	} $players = $filtered;
-					
+
+	$players = $filtered;	
+	} 
+	
+	function getTemplate($page) {
+			include($page . '.php');
+		}
+				
 ?>
 
 <html>
@@ -52,47 +59,45 @@
 			 ?>
 		</test-area>
 
-	<body>
+	<body class="<?=$page?>">
 		<header>
-			<p><?=$page?> page</p>
+			<inner-column>
 
-			<?php include('site-menu.php') ?>
+				<?php include('site-menu.php') ?>
 
+			</inner-column>
 		</header>
 
 		<main class="page-content">
-			<?php 
-			if ($page == 'home') {
-				include('home.php');
-			}
+			<page-templates>
+				<?php 
 
-			if ($page == 'list') {
-				include('list.php');
-			}
+				if ($page == 'home') {
+					include('pages/home.php');
+				}
+				if ($page == 'list') {
+					include('list.php');
+				}
 
-			if ($page == 'detail') {
-				include('detail.php');
-			}
+				if ($page == 'detail') {
+					include('detail.php');
+				}
 
-			if ($page == 'basketball') {
-				include('basketball.php');
-			}
-
-			if ($page == 'football') {
-				include('football.php');
-			}
-
-			if ($page == 'huskies') {
-				include('huskies.php');
-			}
-
-			if ($page == 'create') {
-				include('create.php');
-			}
-		 ?>
+				if ($page == 'create') {
+					include('pages/create.php');
+				}
+			 ?>
+		 </page-templates>
 		</main>
 		
+		<footer>
+			<inner-column>
+				
+				
 
+			</inner-column>
+		</footer>
 		
 	</body>
+
 </html>
