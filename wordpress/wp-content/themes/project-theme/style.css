@@ -22,4 +22,15 @@ body {
 
 .current_page_item a {
 	color: red;
+	background-color: rgba(246, 208, 247, .33);
+	border: 2px solid red;
+	padding: 5px;
+}
+
+.menu ul {
+
+}
+
+.menu li {
+	margin: 15px 0;
 }

@@ -5,8 +5,8 @@
 	<h3 class="hometown">Hometown: <?php the_field('hometown'); ?></h3>
 	<h3 class="high-school">High School: <?php the_field('high_school'); ?></h3>
 	<h3 class="college">College: <?php the_field('college'); ?></h3>
-	
-	<h4 class="movies">Fave Movies: 
+	<a href="<?php the_permalink(); ?>">Player Bio</a>
+	<h4 class="movies">Fave Movie: 
 
 		<?php
 			$favorite_movies = get_field('favorite_movies');
@@ -15,15 +15,14 @@
 		    <ul>
 		    	<?php foreach( $favorite_movies as $post ): 
 
-	        	// Setup this post for WP functions (variable must be named $post).
-	       	setup_postdata($post); ?>
+		      // Setup this post for WP functions (variable must be named $post).
+		      setup_postdata($post); ?>
+		      <li>
+		        <h4><?php the_title(); ?></h4>
+		        <?php the_field( 'favorite_movies' ); ?>
+		      </li>
 
-	       	<li>
-	           <h4><?php the_title(); ?></h4>
-	           
-	        	</li>
-
-		    	<?php endforeach; ?>
+		    <?php endforeach; ?>
 		    </ul>
 
 		    <?php 
@@ -32,6 +31,6 @@
 			<?php endif; ?>
 	</h4>
 	
-	<a href="<?php the_permalink(); ?>">Read more</a>
+	
 
 </athlete-card>

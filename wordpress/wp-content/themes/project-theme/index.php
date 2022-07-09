@@ -7,15 +7,18 @@
 	if ( is_page('list-page') ) {
 		echo "<h1>Athlete Page</h1>";
 	}
+	if ( is_page('third-page') ) {
+		echo "<h1>Another Page of Stuff</h1>";
+	}
 
 	if ( is_page('list-page') ) {
-		$args = array(
+		$parameters = array(
 			'post_type' => 'athletes',
 		);
 
-		$loop = new WP_Query ( $args );
+		$query = new WP_Query ( $parameters );
 
-		while ( $loop->have_posts() ) : $loop->the_post();
+		while ( $query->have_posts() ) : $query->the_post();
 			include('templates/components/athlete-card.php');
 			the_excerpt();
 		endwhile;
