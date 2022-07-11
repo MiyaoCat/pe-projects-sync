@@ -15,7 +15,8 @@
         [
             "mvp",
             "all star"
-        ]
+        ],
+        "portrait": "./images/dougchristie.png"
     },
     {
         "id": "002",
@@ -33,7 +34,8 @@
         [
             "mvp",
             "all star"
-        ]
+        ],
+        "portrait": "./images/jamalcrawford.png"
     },
     {
         "id": "003",
@@ -51,7 +53,8 @@
         [
             "mvp",
             "all star"
-        ]
+        ],
+        "portrait": "./images/isaiahthomas.png"
     },
     {
         "id": "004",
@@ -68,7 +71,8 @@
         "accolades":
         [
             "all star"
-        ]
+        ],
+        "portrait": "./images/taylorrapp.png"
     },
     {
         "id": "005",
@@ -87,6 +91,7 @@
             "mvp",
             "all star",
             "6th man"
-        ]
+        ],
+        "portrait": "./images/buddabaker.png"
     }
 ]

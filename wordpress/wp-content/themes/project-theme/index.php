@@ -4,11 +4,11 @@
 	if ( is_page('home-page') ) {
 		include('templates/pages/home.php');
 	}
-	if ( is_page('list-page') ) {
+	if ( is_page('athlete-page') ) {
 		echo "<h1>Athlete Page</h1>";
 	}
 	if ( is_page('third-page') ) {
-		echo "<h1>Another Page of Stuff</h1>";
+		include('templates/pages/third-page.php');
 	}
 
 	if ( is_page('list-page') ) {

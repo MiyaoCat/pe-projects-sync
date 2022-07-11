@@ -22,7 +22,7 @@
 <h2 class='loud-voice'><?=$selectedPlayer['firstName']?> <?=$selectedPlayer['lastName']?></h1>
 
 <picture>
-	<img src="https://peprojects.dev/images/portrait.jpg" alt="portrait">
+	<img src="<?=$selectedPlayer['portrait']?>" alt="portrait">
 </picture>
 
 <h3 class="loud-voice">Sport: <?=ucfirst($selectedPlayer['sport'])?></h3>
