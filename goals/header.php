@@ -1,8 +1,9 @@
 <div class='inner-column'>
-
-	<a href='' class='logo'>
-		<img src='images/mon.svg'>
-	</a>
+	<div class="logo">
+		<a href='#'>
+			<?php include('images/mon.php') ?>
+		</a>
+	</div>
 
 	<nav>
 		<ul>

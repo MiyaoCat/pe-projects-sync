@@ -19,31 +19,65 @@
 		<?php include('header.php'); ?>
 	</header>
 
-	<main class="page-content">
+	<main class="goals">
 		<inner-column>
+			<h1 class="loud-voice">MY GOALS</h1>
 			<?php 
-				$json = file_get_contents('goals-data.json');
-				$goals = json_decode($json, true);
+
+				$json = file_get_contents("goals.json");
+				$goalsData = json_decode($json, true);
  	
-				foreach ($goals as $goal) {
-					$title = $goal['title'];
-				
-
+				foreach ($goalsData as $goals) {
 			?>
-			<ul>
-				<li><?=$title?></li>
-			</ul>
+				<goal-card>
+				<ul>
+					<heading>
+						<h2 class="attention-voice">
+						<?=$goals['heading']?></h2>
+					</heading>
 
-		<?php } ?>
+					<?php foreach ($goals['goals'] as $goal) {  ?>
+						<ul class="sub-goals">
+							<li><p class="normal-voice">
+								<?=$goal?></p>
+							</li>	
+						</ul>
+					<?php } ?>
+				</ul>
+				</goal-card>
+
+			<?php } ?>
 		</inner-column>
 		
 	</main>
 
 	<footer>
-		<?php include('footer.php'); ?>
-		
+		<inner-column>
+			<?php include('footer.php'); ?>
+
+			<?php 
+				date_default_timezone_set('UTC');
+				echo date("F jS, Y");
+			 ?>
+		 </inner-column>
 	</footer>
 		
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

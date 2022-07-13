@@ -1,0 +1,57 @@
+/* - - - TITLE - - - */
+h1 {
+	text-align: center;
+	text-shadow: 2px 2px 2px white;
+}
+
+
+/* - - - GOALS - - - */
+
+heading {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.goals {
+	/*flex-grow: 1;*/
+	background-image: url('https://images.unsplash.com/photo-1541583109612-1186fd836a5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1977&q=80');
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+}
+
+
+goal-card {
+	display: block;
+	background-color: rgba(231,238,236,.6);
+	border: 2px solid black;
+	padding: 30px 20px;
+	transition: .5s ease-in-out;
+	width: 70%;
+	padding-top: 20px;
+	padding-bottom: 35px;
+}
+
+/* - - - GOALS LARGE SCREEN - - - */
+ @media (min-width: 700px) {
+	goal-card {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	goal-card:hover {
+		background-color: rgba(255,255,255,.9);
+		transform: scale(1.2);
+		transition: all .2s ease-in-out;
+		transition: .2s;
+		transition: all .2s ease=in-out;
+		transition: all .2s ease-in-out;
+	}
+
+} 
+@media (min-width: 900px) {
+	goal-card {
+		max-width: 40%;
+	}
+}

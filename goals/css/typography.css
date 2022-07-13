@@ -1,0 +1,17 @@
+/* - - - TYPOGRAPHY - - - */
+body {
+	font-family: Gill Sans, Helvetica, sans-serif;
+	font-size: 18px;	
+	letter-spacing: .03em;
+}
+.loud-voice {
+	font-family: Gill Sans, Helvetica, sans-serif;
+	font-size:  clamp(60px, 11vw, 120px);
+	font-weight: 650;
+}
+
+.attention-voice {
+	font-family: Gill Sans, Helvetica, sans-serif;
+	font-size:  28px;
+	font-weight: 600;
+}

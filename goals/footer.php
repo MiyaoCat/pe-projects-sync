@@ -1,4 +1,4 @@
-<div class="inner-column">
+<div class="footer-wrapper">
 	<p>If you'd like to help keep me accountable, send me an encouraging message on Twitter or comment on a blog post.</p>
 
 	<div class="socials">
