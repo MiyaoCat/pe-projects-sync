@@ -31,15 +31,7 @@ body {
 }
 
 .inner-column {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	/*padding: 10px;*/
-=======
 	padding: 10px;
->>>>>>> Goals
-=======
-	/*padding: 10px;*/
->>>>>>> Edits to header, footer and goal cards.
 	display: flex;
 	width: 100%;
 	max-width: 700px;
@@ -71,15 +63,7 @@ body {
 
 .attention-voice {
 	font-family: Gill Sans, Helvetica, sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	font-size:  28px;
-=======
-	font-size:  24px;
->>>>>>> Goals
-=======
-	font-size:  28px;
->>>>>>> Edits to header, footer and goal cards.
 	font-weight: 600;
 }
 
@@ -100,8 +84,6 @@ body {
 	align-items:  center;
 	margin: 0;
 	min-width: 100vw;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 
 .site-header img {
@@ -109,21 +91,14 @@ body {
 	border-radius: 50%;
 	overflow: hidden;
 	margin-left: 15px;
-=======
 	/*height: 6vh;*/
-=======
->>>>>>> Edits to header, footer and goal cards.
 }
 
 .site-header img {
 	max-width: 80px;
 	border-radius: 50%;
 	overflow: hidden;
-<<<<<<< HEAD
->>>>>>> Goals
-=======
 	margin-left: 15px;
->>>>>>> Edits to header, footer and goal cards.
 }
 
 .site-header nav {
@@ -142,28 +117,14 @@ body {
 }
 
 .site-header li {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	padding: 15px;
-=======
-	padding: 5px;
->>>>>>> Goals
-=======
-	padding: 15px;
->>>>>>> Edits to header, footer and goal cards.
 	list-style-type: none;
 }
 
 /* - - - HEADER LARGE SCREEN - - - */
 @media (min-width: 700px) {
 	.site-header .inner-column {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 		height: 14vh;
->>>>>>> Goals
-=======
->>>>>>> Edits to header, footer and goal cards.
 	}
 
 	.site-header picture {
@@ -201,77 +162,50 @@ body {
 
 /* - - - GOALS - - - */
 .goals {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 	/*flex-grow: 1;*/
->>>>>>> Goals
-=======
->>>>>>> Edits to header, footer and goal cards.
 	background-image: url('https://images.unsplash.com/photo-1541583109612-1186fd836a5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1977&q=80');
 	background-position-x: center;
 	background-position-y: center;
 	background-size: cover;
-	color: ##BE1717;
+	color: #BE1717;
 }
 
 .goals .inner-column {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 	/*height: 100vh;*/
->>>>>>> Goals
-=======
->>>>>>> Edits to header, footer and goal cards.
 	gap: 30px;
 	padding: 40px 0;
 }
 
 .class-goals {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	background-color: rgba(231,238,236,.6);
 	border: 2px solid black;
 	width: 78%;
 	padding: 30px 20px;
 	transition: .5s ease-in-out;
-=======
 	background-color: rgba(231,238,236,.45);
 	border: 2px solid black;
 	width: 70%;
 	padding: 15px;
 	/*margin: 40px 0;*/
 	transition: .5s;
->>>>>>> Goals
-=======
 	background-color: rgba(231,238,236,.6);
 	border: 2px solid black;
 	width: 78%;
 	padding: 30px 20px;
 	transition: .5s ease-in-out;
->>>>>>> Edits to header, footer and goal cards.
 }
 
 
 .class-goals:hover {
 	background-color: rgba(255,255,255,.9);
 	transform: scale(1.2);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 	transition: all .2s ease-in-out;
-=======
 	transition: .2s;
->>>>>>> Goals
-=======
 	transition: all .2s ease=in-out;
->>>>>>> Edits to header, footer and goal cards.
-=======
 	transition: all .2s ease-in-out;
->>>>>>> Working copy stuff
 }
 
 .class-goals h2 {
@@ -279,15 +213,9 @@ body {
 }
 
 h2 + ul {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	padding:  20px;
-=======
 	padding:  10px;
->>>>>>> Goals
-=======
 	padding:  20px;
->>>>>>> Edits to header, footer and goal cards.
 }
 
 /* - - - GOALS LARGE SCREEN - - - */
@@ -295,32 +223,17 @@ h2 + ul {
 	.goals .inner-column {
 		padding: 90px 0;
 	}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Edits to header, footer and goal cards.
 
 	.class-goals {
 		max-width: 70%;
 	}
-<<<<<<< HEAD
-=======
->>>>>>> Goals
-=======
->>>>>>> Edits to header, footer and goal cards.
+
 } 
 
 /* - - - FOOTER - - - */
 footer {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	padding-bottom: 90px;
-=======
 	min-height: 20vh;
->>>>>>> Goals
-=======
-	padding-bottom: 90px;
->>>>>>> Edits to header, footer and goal cards.
 }
 
 footer .inner-column {
@@ -332,8 +245,7 @@ footer .inner-column {
 footer p {
 	margin-top: 20px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 .socials {
 	display: flex;
@@ -356,10 +268,8 @@ footer p {
 
 footer, footer * {
 	border: 2px dashed pink;
-=======
-=======
+}
 
->>>>>>> Edits to header, footer and goal cards.
 .socials {
 	display: flex;
 	justify-content: center;
@@ -377,12 +287,5 @@ footer, footer * {
 .socials img:hover {
 	transform: scale(1.2);
 	transition: .2s;
-<<<<<<< HEAD
->>>>>>> Goals
-=======
 }
 
-footer, footer * {
-	border: 2px dashed pink;
->>>>>>> Edits to header, footer and goal cards.
-}

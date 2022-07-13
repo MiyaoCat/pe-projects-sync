@@ -1,0 +1,11 @@
+.site-header {
+	display: flex;
+	gap: 10px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	max-width: 20%;
+}

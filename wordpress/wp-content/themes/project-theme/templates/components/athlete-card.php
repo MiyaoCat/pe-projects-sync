@@ -19,6 +19,7 @@
 		      setup_postdata($post); ?>
 		      <li>
 		        <h4><?php the_title(); ?></h4>
+
 		        <?php the_field( 'favorite_movies' ); ?>
 		      </li>
 
