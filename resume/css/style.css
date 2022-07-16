@@ -1,0 +1,26 @@
+@import 'meyer-reset.css';
+@import 'site.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body * {
+	border:  1px solid rgba(0,0,0,.5);
+	padding: 2px;
+	margin: 2px;
+}
+
+picture {
+	display: block;
+}
+
+picture img {
+	display: block;
+	width:  100%;
+	height:  auto;
+}
+
+nav {
+	height: 100px;
+}

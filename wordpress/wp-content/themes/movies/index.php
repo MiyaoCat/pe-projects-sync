@@ -6,7 +6,11 @@
 	}
 
 	if ( is_page("movies") ) {
-		include("templates/pages/movies.php");
+		include("templates/pages/movie-list.php");
+	}
+
+	if ( is_singular("movies") ) {
+		include("templates/components/movie-detail.php");
 	}
 
 	if ( is_page("actors-4") ) {
@@ -14,7 +18,7 @@
 	}
 
 	if ( is_singular("actors") ) {
-		include("templates/pages/actor-detail.php");
+		include("templates/components/actor-detail.php");
 	}
 
 	if ( is_404() ) {

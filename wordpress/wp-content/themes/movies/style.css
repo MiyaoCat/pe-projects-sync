@@ -23,12 +23,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* - COMPONENTS - */
 @import "css/movie-card.css";
+@import "css/movie-detail.css";
 @import "css/actor-card.css";
+@import "css/actor-detail.css";
+
 
 
 /* - MODULES - */
 @import "css/header.css;";
-@import "css/actor-detail.css";
+
 
 * {
 	box-sizing: border-box;

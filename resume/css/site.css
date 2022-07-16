@@ -1,0 +1,36 @@
+/* 
+	BTW in case it isn't obvious... the whole PSSST-CSS idea is a joke 
+	like... (it's just CSS)
+*/
+
+
+/* S etup */
+@import 'setup.css';
+
+/* S setings */
+@import 'settings.css';
+
+/* S tructure */
+@import 'structure.css';
+
+/* T ypography */
+@import 'typography.css';
+
+@import 'footer.css';
+
+/* S ections and more stuff */
+
+/* then other contextual styles */
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+inner-column {
+	padding: 0 5px;
+}
+
+
+.heading {
+	color: var(--highlight);
+}
