@@ -17,6 +17,11 @@
 @import 'typography.css';
 
 @import 'footer.css';
+@import 'header.css';
+
+@import 'summary.css';
+@import 'experience-card.css';
+@import 'skills.css';
 
 /* S ections and more stuff */
 
@@ -33,4 +38,5 @@ inner-column {
 
 .heading {
 	color: var(--highlight);
+	margin: 50px 0;
 }

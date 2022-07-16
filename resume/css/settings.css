@@ -26,4 +26,8 @@ html {
 		--ink: white;
 		--highlight: yellow;
 	}
+
+	.logo {
+		fill: white;
+	}
 }

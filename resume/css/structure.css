@@ -11,19 +11,28 @@ main {
 
 inner-column {
 	display: block;
-	/*width: 98%;*/
+	width: 98%;
 	max-width: var(--wide); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
 }
 
+@media (min-width: 600px) {
+	inner-column {
+		width: var(--tight);
+	}
+	.heading inner-column {
+		width: var(--wide);
+		text-align: center;
+	}
+}
 
 inner-column.tight {
 	max-width: var(--tight);
 }
 
-/*.site-header {
+.site-header {
 	position: sticky;
 	top: 0;
 	z-index: 5;
-}*/
+}

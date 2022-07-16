@@ -1,0 +1,48 @@
+experience-card * {
+	padding: 3px 5px;
+}
+
+experience-card {
+	display: block;
+	/*border: 3px solid white;*/
+	padding: 5px;
+	margin: 10px 0;
+	background-color: hsla(0, 0%, 0%, 50%);	 
+	box-shadow: 6px 60px 100px var(--highlight);
+	--notchSize: 20px;
+}
+
+experience-card:nth-of-type(odd) {
+	clip-path: polygon(
+	/*Points always start from top left corner and move across/down */	
+	
+	/*100% over from right, 0% down  */
+    100% 0%, 
+    
+    /*100% over from right, X% down  */
+  	 100% calc( 100% - 20px ), 
+  	 
+  	 /*X% over, 100% down  */
+    calc( 100% - var(--notchSize) ) 100% ,
+    
+    /*0% over, 100% down  */
+    0 100%,
+    
+    /*0 over, 0 down  */
+    0 0
+ 	);
+	clip-path: border-box;
+}
+
+experience-card:nth-of-type(even) {
+	clip-path: polygon(
+    calc( 100% - var(--notchSize) ) 0,
+    100% var(--notchSize), 
+    100% 100%,
+    0 100%,
+    0 0
+ 	);
+	clip-path: border-box;
+	
+}
+

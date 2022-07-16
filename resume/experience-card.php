@@ -1,4 +1,4 @@
-<inner-column>
+<experience-card>
 <?php 
 	
 		$company = $item['company'];
@@ -21,5 +21,4 @@
 
  		<?php } ?>
  	</ul>
-
- </inner-column>
+</experience-card>
