@@ -5,12 +5,12 @@ experience-card * {
 experience-card {
 	display: block;
 	/*border: 3px solid white;*/
-	padding: 5px;
+	padding: 25px 10px;
 	margin: 10px 0;
-	background-color: hsla(0, 0%, 0%, 50%);	 
-	box-shadow: 6px 60px 100px var(--highlight);
+	background-color: hsla(0, 0%, 0%, 20%);	 
 	--notchSize: 20px;
 }
+
 
 experience-card:nth-of-type(odd) {
 	clip-path: polygon(
@@ -46,3 +46,22 @@ experience-card:nth-of-type(even) {
 	
 }
 
+.company {
+	text-align: center;
+	padding: none;
+}
+
+.date {
+	text-align: right;
+}
+
+.sub {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+@media (prefers-color-scheme: dark) {
+	experience-card {
+		background-color: hsla(0, 0%, 0%, 50%);	
+	}
+}

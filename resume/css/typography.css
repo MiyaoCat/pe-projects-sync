@@ -1,7 +1,7 @@
 
 html {
 	--marker: Permanent Marker, Noto Serif;
-	--sans-serif: Overpass, Helvetica;
+	--sans-serif: Times New;
 	--serif: Old Standard TT, Times New Roman;
 
 	
@@ -16,8 +16,14 @@ a {
 
 a:hover {
 	text-decoration: underline;
+	color: var(--highlight);
 }
 
+@media (prefers-color-scheme: dark) {
+	a:hover {
+		color: var(--highlight);
+	}
+}
 /* Main header or banner text or similar */
 .screaming-voice {
 	font-family: var(--marker);

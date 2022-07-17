@@ -17,42 +17,21 @@ footer p {
 	text-align: center;
 }
 
-
 .socials {
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
+	
 }
 
-.socials img {
-	max-width: 70px;
-	padding: 10px;
+
+:is(.twitter, .substack, .linkedin) {
+	max-width: 80px;
+	padding: 0 15px;
 }
 
-.twitter {
-	margin-right: 70px;
-}
-
-.socials img:hover {
+:is(.twitter, .substack, .linkedin):hover {
+	fill: var(--highlight);
 	transform: scale(1.2);
-	transition: .2s;
-}
-
-.socials {
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-}
-
-.socials img {
-	max-width: 70px;
-	padding: 10px;
-}
-
-.twitter {
-	margin-right: 70px;
-}
-.socials img:hover {
-	transform: scale(1.2);
-	transition: .2s;
+	transition: .5s;
 }

@@ -1,7 +1,7 @@
 [
 	{	
 		"type": "job",
-		"company": "Connected Travel, LLC",
+		"company": "<a href=\"https://connectedtravel.com/\">Connected Travel, LLC</a>",
 		"role": "Program Manager",
 		"location": "Remote",
 		"startDate": "01/18",
@@ -19,7 +19,7 @@
 	{	
 		"type": "job",
 		"company": "Shop.Co",
-		"role": "Customer Operations and Support Manager",
+		"role": "Customer Operations & Support Manager",
 		"location": "San Francisco, CA",
 		"startDate": "06/17",
 		"endDate": "12/17",
@@ -35,7 +35,7 @@
 
 	{	
 		"type": "skill",
-		"programs": ["JIRA", "Salesforce", "Zendesk", "Freshdesk" 
+		"programs": ["JIRA", "Salesforce", "Zendesk", "Freshdesk", "Mixpanel", "Tableau", "PowerBI", "Basecamp", "Asana", "Slack", "Excel", "PowerPoint", "Keynote", "MailChimp", "SurveyMonkey", "Twilio", "Testflight"  
 		]
 	}
 ]

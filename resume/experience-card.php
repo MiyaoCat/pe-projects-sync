@@ -10,9 +10,12 @@
  ?>
 
  	<ul>
- 		<li><h3 class="attention-voice"><?=$company?></h3></li>
- 		<li><h4 class="role"><?=$role?></h4></li>
- 		<li><h4 class="date"><?=$startDate?> - <?=$endDate?></h4></li>
+ 		<li><h3 class="company attention-voice"><?=$company?></h3></li>
+ 		<li class="sub">
+ 			<h4 class="role"><?=$role?></h4>
+ 			<h4 class="date"><?=$startDate?> - <?=$endDate?></h4>
+ 		</li>
+ 		
 
  		<?php foreach ($highlights as $highlight) { ?>
  			<ul>

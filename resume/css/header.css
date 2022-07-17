@@ -43,7 +43,7 @@
 	margin: 5px 0;
 }
 
-svg path {
+.logo svg path {
 	fill: var(--highlight);
 }
 
