@@ -1,16 +1,18 @@
 skills {
 	display: block;
-	margin: 15px 0;
+	margin: 30px 0;
 }
 
 skills ul {
+	margin-top: 15px;
 	display: grid;
-	grid-template-columns: 150px 1fr;
+	grid-template-columns: repeat(130px 6fr);
 	gap: 10px;
 
 }
 
 skills li {
+	--notchSize: 10px;
 	clip-path: polygon(
     calc( 100% - var(--notchSize) ) 0,
     100% var(--notchSize), 
@@ -19,7 +21,8 @@ skills li {
     0 0
  	);
 	clip-path: border-box;
-	border: 2px solid white;
+	background-color: hsla(0, 0%, 0%, 20%);
 	padding: 3px;
 	max-width: 150px;
+
 }
