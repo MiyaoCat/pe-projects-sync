@@ -1,14 +1,14 @@
-	<!doctype html>
 
-	<html lang='en'>
+	<div class="logo">
+		<a href='#'>
+			<?php include('images/miyao-mon.php') ?>
+		</a>
+	</div>
 
-	<?php include('head.php'); ?>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>	
+	</nav>

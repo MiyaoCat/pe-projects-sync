@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1.15548,0,0,1.15548,-85.0889,-61.9793)">
         <path d="M290,60C405.902,60 500,154.098 500,270C500,385.902 405.902,480 290,480C174.098,480 80,385.902 80,270C80,154.098 174.098,60 290,60ZM290,95.483C386.318,95.483 464.517,173.682 464.517,270C464.517,366.318 386.318,444.517 290,444.517C193.682,444.517 115.483,366.318 115.483,270C115.483,173.682 193.682,95.483 290,95.483Z"/>
     </g>

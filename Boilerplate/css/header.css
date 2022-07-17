@@ -52,7 +52,7 @@
 	margin: 5px 0 5px 10px;
 }
 /* - - - HEADER LARGE SCREEN - - - */
-@media (min-width: 700px) {
+@media (min-width: 600px) {
 	.site-header .inner-column {
 		height: 14vh;
 	}

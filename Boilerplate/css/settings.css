@@ -3,8 +3,6 @@ html {
 	--black: #111111;
 	--white: #FFF;
 
-	--neutral-stuffs: gray;
-
 	--color: #5E321F;
 	--highlight: #aadee9;
 
@@ -12,18 +10,24 @@ html {
 
 	--corners: 10px; /* or whatevers */
 
-	--paper: var(--white);
-	--ink: var(--black);
-
 	--standard: 1140px;
 	--tight: 800px;
 	--wide: 98vw;
+
+	--paper: hsl(37, 32%, 92%); /* light brown */
+
+	--ink: black;
+	--highlight: hsl(360, 100%, 39%); /* red */
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--paper: #231a1a;
-		--ink: #ffffe2;
-		--dark-paper: #1E1717;
+		--paper: hsl(28, 17%, 30%); /* dark brown */
+		--ink: white;
+		--highlight: yellow;
+	}
+
+	.logo {
+		fill: white;
 	}
 }
