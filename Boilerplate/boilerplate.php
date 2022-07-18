@@ -11,23 +11,23 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<section class='inner-column'>
+	<header class="site-header">
+		<inner-column>
 			
-		</section>
+		</inner-column>
 	</header>
 
 	<main>
-		<section class="inner-column">
-
-		</section>
+		<inner-column>
+			
+		</inner-column>
 
 	</main>
 
 	<footer>
-		<section class="inner-column">
+		<inner-column>
 			
-		</section>
+		</inner-column>
 	</footer>
 	
 </body>
