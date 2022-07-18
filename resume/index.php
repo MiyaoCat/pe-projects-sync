@@ -28,6 +28,7 @@
 	
 	$jobs = getResumeItemsbyType($resumeData, 'job');
 	
+	$education = getResumeItemsbyType($resumeData, 'education');
 	function renderJobs ($jobs) {
 		foreach ($jobs as $item) {
 			include('experience-card.php');
@@ -40,6 +41,11 @@
 		}
 	}	
 
+	function renderSchool ($education) {
+		foreach ($education as $item) {
+			include('education.php');
+		}
+	}
 	?>
 <html>
 	<?php include('head.php'); ?>
@@ -81,7 +87,7 @@
 		<section class="skills">
 
 			<inner-column>
-				<!-- <?php renderJobs($education); ?> -->
+				<?php renderSchool($education); ?>
 			</inner-column>
 
 		</section>

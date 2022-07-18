@@ -1,7 +1,7 @@
 [
 	{	
 		"type": "job",
-		"company": "<a href=\"https://connectedtravel.com/\">Connected Travel, LLC</a>",
+		"company": "<a href=\"https://connectedtravel.com/\" target=\"_blank\">Connected Travel, LLC</a>",
 		"role": "Program Manager",
 		"location": "Remote",
 		"startDate": "01/18",
@@ -9,7 +9,7 @@
 		"highlights": ["Managed Beta program for a safe driving mobile application and synthesized user feedback via surveys and focus groups to improve application prior to launch",
 				"Oversaw operational success of the app which reached 15,000 registered users, 4,500 DAUs and 6,500 MAUs with a 70% retention rate (90 days)",
 				"Increased app rating from 3.7 to 4.6 in Google Play and 4.5 to 4.8 in iTunes within one month",
-				"Resolved 100% of all customer issues and defined and managed external communication channels (support, social media, marketing, app reviews, in-app messaging) with end-user community",
+				"Defined and managed external communication channels (support, social media, marketing, app reviews, in-app messaging) with end-user community",
 				"Streamlined support process to reduce resolution time of our top customer issue from 2 days to less than 24 hours",
 				"Tracked and executed the delivery of new product features for both backend management portal and front-end application with off-shore Engineering team"
 			
@@ -24,18 +24,25 @@
 		"startDate": "06/17",
 		"endDate": "12/17",
 		"highlights": ["Analyzed customer and NPS data to reduce order fulfillment costs by 30%, a core business KPI",
-				"Oversaw operational success of the app which reached 15,000 registered users, 4,500 DAUs and 6,500 MAUs with a 70% retention rate (90 days)",
 				"Hired, managed and trained 20 employees to support a 24/7 call center and order fulfillment operation",
-				"Defined new features, functions, and UI experiences based on customer feedback, click throughs and mouse tracking patterns (Analytics)",
+				"Defined new features, functions, and UI experiences based on customer feedback, click-throughs and mouse tracking patterns (Analytics)",
 				"Led cross-collaboration efforts with engineering and product teams to improve performance for AI machine learning / eCommerce platform",
-				"Created quality assurance program based on rubric, SLA’s and ticket hierarchy to benchmark customer success",
-				"Managed and reported NPS feedback to Marketing and Engineering teams to improve user experience and retention; along with marketing campaign performance against stated campaign goals"
+				"Created quality assurance program to benchmark customer success",
+				"Managed and reported NPS feedback to Marketing and Engineering teams to improve user experience and retention"
 		]
 	},
 
 	{	
 		"type": "skill",
-		"programs": ["JIRA", "Salesforce", "Zendesk", "Freshdesk", "Mixpanel", "Tableau", "PowerBI", "Basecamp", "Asana", "Slack", "Excel", "PowerPoint", "Keynote", "MailChimp", "SurveyMonkey", "Twilio", "Testflight"  
+		"programs": ["JIRA", "Salesforce", "Zendesk", "Freshdesk", "Mixpanel", "Tableau", "PowerBI", "Basecamp", "Asana", "Slack", "Excel", 
+			"PowerPoint", "Keynote", "MailChimp", "SurveyMonkey", "Twilio", "Testflight"  
 		]
+	},
+
+	{	
+		"type": "education",
+		"school": "University of Washington",
+		"major": "Economics",
+		"logo": ""
 	}
 ]

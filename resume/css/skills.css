@@ -6,9 +6,8 @@ skills {
 skills ul {
 	margin-top: 15px;
 	display: grid;
-	grid-template-columns: repeat(130px 6fr);
+	grid-template-columns: 150px 150px 150px;
 	gap: 10px;
-
 }
 
 skills li {
@@ -24,5 +23,21 @@ skills li {
 	background-color: hsla(0, 0%, 0%, 20%);
 	padding: 3px;
 	max-width: 150px;
+}
 
+skills li:hover {
+	background-color: var(--highlight);
+	color: black;
+}
+
+@media (min-width: 600px) {
+	skills ul {
+		grid-template-columns: 150px 150px 150px 150px;
+	}
+}
+
+@media (min-width: 900px) {
+	skills ul {
+		grid-template-columns: 150px 150px 150px 150px 150px;
+	}
 }
