@@ -5,16 +5,3 @@
 	box-sizing: border-box;
 }
 
-picture {
-	display: block;
-}
-
-picture img {
-	display: block;
-	width:  100%;
-	height:  auto;
-}
-
-nav {
-	height: 65px;
-}

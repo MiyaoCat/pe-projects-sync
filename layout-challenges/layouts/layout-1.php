@@ -5,33 +5,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta property="og:image" content="[IMAGE URL]">
-	<meta name="description" content="[SHORT PAGE DESCRIPTION]">
+	<meta name="description" content="Layout Challenges">
 	<title></title>
 
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 
-<?php $json = file_get_contents('data.json');
-		$infoCards = json_decode($json, true); 
+<?php 
+	$json = file_get_contents('data.json');
+	$pageData = json_decode($json, true);
 
-		function getInfoCardsByLevel ($objects, $level) {
-			$filtered = [];
+	function getPageDataByType ($items, $type) {
 
-			foreach ($objects as $object) {
-				if ($object['level'] == $level) {
-					array_push($filtered, $object);
-				}
+		$filtered = [];
+
+		foreach ($items as $item) {
+			if($item['type'] == $type) {
+				array_push($filtered, $item);
 			}
-			return $filtered;
-		}
+		} return $filtered;
+	}
 
-		$headings = getInfoCardsByLevel($infoCards, 'level');
+	$articleCard = '';
+	$imageCard = '';
 
-		function renderLevel ($headings) {
-			foreach ($headings as $object) {
-				echo $object;
-			}
-		}
+	$articleCard = getPageDataByType($pageData, 'article');
+
+	$imageCard = getPageDataByType($pageData, 'image');
+	
 ?>
 
 <body>
@@ -43,15 +44,32 @@
 
 	<main>
 		<inner-column>
-			<large-card>
-				<h2 class="loud-voice">Heading Level 2 Large</h2>
-				<p class="normal-voice">Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem.</p>
-			</large-card>
-			<grid-component>
-			<small-card>
-				<?php include('small-heading.php'); ?>
-			<small-card>
-			</grid-component>	
+
+			<full-grid>
+				<heading>
+					<?php include('header-card.php'); ?>
+				</heading>
+			
+				<article>
+					<ul class="article-list">
+						<?php foreach ($articleCard as $item) {
+					 ?>
+
+					 	<li><?php include('article-card.php') ?></li>
+					 <?php } ?>
+					</ul>
+				</article>
+			
+				<image-grid>
+					<picture>
+						<?php foreach ($imageCard as $item){
+							echo $item['img'];
+								}?>
+					</picture>
+				</image-grid>
+				
+			</full-grid>
+
 		</inner-column>
 
 	</main>

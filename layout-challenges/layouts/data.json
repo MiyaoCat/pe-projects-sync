@@ -1,38 +1,58 @@
 [
 	{	
-		"level": 2,
+		"type": "header",
 		"heading": "Heading Level 2 Large",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem."
 	},
 
 	{
-		"level": 3,
+		"type": "article",
 		"heading": "Heading Level 3 Small",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem."
 	},
 
-	{	"level": 3,	
+	{	"type": "article",	
 		"heading": "Heading Level 3 Small",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem."
 	},
 
-	{	"level": 3,
+	{	"type": "article",
 		"heading": "Heading Level 3 Small",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem."
 	},
 
-	{	"level": 3,
+	{	"type": "article",
 		"heading": "Heading Level 3 Small",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem."
 	},
 
-	{	"level": 3,
+	{	"type": "article",
 		"heading": "Heading Level 3 Small",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem."
 	},
 
-	{	"level": 3,
+	{	"type": "article",
 		"heading": "Heading Level 3 Small",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem."
+	},
+
+	{
+		"type": "image",
+		"img": "<img class=\"images\" src=\"https://peprojects.dev/images/square.jpg\">"
+	},
+
+	{
+		"type": "image",
+		"img": "<img class=\"images\" src=\"https://peprojects.dev/images/square.jpg\">"
+	},
+
+	{
+		"type": "image",
+		"img": "<img class=\"images\" src=\"https://peprojects.dev/images/square.jpg\">"
+	},
+
+	{
+		"type": "image",
+		"img": "<img class=\"images\" src=\"https://peprojects.dev/images/square.jpg\">"
 	}
 ]
