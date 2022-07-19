@@ -1,0 +1,22 @@
+body {
+	--light-blue: #d4dffd;
+	background-color:  var(--light-blue);
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+
+picture {
+	display: block;
+	padding: 10px;
+}
+
+picture img {
+	display: block;
+	width:  100%;
+	height:  auto;
+	border: 5px solid black;
+}
+
+nav {
+	height: 100px;
+}

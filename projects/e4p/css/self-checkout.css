@@ -1,0 +1,38 @@
+price, quantity {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 20px 0;
+	width: 300px;
+	height: 135px;
+	padding: 10px 0;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+}
+
+price error, quantity error {
+	width: 60%;
+}
+
+.error {
+	font-size: 1rem;
+}
+
+@media (min-width: 600px) {
+	heading {
+		width: 100%;
+	}
+	.item {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+
+	}
+	
+}

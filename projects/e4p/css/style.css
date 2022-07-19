@@ -1,61 +1,12 @@
 @import 'meyer-reset.css';
 
+@import 'settings.css';
+@import 'structure.css';
+
+@import 'self-checkout.css';
+
 * {
 	box-sizing: border-box;
-}
-
-body {
-	--light-blue: #d4dffd;
-	background-color:  var(--light-blue);
-	font-size: 20px;
-	font-family: Times New Roman;
-}
-
-picture {
-	display: block;
-	padding: 10px;
-}
-
-picture img {
-	display: block;
-	width:  100%;
-	height:  auto;
-	border: 5px solid black;
-}
-
-nav {
-	height: 100px;
-}
-
-/* STRUCTURE */
-.inner-column {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 3em;
-	max-width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0 10px;
-}
-.instructions {
-	margin: 10px;
-	padding: 5px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.intro {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 55vw;
-}
-
-/*STRUCTRE INDEX */
-.form-list li {
-	padding: 5px;
 }
 
 /* FONT STYLING */
@@ -68,7 +19,11 @@ nav {
 	text-align: center;
 }
 
-.regular-voice {
+.attention-voice {
+
+}
+
+.normal-voice {
 	text-align: center;
 }
 
@@ -87,24 +42,29 @@ a:hover {
 }
 
 input{
-   width: 100%;
+   /*width: 70%;*/
    padding: 5px;
    margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
 	border: 2px solid black;
    font-size: large;
    background-color: white;
    text-align: center;
+
 }
 
 input:focus:not(input[type="radio"]) {
-   border: none;
-   color: white;
-   background-color: black;
+   /*border: none;*/
+   color: black;
+   /*background-color: black;*/
    /*line-height: 2;*/
 }
 
+
 /* BUTTON */
 button {
+	font-size: 18px;
 	text-transform: uppercase;
 	width: 150px;
 	color: white;
@@ -118,7 +78,11 @@ button {
 
 
 }
-
+/* OUTPUT */
+sub-total, tax, grand-total {
+	display: block;
+	margin: 10px;
+}
 /* RETURNED INPUT */
 span {
 	font-weight: 700;
@@ -128,4 +92,13 @@ span {
 .length {
 	text-decoration: none;
 	color: red;
+}
+
+output {
+	font-family: monospace;
+	display: block;
+	background-color: black;
+	color: limegreen;
+	border: 2px solid grey;
+	padding: 3px;
 }
