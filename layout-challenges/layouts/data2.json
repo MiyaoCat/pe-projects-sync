@@ -31,37 +31,5 @@
 		"heading": "Heading Level 3 Small",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem.",
 		"thumbnail": "https://peprojects.dev/images/circle.png"
-	},
-
-	{	"type": "article",
-		"heading": "Heading Level 3 Small",
-		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem.",
-		"thumbnail": "https://peprojects.dev/images/circle.png"
-	},
-
-	{	"type": "article",
-		"heading": "Heading Level 3 Small",
-		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem.",
-		"thumbnail": "https://peprojects.dev/images/circle.png"
-	},
-
-	{
-		"type": "image",
-		"img": "<img class=\"images\" src=\"https://peprojects.dev/images/square.jpg\">"
-	},
-
-	{
-		"type": "image",
-		"img": "<img class=\"images\" src=\"https://peprojects.dev/images/square.jpg\">"
-	},
-
-	{
-		"type": "image",
-		"img": "<img class=\"images\" src=\"https://peprojects.dev/images/square.jpg\">"
-	},
-
-	{
-		"type": "image",
-		"img": "<img class=\"images\" src=\"https://peprojects.dev/images/square.jpg\">"
 	}
 ]

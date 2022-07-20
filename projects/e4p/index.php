@@ -24,7 +24,7 @@
 				<li class="regular-voice"><a href="forms/hello/index.php">Say Hello</a></li>
 				<li class="regular-voice">
 					<a href="forms/count-characters.php">Character Count</a></li>
-				<li class="regular-voice"><a href="forms/simple-math.php">Simple Math</a></li>
+				<li class="regular-voice"><a href="forms/self-checkout.php">Self-checkout</a></li>
 			</ul>
 		</section>
 

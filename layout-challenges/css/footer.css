@@ -1,5 +1,6 @@
 /* - - - FOOTER - - - */
 footer {
+	padding-top: 60px;
 	padding-bottom: 90px;
 	min-height: 20vh;
 }
@@ -31,5 +32,6 @@ footer p {
 .socials :is(.twitter, .substack, .linkedin):hover {
 	transform: scale(1.2);
 	transition: .5s;
+	fill: var(--highlight);
 }
 

@@ -1,9 +1,9 @@
 
-	<div class="logo">
-		<a href='#'>
+	<!-- <div class="logo"> -->
+		<!-- <a href='#'>
 			<?php include('images/miyao-mon.php') ?>
-		</a>
-	</div>
+		</a> -->
+	<!-- </div> -->
 
 	<nav>
 		<ul>

@@ -7,10 +7,11 @@
 		</div>
 				
 		<div class="substack">
-		<?php include('images/substack.php'); ?>
+			<?php include('images/substack.php'); ?>
 		</div>
+		
 		<div class="linkedin">
-		<?php include('images/linkedin.php'); ?>
+			<?php include('images/linkedin.php'); ?>
 		</div>
 	</div>
 	

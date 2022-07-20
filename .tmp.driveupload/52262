@@ -27,9 +27,12 @@
 	}
 
 	$articleCard = '';
+	$headingCard = '';
 	$imageCard = '';
 
 	$articleCard = getPageDataByType($pageData, 'article');
+
+	$headingCard = getPageDataByType($pageData, 'header');
 
 	$imageCard = getPageDataByType($pageData, 'image');
 	
@@ -47,26 +50,25 @@
 
 			<full-grid>
 				<heading>
-					<?php include('header-card.php'); ?>
+					<?php foreach ($headingCard as $item) { ?>	
+					 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
+					 	<p class="quiet-voice"><?=$item['text'];?></p>
+					 <?php } ?>
 				</heading>
 			
 				<article>
 					<ul class="article-list">
-						<?php foreach ($articleCard as $item) {
-					 ?>
-
-					 	<li><?php include('article-card.php') ?></li>
+						<?php foreach ($articleCard as $item) { ?>	
+					 	<thumbnail>
+					 		<img src="<?=$item['thumbnail']?>" alt="">
+					 	<thumbnail>	
+					 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
+					 	<p class="quiet-voice"><?=$item['text'];?></p>
 					 <?php } ?>
 					</ul>
 				</article>
 			
-				<image-grid>
-					<picture>
-						<?php foreach ($imageCard as $item){
-							echo $item['img'];
-								}?>
-					</picture>
-				</image-grid>
+				
 				
 			</full-grid>
 
