@@ -65,23 +65,24 @@
 			</intro>
 		
 			<article>
-				
 
-					<div class="article-list">
-						
-						<?php foreach ($articleCard as $item) { ?>	
-					 	<article-card>
-						 	<icon>
-						 		<?php include("../images/icon.php"); ?>
-						 	</icon>	
-						 	<h3 class="attention-voice"><?=$item['heading'];?></h3>
-						 	<p class="quiet-voice"><?=$item['text'];?></p>
-						 <?php } ?>
-					 </article-card>
+				<ul class="article-list">
+					<?php foreach ($articleCard as $item) { ?>	
+				 	
+				 	<li class="article-card">
+				 		<icon>
+				 		<?php include("../images/icon.php"); ?>
+				 		</icon>
+				 
 
-					</div>
+				 	<h3 class="attention-voice"><?=$item['heading'];?></h3>
+				 	
 
-				
+				 	<p class="quiet-voice"><?=$item['text'];?></p>
+				 	</li>
+					 <?php } ?>
+				</ul>
+
 			</article>
 
 
