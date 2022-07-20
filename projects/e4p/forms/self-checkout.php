@@ -189,7 +189,7 @@
 
 						<?php if($valueError) {?>
 						<error>
-						<p class="error normal-voice"><?=$valueError?></p>
+							<p class="error normal-voice"><?=$valueError?></p>
 						</error>
 						<?php } ?>	
 					</quantity>		
@@ -206,7 +206,7 @@
 
 						<?php if($priceValueError) {?>
 						<error>
-						<p class="error normal-voice"><?=$priceValueError?></p>
+							<p class="error normal-voice"><?=$priceValueError?></p>
 						</error>
 						<?php } ?>	
 
@@ -228,7 +228,7 @@
 
 						<?php if($valueError2) {?>
 						<error>
-						<p class="error normal-voice"><?=$valueError2?></p>
+							<p class="error normal-voice"><?=$valueError2?></p>
 						</error>
 						<?php } ?>	
 					</quantity>		
@@ -245,7 +245,7 @@
 
 						<?php if($priceValueError2) {?>
 						<error>
-						<p class="error normal-voice"><?=$priceValueError2?></p>
+							<p class="error normal-voice"><?=$priceValueError2?></p>
 						</error>
 						<?php } ?>	
 
@@ -265,7 +265,7 @@
 
 						<?php if($valueError3) {?>
 						<error>
-						<p class="error normal-voice"><?=$valueError3?></p>
+							<p class="error normal-voice"><?=$valueError3?></p>
 						</error>
 						<?php } ?>	
 					</quantity>		
@@ -282,7 +282,7 @@
 
 						<?php if($priceValueError3) {?>
 						<error>
-						<p class="error normal-voice"><?=$priceValueError3?></p>
+							<p class="error normal-voice"><?=$priceValueError3?></p>
 						</error>
 						<?php } ?>	
 
