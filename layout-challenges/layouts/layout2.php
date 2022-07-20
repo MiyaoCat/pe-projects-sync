@@ -74,11 +74,9 @@
 				 		<?php include("../images/icon.php"); ?>
 				 		</icon>
 				 
+				 		<h3 class="attention-voice"><?=$item['heading'];?></h3>
 
-				 	<h3 class="attention-voice"><?=$item['heading'];?></h3>
-				 	
-
-				 	<p class="quiet-voice"><?=$item['text'];?></p>
+				 		<p class="quiet-voice"><?=$item['text'];?></p>
 				 	</li>
 					 <?php } ?>
 				</ul>

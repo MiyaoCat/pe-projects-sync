@@ -1,4 +1,0 @@
-.parent {
-	display: grid; 
-	gap:
-}

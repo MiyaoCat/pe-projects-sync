@@ -49,7 +49,7 @@ excerpt-text {
 	}
 
 	excerpt-text {
-		background-color: var(--accent-color);
+		background-color: var(--highlight);
 		max-width: 55%;
 		padding: 30px 15px;
 		margin-top: 40px;
