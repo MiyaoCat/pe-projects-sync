@@ -10,6 +10,8 @@
 
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
+
 <body>
 	<header class="site-header">
 		<inner-column>
@@ -18,9 +20,17 @@
 	</header>
 
 	<main>
-		<inner-column>
-			
-		</inner-column>
+		<section class="layout1">
+			<inner-column>
+				<?php include('layouts/layout1.php'); ?>
+			</inner-column>
+		</section>
+
+		<section class="layout2">
+			<inner-column>
+				<?php include('layouts/layout2.php'); ?>
+			</inner-column>
+		</section>
 
 	</main>
 

@@ -12,8 +12,8 @@
 @import 'typography.css';
 
 /* LAYOUT PAGES */
-/*@import 'layout1.css';*/
-@import 'layout2.css';
+@import 'layouts/layout1.css';
+@import 'layouts/layout2.css';
 
 /* Sections and more stuff */
 @import 'footer.css';
