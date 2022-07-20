@@ -30,7 +30,7 @@
 	$imageCard = '';
 
 	$articleCard = getPageDataByType($pageData, 'article');
-	$headingCard = getPageDataByType($pageData, 'header');
+	$introCard = getPageDataByType($pageData, 'header');
 	$imageCard = getPageDataByType($pageData, 'image');
 	
 ?>
@@ -43,39 +43,39 @@
 	</header>
 
 	<main>
-		<inner-column>
-
-			<full-grid>
-				<heading>
-					<?php foreach ($headingCard as $item) { ?>	
-					 	<h2 class="loud-voice"><?=$item['heading'];?></h2>
-					 	<p class="quiet-voice"><?=$item['text'];?></p>
-					 <?php } ?>
-				</heading>
+		<full-grid>
+				<intro>
+					<inner-column>
+						<?php foreach ($introCard as $item) { ?>	
+						 	<h2 class="loud-voice"><?=$item['heading'];?></h2>
+						 	<p class="quiet-voice"><?=$item['text'];?></p>
+						 <?php } ?>
+					</inner-column>
+				</intro>
 			
 				<article>
-					<ul class="article-list">
+					<inner-column>
 						<?php foreach ($articleCard as $item) {
-					 ?>	
-
-					 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
-					 	<p class="quiet-voice"><?=$item['text'];?></p>
-					 <?php } ?>
-					</ul>
+						 ?>	
+						<ul class="article-list">
+						 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
+						 	<p class="quiet-voice"><?=$item['text'];?></p>
+						</ul>
+						<?php } ?>
+					</inner-column>
 				</article>
 			
 				<image-grid>
-					<picture>
-						<?php foreach ($imageCard as $item){
-							echo $item['img'];
-								}?>
-					</picture>
+					<inner-column>
+						<picture>
+							<?php foreach ($imageCard as $item){ ?>
+								<img class='images' src="<?=$item['img'];?>">
+							<?php	} ?>
+						</picture>
+					</inner-column>
 				</image-grid>
-				
-			</full-grid>
 
-		</inner-column>
-
+		</full-grid>
 	</main>
 
 	<footer>

@@ -1,8 +1,7 @@
-heading {
-	display: block;
+intro {
 	padding: 40px 0;
 }
 
-heading p {
+intro p {
 	margin-top: 10px;
 }

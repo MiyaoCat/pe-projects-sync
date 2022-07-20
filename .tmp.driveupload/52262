@@ -12,7 +12,7 @@
 </head>
 
 <?php 
-	$json = file_get_contents('data.json');
+	$json = file_get_contents('data2.json');
 	$pageData = json_decode($json, true);
 
 	function getPageDataByType ($items, $type) {
@@ -36,6 +36,7 @@
 
 	$imageCard = getPageDataByType($pageData, 'image');
 	
+	$bodyCard = getPageDataByType($pageData, 'body');
 ?>
 
 <body>
@@ -46,33 +47,33 @@
 	</header>
 
 	<main>
-		<inner-column>
+		
 
 			<full-grid>
-				<heading>
-					<?php foreach ($headingCard as $item) { ?>	
-					 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
-					 	<p class="quiet-voice"><?=$item['text'];?></p>
-					 <?php } ?>
-				</heading>
-			
-				<article>
-					<ul class="article-list">
-						<?php foreach ($articleCard as $item) { ?>	
-					 	<thumbnail>
-					 		<img src="<?=$item['thumbnail']?>" alt="">
-					 	<thumbnail>	
-					 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
-					 	<p class="quiet-voice"><?=$item['text'];?></p>
-					 <?php } ?>
-					</ul>
-				</article>
-			
+				<inner-column>
+					<intro>
+						<?php foreach ($headingCard as $item) { ?>	
+						 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
+						 	<p class="quiet-voice"><?=$item['text'];?></p>
+						 <?php } ?>
+					</intro>
 				
+					<article>
+						<ul class="article-list">
+							<?php foreach ($articleCard as $item) { ?>	
+						 	<thumbnail>
+						 		<img src="<?=$item['thumbnail']?>" alt="">
+						 	<thumbnail>	
+						 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
+						 	<p class="quiet-voice"><?=$item['text'];?></p>
+						 <?php } ?>
+						</ul>
+					</inner-column>
+				</article>
 				
 			</full-grid>
 
-		</inner-column>
+		
 
 	</main>
 

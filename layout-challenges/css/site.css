@@ -11,9 +11,11 @@
 /* Typography */
 @import 'typography.css';
 
+/* LAYOUT PAGES */
+@import 'layout1.css';
+@import 'layout2.css';
 
 /* Sections and more stuff */
-@import 'main.css';
 @import 'footer.css';
 @import 'header.css';
 
