@@ -21,6 +21,9 @@ price error, quantity error {
 .error {
 	font-size: 1rem;
 }
+.return-values {
+	text-align: right;
+}
 
 @media (min-width: 600px) {
 	heading {

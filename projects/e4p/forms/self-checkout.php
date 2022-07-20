@@ -19,21 +19,21 @@
 
 	<main>
 		<heading>
-			<h1 class="loud-voice">Calculate Your Total Purchase</h1>
+			<h1 class="loud-voice"><a href="?">Calculate Your Total Purchase</h1></a>
 		</heading>
 
 
 		<inner-column>
 			<?php 
 			//prompt for the prices and quatities of 3 items
-				$quantity = 200; //number provided by user
-				$price = 105; //number provided by user
+				$quantity = ""; //number provided by user
+				$price = ""; //number provided by user
 
-				$quantity2 = 1; 
-				$price2 = 10;
+				$quantity2 = ""; 
+				$price2 = "";
 
-				$quantity3 = 1; 
-				$price3 = 10;
+				$quantity3 = ""; 
+				$price3 = "";
 				
 				$taxRate = .1025; //tax rate 10.25% = .1025
 				$total = "";
@@ -70,72 +70,84 @@
 					}
 				}
 
-				// if ( isset($_POST['price']) ) {
-				// 	$price = $_POST['price'];
+				if ( isset($_POST['price']) ) {
+					$price = $_POST['price'];
 
-				// 	if ($price > 0) {
-				// 		$hasPrice = true;
-				// 	} else {
-				// 		$priceValueError = "If it doesn't have a price, then it's free!";
-				// 	}
+					if ( empty($price) ) {
+						$price = 0;
+					}
+
+					if ($price > 0) {
+						$hasPrice = true;
+					} else {
+						$priceValueError = "If it doesn't have a price, then it's free!";
+					}
 					
-				// }
+				}
 
-				// if ( isset($_POST['quantity2']) ) {
-				// 	$quantity2 = $_POST['quantity2'];
+				if ( isset($_POST['quantity2']) ) {
+					$quantity2 = $_POST['quantity2'];
 					
-				// 	if ($quantity2 > 0 ) {
-				// 		$hasQuantity2 = true;
-				// 	} else {
-				// 		$valueError2 = "If you don't buy anything, you don't owe anything. Enter a quantity!";
-				// 	}
-				// }
 
-				// if ( isset($_POST['price2']) ) {
-				// 	$price2 = $_POST['price2'];
+					if ( empty($quantity2) ) {
+						$quantity2 = 0;
+					}
 
-				// 	if ($price2 > 0) {
-				// 		$hasPrice2 = true;
-				// 	} else {
-				// 		$priceValueError2 = "If it doesn't have a price, then it's free!";
-				// 	}					
-				// }
+					if ($quantity2 > 0 ) {
+						$hasQuantity2 = true;
+					} else {
+						$valueError2 = "If you don't buy anything, you don't owe anything. Enter a quantity!";
+					}
+				}
 
-				// if ( isset($_POST['quantity3']) ) {
-				// 	$quantity3 = $_POST['quantity3'];
+				if ( isset($_POST['price2']) ) {
+					$price2 = $_POST['price2'];
+
+
+					if ( empty($price2) ) {
+						$price2 = 0;
+					}
+
+					if ($price2 > 0) {
+						$hasPrice2 = true;
+					} else {
+						$priceValueError2 = "If it doesn't have a price, then it's free!";
+					}					
+				}
+
+				if ( isset($_POST['quantity3']) ) {
+					$quantity3 = $_POST['quantity3'];
 					
-				// 	if ($quantity3 > 0 ) {
-				// 		$hasquantity3 = true;
-				// 	} else {
-				// 		$valueError3 = "If you don't buy anything, you don't owe anything. Enter a quantity!";
-				// 	}
-				// }
 
-				// if ( isset($_POST['price3']) ) {
-				// 	$price3 = $_POST['price3'];
+					if ( empty($quantity3) ) {
+						$quantity3 = 0;
+					}
 
-				// 	if ($price3 > 0) {
-				// 		$hasprice3 = true;
-				// 	} else {
-				// 		$priceValueError3 = "If it doesn't have a price, then it's free!";
-				// 	}
+					if ($quantity3 > 0 ) {
+						$hasquantity3 = true;
+					} else {
+						$valueError3 = "If you don't buy anything, you don't owe anything. Enter a quantity!";
+					}
+				}
+
+				if ( isset($_POST['price3']) ) {
+					$price3 = $_POST['price3'];
+
+
+					if ( empty($price3) ) {
+						$price3 = 0;
+					}
+
+					if ($price3 > 0) {
+						$hasprice3 = true;
+					} else {
+						$priceValueError3 = "If it doesn't have a price, then it's free!";
+					}
 					
-				// }
+				}
+
 				
-				// $subTotal = ($quantity * $price) + ($quantity2 * $price2) + ($quantity3 * $price3);
-
-				// $formattedSubTotal = number_format($subTotal, 2);
-
-				// $formatted = $taxRate * 100;
-
-				// $taxTotal = $tax * $formattedSubTotal;
-
-				// $formattedTaxTotal = number_format($taxTotal, 2);
-
-				// $grandTotal = ($subTotal) * $tax + ($subTotal);
-
-				// $formattedGrandTotal = number_format(round($grandTotal, 2), 2, '.', ',');
-
+				
 
 				//subtotal (add all quantities)
 				$subTotal = ($quantity * $price) + ($quantity2 * $price2) + ($quantity3 * $price3);
@@ -146,18 +158,19 @@
 				//total (subtotal + tax)
 				$total = $subTotal + $tax;
 
-				//formatted tax rate
-				$formattedTaxRate = number_format($tax, 2);
+				//formatted tax total
+				$tax = number_format($subTotal * $taxRate, 2);
 
 				//formatted subtotal
 				$formattedSubTotal = number_format($subTotal, 2);
 
 				//formatted tax
-				$formattedTax = number_format($taxRate);
+				$formattedTax = ($taxRate * 100);
 
-				//formatted total
-				$formattedTotal = number_format($total, 2);
+				//grand total
+				$grandTotal= number_format($subTotal + $tax, 2);
 			}	
+
 
 			?>
 			
@@ -275,10 +288,19 @@
 
 					</price>
 				</div>
-				
+				<?php 
+				// $formattedTaxRate = 0;
+				$tax = "";
+				$formattedTax = $taxRate * 100;
+				// $formattedTotal = 0; 
+				// $formattedTaxTotal = 0;
+				// $formattedSubTotal = 0;
+				// $formattedGrandTotal = 0;
+				 ?>
+
 				<div class="return-values">
 					<tax>
-						<p class="normal-voice">The Washington State sales tax rate is <?=$formattedTaxRate?>						
+						<p class="normal-voice">The Washington State sales tax rate is <?=$formattedTax?>%						
 						</p>
 					</tax>	
 
@@ -289,14 +311,14 @@
 					</sub-total>
 
 					<tax-total>
-						<?php if ($formattedTax) { ?>
-							<p class="normal-voice">Tax total: $<?=$formattedTax?></p>
+						<?php if ($tax) { ?>
+							<p class="normal-voice">Tax total: $<?=$tax?></p>
 						<?php } ?>	
 					</tax-total>
 
 					<grand-total>
-						<?php if($formattedTotal > 0){ ?>
-							<p class="normal-voice">Your grand total is: $<?=$formattedTotal?></p>
+						<?php if($grandTotal > 0){ ?>
+							<p class="normal-voice">Your grand total is: $<?=$grandTotal?></p>
 						<?php } ?>
 
 					</grand-total>
@@ -329,7 +351,7 @@
 					<p> Item 3 sub-total: <?php echo ($quantity3 * $price3) ?></p>
 				</total>	
 				<total>
-					<p>Tax rate: <?=$tax * 100?></p>
+					<p>Tax rate: <?=$formattedTax?></p>
 				</total>
 				<total>
 					<p> Grand Total: <?=$formattedGrandTotal?></p>
