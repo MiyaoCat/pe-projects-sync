@@ -14,6 +14,8 @@
 /* LAYOUT PAGES */
 @import 'layouts/layout1.css';
 @import 'layouts/layout2.css';
+@import 'layouts/layout3.css';
+@import 'layouts/layout4.css';
 
 /* Sections and more stuff */
 @import 'footer.css';

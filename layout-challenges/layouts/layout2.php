@@ -1,107 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<meta property="og:image" content="[IMAGE URL]">
-	<meta name="description" content="Layout Challenges">
-	<title></title>
-
-	<link rel="stylesheet" href="../css/style.css">
-</head>
 
 <?php 
-	$json = file_get_contents('data2.json');
-	$pageData = json_decode($json, true);
+	$json2 = file_get_contents('data/data2.json');
+	$pageData2 = json_decode($json, true);
 
-	function getPageDataByType ($items, $type) {
+	function getPageDataByType2 ($items2, $type2) {
 
-		$filtered = [];
+		$filtered2 = [];
 
-		foreach ($items as $item) {
-			if($item['type'] == $type) {
-				array_push($filtered, $item);
+		foreach ($items2 as $item2) {
+			if($item2['type'] == $type2) {
+				array_push($filtered2, $item2);
 			}
-		} return $filtered;
+		} return $filtered2;
 	}
 
-	$articleCard = '';
-	$imageCard = '';
+	$articleCard2 = '';
+	$imageCard2 = '';
+	$excerpt2 = '';
 
-	$articleCard = getPageDataByType($pageData, 'article');
-	$headingCard = getPageDataByType($pageData, 'header');
-	$imageCard = getPageDataByType($pageData, 'image');
-	$excerpts = getPageDataByType($pageData, 'excerpt');
+	$articleCard2 = getPageDataByType2($pageData2, 'article');
+	$headingCard2 = getPageDataByType2($pageData2, 'header');
+	$imageCard2 = getPageDataByType2($pageData2, 'image');
+	$excerpt2 = getPageDataByType2($pageData2, 'excerpt');
 ?>
 
-<body>
-	<header>
-		<inner-column class="site-header">
-			<?php include('../header.php'); ?>
-		</inner-column>
-	</header>
 
-	<main>
+<intro>
+	<?php foreach ($headingCard2 as $item2) { ?>
+		<p class="teaser normal-voice">
+			<?=$item2['teaser'];?>
+		</p>	
 
-		<full-grid>
-			<inner-column>
-			<intro>
-				
-				<?php foreach ($headingCard as $item) { ?>
-					<p class="teaser normal-voice">
-						<?=$item['teaser'];?>
-					</p>	
+	 	<h2 class="intro attention-voice">
+	 		<?=$item2['heading'];?>
+	 	</h2>
 
-				 	<h2 class="intro attention-voice">
-				 		<?=$item['heading'];?>
-				 	</h2>
+	 	<p class="intro normal-voice">
+	 		<?=$item2['text'];?>
+		</p>
+	<?php } ?>
+</intro>
 
-				 	<p class="intro normal-voice">
-				 		<?=$item['text'];?>
-					</p>
-				<?php } ?>
-				
-			</intro>
-		
-			<article>
+<article>
+	<ul class="article-list">
+		<?php foreach ($articleCard2 as $item2) { ?>	
+	 	
+	 	<li class="article-card">
+	 		<icon>
+	 		<?php include("./images/circle.php"); ?>
+	 		</icon>
+	 
+	 		<h3 class="attention-voice"><?=$item2['heading'];?></h3>
 
-				<ul class="article-list">
-					<?php foreach ($articleCard as $item) { ?>	
-				 	
-				 	<li class="article-card">
-				 		<icon>
-				 		<?php include("../images/icon.php"); ?>
-				 		</icon>
-				 
-				 		<h3 class="attention-voice"><?=$item['heading'];?></h3>
-
-				 		<p class="quiet-voice"><?=$item['text'];?></p>
-				 	</li>
-					 <?php } ?>
-				</ul>
-
-			</article>
+	 		<p class="quiet-voice"><?=$item2['text'];?></p>
+	 	</li>
+		 <?php } ?>
+	</ul>
+</article>
 
 
-			<excerpt-text>
-				<div class="line"><p></p></div>
-		
-					<?php foreach ($excerpts as $excerpt) {?>
-						<p class="quiet-voice"><?=$excerpt['text']?></p>
-					<?php } ?>	
-				
-			</excerpt-text>
-			</inner-column>
-		</full-grid>
-
-	</main>
-
-	<footer>
-		<inner-column>
-			<?php include('../footer.php'); ?>
-		</inner-column>
-	</footer>
-	
-</body>
-</html>
+<excerpt>
+	<p class="quiet-voice">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus id cupiditate repellendus, officiis, iusto saepe.</p>
+		<!-- <?php foreach ($excerpt2 as $item2) {?>
+			<p class="quiet-voice"><?=$item2['text']?></p>
+		<?php } ?>	 -->
+</excerpt>
+			

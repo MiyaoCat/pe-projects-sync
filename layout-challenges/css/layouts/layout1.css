@@ -1,3 +1,11 @@
+.layout1 intro {
+	padding: 40px 0;
+}
+
+.layout1 intro p {
+	margin-top: 10px;
+}
+
 .layout1 grid-component {
 	display: grid;
 	gap: 10px;

@@ -32,6 +32,17 @@
 			</inner-column>
 		</section>
 
+		<section class="layout3">
+			<!-- <inner-column> -->
+				<?php include('layouts/layout3.php'); ?>
+			<!-- </inner-column> -->
+		</section>
+
+		<section class="layout4">
+			<inner-column>
+				<?php include('layouts/layout4.php'); ?>
+			</inner-column>
+		</section>
 	</main>
 
 	<footer>
