@@ -27,16 +27,12 @@
 	}
 
 	$articleCard = '';
-	$headingCard = '';
 	$imageCard = '';
 
 	$articleCard = getPageDataByType($pageData, 'article');
-
 	$headingCard = getPageDataByType($pageData, 'header');
-
 	$imageCard = getPageDataByType($pageData, 'image');
-	
-	$bodyCard = getPageDataByType($pageData, 'body');
+	$excerpts = getPageDataByType($pageData, 'excerpt');
 ?>
 
 <body>
@@ -47,33 +43,58 @@
 	</header>
 
 	<main>
-		
 
-			<full-grid>
-				<inner-column>
-					<intro>
-						<?php foreach ($headingCard as $item) { ?>	
-						 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
+		<full-grid>
+			<inner-column>
+			<intro>
+				
+				<?php foreach ($headingCard as $item) { ?>
+					<p class="teaser normal-voice">
+						<?=$item['teaser'];?>
+					</p>	
+
+				 	<h2 class="intro attention-voice">
+				 		<?=$item['heading'];?>
+				 	</h2>
+
+				 	<p class="intro normal-voice">
+				 		<?=$item['text'];?>
+					</p>
+				<?php } ?>
+				
+			</intro>
+		
+			<article>
+				
+
+					<div class="article-list">
+						
+						<?php foreach ($articleCard as $item) { ?>	
+					 	<article-card>
+						 	<icon>
+						 		<?php include("../images/icon.php"); ?>
+						 	</icon>	
+						 	<h3 class="attention-voice"><?=$item['heading'];?></h3>
 						 	<p class="quiet-voice"><?=$item['text'];?></p>
 						 <?php } ?>
-					</intro>
-				
-					<article>
-						<ul class="article-list">
-							<?php foreach ($articleCard as $item) { ?>	
-						 	<thumbnail>
-						 		<img src="<?=$item['thumbnail']?>" alt="">
-						 	<thumbnail>	
-						 	<h2 class="attention-voice"><?=$item['heading'];?></h2>
-						 	<p class="quiet-voice"><?=$item['text'];?></p>
-						 <?php } ?>
-						</ul>
-					</inner-column>
-				</article>
-				
-			</full-grid>
+					 </article-card>
 
+					</div>
+
+				
+			</article>
+
+
+			<excerpt-text>
+				<div class="line"><p></p></div>
 		
+					<?php foreach ($excerpts as $excerpt) {?>
+						<p class="quiet-voice"><?=$excerpt['text']?></p>
+					<?php } ?>	
+				
+			</excerpt-text>
+			</inner-column>
+		</full-grid>
 
 	</main>
 

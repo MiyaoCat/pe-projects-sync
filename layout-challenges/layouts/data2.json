@@ -2,7 +2,7 @@
 	{	
 		"type": "header",
 		"teaser": "Little teaser",
-		"heading": "Heading Level 2 Large",
+		"heading": "Heading Level 2 Small",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem.",
 		"thumbnail": "https://peprojects.dev/images/circle.png"
 	},
@@ -31,5 +31,9 @@
 		"heading": "Heading Level 3 Small",
 		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem.",
 		"thumbnail": "https://peprojects.dev/images/circle.png"
+	},
+
+	{	"type": "excerpt",
+		"text": "Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iusto et iure, commodi distinctio, alias quidem."
 	}
-]
+]	

@@ -33,30 +33,36 @@ a:hover {
 /* Header text or similar */
 .loud-voice {
 	font-family:  var(--sans-serif);
-	font-size: 26px;
+	font-size: 1.4rem;
 	font-weight: 700;
 }
 /* Sub-header text or similar */
 .attention-voice {
 	font-family:  var(--sans-serif);
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 1.4rem;
+	line-height: 1.2em;
 }
 
 /* Paragraph text or similar */
 .normal-voice {
 	font-family:  var(--sans-serif);
+	font-size: 1.2rem;
+	line-height: 1.2em;
 }
 
 /* Caption text or similar */
 .calm-voice {
 	font-family:  var(--sans-serif);
+	line-height: 1.6rem;
 }
 
 /* Fine print text or similar */
 .quiet-voice {
-
+	font-family:  var(--sans-serif);
+	line-height: 1.4em;
 }
+
 @media (min-width: 600px) {
 	.loud-voice {
 	

@@ -12,9 +12,14 @@ html {
 	--wide: 90vw;
 
 	--paper: hsl(37, 32%, 92%); /* light brown */
-
 	--ink: black;
+
 	--highlight: hsl(360, 100%, 39%); /* red */
+	--accent-color: ##33006f;  /* dark purple */
+
+	--think: 5px;
+	--thin: 2px;
+	--pencil: 1px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +27,7 @@ html {
 		--paper: hsl(28, 17%, 30%); /* dark brown */
 		--ink: white;
 		--highlight: yellow;
+		--accent-color: #4b2e84; /* light purple */
 	}
 
 	.logo {

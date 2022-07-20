@@ -12,7 +12,7 @@
 @import 'typography.css';
 
 /* LAYOUT PAGES */
-@import 'layout1.css';
+/*@import 'layout1.css';*/
 @import 'layout2.css';
 
 /* Sections and more stuff */
@@ -20,7 +20,6 @@
 @import 'header.css';
 
 @import 'header-card.css';
-@import 'article-card.css';
 
 /* then other contextual styles */
 
