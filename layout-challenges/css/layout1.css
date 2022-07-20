@@ -52,9 +52,13 @@ thumbnail img {
 }
 
 @media (min-width: 900px) {
+
 	full-grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+		width: var(--wide);
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	intro {
