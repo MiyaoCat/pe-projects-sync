@@ -4,6 +4,7 @@
 @import 'structure.css';
 
 @import 'self-checkout.css';
+@import 'pizza-party.css';
 
 * {
 	box-sizing: border-box;
