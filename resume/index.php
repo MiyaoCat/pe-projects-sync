@@ -29,6 +29,7 @@
 	$jobs = getResumeItemsbyType($resumeData, 'job');
 	
 	$education = getResumeItemsbyType($resumeData, 'education');
+	
 	function renderJobs ($jobs) {
 		foreach ($jobs as $item) {
 			include('experience-card.php');

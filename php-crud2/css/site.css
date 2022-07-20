@@ -5,6 +5,7 @@
 /* VARIABLE CSS ETC */
 @import 'settings.css'; 
 @import 'site-menu.css';
+@import 'detail.css';
 
 
 * {
@@ -13,7 +14,6 @@
 
 body * {
 	border:  1px solid rgba(0,0,0,.5);
-	padding: 5px;
 	margin: 5px;
 }
 body {
@@ -42,8 +42,8 @@ picture {
 
 picture img {
 	display: block;
-	width:  300px;
 	height:  auto;
+	max-width: 400px;
 }
 
 test-area {

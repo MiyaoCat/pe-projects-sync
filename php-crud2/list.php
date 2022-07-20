@@ -8,6 +8,12 @@
 		$sport = false;
 	}
 	
+	if ( isset($_GET["college"]) ) {
+		$college = $_GET["college"];
+	} else {
+		$college = false;
+	}
+
 	if ($sport) {
 		$filtered = [];
 		foreach ($players as $player) {
@@ -18,6 +24,19 @@
 
 		$players = $filtered;
 	} 
+
+	$filteredbyCollege = [];
+
+	if ($college) {
+		foreach ($players as $player) {
+			if ($player['college'] == $_GET['college']) {
+				array_push($filteredbyCollege, $player);
+			}
+		}
+
+	$players = $filteredbyCollege;	
+	} 	
+
  ?>
 
 <h1>List Page</h1>
@@ -31,11 +50,16 @@
 				<?=$player['lastName']?>
 			</h2> 
 
-			<h3 class="attention-voice">Sport: </h3>
-			<a class="sport" href="?page=list&sport=<?=$player['sport']?>"><?=$player['sport']?>
-			</a>
-		
-
+			<h3 class="attention-voice">Sport: 
+				<a class="sport" href="?page=list&sport=<?=$player['sport']?>"><?=$player['sport']?>
+				</a>
+			</h3>
+			
+			<h3 class="attention-voice">College: 
+				<a class="college" href="?page=list&college=<?=$player['college']?>"><?=$player['college']?>
+				</a>
+			</h3>
+			
 			<a class="attention-voice" href="?page=detail&slug=<?=$player['slug']?>">
 				Player Bio
 			</a>

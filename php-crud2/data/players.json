@@ -16,7 +16,7 @@
             "mvp",
             "all star"
         ],
-        "portrait": "./images/dougchristie.png"
+        "portrait": "./images/doug-christie.png"
     },
     {
         "id": "002",
@@ -35,7 +35,7 @@
             "mvp",
             "all star"
         ],
-        "portrait": "./images/jamalcrawford.png"
+        "portrait": "./images/jamal-crawford.png"
     },
     {
         "id": "003",
@@ -54,7 +54,7 @@
             "mvp",
             "all star"
         ],
-        "portrait": "./images/isaiahthomas.png"
+        "portrait": "./images/isaiah-thomas.png"
     },
     {
         "id": "004",
@@ -72,7 +72,7 @@
         [
             "all star"
         ],
-        "portrait": "./images/taylorrapp.png"
+        "portrait": "./images/taylor-rapp.png"
     },
     {
         "id": "005",
@@ -92,6 +92,13 @@
             "all star",
             "6th man"
         ],
-        "portrait": "./images/buddabaker.png"
+        "portrait": "./images/budda-baker.png"
+    },
+    {
+        "id": "a_62d4fd73b78eb",
+        "firstName": "test",
+        "lastName": "Miyao",
+        "slug": "test-miyao",
+        "sport": false
     }
 ]

@@ -1,66 +1,64 @@
 <?php 
+ 
+	$firstName = "";
+	$firstNameError = false;
+	$hasFirstName = false;
+	$firstNameMessage = "";
 
+	$lastName = "";
+	$lastNameError = false;
+	$haslastName = false;
+	$lastNameMessage = "";
 
-$firstName = "";
-$firstNameError = false;
-$hasFirstName = false;
-$firstNameMessage = "";
+	
 
-$lastName = "";
-$lastNameError = false;
-$haslastName = false;
-$lastNameMessage = "";
+	//check if the form is submitted (did user click submit button?)		
+	function allFieldsFull($fields) {
+		foreach ($fields as $field) {
+			
+			if ( !isset($_POST[$field]) ) {
+				return false;
+				exit;
+			} 
+		}	
+		return true;
 
-//check if the form is submitted (did user click submit button?)		
-function allFieldsFull($fields) {
-	foreach ($fields as $field) {
-		
-		if ( !isset($_POST[$field]) ) {
-			return false;
-			exit;
-		} 
 	}	
-	return true;
+	$fieldsToCheck = ['firstName', 'lastName', 'sport'];
 
-}	
-$fieldsToCheck = ['firstName'];
+	allFieldsFull($fieldsToCheck);
 
-allFieldsFull($fieldsToCheck);
+	if ( isset($_POST["submitted"]) ) {
+		if ( allFieldsFull($fieldsToCheck) ) {
 
-if ( isset($_POST["submitted"]) ) {
-	if ( allFieldsFull($fieldsToCheck) ) {
+			//get the current JSON database (Convert JSON to PHP)
+			$json = file_get_contents("data/players.json");
+			$playersData = json_decode($json, true);
 
-		//get the current JSON database (Convert JSON to PHP)
-		$json = file_get_contents("data/players.json");
-		$playersData = json_decode($json, true);
+			$firstName = $_POST['firstName'];
+			$lastName = $_POST['lastName'];	
+			$sportSelected = $_POST['sport'];		
 
-		$firstName = $_POST['firstName'];	
+			//	Create a record of player
+			$playerRecord = [
+				"id" => uniqid("a_"),
+				"firstName"=> $firstName,
+				"lastName"=> $lastName,
+				"slug"=> strtolower($firstName . "-" . "$lastName"),
+				"sport" => $sport
+			];
 
-		//	Create a record of player
-		$playerRecord = [
-			"id" => uniqid("a_"),
-			"firstName"=> $firstName,
-			"lastName"=> "Johnson",
-			"slug"=> strtolower($firstName . "-" . "Johnson")
-		];
+			//add new record to JSON file
+			array_push($playersData, $playerRecord);
 
-		//add new record to JSON file
-		array_push($playersData, $playerRecord);
+			//convert file back to JSON 	
+			$json = json_encode($playersData);
+			//save JSON file with new record	
+			file_put_contents("data/players.json", $json);
 
-		//convert file back to JSON 	
-		$json = json_encode($playersData);
-		//save JSON file with new record	
-		file_put_contents("data/players.json", $json);
+			// header("Location: ?page=home");
 
-		header("Location: ?page=home");
-
-	}
-	
-	
-
-
-
-
+		}
 	
 }
 
@@ -73,14 +71,14 @@ if ( isset($_POST["submitted"]) ) {
 
 <form method="post">
 <field>
-	<label for="firstName">*Athlete First Name</label>
+	<label for="firstName">*Athlete's First Name</label>
 	
 	<input name="firstName" required>
 
 </field>
 
 <field>
-	<label for="lastName">Athlete Last Name</label>
+	<label for="lastName">Athlete's Last Name</label>
 	
 	<input name="lastName" >
 	
@@ -91,7 +89,7 @@ if ( isset($_POST["submitted"]) ) {
 
 	<?php 
 		if ($lastNameMessage) { ?>
-		<p class="sucess"><?=$lastNameMessage?></p>
+		<p class="success"><?=$lastNameMessage?></p>
 	<?php } ?>
 </field>
 
@@ -111,7 +109,7 @@ if ( isset($_POST["submitted"]) ) {
 	$sportError = "";
 	$sportSelected = "";
 
-	if ( isset($_POST["add"]) ) {
+	if ( isset($_POST["submitted"]) ) {
 		if ( isset($_POST["sport"]) ) {
 			$sport = $_POST["sport"];
 			$sportSelected = "Sweet!";
@@ -156,7 +154,6 @@ if ( isset($_POST["submitted"]) ) {
 
 <fieldset method="post">
 	<div>
-		<
 		<?php //name 'retired' becomes name of selected input (retired, active, selected') ?>
 		<input type="radio" name="retired" value="yes" >
 		<label for="retired">Yes</label>

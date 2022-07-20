@@ -32,6 +32,10 @@ a {
 	color: black;
 }
 
+.monster {
+	display: grid;
+
+}
 /* - - FONT - - */
 .header-voice {
 	font-family: Marker Felt;

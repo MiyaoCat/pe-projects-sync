@@ -1,0 +1,28 @@
+picture img {
+	display: block;
+	border: 5px solid white;
+	background:  black;
+}
+
+.uw {
+	border: 5px solid purple;
+	background: linear-gradient(#33006f, #d8d9da);
+	/*background-image: url('images/gold-w.png');*/
+}
+
+detail {
+	display: block;
+	border: 2px solid black;
+}
+
+player-bio {
+	display: block;
+}
+
+@media (min-width: 600px) {
+	detail {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

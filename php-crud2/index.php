@@ -18,6 +18,12 @@
 		$sport = false;
 	}
 
+	if ( isset($_GET["college"]) ) {
+		$college = $_GET["college"];
+	} else {
+		$college = false;
+	}
+
 	$filtered = [];
 
 
@@ -31,10 +37,17 @@
 	$players = $filtered;	
 	} 
 	
-	function getTemplate($page) {
-			include($page . '.php');
+	$filteredbyCollege = [];
+
+	if ($college) {
+		foreach ($players as $player) {
+			if ($player['college'] == $_GET['college']) {
+				array_push($filteredbyCollege, $player);
+			}
 		}
-				
+
+	$players = $filteredbyCollege;	
+	} 			
 ?>
 
 <html>
@@ -69,25 +82,28 @@
 		</header>
 
 		<main class="page-content">
-			<page-templates>
-				<?php 
+			<inner-column>
+				<page-templates>
+					<?php 
 
-				if ($page == 'home') {
-					include('pages/home.php');
-				}
-				if ($page == 'list') {
-					include('list.php');
-				}
+					if ($page == 'home') {
+						include('pages/home.php');
+					}
 
-				if ($page == 'detail') {
-					include('detail.php');
-				}
+					if ($page == 'list') {
+						include('list.php');
+					}
 
-				if ($page == 'create') {
-					include('pages/create.php');
-				}
-			 ?>
-		 </page-templates>
+					if ($page == 'detail') {
+						include('detail.php');
+					}
+
+					if ($page == 'create') {
+						include('pages/create.php');
+					}
+				 ?>
+			 </page-templates>	
+		 </inner-column>
 		</main>
 		
 		<footer>

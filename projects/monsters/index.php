@@ -75,22 +75,22 @@
 				?>
 				
 				<?php 
-					function monsterGenerator($id, $name, $color, $interest, $favoriteFood, $adopted, $portrait) {
-						$monster = [
-							"id" => $id,
-							"name" => $name,
-							"color" => $color,
-							"interest" => $interest,
-							"favoriteFood" => $favoriteFood,
-							"adopted" => $adopted,
-							"portrait" => $portrait,	
-						];
-						return $monster;
-					}
+					// function monsterGenerator($id, $name, $color, $interest, $favoriteFood, $adopted, $portrait) {
+					// 	$monster = [
+					// 		"id" => $id,
+					// 		"name" => $name,
+					// 		"color" => $color,
+					// 		"interest" => $interest,
+					// 		"favoriteFood" => $favoriteFood,
+					// 		"adopted" => $adopted,
+					// 		"portrait" => $portrait,	
+					// 	];
+					// 	return $monster;
+					// }
 
-					$crunchy = monsterGenerator("a008", "Crunchy", "fuschia", "smashing pumpkins", "Jello", false, "./images/shadow.png");
+					// $crunchy = monsterGenerator("a008", "Crunchy", "fuschia", "smashing pumpkins", "Jello", false, "./images/shadow.png");
 
-					echo $crunchy["name"];
+					// echo $crunchy["name"];
 				 ?>
 
 			</section>
