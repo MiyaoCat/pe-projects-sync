@@ -23,7 +23,11 @@
 	$imageCard2 = getPageDataByType2($pageData2, 'image');
 	$excerpt2 = getPageDataByType2($pageData2, 'excerpt');
 ?>
-
+<div class='header'>
+	<inner-column>
+		<h1 class="screaming-voice">Tuesday Layout</h1>
+	</inner-column>
+</div>
 
 <intro>
 	<?php foreach ($headingCard2 as $item2) { ?>

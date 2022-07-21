@@ -67,5 +67,13 @@ body {
 	color: var(--ink);
 }
 
-
+.header {
+	color: var(--highlight);
+	text-shadow: 2px 2px 2px var(--black);
+	text-align: center;
+	padding-top: 90px;
+	margin-top: 20px;
+	margin-bottom: 70px;
+	width: 100%;
+}
 

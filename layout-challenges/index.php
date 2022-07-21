@@ -20,8 +20,11 @@
 	</header>
 
 	<main>
-		<a href="#wednesday">Wednesday</a>
 		<section class="layout1">
+			<div class='header'>
+				<h1 class="screaming-voice">Monday Layout</h1>
+			</div>
+
 			<inner-column>
 				<?php include('layouts/layout1.php'); ?>
 			</inner-column>

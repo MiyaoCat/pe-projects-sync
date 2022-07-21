@@ -21,13 +21,12 @@
 	$imageCard = getPageDataByType($pageData, 'image');
 ?>
 
-<intro>
 
+<intro>
 	<?php foreach ($introCard as $item) { ?>	
 	 	<h2 class="loud-voice"><?=$item['heading'];?></h2>
 	 	<p class="quiet-voice"><?=$item['text'];?></p>
 	 <?php } ?>
-	
 </intro>
 
 <article>
