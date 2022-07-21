@@ -81,6 +81,7 @@
 	}
 	.layout1 article {
 		grid-column: 1/2;
+		margin-right: 20px;
 	}
 	
 /*inner-column {
