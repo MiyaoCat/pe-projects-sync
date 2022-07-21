@@ -18,15 +18,21 @@
 	</header>
 
 	<main>
-		<section class="inner-column">
+		<inner-column>
 			<h1 class="loud-voice">Try out these Forms</h1>
 			<ul class="form-list">
 				<li class="regular-voice"><a href="forms/hello/index.php">Say Hello</a></li>
+				
 				<li class="regular-voice">
 					<a href="forms/count-characters.php">Character Count</a></li>
+				
 				<li class="regular-voice"><a href="forms/self-checkout.php">Self-checkout</a></li>
+
+				<li class="regular-voice"><a href="forms/pizza-party.php">Pizza Party</a></li>
+
+				<li class="regular-voice"><a href="forms/simple-interest.php">Simple Interest</a></li>
 			</ul>
-		</section>
+		</inner-column>
 
 	</main>
 
