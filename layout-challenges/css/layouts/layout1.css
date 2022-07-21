@@ -11,15 +11,15 @@
 }
 
 .layout1 picture {
-	margin: 10px 0;
-	/*border: 5px solid blue;*/
+	display: grid;
+	gap: 10px;
 }
 
 .layout1 picture img {
 	display: block;
 	width:  100%;
 	height:  auto;
-	margin: 5px 0;
+	
 }
 
 
@@ -34,11 +34,10 @@
 }
 
 .layout1 .images {
-	margin: 10px 0;
+	/*margin: 10px 0;*/
 	border: 1px solid black;
 	align-self: start;
 }
-
 
 .layout1 thumbnail {
 	display: block;
