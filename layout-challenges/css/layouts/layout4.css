@@ -1,1 +1,80 @@
-layout4.php
+.layout4 inner-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.layout4
+.layout4 p {
+	line-height: 1.6rem;
+}
+/* INTRO */
+.layout4 .teaser {
+	display: block;
+	color: var(--highlight);
+	font-weight: 700;
+	margin-top: 40px;
+}
+
+.layout4 intro * {
+	margin: 10px 0;
+}
+.layout4 intro {
+	margin-bottom: 50px;
+}
+/* ARTICLE CARDS SET 1 */
+.layout4 .article-card * {
+	padding: 5px 0;
+}
+
+.layout4 .article-card h3 {
+	border-bottom: 1px solid black;
+}
+summary {
+	list-style: none;
+	cursor: pointer;
+	/*border-bottom: 1px solid black;*/
+}
+
+.layout4 details summary h3::after {
+	cursor: pointer;
+	content: "+";
+	position: absolute;
+	right: 15px;
+	transform: translateY(-2px);
+}
+
+.layout4 details[open] summary h3::after {
+	content: "-";
+
+}
+
+@media (min-width: 550px) {
+	.layout4 details summary h3::after {
+	right: 40px;
+	}
+}
+
+@media (min-width: 900px) {
+	.layout4 inner-column:not(.header) {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		/*gap: 20px;*/
+	}
+
+	.layout4 details summary h3::after {
+		right: 50px;
+	}
+
+	
+	.layout4 intro {
+		width: 45%;
+	}	
+
+	.layout4 intro *{
+		max-width: 80%;
+	}
+	.layout4 article {
+		width: 45%;
+	}
+}

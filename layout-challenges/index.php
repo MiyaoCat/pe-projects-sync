@@ -20,6 +20,7 @@
 	</header>
 
 	<main>
+		<a href="#wednesday">Wednesday</a>
 		<section class="layout1">
 			<inner-column>
 				<?php include('layouts/layout1.php'); ?>
@@ -32,7 +33,7 @@
 			</inner-column>
 		</section>
 
-		<section class="layout3">
+		<section class="layout3" id="wednesday">
 			<!-- <inner-column> -->
 				<?php include('layouts/layout3.php'); ?>
 			<!-- </inner-column> -->

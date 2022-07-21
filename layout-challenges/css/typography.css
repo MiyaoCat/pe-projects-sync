@@ -32,13 +32,13 @@ a:hover {
 
 /* Header text or similar */
 .loud-voice {
-	font-family:  var(--sans-serif);
-	font-size: 1.4rem;
+	font-family: var(--sans-serif);
+	font-size: 1.6rem;
 	font-weight: 700;
 }
 /* Sub-header text or similar */
 .attention-voice {
-	font-family:  var(--sans-serif);
+	font-family: var(--sans-serif);
 	font-weight: 700;
 	font-size: 1.4rem;
 	line-height: 1.2em;
@@ -46,7 +46,7 @@ a:hover {
 
 /* Paragraph text or similar */
 .normal-voice {
-	font-family:  var(--sans-serif);
+	font-family: var(--sans-serif);
 	font-size: 1.2rem;
 	line-height: 1.2em;
 }

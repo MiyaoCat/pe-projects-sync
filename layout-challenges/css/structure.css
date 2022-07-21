@@ -18,4 +18,6 @@ main inner-column, footer inner-column {
 }
 
 
-
+article {
+	display: block;
+}

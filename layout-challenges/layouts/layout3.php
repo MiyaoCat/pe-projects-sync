@@ -1,5 +1,7 @@
 <header>
-	<h1 class="screaming-voice">Wednesday Layouts</h1>
+	<inner-column>
+		<h1 class="screaming-voice">Wednesday Layout #1</h1>
+	</inner-column>
 </header>
 
 <intro>
