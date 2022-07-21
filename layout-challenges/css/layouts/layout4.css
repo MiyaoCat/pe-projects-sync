@@ -46,7 +46,7 @@ summary {
 	transform: translateY(-2px);
 }
 
-.layout4 details[open] > summary:after {
+.layout4 details[open] > summary h3:after {
 	content: "-";
 
 }
