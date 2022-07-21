@@ -1,8 +1,3 @@
-<div class='header'>
-	<inner-column>
-		<h1 class="screaming-voice">Wednesday Layout #2</h1>
-	</inner-column>
-</div>
 
 <intro>
 	<div class="teaser">
