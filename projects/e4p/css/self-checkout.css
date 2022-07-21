@@ -25,6 +25,11 @@ price error, quantity error {
 	text-align: right;
 }
 
+sub-total, tax, grand-total {
+	display: block;
+	margin: 10px;
+}
+
 @media (min-width: 600px) {
 	heading {
 		width: 100%;

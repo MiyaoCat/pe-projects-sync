@@ -80,11 +80,8 @@ button {
 
 
 }
-/* OUTPUT */
-sub-total, tax, grand-total {
-	display: block;
-	margin: 10px;
-}
+
+
 /* RETURNED INPUT */
 span {
 	font-weight: 700;
@@ -99,8 +96,9 @@ span {
 output {
 	font-family: monospace;
 	display: block;
-	background-color: black;
-	color: limegreen;
-	border: 2px solid grey;
-	padding: 10px;
+	background-color: hsla(0, 0%, 0%, .7);
+	color: lightblue;
+	border: 2px solid black;
+	padding: 15px;
+	border-radius: 10px;
 }
