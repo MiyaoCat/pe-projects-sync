@@ -289,15 +289,13 @@
 					</price>
 				</div>
 				<?php 
-				// $formattedTaxRate = 0;
-				$tax = "";
 				$formattedTax = $taxRate * 100;
 				// $formattedTotal = 0; 
 				// $formattedTaxTotal = 0;
 				// $formattedSubTotal = 0;
-				// $formattedGrandTotal = 0;
+				$formattedGrandTotal = 0;
 				 ?>
-
+			<form-wrap> 
 				<div class="return-values">
 					<tax>
 						<p class="normal-voice">The Washington State sales tax rate is <?=$formattedTax?>%						
@@ -310,12 +308,13 @@
 						<?php } ?>
 					</sub-total>
 
+					<?php if( isset($_POST['submitted']) ) { ?>
 					<tax-total>
-						<?php if ($tax) { ?>
-							<p class="normal-voice">Tax total: $<?=$tax?></p>
-						<?php } ?>	
+						
+							<p class="normal-voice">You total tax amount is: $<?=$tax?></p>
+						
 					</tax-total>
-
+					<?php } ?>	
 					<grand-total>
 						<?php if($grandTotal > 0){ ?>
 							<p class="normal-voice">Your grand total is: $<?=$grandTotal?></p>
@@ -323,12 +322,9 @@
 
 					</grand-total>
 				</div>
-				<div class="instructions">
 
-					<button type="submit" name="submitted">Submit</button>
-					
-	
-				</div>
+				<button type="submit" name="submitted">Submit</button>
+			</form-wrap>			
 			</form>
 
 			<?php if ( isset($_POST['submitted']) ) { ?>
