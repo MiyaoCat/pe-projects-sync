@@ -80,7 +80,7 @@ $answerFormatted = number_format($answer, 2);
 
 	<main>
 		<heading>
-			<h1 class="loud-voice"><a href="?">Invest Your Moolah!</a></h1>
+			<h1 class="loud-voice"><a href="?">Invest Your Moolah! DEPLOYBOT</a></h1>
 		</heading>
 
 
@@ -119,7 +119,7 @@ $answerFormatted = number_format($answer, 2);
 						<p class='returnMessage normal-voice'><?=$intMessage?></p>
 						<?php } ?>	
 					</return-message>	
-
+					<p class="normal-voice">Enter the number of years you wish to invest.</p>
 					<input type="number" 
 						name='years' 
 						value="<?=$years?>" 
