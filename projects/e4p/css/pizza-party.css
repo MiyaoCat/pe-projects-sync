@@ -1,9 +1,9 @@
-form-wrap{
-	display: flex;
-	flex-direction: column;
+.pizza inner-column form form-wrap{
+	/*display: flex;
+	flex-direction: column;*/
 }
 
-people, pizza {
+ people, pizza {
 	display: flex;
 	flex-direction: column;
 	margin: 20px;

@@ -9,12 +9,30 @@ inner-column {
 	margin-right: auto;
 	padding: 0 10px;
 }
+footer {
+	margin: 100px 0;
+}
+
+form-wrap {
+	display: flex;
+	flex-direction: column;
+	
+}
+
 .instructions {
 	margin: 10px;
+	margin-bottom: 50px;
 	padding: 5px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	line-height: 1.6rem;
+}
+
+@media (min-width: 700px) {
+	.instructions {
+		max-width: 65%;
+	}
 }
 
 .intro {

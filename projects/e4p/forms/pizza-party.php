@@ -1,6 +1,4 @@
-
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -19,7 +17,7 @@
 		</section>
 	</header>
 
-	<main>
+	<main clas="pizza">
 		<heading>
 			<h1 class="loud-voice"><a href="?">Pizza Party Time! (test deploybot)</a></h1>
 		</heading>

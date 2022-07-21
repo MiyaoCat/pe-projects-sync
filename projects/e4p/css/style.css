@@ -5,6 +5,7 @@
 
 @import 'self-checkout.css';
 @import 'pizza-party.css';
+@import 'simple-interest.css';
 
 * {
 	box-sizing: border-box;
@@ -87,7 +88,7 @@ sub-total, tax, grand-total {
 /* RETURNED INPUT */
 span {
 	font-weight: 700;
-	/*text-decoration: underline;*/
+	text-decoration: underline;
 }
 
 .length {
@@ -101,5 +102,5 @@ output {
 	background-color: black;
 	color: limegreen;
 	border: 2px solid grey;
-	padding: 3px;
+	padding: 10px;
 }

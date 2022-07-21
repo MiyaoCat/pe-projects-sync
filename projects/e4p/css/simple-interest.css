@@ -1,0 +1,19 @@
+.interest .instructions {
+	margin: 50px 0;
+}
+
+return-message {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 1rem;
+}
+
+span .int-total {
+	font-weight: 700;
+	color: green;
+	text-decoration: underline;
+}
+.answer {
+
+}
