@@ -3,8 +3,11 @@
 }
 
 /* INTRO */
+intro {
+	display: block;
+}
 .layout3 intro {
-	background-color: var(--black);
+	background-color: black;
 	color: var(--white);
 	padding-top: 60px;
 	padding-bottom: 20px;
@@ -35,10 +38,12 @@
 	margin: 20px 0;
 	background: var(--white);
 	padding: 25px 15px;
+	color: black;
 }
 
 .layout3 .article-card :is(h3, p) {
 	max-width: 75%;
+	color: black;
 }
 
 @media (min-width: 600px) {

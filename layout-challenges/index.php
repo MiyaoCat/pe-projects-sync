@@ -37,12 +37,21 @@
 		</section>
 
 		<section class="layout3" id="wednesday">
+			<div class='header'>
+				<h1 class="screaming-voice">Wednesday Layout #1</h1>
+			</div>
 			<!-- <inner-column> -->
 				<?php include('layouts/layout3.php'); ?>
 			<!-- </inner-column> -->
 		</section>
 
 		<section class="layout4">
+			<div class='header'>
+				<inner-column>
+					<h1 class="screaming-voice">Wednesday Layout #2</h1>
+				</inner-column>
+			</div>
+
 			<inner-column>
 				<?php include('layouts/layout4.php'); ?>
 			</inner-column>
