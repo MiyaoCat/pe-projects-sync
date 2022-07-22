@@ -10,6 +10,7 @@
 
 <ol class="article-grid">
 	<li class="feature-article">
+
 		<div class="feature-snippet narrow">
 			<div class="feature-heading">
 				<h2 class="loud-voice">Letter to My Younger Self</h2>
@@ -17,24 +18,26 @@
 
 			<h3 class="normal-voice author">Author Name</h3>
 		</div>
-		
 		<div class="feature-snippet wide">
 			<div class="feature-heading">
+				
 				<h2 class="loud-voice">Letter to My Younger Self</h2>
 
 				<p class="calm-voice">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Earum quaerat minima modi, dolore dolorem reiciendis. Id amet soluta error atque.</p>
-			</div>
 
+				
+			</div>			
+			
 			<h3 class="normal-voice author">Author Name</h3>
 		</div>
 
 		<picture class="feature-image portrait">
 			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
 		</picture>
-
 		<picture class="feature-image landscape">
 			<img src="https://peprojects.dev/images/landscape.jpg" alt="">
 		</picture>
+
 	</li>
 
 
