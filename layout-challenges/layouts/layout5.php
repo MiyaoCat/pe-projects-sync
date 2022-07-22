@@ -24,11 +24,10 @@
 				<h2 class="loud-voice">Letter to My Younger Self</h2>
 
 				<p class="calm-voice">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Earum quaerat minima modi, dolore dolorem reiciendis. Id amet soluta error atque.</p>
-
-				
 			</div>			
-			
+
 			<h3 class="normal-voice author">Author Name</h3>
+			
 		</div>
 
 		<picture class="feature-image portrait">
