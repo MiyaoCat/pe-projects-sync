@@ -24,7 +24,7 @@
 	 	</li>
 
 	 	<li class="article-card">
-	 		<details>
+	 		<details open>
 	 			<summary><h3 class="attention-voice">Heading level 3 large</h3></summary>
 
     			<p class="quiet-voice">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Nobis, veniam, sit! Architecto ipsa, blanditiis fugit.</p>
