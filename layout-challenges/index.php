@@ -56,6 +56,18 @@
 				<?php include('layouts/layout4.php'); ?>
 			</inner-column>
 		</section>
+
+		<section class="layout5">
+			<div class='header'>
+				<inner-column>
+					<h1 class="screaming-voice">Player's Tribune L</h1>
+				</inner-column>
+			</div>
+
+			<inner-column>
+				<?php include('layouts/layout5.php'); ?>
+			</inner-column>
+		</section>
 	</main>
 
 	<footer>
