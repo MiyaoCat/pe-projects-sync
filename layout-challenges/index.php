@@ -57,7 +57,7 @@
 			</inner-column>
 		</section>
 
-		<section class="layout5">
+		<section class="layout5" id="thursday">
 			<div class='header'>
 				<inner-column>
 					<h1 class="screaming-voice">Player's Tribune L</h1>
