@@ -1,0 +1,13 @@
+{
+	"id": "about",
+	"title": "This is my About Me Page",
+	"intro": "Intro to my About Me paragraph",
+	"section": [
+		{
+			"heading": "My Latest and Greatest"
+		},
+		{
+			"list": "List of Projects"
+		}	
+	]
+}

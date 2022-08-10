@@ -1,0 +1,13 @@
+{
+	"id": "projects",
+	"title": "This is my Projects Page",
+	"intro": "Intro to my home projects paragraph",
+	"section": [
+		{
+			"heading": "My Latest and Greatest"
+		},
+		{
+			"list": "List of Projects"
+		}	
+	]
+}

@@ -1,0 +1,1 @@
+<h1 class="screaming-voice" style="color: red";>404 page!</h1>
