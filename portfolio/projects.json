@@ -1,0 +1,15 @@
+{
+    "id": "projects",
+    "title": "This is my Projects Page",
+    "intro": "Intro to my home projects paragraph",
+    "sections": [
+        {
+            "heading": "Luxury Streetwear",
+            "about": "Designed a site that emulates luxury streetwear brands"
+        },
+        {
+            "heading": "Responsive Layout Garden",
+            "about": "Modules of responsive layouts"
+			}
+		]	            
+}

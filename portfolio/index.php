@@ -1,28 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <meta property="og:image" content="[IMAGE URL]">
+   <meta name="description" content="[SHORT PAGE DESCRIPTION]">
+
+   <title>Portfolio</title>
+
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
  <?php 
    include("functions.php");
+   include("routing.php");
+
+   $pageData = pageData();
+
 ?>
 
- <?php 
-   $pageData = pageData();
- ?>
-
- <header>
- 	<p style='border: 3px dashed red; max-width: 50%'>?<?=QueryString();?></p>
-
- 	<nav>
- 		<ul>
- 			<li><a href="?page=home">Home</a></li>
- 			<li><a href="?page=projects">Projects</a></li>
- 			<li><a href="?page=about">About Me</a></li>
-         <li><a href="?page=contact-me">Contact Me</a></li>
- 			<li><a href="?">Nothing, default home</a></li>
- 		</ul>
- 	</nav>
+ <header class="site-menu">
+ 	<p class="function-url"><?=currentUrl();?></p>
+   <h1>Site Header</h1>
+ 	<?php include("modules/site-menu.php"); ?>
  </header>
 
-<h2 style="color: blue">PAGE RENDERING BELOW</h2>
+<h2 class="page-render-title">PAGE RENDERING BELOW</h2>
 
-<div style="border: 4px dashed blue">
+<!-- Blue Dashed box -->
+<div class="page-render">
    <?php renderPageTemplate(); ?>
+
+   <section>
+   
+      <?php foreach ($pageData["sections"] as $section) { 
+         include("modules/page-sections.php");
+         }
+      ?>
+   </section> 
 </div>
- 

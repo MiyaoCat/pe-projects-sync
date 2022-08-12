@@ -1,0 +1,13 @@
+{
+	"id": "home",
+	"title": "This is my Home",
+	"intro": "Intro to my home page paragraph",
+	"sections": [
+		{
+			"heading": "My Latest and Greatest"
+		},
+		{
+			"list": "Things I like"
+		}	
+	]
+}
