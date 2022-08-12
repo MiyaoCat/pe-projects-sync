@@ -2,12 +2,14 @@
 	"id": "home",
 	"title": "This is my Home",
 	"intro": "Intro to my home page paragraph",
-	"section": [
+	"sections": [
 		{
-			"heading": "My Latest and Greatest"
+			"heading": "My Latest and Greatest",
+			"list": "List"
 		},
 		{
-			"list": "Things I like"
+			"heading": "Heading2"
+			
 		}	
 	]
 }

@@ -1,13 +1,14 @@
 {
 	"id": "about",
-	"title": "This is my About Me Page",
+	"title": "About Me",
 	"intro": "Intro to my About Me paragraph",
-	"section": [
+	"sections": [
 		{
-			"heading": "My Latest and Greatest"
+			"heading": "This is my journey",
+			"list": "Basketball, baseball and soccer"
 		},
 		{
-			"list": "List of Projects"
+			"heading": "This is might be a list of things that I like"
 		}	
 	]
 }
