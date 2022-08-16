@@ -16,15 +16,16 @@ footer {
 form-wrap {
 	display: flex;
 	flex-direction: column;
-	
+	border: 5px solid black;
+	padding: 30px 10px 10px 10px;
+	box-shadow: 0 0 5px black;
 }
 
 .instructions {
 	margin: 10px;
 	margin-bottom: 50px;
 	padding: 5px;
-	display: flex;
-	flex-direction: column;
+	display: flex;	flex-direction: column;
 	align-items: center;
 	line-height: 1.6rem;
 }

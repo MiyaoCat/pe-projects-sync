@@ -1,0 +1,15 @@
+{
+    "id": "projects",
+    "title": "This is my <span>Projects</span> Page",
+    "intro": "Intro to my home projects paragraph",
+    "sections": [
+        {
+            "heading": "Luxury Streetwear",
+            "list": "test list"
+        },
+        {
+            "heading": "Responsive Layout Garden",
+            "list": "this is a list"
+			}
+		]	            
+}

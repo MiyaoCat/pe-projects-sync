@@ -1,0 +1,13 @@
+{
+	"id": "contact",
+	"title": "This is my <span>Contact Me</span> Page",
+	"intro": "Intro to my Contact Me paragraph",
+	"sections": [
+		{
+			"heading": "Call me, Text me"
+		},
+		{
+			"heading": "Email, phone"
+		}	
+	]
+}

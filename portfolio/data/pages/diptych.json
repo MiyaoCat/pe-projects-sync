@@ -1,0 +1,11 @@
+{
+	"id": "diptych",
+	"title": "This is my <span>Diptych</span>",
+	"intro": "Intro to my diptych page paragraph",
+	"sections": [
+		{
+			"heading": "image and text",
+			"list": "Are they always side by side?"
+		}
+	]	
+}

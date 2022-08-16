@@ -1,0 +1,48 @@
+@import 'meyer-reset.css';
+@import 'settings.css';
+@import 'setup.css';
+@import 'structure.css';
+@import 'typography.css';
+
+/* - - MODULES - - */
+@import 'modules.css';
+
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+.site-menu {
+	display: flex;
+	
+}
+.site-menu a {
+	margin: 0 5px;
+}
+
+
+main {
+	flex-grow: 1;
+}
+inner-column {
+	display: block;
+	border:  2px solid red;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	padding: 10px;
+}
+
+
+
+@media (min-width: 600px) {
+	graphic-diptych {
+		grid-template-columns: 1fr 1fr;
+		gap: 15px;
+	}
+}
+
+.about-me, .interests {
+	background-color: var(--ink);
+	color: var(--paper);
+}

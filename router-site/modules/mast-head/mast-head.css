@@ -1,0 +1,8 @@
+.site-menu a {
+	text-transform: uppercase;
+}
+
+.site-menu {
+	display: flex;
+	justify-content: flex-end;
+}

@@ -1,0 +1,10 @@
+graphic-diptych .loud-voice {
+	margin: 10px 0;
+}
+
+graphic-diptych {
+	display: block;
+	display: grid;
+	padding: 4vh 0;
+	
+}

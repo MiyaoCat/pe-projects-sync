@@ -1,0 +1,15 @@
+{
+	"id": "home",
+	"title": "This is my <span>Home</span>",
+	"intro": "Intro to my home page paragraph",
+	"sections": [
+		{
+			"heading": "My Latest and Greatest",
+			"list": "List"
+		},
+		{
+			"heading": "Heading2"
+			
+		}	
+	]
+}

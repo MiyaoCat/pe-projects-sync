@@ -1,0 +1,33 @@
+
+html {
+	--black: #111111;
+	--white: #FFF;
+
+	--color: #5E321F;
+	--highlight: #aadee9;
+
+	--shadow: rgba(0,0,0,.8);
+
+	--corners: 10px; 
+
+	--standard: 1140px;
+	--tight: 800px;
+	--wide: 98vw;
+
+	--paper: #d9dadf;
+	--ink: #231f20;
+
+	--highlight: hsl(360, 100%, 39%); /* red */
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--paper: hsl(28, 17%, 30%); /* dark brown */
+		--ink: white;
+		--highlight: yellow;
+	}
+
+	.logo {
+		fill: white;
+	}
+}
