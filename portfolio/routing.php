@@ -1,4 +1,4 @@
-<?php  
+<?php 
 	function currentPage() {
 		if ( isset($_GET["page"]) ) {
 			return $_GET["page"];
@@ -20,24 +20,12 @@
 	
 
 	function renderPageTemplate() {
-	
-	}
-
-	function renderSections() {
-		
-	} 
-
-	function renderModules() {
-	$filePath = "modules/" . currentModule() . ".php";
+	$filePath = "pages/" . currentPage() . ".php";
 	$pageData = pageData();
 		if ( file_get_contents($filePath) ) {
 			include($filePath);
-		} 
-	}
-
-	function activeLink() {
-		if ( currentPage() == $page ) {
-			echo "active";
+		} else {
+			include('pages/404.php');
 		}
 	}
 ?>

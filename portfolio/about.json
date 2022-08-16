@@ -1,0 +1,13 @@
+{
+	"id": "about",
+	"title": "About Me",
+	"intro": "Intro to my About Me paragraph",
+	"sections": [
+		{
+			"heading": "This is my journey"
+		},
+		{
+			"paragraph2": "This is the second paragaraph"
+		}	
+	]
+}
