@@ -1,0 +1,68 @@
+{
+	"pageTitle": "My Resume",
+	"introduction": "Cover Letter / Intro",
+
+	"sections" : [
+		{	
+			"heading": "Work Experience",
+			"jobs": [
+				{
+					"company": "<a href=\"https://connectedtravel.com/\" target=\"_blank\">Connected Travel, LLC</a>",
+					"role": "Program Manager",
+					"location": "Remote",
+					"startDate": "01/18",
+					"endDate": "Present",
+					"highlights": ["Managed Beta program for a safe driving mobile application and synthesized user feedback via surveys and focus groups to improve application prior to launch",
+							"Oversaw operational success of the app which reached 15,000 registered users, 4,500 DAUs and 6,500 MAUs with a 70% retention rate (90 days)",
+							"Increased app rating from 3.7 to 4.6 in Google Play and 4.5 to 4.8 in iTunes within one month",
+							"Defined and managed external communication channels (support, social media, marketing, app reviews, in-app messaging) with end-user community",
+							"Streamlined support process to reduce resolution time of our top customer issue from 2 days to less than 24 hours",
+							"Tracked and executed the delivery of new product features for both backend management portal and front-end application with off-shore Engineering team"
+					]
+				},
+				{
+					"company": "<a href=\"https://connectedtravel.com/\" target=\"_blank\">Connected Travel, LLC</a>",
+					"role": "Program Manager",
+					"location": "Remote",
+					"startDate": "01/18",
+					"endDate": "Present",
+					"highlights": ["Managed Beta program for a safe driving mobile application and synthesized user feedback via surveys and focus groups to improve application prior to launch",
+							"Oversaw operational success of the app which reached 15,000 registered users, 4,500 DAUs and 6,500 MAUs with a 70% retention rate (90 days)",
+							"Increased app rating from 3.7 to 4.6 in Google Play and 4.5 to 4.8 in iTunes within one month",
+							"Defined and managed external communication channels (support, social media, marketing, app reviews, in-app messaging) with end-user community",
+							"Streamlined support process to reduce resolution time of our top customer issue from 2 days to less than 24 hours",
+							"Tracked and executed the delivery of new product features for both backend management portal and front-end application with off-shore Engineering team"
+					]
+				},
+				{
+					"company": "<a href=\"https://connectedtravel.com/\" target=\"_blank\">Connected Travel, LLC</a>",
+					"role": "Program Manager",
+					"location": "Remote",
+					"startDate": "01/18",
+					"endDate": "Present",
+					"highlights": ["Managed Beta program for a safe driving mobile application and synthesized user feedback via surveys and focus groups to improve application prior to launch",
+							"Oversaw operational success of the app which reached 15,000 registered users, 4,500 DAUs and 6,500 MAUs with a 70% retention rate (90 days)",
+							"Increased app rating from 3.7 to 4.6 in Google Play and 4.5 to 4.8 in iTunes within one month",
+							"Defined and managed external communication channels (support, social media, marketing, app reviews, in-app messaging) with end-user community",
+							"Streamlined support process to reduce resolution time of our top customer issue from 2 days to less than 24 hours",
+							"Tracked and executed the delivery of new product features for both backend management portal and front-end application with off-shore Engineering team"
+					]
+				}
+			]
+		},
+		{	
+			"heading": "skill",
+			"programs": ["JIRA", "Salesforce", "Zendesk", "Freshdesk", "Mixpanel", "Tableau", "PowerBI", "Basecamp", "Asana", "Slack", "Excel", 
+				"PowerPoint", "Keynote", "MailChimp", "SurveyMonkey", "Twilio", "Testflight"  
+			],
+			"langauges": "HTML, CSS, PHP, Javascript"
+		},
+
+		{	
+			"heading": "education",
+			"school": "University of Washington",
+			"major": "Economics",
+			"logo": ""
+		}
+	]
+}

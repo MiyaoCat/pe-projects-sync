@@ -1,8 +1,8 @@
 <?php 
-	$heading = "Generic Heading";
-	$content = $content ?? "
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam nihil, ratione asperiores accusantium adipisci necessitatibus quo recusandae.</p>"
+	$content = $content ?? "<h2 class='attention-voice'>Generic-text Heading</h2>
+	<p>This is the generic text block. It can have any HTML text elements. It can be long, short, medium or whatever length you choose.</p>"
 ?>
+
 <generic-text>
 	<?=$content?>
 </generic-text>

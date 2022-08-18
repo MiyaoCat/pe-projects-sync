@@ -1,0 +1,25 @@
+/* STRUCTURE */
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+inner-column {
+	display: block;
+	border:  2px solid red;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	padding: 10px;
+	max-width: var(--standard);
+}
+
+main { 
+	flex-grow: 1;
+}
+
+inner-column * {
+	border: 1px solid dodgerblue;
+	padding: 2px;
+}

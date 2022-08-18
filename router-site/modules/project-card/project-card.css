@@ -2,6 +2,7 @@ project-card {
 	display: block;
 	border:  2px solid yellow;
 	padding: 5px;
+	margin: 5px 0;
 }
 
 project-card h3 {
@@ -13,3 +14,4 @@ project-card h3 {
 figure {
 	display: block;
 }
+

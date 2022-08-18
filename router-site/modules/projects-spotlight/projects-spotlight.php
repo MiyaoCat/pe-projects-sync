@@ -7,19 +7,19 @@
 			"title" => "Luxury Streetwear",
 			"teaser" => "Lorem ipsum dolamite issit amet.",
 			"linkText" => "Click to learn more",
-			"url" => "#",
+			"url" => "projects/project-one",
 		],
 		[
 			"title" => "Starbucks Reserve",
 			"teaser" => "Lorem ipsum dolamite issit amet.",
 			"linkText" => "Click to learn more",
-			"url" => "#",
+			"url" => "projects/project-two",
 		],
 		[
 			"title" => "Form Exercises",
 			"teaser" => "Lorem ipsum dolamite issit amet.",
 			"linkText" => "Click to learn more",
-			"url" => "#",
+			"url" => "projects/project-three",
 		],
 	];
 ?>

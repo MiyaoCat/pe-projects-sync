@@ -1,14 +1,9 @@
 <?php include("modules/header/header.php"); ?>
 
-
-<header class="page-header">
-	<inner-column>
-		<?php  
-			$pageTitle = "About Meee!";
-			include("modules/page-header/page-header.php");
-		?>
-	</inner-column>
-</header>	
+<?php  
+	$pageTitle = "About Meee!";
+	include("modules/page-header/page-header.php");
+?>  
 
 <section class="about-me">
 	<inner-column>

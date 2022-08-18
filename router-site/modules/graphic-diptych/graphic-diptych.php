@@ -1,11 +1,18 @@
 <?php 
-	$heading = $heading ?? "Backup Default Heading";
+	$heading = $heading ?? "Section Heading (Default)";
+	$flipped = $flipped ?? "";
+	
+	$isFlipped = "";
+	if ($flipped) {
+		$isFlipped = "flipped";
+	} 
  ?>
 
-<graphic-diptych>
-	<div class="graphic">
+<graphic-diptych class="<?=$isFlipped?>">
+	<picture>
 		<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-	</div>
+	</picture>
+
 
 	<div class="content">
 		<h2 class="loud-voice"><?=$heading?></h2>

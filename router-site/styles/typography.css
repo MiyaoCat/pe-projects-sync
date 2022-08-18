@@ -41,7 +41,7 @@ a:hover {
 
 /* Paragraph text or similar */
 .normal-voice {
-
+	font-size: 1rem;
 }
 
 /* Caption text or similar */

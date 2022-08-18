@@ -1,13 +1,11 @@
 <?php include("modules/header/header.php"); ?>
 
-	<header class="page-header">
-		<inner-column>
-			<?php  
-				$pageTitle = "My Projects";
-				include("modules/page-header/page-header.php");
-			?>
-		</inner-column>
-	</header>
+	
+<?php  
+	$pageTitle = "My Projects";
+	include("modules/page-header/page-header.php");
+?>
+		
 		
 	<section class="projects-grid">
 		<inner-column>

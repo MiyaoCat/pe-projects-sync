@@ -1,4 +1,6 @@
-
+<?php 
+include("functions.php");
+?>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
