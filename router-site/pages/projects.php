@@ -1,34 +1,24 @@
 
-	
+<?php 
+	$json = file_get_contents("data/projects.json");
+	$projects = json_decode($json, true);
+?>
+
 <?php  
 	$pageTitle = "My Projects";
 	include("modules/page-header/page-header.php");
 ?>
-		
-		
-	<section class="projects-grid">
-		<inner-column>
-			<?php 
-				$heading = "Project I";
-				include("modules/graphic-diptych/graphic-diptych.php"); 
-			?>
-		</inner-column>
-	</section>
 
-	<section class="projects-grid">
-		<inner-column>
-			<?php 
-				$heading = "Project II";
-				include("modules/graphic-diptych/graphic-diptych.php"); 
-			?>
-		</inner-column>
-	</section>
+<section class="projects-grid">
+	<inner-column>
 
-	<section class="projects-grid">
-		<inner-column>
-			<?php 
-				$heading = "<a href='projects/project-three/index.php'>Project III</a>";
-				include("modules/graphic-diptych/graphic-diptych.php"); 
-			?>
-		</inner-column>
-	</section>
+		<ul class="project-list">
+			<?php foreach ($projects as $project) { ?>
+				<li class="project">
+					<?php include("./modules/project-card/project-card.php"); ?>
+				</li>
+			<?php } ?>
+		</ul>
+
+	</inner-column>
+</section>

@@ -18,12 +18,12 @@
 
 	<ul class="project-list">
 		
-		<?php foreach ($projects as $project) { ?>
-			<?php if ( isset($project['featured']) ) { ?>
-				<li class="project">
-					<?php include("./modules/project-card/project-card.php"); ?>
-				</li>
-			<?php } ?>
+	<?php foreach ($projects as $project) { ?>
+		<?php if ( isset($project['featured']) ) { ?>
+			<li class="project">
+				<?php include("./modules/project-card/project-card.php"); ?>
+			</li>
+		<?php } ?>
 	<?php } ?> 
 	</ul>
 </projects-spotlight>Lorem ipsum dolor sit amet.
