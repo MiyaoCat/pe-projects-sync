@@ -9,30 +9,14 @@
 		$page = $_GET["page"];
 	}
 
-	if ($page == "home") {
-		echo "home";
-	}
-
-	if ($page == "projects") {
-		include("pages/projects.php");
-	}
-
-	if ($page == "contact") {
-		include("pages/contact.php");
-	}
-
-	if ($page == "about") {
-		include("pages/about.php");
-	}
-
-	if ($page == "style-guide") {
-		include("pages/style-guide.php");
-	}
-
-	if ($page == "goals") {
-		include("pages/goals.php");
+	$pageFilePath = "pages/" . $page . ".php";
+	if ( file_exists($pageFilePath) ) {
+		include($pageFilePath);
+	} else {
+		include("pages/404.php");
 	}
  ?>
+
 
 
 

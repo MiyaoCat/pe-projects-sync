@@ -1,6 +1,8 @@
 <?php 
 	$title = $project['title'];
 	$url = $project['url'];
+	$teaser = $project['teaser'];
+	
 ?>
 
 <project-card>
@@ -9,7 +11,7 @@
 	</picture>
 	<h3><?=$title?></h3>
 
-	<p>Project teaser here.</p>
+	<p><?=$teaser?></p>
 
 	<a href="<?=$url?>">Learn more about the Project</a>
 </project-card>

@@ -26,11 +26,6 @@ main {
 	color: var(--paper);
 }
 
-.site-header {
-	position: sticky;
-	top: 0;
-	background-color: var(--paper);
-}
 
 .site-footer .site-menu {
 	display: flex;

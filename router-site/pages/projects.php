@@ -27,7 +27,7 @@
 	<section class="projects-grid">
 		<inner-column>
 			<?php 
-				$heading = "Project III";
+				$heading = "<a href='projects/project-three/index.php'>Project III</a>";
 				include("modules/graphic-diptych/graphic-diptych.php"); 
 			?>
 		</inner-column>

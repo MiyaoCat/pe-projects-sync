@@ -1,0 +1,125 @@
+[
+	{
+		"title": "Example project I",
+		"slug": "one",
+		"teaser": "This is project I worked on things to build up my web dev knowledge",
+		"url": "https://link.com",
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Example Project II",
+		"slug": "two",
+		"teaser": "This is project I worked on things to build up my web dev knowledge",
+		"url": "https://link.com",
+		"featured": true,
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Example project III",
+		"slug": "three",
+		"teaser": "This is project I worked on things to build up my web dev knowledge",
+		"url": "https://link.com",
+		"featured": true,
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Example project VI",
+		"slug": "four",
+		"teaser": "This is project I worked on things to build up my web dev knowledge",
+		"url": "https://link.com",
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Example project V",
+		"slug": "five",
+		"teaser": "This is project I worked on things to build up my web dev knowledge",
+		"url": "https://link.com",
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Example project VI",
+		"slug": "sive",
+		"teaser": "This is project I worked on things to build up my web dev knowledge",
+		"url": "https://link.com",
+		"featured": true,
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	}
+]
