@@ -1,6 +1,6 @@
 <nav class="site-menu">
-	<a href="index.php">Home</a>
-	<a href="projects.php">Projects</a>
-	<a href="contact.php">Contact Me</a>
-	<a href="about.php">About Me</a>
+	<a href="?">Home</a>
+	<a href="?page=projects">Projects</a>
+	<a href="?page=contact">Contact Me</a>
+	<a href="?page=about">About Me</a>
 </nav>

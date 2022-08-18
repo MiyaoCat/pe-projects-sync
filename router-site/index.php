@@ -1,33 +1,32 @@
 
 <?php include("modules/header/header.php"); ?>
 
+<?php echo "?" . queryString(); ?>
+<hr>
+<?php 
+	$page = "home";
+	if ( isset($_GET["page"]) ) {
+		$page = $_GET["page"];
+	}
 
-<?php  
-	$pageTitle = "Hello, World! I'm John.";
-	$pageIntro = "Welcome to my internet home, World.";
-	include("modules/page-header/page-header.php");
-?>
+	if ($page == "home") {
+		echo "home";
+	}
+
+	if ($page == "projects") {
+		echo "projects";
+	}
+
+	if ($page == "contact") {
+		echo "contact";
+	}
+
+	if ($page == "about") {
+		echo "about";
+	}
+ ?>
 
 
-<main>
-	<section class="new-stuff">
-		<inner-column>
-			<?php 
-				$heading = "New Stuff";
-				include("modules/graphic-diptych/graphic-diptych.php"); 
-			?>
-		</inner-column>
-	</section>
-	
-	<section class="projects-spotlight">
-		<inner-column>
-			<?php 
-				$heading = "Project Spotlight";
-				include("modules/projects-spotlight/projects-spotlight.php"); 
-			?>
-		</inner-column>
-	</section>
-</main>
 
 <?php include("modules/footer/footer.php"); ?>
 
