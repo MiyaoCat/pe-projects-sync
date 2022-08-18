@@ -1,4 +1,4 @@
-<?php include("modules/header/header.php"); ?>
+
 
 <?php 
 	$json = file_get_contents("data/data-pages/resume.json");
@@ -54,5 +54,3 @@
 	
 </main>
 
-
-<?php include("modules/footer/footer.php"); ?>

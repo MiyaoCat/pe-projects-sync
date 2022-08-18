@@ -1,4 +1,3 @@
-<?php include("modules/header/header.php"); ?>
 
 <?php  
 	$pageTitle = "Contact Meee!";
@@ -19,6 +18,3 @@
 	</inner-column>
 </section>
 
-
-
-<?php include("modules/footer/footer.php"); ?>

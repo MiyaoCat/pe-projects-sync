@@ -4,13 +4,13 @@
 		<h2 class="attention-voice">Footlong Footer</h2>
 		
 		<nav class="site-menu">
-			<a href="index.php">Home</a>
-			<a href="projects.php">Projects</a>
-			<a href="contact.php">Contact Me</a>
-			<a href="about.php">About Me</a>
-			<a href="style-guide.php">Style Guide</a>
-			<a href="goals.php">Goals</a>
-			<a href="resume.php">Resume</a>
+			<a href="?">Home</a>
+			<a href="?page=projects">Projects</a>
+			<a href="?page=contact">Contact Me</a>
+			<a href="?page=about">About Me</a>
+			<a href="?page=style-guide">Style Guide</a>
+			<a href="?page=goals">Goals</a>
+			<a href="?page=resume">Resume</a>
 		</nav>
 	</inner-column>
 </footer>

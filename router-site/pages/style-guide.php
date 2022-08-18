@@ -1,4 +1,4 @@
-<?php include("modules/header/header.php"); ?>
+
 
 <?php  
 	$pageTitle = "Living Style Guide";
@@ -49,4 +49,3 @@
 </section>
 
 
-<?php include("modules/footer/footer.php"); ?>

@@ -14,15 +14,23 @@
 	}
 
 	if ($page == "projects") {
-		echo "projects";
+		include("pages/projects.php");
 	}
 
 	if ($page == "contact") {
-		echo "contact";
+		include("pages/contact.php");
 	}
 
 	if ($page == "about") {
-		echo "about";
+		include("pages/about.php");
+	}
+
+	if ($page == "style-guide") {
+		include("pages/style-guide.php");
+	}
+
+	if ($page == "goals") {
+		include("pages/goals.php");
 	}
  ?>
 

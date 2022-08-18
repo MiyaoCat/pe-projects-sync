@@ -1,4 +1,4 @@
-<?php include("modules/header/header.php"); ?>
+
 
 <?php  
 	$pageTitle = "Goooaaaals";
@@ -16,5 +16,3 @@
 
 
 
-
-<?php include("modules/footer/footer.php"); ?>

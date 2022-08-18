@@ -1,4 +1,3 @@
-<?php include("modules/header/header.php"); ?>
 
 	
 <?php  
@@ -33,5 +32,3 @@
 			?>
 		</inner-column>
 	</section>
-
-<?php include("modules/footer/footer.php"); ?>
