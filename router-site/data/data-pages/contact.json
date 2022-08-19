@@ -7,6 +7,10 @@
 
 	"section": [
 		{
+			"module": "contact",
+			"content": "Here's how you can contact me. I may or may not respond."
+		},
+		{
 			"module": "standard-figure"
 		},
 		{

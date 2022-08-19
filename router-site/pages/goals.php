@@ -1,6 +1,6 @@
 <?php  
-	$pageTitle = "Goooaaaals";
-	$pageIntro = "Here are my goals";
+	$title = "Goooaaaals";
+	$intro = "Here are my goals";
 	include("modules/page-header/page-header.php");
 ?>  
 
