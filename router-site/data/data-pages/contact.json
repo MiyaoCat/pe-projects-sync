@@ -1,9 +1,9 @@
 {
-	"id": "001",
-	"slug": "home",
+	"id": "003",
+	"slug": "contact",
 
-	"title": "This is my Home",
-	"intro": "Intro to my homepage paragraph",
+	"title": "Contact",
+	"intro": "Where you can find and contact me",
 
 	"section": [
 		{

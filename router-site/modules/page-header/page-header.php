@@ -1,14 +1,14 @@
 <?php 
-	$pageTitle = $pageTitle ?? "This is the page-header title";
-	$pageIntro = $pageIntro ?? "Utilize this 'page-header' module. It includes the main page title and a supporting paragraph that state's the page's goal(s)";
+	$title = $pageData["title"] ?? "This is the page-header title";
+	$intro = $pageData["intro"] ?? "Utilize this 'page-header' module. It includes the main page title and a supporting paragraph that state's the page's goal(s)";
 ?>
 
 <header class="page-header">
 	<inner-column>
-		<h1 class="loud-voice title"><?=$pageTitle?></h1>
+		<h1 class="loud-voice title"><?=$title?></h1>
 		
 	
-			<p><?=$pageIntro?></p>
+			<p><?=$intro?></p>
 	
 	</inner-column>
 </header>

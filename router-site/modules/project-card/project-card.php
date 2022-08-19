@@ -13,5 +13,5 @@
 
 	<p><?=$teaser?></p>
 
-	<a href="?page=project&sulg<?=$slug?>">Learn more about the Project</a>
+	<a href="?page=project&slug=<?=$slug?>">Learn more about the Project</a>
 </project-card>

@@ -1,6 +1,6 @@
 {
-	"pageTitle": "My Resume",
-	"introduction": "Cover Letter / Intro",
+	"title": "My Resume",
+	"intro": "Cover Letter / Intro",
 
 	"sections" : [
 		{	

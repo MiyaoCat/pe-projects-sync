@@ -1,7 +1,7 @@
 
 <?php include("modules/header/header.php"); ?>
 
-<?php echo "?" . queryString(); ?>
+<inner-column><?php echo "?" . queryString(); ?></inner-column>
 <hr>
 <?php 
 	$page = "home";
@@ -9,15 +9,28 @@
 		$page = $_GET["page"];
 	}
 
-	$pageFilePath = "pages/" . $page . ".php";
-	if ( file_exists($pageFilePath) ) {
-		include($pageFilePath);
+	//Get page data file path
+	$dataFilePath = "data/data-pages/$page.json";
+	$pageData = null;
+
+	if ( file_exists($dataFilePath) ) {
+		$jsonData = file_get_contents($dataFilePath);
+		$pageData = json_decode($jsonData, true);
+	}  
+
+	if ($pageData) {
+	 
+	 if ( !isset($pageData["template"]) ) {
+	 	include("pages/default.php");
+	 }	else {
+	 	include("pages/$pageData[template].php");
+	 }
+
 	} else {
-		include("pages/404.php");
+	 	include("pages/404.php");
 	}
- ?>
 
-
+?> 
 
 
 <?php include("modules/footer/footer.php"); ?>

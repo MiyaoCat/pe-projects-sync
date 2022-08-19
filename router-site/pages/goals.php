@@ -1,5 +1,3 @@
-
-
 <?php  
 	$pageTitle = "Goooaaaals";
 	$pageIntro = "Here are my goals";

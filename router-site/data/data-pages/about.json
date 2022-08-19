@@ -1,9 +1,9 @@
 {
-	"id": "001",
-	"slug": "home",
+	"id": "004",
+	"slug": "about",
 
-	"title": "This is my Home",
-	"intro": "Intro to my homepage paragraph",
+	"title": "About Moi",
+	"intro": "Here's everything about me",
 
 	"section": [
 		{

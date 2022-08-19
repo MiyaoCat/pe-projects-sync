@@ -92,7 +92,7 @@ a:hover {
 	font-size: .8rem;
 	font-weight: 300;
 	line-height: 1.4;
-	letter-spacing: .2rem;
+	letter-spacing: .05rem;
 }
 
 .calm-voice, articles-intro p {
@@ -101,7 +101,7 @@ a:hover {
 	font-weight: 300;
 	text-transform: uppercase;
 	line-height: 1.4;
-	letter-spacing: .2rem;
+	letter-spacing: .05rem;
 }
 
 article-intro header h2, article-intro header p{

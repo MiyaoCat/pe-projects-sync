@@ -1,10 +1,7 @@
 {
-	"id": "001",
-	"slug": "home",
-
-	"title": "This is my Home",
-	"intro": "Intro to my homepage paragraph",
-
+	"title": "Style Guide",
+	"slug": "style-guide",
+	"intro": "All my modules on one page. How nice!",
 	"section": [
 		{
 			"module": "standard-figure"
