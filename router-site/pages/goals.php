@@ -1,16 +1,12 @@
+
 <?php  
-	$title = "Goooaaaals";
-	$intro = "Here are my goals";
 	include("modules/page-header/page-header.php");
 ?>  
 
+<h1>This is the MFER GOALS PAGE!</h1>
 
-
-<section class="">
+<goals-module>
 	<inner-column>
 		<?php include("modules/goals-list/goals-list.php"); ?>
 	</inner-column>
-</section>
-
-
-
+</goals-module>

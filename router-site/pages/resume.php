@@ -4,25 +4,21 @@
 	$json = file_get_contents("data/data-pages/resume.json");
 	$resumeData = json_decode($json, true);
 
-	$title = $resumeData["pageTitle"];
-	$intro = $resumeData["introduction"];
 	$sections = $resumeData["sections"];
 ?>
 
 <?php  
-	$pageTitle = "Read My Resume";
-	$pageIntro = "Learn about my work history";
 	include("modules/page-header/page-header.php");
 ?>  
 
 <main class="resume">
 	
-		<header>
+		<!-- <header>
 			<inner-column>
 				<h1 class="attention-voice"><?=$title?></h1>
 				<p><?=$intro?></p>
 			</inner-column>
-		</header>
+		</header> -->
 		
 
 		<?php 
@@ -46,6 +42,14 @@
 								</ul>
 							</li>
 						<?php } ?>
+					</ol>
+
+					<ol>
+						<?php foreach($section["programs"] as $program) {?>
+							<li>
+								<?=$program?>
+							</li>
+						<?php } ?>	
 					</ol>
 				</inner-column>
 			</section>

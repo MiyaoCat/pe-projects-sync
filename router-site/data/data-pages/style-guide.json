@@ -1,6 +1,8 @@
-{
+{	
+	"id": "005",
 	"title": "Style Guide",
 	"slug": "style-guide",
+
 	"intro": "All my modules on one page. How nice!",
 	"section": [
 		{

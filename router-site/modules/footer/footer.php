@@ -9,8 +9,8 @@
 			<a href="?page=contact">Contact Me</a>
 			<a href="?page=about">About Me</a>
 			<a href="?page=style-guide">Style Guide</a>
-			<a href="?page=goals">Goals</a>
 			<a href="?page=resume">Resume</a>
+			<a href="?page=goals">Goals</a>
 		</nav>
 	</inner-column>
 </footer>

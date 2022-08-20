@@ -1,7 +1,8 @@
-{
-	"title": "My Resume",
+{	"id": "006",
+	
+	"template": "resume",
+	"title": "This is My Resume",
 	"intro": "Cover Letter / Intro",
-
 	"sections" : [
 		{	
 			"heading": "Work Experience",

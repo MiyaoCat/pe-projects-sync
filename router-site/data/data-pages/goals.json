@@ -1,8 +1,7 @@
 {
-	"id": 005,
-	"slug": "goals",
+	"id": "007",
 	"template": "goals",
 
-	"title": "My Goals",
-	"intro": "Manifestation destination"
+	"title": "My Life & Career Goals",
+	"intro": "A few of the things I want to accomplish"
 }
