@@ -14,13 +14,7 @@
 			"content": "<h2 class='attention-voice'>How many Problems Ya go?</h2><p>A LOT. By 21 Savage. He won a grammy for this song. This is example of some text for the content."
 		},
 		{
-			"module": "graphic-diptych"
-		},
-		{
 			"module": "generic-text"
-		},
-		{
-			"module": "projects-spotlight"
 		}
-	]
+	]	
 }

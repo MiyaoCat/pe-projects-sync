@@ -20,6 +20,12 @@
 		},
 		{
 			"module": "projects-spotlight"
+		},
+		{
+			"module": "footer"
+		},
+		{
+			"module": "page-header"
 		}
 	]
 }

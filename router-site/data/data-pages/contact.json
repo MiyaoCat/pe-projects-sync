@@ -19,12 +19,6 @@
 		},
 		{
 			"module": "graphic-diptych"
-		},
-		{
-			"module": "generic-text"
-		},
-		{
-			"module": "projects-spotlight"
 		}
 	]
 }
