@@ -1,6 +1,5 @@
 <?php 
 	$title = $project['title'];
-	$url = $project['url'];
 	$teaser = $project['teaser'];
 	$slug = $project['slug'];
 ?>

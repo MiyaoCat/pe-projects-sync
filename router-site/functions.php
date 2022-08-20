@@ -24,4 +24,16 @@
 			echo "<a href='$link' target='$type'>Link</a>";
 		}
 	}
+
+	function pageClass($page) {
+		return "$page-page";
+	}
+
+	function pageTemplateClass($pageData) {
+		if ( isset($pageData["template"]) ) {
+			return "$pageData[template]-template";
+		} else {
+			return "default-template";
+		}
+	}
 ?>

@@ -14,7 +14,7 @@ include("functions.php");
 	<link rel="stylesheet" href="styles/site.css">
 </head>
 
-<body>
+<body class="<?=pageClass($page)?> <?=pageTemplateClass($pageData)?>">
 	<header class="site-header">
 		<inner-column>
 			<?php include("modules/mast-head/mast-head.php"); ?>

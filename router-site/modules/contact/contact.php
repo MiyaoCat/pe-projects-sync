@@ -1,6 +1,8 @@
+<?php $section = $section["content"] ?? "some other text"?>
+
 <contact-form>
 	<h2 class="attention-voice">A mini Contact Form</h2>
-	<p><?=$section["content"];?></p>
+	<p><?=$section;?></p>
 	<form method="POST">
 		<input 
 			type="textarea" 

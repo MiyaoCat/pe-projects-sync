@@ -5,7 +5,7 @@
 ?>
 
 <?php  
-	$pageTitle = "My Projects";
+	$title = "My Projects";
 	include("modules/page-header/page-header.php");
 ?>
 

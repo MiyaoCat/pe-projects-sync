@@ -1,9 +1,5 @@
-
-<?php include("modules/header/header.php"); ?>
-
-<inner-column><?php echo "?" . queryString(); ?></inner-column>
-<hr>
 <?php 
+	//PAGE ROUTER
 	$page = "home";
 	if ( isset($_GET["page"]) ) {
 		$page = $_GET["page"];
@@ -18,6 +14,13 @@
 		$pageData = json_decode($jsonData, true);
 	}  
 
+?>
+
+<?php include("modules/header/header.php"); ?>
+
+<inner-column><?php echo "?" . queryString(); ?></inner-column>
+<hr>
+<?php 
 	if ($pageData) {
 	 
 	 if ( !isset($pageData["template"]) ) {
@@ -29,7 +32,6 @@
 	} else {
 	 	include("pages/404.php");
 	}
-
 ?> 
 
 

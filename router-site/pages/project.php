@@ -26,14 +26,15 @@
 	//Call the case-study array within the $page array $caseStudies
 	$caseStudies = $selectedProject["case-study"];	
 
-	
+	$url = $selectedProject["url"];
+	$section = "";
 ?>
 
 <article>
 	<header class="page-header">
 		<inner-column>
 			<h1 class="loud-voice"><?=$title?></h1>
-	
+			<p>helo hello hola</p>
 			<p><?=$teaser?></p>
 		</inner-column>
 	</header>
@@ -55,4 +56,8 @@
 		</section>
 
 	<?php } ?>	
+
+	<footer>
+		<inner-column><a href="<?=$url?>" target="_blank">Project Details</a></inner-column>
+	</footer>
 </article>

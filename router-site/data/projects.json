@@ -19,7 +19,8 @@
 				"module": "generic-text"
 			},
 			{
-				"module": "projects-spotlight"
+				"module": "projects-spotlight",
+				"heading": "Check out my other stuff"
 			}
 		]
 	},
@@ -37,9 +38,6 @@
 				"module": "generic-text"
 			},
 			{
-				"module": "generic-text"
-			},
-			{
 				"module": "projects-spotlight"
 			}
 		]
@@ -47,21 +45,13 @@
 	{
 		"title": "Example project III",
 		"slug": "three",
-		"teaser": "This is project I worked on things to build up my web dev knowledge",
-		"url": "https://link.com",
+		"teaser": "This is the Pokemon project",
+		"url": "projects/project-three/index.php",
 		"featured": true,
 		"case-study": [
 			{
-				"module": "generic-text"
-			},
-			{
-				"module": "generic-text"
-			},
-			{
-				"module": "generic-text"
-			},
-			{
-				"module": "projects-spotlight"
+				"module": "generic-text",
+				"content": "This is where we used a Pokemon API to get pokemon names."
 			}
 		]
 	},
@@ -72,13 +62,7 @@
 		"url": "https://link.com",
 		"case-study": [
 			{
-				"module": "generic-text"
-			},
-			{
-				"module": "generic-text"
-			},
-			{
-				"module": "generic-text"
+				"module": "graphic-diptych"
 			},
 			{
 				"module": "projects-spotlight"
@@ -92,10 +76,7 @@
 		"url": "https://link.com",
 		"case-study": [
 			{
-				"module": "generic-text"
-			},
-			{
-				"module": "generic-text"
+				"module": "contact"
 			},
 			{
 				"module": "generic-text"
