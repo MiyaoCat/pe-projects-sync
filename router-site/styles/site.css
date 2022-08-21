@@ -40,3 +40,21 @@ main {
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 	gap: 20px;
 }
+
+.home-page {
+	background-color: #d79bf3;
+}
+
+.default-template {
+	--paper: #444444;
+	--ink: yellow;
+}
+
+.resume-template {
+	--paper: wheat;
+}
+
+.goals-page {
+	--paper: #b7a57a;
+	--ink: #33006f;
+}

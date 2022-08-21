@@ -8,9 +8,9 @@
 	//Give the function a name, that we can reference ($projects)
 	$projects = json_decode($json, true);
 
-	//Look (loop) through each array in the data file that has a set of key:value pairs. The data file is basically just arrays with key:value pairs.
+	//Look (loop) through each object in the data file that has a set of key:value pairs. The data file is a bunch of objects with key:value pairs.
 
-	//Rename the set of arrays ($projects) as individual arrays ($page) so we can look at the key:value pairs in each array. 
+	//Rename the set of arrays ($projects) as individual objects ($page) so we can look at the key:value pairs in each object. 
 	foreach ($projects as $page) {
 
 	//If the array's slug is equal to the one the user selects

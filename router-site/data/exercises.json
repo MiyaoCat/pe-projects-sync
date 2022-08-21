@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Tip Calculator",
+		"intro": "Use this to find out how much you should tip",
+		"slug": "tip-calculator",
+		"conclusion": "Here's what I learned when building this Tip calculator page"
+	},
+	{
+		"title": "Pizza Party",
+		"intro": "Use this to find out how many pizzas you should buy",
+		"slug": "pizza-party",
+		"conclusion": "Here's what I learned when building this Pizza page"
+	},
+	{
+		"title": "Simple Interest",
+		"intro": "Use this to find out how much you'll make",
+		"slug": "simple-interest",
+		"conclusion": "Here's what I learned when building this interest calculator page"
+	}
+]
