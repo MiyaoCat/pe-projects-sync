@@ -51,10 +51,10 @@ main {
 }
 
 .resume-template {
-	--paper: wheat;
+	--paper: #444444;
 }
 
 .goals-page {
-	--paper: #b7a57a;
+	--paper: #444444;
 	--ink: #33006f;
 }

@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta property="og:image" content="[IMAGE URL]">
-	<meta name="description" content="What's your total?">
-	<title></title>
-
-	<link rel="stylesheet" href="../css/style.css">
-</head>
 <body>
 	<header>
 		<section class='inner-column'>
@@ -19,14 +10,14 @@
 
 	<main clas="pizza">
 		<heading>
-			<h1 class="loud-voice"><a href="?">Pizza Party Time! (test deploybot)</a></h1>
+			<h1 class="loud-voice"><a href="?">Pizza Party Time! test</a></h1>
 		</heading>
 
 
 		<inner-column>
 
 			<div class="instructions">
-				<p class="normal-voice">Enter the number of people and pizzas at the party and we'll tell you how many slices each person gets!</p>
+				<p class="normal-voice">Enter the number of people and pizzas at the party and we'll tell you how many slices each person gets! test</p>
 			</div>
 		<?php 
 		//prompt number of pizza
@@ -146,11 +137,6 @@
 
 	</main>
 
-	<footer>
-		<section class="inner-column">
-			
-		</section>
-	</footer>
 	
 </body>
 </html>

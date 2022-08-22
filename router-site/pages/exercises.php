@@ -20,10 +20,11 @@
 				$slug = $exercise["slug"];
 			?>
 				<li class="exercise">
-					<h2 class="attention-voice"><?=$title;?></h2>
-					<p class="normal-voice"><?=$intro?></p>
+					<h2 class="attention-voice"><a href="?page=exercise&slug=<?=$slug?>"><?=$title?></a></h2>
+					<p class="quiet-voice"><?=$intro?></p>
 					<p><?=$conclusion?></p>
-					<a href="?page=exercise&slug=<?=$slug?>">Check it out!</a>
+					<a href="?page=exercise&slug=<?=$slug?>">See it!</a>
+				
 				</li>
 			<?php } ?>
 		</ul>

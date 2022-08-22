@@ -5,6 +5,7 @@
 	"intro": "Cover Letter / Intro",
 	"sections" : [
 		{	
+			"type" : "experience",
 			"heading": "Work Experience",
 			"jobs": [
 				{
@@ -52,7 +53,8 @@
 			]
 		},
 		{	
-			"heading": "skill",
+			"type" : "skills",
+			"heading": "Skill",
 			"programs": ["JIRA", "Salesforce", "Zendesk", "Freshdesk", "Mixpanel", "Tableau", "PowerBI", "Basecamp", "Asana", "Slack", "Excel", 
 				"PowerPoint", "Keynote", "MailChimp", "SurveyMonkey", "Twilio", "Testflight"  
 			],
@@ -60,7 +62,8 @@
 		},
 
 		{	
-			"heading": "education",
+			"type" : "education",
+			"heading": "Education",
 			"school": "University of Washington",
 			"major": "Economics",
 			"logo": ""

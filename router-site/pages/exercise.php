@@ -3,14 +3,16 @@
 	$exercises = json_decode($json, true);
  
 	foreach ($exercises as $exercise) {
-		if ($exercise["slug"] == $_GET["slug"]) {
-			$selectedExercise = $exercise;
-		}
+		if ($exercise["slug"] == $_GET["slug"]) { 
+			
+			$title = $exercise["title"];
+			$intro = $exercise["intro"];
+			$slug = $exercise["slug"];	
+		}	
+		
 	}
-
-	$title = $selectedExercise["title"];
-	$intro = $selectedExercise["intro"];
-	$slug = $selectedExercise["slug"];
+		
+	
 ?>
 
 <article>
