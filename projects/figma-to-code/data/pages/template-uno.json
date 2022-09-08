@@ -9,8 +9,8 @@
 			"modules": [
 				{
 					"type": "page-header",
-					"header": "PAGE HEADER HEADING Arcu suscipit massa aliquam proin amet",
-					"subHeader": "PAGE HEADER SUB-HEADER Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
+					"header": "BIG Section Header Heading",
+					"subHeader": "Page Header, sub Heading"
 				}
 			],
 
@@ -45,7 +45,7 @@
 					"supportTextB": "Support Text B."
 				},
 				{
-					"type": "page-header",
+					"type": "section-header",
 					"header": "SECOND PAGE HEADER ",
 					"subHeader": "Supporting text"
 				}
@@ -84,6 +84,23 @@
 					"header": "DIPTYCH2 HEADER",
 					"supportTextA": "Neque, pulvinar vestibulum non aliquam.",
 					"figure": "https://peprojects.dev/images/square.jpg"
+				}
+			]
+		},
+
+		{
+			"name": "clients",
+			"background": "",
+			"modules": [
+				{
+					"type": "section-header",
+					"header": "What Our Clients Says",
+					"subHeader": "Neque, pulvinar vestibulum non aliquam."
+				},
+				{
+					"type": "section-header",
+					"header": "SECOND PAGE HEADER ",
+					"subHeader": "Supporting text"
 				}
 			]
 		}

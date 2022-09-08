@@ -15,9 +15,19 @@
 		<?php foreach ($section["modules"] as $module) {
 			$type = $module["type"];
 		?>
-			<module-type>
+
+			<module class="<?=$type?>" style="border:1px solid red; display:block">
 				<?php include("../templates/modules/$type.php"); ?>
-			</module-type>
+
+				<?php if ( isset($section["buttons"]) ) {
+					foreach ($section["buttons"] as $button) {
+						$type = $button["type"];
+
+						include("../templates/components/buttons/$type.php");
+					}
+				} ?>
+			</module>
+
 		<?php } ?>
 	</section>
 
