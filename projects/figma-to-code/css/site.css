@@ -1,0 +1,33 @@
+
+/* Setup */
+@import 'setup.css';
+
+/* Ssetings */
+@import 'settings.css';
+
+/* Structure */
+@import 'structure.css';
+
+/* Typography */
+@import 'typography.css';
+
+
+/* Sections and more stuff */
+@import 'footer.css';
+@import 'header.css';
+
+/* then other contextual styles */
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+inner-column {
+	padding: 0 5px;
+}
+
+
+.heading {
+	color: var(--highlight);
+	margin: 50px 0;
+}
