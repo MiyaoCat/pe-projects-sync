@@ -1,1 +1,23 @@
-template-one.json
+{
+	"page": "templateOne",
+	"sections": [
+
+		{
+			"module": "hero",
+			"header": "Arcu suscipit massa aliquam proin amet",
+			"subHeader": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+
+			"buttons": [
+				{
+					"type": "button-contained",
+					"text": "Get Started"
+				},
+				{
+					"type": "button-outline",
+					"text": "Start free trial"
+				}
+			]
+			
+		}
+	]
+}
