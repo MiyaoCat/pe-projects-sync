@@ -1,1 +1,1 @@
-diptych.php
+<p>diptych text</p>

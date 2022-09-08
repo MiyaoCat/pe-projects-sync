@@ -1,0 +1,1 @@
+<h2 class="attention-voice">DIPTYCH HEADER <?=$header?></h2>

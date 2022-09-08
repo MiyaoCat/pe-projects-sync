@@ -1,0 +1,80 @@
+{
+	"page": "template-one",
+	"title": "Modelo-Uno",
+
+	"sections": [
+		{
+			"name": "hero",
+			"background": "../images/background-diagonal-lines.php",
+			"modules": [
+				{
+					"type": "page-header",
+					"header": "Arcu suscipit massa aliquam proin amet",
+					"subHeader": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
+				}
+			],
+
+			"buttons": [
+				{
+					"type": "contained",
+					"corners": "sharp",
+					"arrows": "none",
+					"style": "light",
+					"size": "large",
+					"text": "Get Started"
+				},
+				{
+					"type": "outline",
+					"corners": "sharp",
+					"arrows": "none",
+					"style": "light",
+					"size": "large",
+					"text": "Start free trial"
+				}
+			]
+		},
+
+		{
+			"name": "center-content",
+			"background": "",
+			"modules": [
+				{
+					"type": "sub-header",
+					"header": "Etiam nulla lectus amet nunc molestie at vulputate.",
+					"supportTextA": "Rhoncus, accumsan dictum",
+					"supportTextB": "Neque, pulvinar vestibulum non aliquam."
+				}
+			]
+		},
+
+		{
+			"name": "feature",
+			"background": "",
+			"modules": [
+				{
+					"type": "diptych",
+					"header": "Etiam nulla lectus molestie at vulputate.",
+					"supportTextA": "Neque, pulvinar vestibulum non aliquam.",
+					"figure": "https://peprojects.dev/images/square.jpg"
+				},
+				{
+					"type": "feature-list",
+					"list": [
+						{
+							"number": 1,
+							"title": "title",
+							"detail": "detail text"
+
+						},
+						{
+							"number": 2,
+							"title": "title",
+							"detail": "detail text"
+
+						}
+					]
+				}
+			]
+		}
+	]
+}

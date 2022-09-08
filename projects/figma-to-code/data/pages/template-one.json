@@ -9,15 +9,27 @@
 
 			"buttons": [
 				{
-					"type": "button-contained",
+					"type": "contained",
+					"corners": "sharp",
+					"arrow": "none",
+					"style": "light",
+					"size": "large",
 					"text": "Get Started"
 				},
 				{
-					"type": "button-outline",
+					"type": "outline",
+					"corners": "sharp",
+					"arrow": "none",
+					"style": "light",
+					"size": "large",
 					"text": "Start free trial"
 				}
 			]
-			
+		},
+		{
+			"module": "hero",
+			"header": "Arcu suscipit massa aliquam proin amet",
+			"subHeader": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
 		}
 	]
 }

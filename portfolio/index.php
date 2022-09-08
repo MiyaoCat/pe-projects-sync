@@ -24,19 +24,22 @@
    <h1>Site Header</h1>
  	<?php include("modules/site-menu.php"); ?>
  </header>
-
+<p>test</p>
 <h2 class="page-render-title">PAGE RENDERING BELOW</h2>
 
 <!-- Blue Dashed box -->
 <div class="page-render">
-   <?php 
-      $filePath = "pages/" . currentPage() . ".php";
-      $pageData = pageData();
-      if ( file_get_contents($filePath) ) {
-         include($filePath);
-      } else {
-         include('pages/404.php');
-      } 
-   ?>
+   <?php renderPageTemplate(); ?>
 
+   <section>
+   
+   <h1>Section Loop</h1>
+   <?php renderSections(); ?>
+      
+   </section> 
 </div>
+
+<div class="diptych">
+   <h1 class="section2">Diptych</h1>
+
+   <?php include("modules/diptych.php") ?></div>
