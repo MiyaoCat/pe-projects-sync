@@ -5,8 +5,8 @@
 			
 ?>
 
-	<h1 class="loud-voice">PAGE HEADER HEADING <?=$header?></h1>
-	<p class="normal-voice">PAGE HEADER SUB-HEADER 
+	<h1 class="loud-voice"><?=$header?></h1>
+	<p class="normal-voice">
 	<?=$subHeader?></p>
 
 <?php } ?>

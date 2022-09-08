@@ -9,8 +9,8 @@
 			"modules": [
 				{
 					"type": "page-header",
-					"header": "Arcu suscipit massa aliquam proin amet",
-					"subHeader": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
+					"header": "PAGE HEADER HEADING Arcu suscipit massa aliquam proin amet",
+					"subHeader": "PAGE HEADER SUB-HEADER Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,"
 				}
 			],
 
@@ -40,9 +40,14 @@
 			"modules": [
 				{
 					"type": "sub-header",
-					"header": "Etiam nulla lectus amet nunc molestie at vulputate.",
-					"supportTextA": "Rhoncus, accumsan dictum",
-					"supportTextB": "Neque, pulvinar vestibulum non aliquam."
+					"header": "SUB-HEADING HEADER ",
+					"supportTextA": "Support Text A",
+					"supportTextB": "Support Text B."
+				},
+				{
+					"type": "page-header",
+					"header": "SECOND PAGE HEADER ",
+					"subHeader": "Supporting text"
 				}
 			]
 		},
@@ -53,7 +58,7 @@
 			"modules": [
 				{
 					"type": "diptych",
-					"header": "Etiam nulla lectus molestie at vulputate.",
+					"header": "DIPTYCH HEADER",
 					"supportTextA": "Neque, pulvinar vestibulum non aliquam.",
 					"figure": "https://peprojects.dev/images/square.jpg"
 				},
@@ -62,17 +67,23 @@
 					"list": [
 						{
 							"number": 1,
-							"title": "title",
+							"title": "title1",
 							"detail": "detail text"
 
 						},
 						{
 							"number": 2,
-							"title": "title",
+							"title": "title2",
 							"detail": "detail text"
 
 						}
 					]
+				},
+				{
+					"type": "diptych",
+					"header": "DIPTYCH2 HEADER",
+					"supportTextA": "Neque, pulvinar vestibulum non aliquam.",
+					"figure": "https://peprojects.dev/images/square.jpg"
 				}
 			]
 		}

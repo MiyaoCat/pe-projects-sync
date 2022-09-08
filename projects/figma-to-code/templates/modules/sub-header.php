@@ -5,7 +5,7 @@
 		$supportTextB = $module["supportTextB"];
 ?>
 
-<h2 class="attention-voice">SUB-HEADING HEADER <?=$header?></h2>
-<p class="normal-voice">SUB-HEADING SUPPORT TEXT A <?=$supportTextA?></p>
+<h2 class="attention-voice"><?=$header?></h2>
+<p class="normal-voice"><?=$supportTextA?></p>
 
 <?php } ?>
