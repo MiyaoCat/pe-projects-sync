@@ -28,7 +28,7 @@
 							include("../templates/components/buttons/$buttonType.php");
 							}
 					
-							if ($component["type"] == "client-review-card") {
+							if ($component["type"] !== "button") {
 								$type = $component["type"];
 							
 							include("../templates/components/$type.php");	
