@@ -14,9 +14,10 @@
 				}
 			],
 
-			"buttons": [
+			"components": [
 				{
-					"type": "contained",
+					"type": "button",
+					"buttonType": "contained",
 					"corners": "sharp",
 					"arrows": "none",
 					"style": "light",
@@ -24,7 +25,8 @@
 					"text": "Get Started"
 				},
 				{
-					"type": "outline",
+					"type": "button",
+					"buttonType": "outline",
 					"corners": "sharp",
 					"arrows": "none",
 					"style": "light",
@@ -96,11 +98,59 @@
 					"type": "section-header",
 					"header": "What Our Clients Says",
 					"subHeader": "Neque, pulvinar vestibulum non aliquam."
+				}
+			],
+
+			"components": [
+				{
+					"type": "client-review-card",
+					"rating": "stars",
+					"review": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+					"avatar": "../images/avatar.png",
+					"name": "Courtney Henry"
 				},
 				{
+					"type": "client-review-card",
+					"rating": "stars",
+					"review": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+					"avatar": "../images/avatar.png",
+					"name": "Courtney Henry"
+				}
+			]
+		},
+
+		{
+			"name": "call-to-action",
+			"background": "",
+			"modules": [
+				{
 					"type": "section-header",
-					"header": "SECOND PAGE HEADER ",
-					"subHeader": "Supporting text"
+					"header": "Etiam nulla lectus amet nunc molestie at vulputate.",
+					"subHeader": "Rhoncus, accumsan dictum" 
+				}
+			],
+
+			"components": [
+				{
+					"type": "button",
+					"buttonType": "contained",
+					"corners": "sharp",
+					"arrows": "right",
+					"style": "dark",
+					"size": "large",
+					"text": "Get free quotes"
+				}
+			]
+		},
+
+		{
+			"name": "faqs",
+			"background": "",
+			"modules": [
+				{
+					"type": "section-header",
+					"header": "Frequent ask qustions",
+					"subHeader": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque." 
 				}
 			]
 		}

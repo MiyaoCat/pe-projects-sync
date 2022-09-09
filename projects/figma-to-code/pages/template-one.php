@@ -17,15 +17,26 @@
 		?>
 
 			<module class="<?=$type?>" style="border:1px solid red; display:block">
-				<?php include("../templates/modules/$type.php"); ?>
-
-				<?php if ( isset($section["buttons"]) ) {
-					foreach ($section["buttons"] as $button) {
-						$type = $button["type"];
-
-						include("../templates/components/buttons/$type.php");
-					}
-				} ?>
+				<inner-column style="display: block">
+					<?php include("../templates/modules/$type.php"); ?>
+					
+					<?php if ( isset($section["components"]) ) {
+						foreach ($section["components"] as $component) {
+							if ($component["type"] == "button") {
+							$buttonType = $component["buttonType"];
+					
+							include("../templates/components/buttons/$buttonType.php");
+							}
+					
+							if ($component["type"] == "client-review-card") {
+								$type = $component["type"];
+							
+							include("../templates/components/$type.php");	
+							}
+					
+						}
+					} ?>
+				</inner-column>
 			</module>
 
 		<?php } ?>

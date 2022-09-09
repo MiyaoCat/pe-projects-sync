@@ -1,5 +1,5 @@
 <?php
-		$text = $button["text"];
+		$text = $component["text"];
 ?>		
 	<button>
 		<p class="normal-voice"><?=$text?></p>
