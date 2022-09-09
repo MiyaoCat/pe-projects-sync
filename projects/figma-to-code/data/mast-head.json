@@ -1,0 +1,53 @@
+{
+	"sections": [
+		{
+			"name": "mast-head",
+			"background": ""
+		}
+	],
+
+	"components": [
+		{
+			"type": "logo",
+			"source": "../images/logo.svg"
+		},
+		{
+			"type": "nav",
+			"listItems": [
+				{
+					"page": "Home",
+					"link": "?"
+				},
+				{
+					"page": "Updates",
+					"link": "#"
+				},
+				{
+					"page": "Services",
+					"link": "#"
+				},
+				{
+					"page": "Features",
+					"link": "#"
+				},
+				{
+					"page": "About Us",
+					"link": "#"
+				}
+			]
+		},
+		{
+			"type": "language",
+			"source": "../images/langauge.svg"
+		},
+		{
+			"type": "button",
+			"buttonType": "contained",
+			"corners": "round",
+			"arrows": "none",
+			"style": "dark",
+			"size": "medium",
+			"text": "LogIn"
+		}
+	]
+}
