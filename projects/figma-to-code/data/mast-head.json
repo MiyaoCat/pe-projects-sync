@@ -9,18 +9,20 @@
 	"components": [
 		{
 			"type": "logo",
+			"fileType": "svg",
 			"source": "../images/logo.svg"
 		},
 		{
 			"type": "nav",
+			"fileType": "php",
 			"listItems": [
 				{
 					"page": "Home",
 					"link": "?"
 				},
 				{
-					"page": "Updates",
-					"link": "#"
+					"page": "Template One",
+					"link": "?page=template-one"
 				},
 				{
 					"page": "Services",
@@ -38,10 +40,12 @@
 		},
 		{
 			"type": "language",
+			"fileType": "svg",
 			"source": "../images/langauge.svg"
 		},
 		{
 			"type": "button",
+			"fileType": "php",
 			"buttonType": "contained",
 			"corners": "round",
 			"arrows": "none",

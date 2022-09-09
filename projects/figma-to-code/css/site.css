@@ -1,6 +1,8 @@
 
 /* Setup */
+@import 'meyer-reset.css';
 @import 'setup.css';
+
 
 /* Ssetings */
 @import 'settings.css';
@@ -16,7 +18,13 @@
 @import 'footer.css';
 @import 'header.css';
 
-/* then other contextual styles */
+/* Modules */
+@import 'templates/modules/modules.css';
+
+/* Components */
+@import 'templates/components/components.css';
+
+
 body {
 	background-color: var(--paper);
 	color: var(--ink);
