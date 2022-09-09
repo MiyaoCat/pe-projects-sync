@@ -11,7 +11,6 @@ main {
 
 inner-column {
 	display: block;
-	width: 98%;
 	max-width: var(--wide); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
@@ -19,7 +18,8 @@ inner-column {
 
 @media (min-width: 600px) {
 	inner-column {
-		width: var(--tight);
+		width: var(--standard);
+		border: 2px solid blue;
 	}
 	.heading inner-column {
 		width: var(--wide);

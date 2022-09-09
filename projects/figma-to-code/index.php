@@ -19,21 +19,19 @@
 	}
 ?>
 
-
-
 	<?php foreach ($templateUno["sections"] as $section) {
 				$name = $section["name"];		
 	?>
 
-	<section class="<?=$name?>" style="border: 2px solid black; padding: 5px">
-		<h1 class="loud-voice"><?=$name?></h1>
+	<section class="<?=$name?>">
+		<h1 class="attention-voice"><?=$name?></h1>
 
 		<?php foreach ($section["modules"] as $module) {
 					$type = $module["type"];
 		?>
 
-			<module class="<?=$type?>" style="border:1px solid red; display:block">
-				<inner-column style="display: block">
+			<module class="<?=$type?>">
+				<inner-column>
 					<?php include("templates/modules/$type.php"); ?>
 					
 					<?php if ( isset($section["components"]) ) {

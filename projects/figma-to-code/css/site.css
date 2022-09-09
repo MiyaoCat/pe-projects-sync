@@ -17,6 +17,7 @@
 /* Sections and more stuff */
 @import 'footer.css';
 @import 'header.css';
+@import 'templates/sections/sections.css';
 
 /* Modules */
 @import 'templates/modules/modules.css';
@@ -30,12 +31,12 @@ body {
 	color: var(--ink);
 }
 
-inner-column {
-	padding: 0 5px;
+section {
+	border: 2px solid black; 
+	padding: 5px;
 }
 
-
-.heading {
-	color: var(--highlight);
-	margin: 50px 0;
+module {
+	border:1px solid red; 
+	display:block;
 }
