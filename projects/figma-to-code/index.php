@@ -34,16 +34,21 @@
 					<?php include("templates/modules/$type.php"); ?>
 				</module>		
 
-					<?php if ( isset($section["components"]) ) {
+				<?php if ( isset($section["components"]) ) { ?>
 
+					<div class="action">
+						<?php	
+							foreach ($section["components"] as $component) {
+								if ($component["type"] == "button") {
+									$buttonType = $component["buttonType"];
+						
+									include("templates/components/buttons/$buttonType.php");
+								}
+							} ?>
+					</div>
+
+					<?php	
 						foreach ($section["components"] as $component) {
-
-							if ($component["type"] == "button") {
-								$buttonType = $component["buttonType"];
-					
-								include("templates/components/buttons/$buttonType.php");
-							}
-					
 							if ($component["type"] !== "button") {
 								$type = $component["type"];
 								$fileType = $component["fileType"];
