@@ -8,28 +8,25 @@ html {
 	--tight: 800px;
 	--wide: 98vw;
 
-	--paper: hsl(37, 32%, 92%); 
+	--paper: #fff; 
 
 	--ink: #212121;
 	--ink-alt: #424242;
 	--ink-support: #757575;
 	--ink-support-light: #616161;
+	--ink-button: #9E9E9E;
 	--ink-highlight: #3563E9;
 	--ink-contrast: #FFF;
-	
-	--primary: #2851E3;
-	--primary-light: #3563E9;
-	--primary-alt: #EEEEEE;
+
+	--highlight: #3563E9;
+	--highlight-dark: #2851E3;
+	--highlight-alt: #EEEEEE;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--paper: hsl(28, 17%, 30%); 
-		--ink: #212121;
-		--highlight: yellow;
+		--paper: #000; 
+		--ink: #FFF;
 	}
 
-	.logo {
-		fill: white;
-	}
 }
