@@ -16,20 +16,6 @@ inner-column {
 	margin-left: auto;
 }
 
-@media (min-width: 600px) {
-	inner-column {
-		width: var(--standard);
-		border: 2px solid blue;
-	}
-	.heading inner-column {
-		width: var(--wide);
-		text-align: center;
-	}
-}
-
-inner-column.tight {
-	max-width: var(--tight);
-}
 
 .site-header {
 	position: sticky;
