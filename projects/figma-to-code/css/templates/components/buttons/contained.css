@@ -1,0 +1,6 @@
+button.contained {
+	background-color: var(--primary);
+	border: none;
+	color: white;
+	padding: 15px 50px;
+}

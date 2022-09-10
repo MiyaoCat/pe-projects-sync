@@ -1,0 +1,7 @@
+button.outline {
+	background-color: var(--white);
+	border: none;
+	color: var(--primary);
+	border: 1px solid var(--primary);
+	padding: 14px 49px;
+}

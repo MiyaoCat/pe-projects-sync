@@ -1,7 +1,8 @@
 <?php
-		$text = $component["text"];
+	$text = $component["text"];
+	$buttonType = $component["buttonType"];
 ?>		
-	<button>
+	<button class="<?=$buttonType?>">
 		<p class="normal-voice"><?=$text?></p>
 	</button>
 

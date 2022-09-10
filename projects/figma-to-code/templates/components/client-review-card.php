@@ -27,7 +27,7 @@
 		</svg>
 	</star-rating>
 	
-	<p class="normal-voice"><?=$review?></p>
+	<p class="review normal-voice"><?=$review?></p>
 	
 	<picture>
 		<img src="<?=$avatar?>" alt="client avatar">

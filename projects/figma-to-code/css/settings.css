@@ -4,7 +4,8 @@ html {
 	--white: #FFF;
 
 	--color: #5E321F;
-	--highlight: #aadee9;
+	--alternate: #757575;
+	--highlight: #EFF3FD;
 
 	--shadow: rgba(0,0,0,.8);
 
@@ -16,14 +17,14 @@ html {
 
 	--paper: hsl(37, 32%, 92%); /* light brown */
 
-	--ink: black;
-	--highlight: hsl(360, 100%, 39%); /* red */
+	--ink: #212121;
+	--primary: #3563E9;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
 		--paper: hsl(28, 17%, 30%); /* dark brown */
-		--ink: white;
+		--ink: #212121;
 		--highlight: yellow;
 	}
 
