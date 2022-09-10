@@ -1,29 +1,30 @@
 
 html {
-	--black: #111111;
-	--white: #FFF;
+	/*BUTTON CORNERS*/
+	--corners: 5px; 
 
-	--color: #5E321F;
-	--alternate: #757575;
-	--highlight: #EFF3FD;
-
-	--shadow: rgba(0,0,0,.8);
-
-	--corners: 10px; /* or whatevers */
-
+	/*PAGE WIDTH*/
 	--standard: 1140px;
 	--tight: 800px;
 	--wide: 98vw;
 
-	--paper: hsl(37, 32%, 92%); /* light brown */
+	--paper: hsl(37, 32%, 92%); 
 
 	--ink: #212121;
-	--primary: #3563E9;
+	--ink-alt: #424242;
+	--ink-support: #757575;
+	--ink-support-light: #616161;
+	--ink-highlight: #3563E9;
+	--ink-contrast: #FFF;
+	
+	--primary: #2851E3;
+	--primary-light: #3563E9;
+	--primary-alt: #EEEEEE;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--paper: hsl(28, 17%, 30%); /* dark brown */
+		--paper: hsl(28, 17%, 30%); 
 		--ink: #212121;
 		--highlight: yellow;
 	}
