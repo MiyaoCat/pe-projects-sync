@@ -5,8 +5,7 @@
 			
 ?>
 
-	<h1 class="loud-voice"><?=$header?></h1>
-	<p class="normal-voice">
-	<?=$subHeader?></p>
+	<h1 class="header loud-voice"><?=$header?></h1>
+	<p class="sub-header normal-voice"><?=$subHeader?></p>
 
 <?php } ?>

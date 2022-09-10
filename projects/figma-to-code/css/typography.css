@@ -25,7 +25,12 @@ a:hover {
 	}
 }
 /* Main header or banner text or similar */
-.screaming-voice {
+.shout-voice {
+	font-family: var(--company-font);
+	font-size: 64px;
+	font-weight: 700px;
+	line-height: 77.45px;
+	letter-spacing: 1.2px;
 }
 
 /* Header text or similar */

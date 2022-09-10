@@ -1,0 +1,14 @@
+client-review-card {
+	display: flex;
+	flex-direction: column;
+}
+
+client-review-card picture img {
+	width: 40px;
+}
+
+star-rating {
+	display: flex;
+	gap:  8px;
+	width: 152px;
+}
