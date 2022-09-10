@@ -59,10 +59,15 @@
 						foreach ($section["icons"] as $icon) {
 							$type = $icon["type"];
 							$iconType = $icon["iconType"];
+						?>
+						
+						<icon class="<?=$iconType?>">
+							<?php	include("templates/icons/$type/$iconType.svg"); ?>
+						</icon>
 
-							include("templates/icons/$type/$iconType.svg");
-						}
-					} ?>
+						<?php } ?>
+						
+					<?php	} ?>
 
 			<?php } ?>
 
