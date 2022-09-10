@@ -21,6 +21,14 @@ html {
 	--highlight: #3563E9;
 	--highlight-dark: #2851E3;
 	--highlight-alt: #EEEEEE;
+
+	--gap-narrow: 15px;
+	--gap-medium: 30px;
+	--gap-wide: 40px;
+
+	--margin-small: 25px;
+	--margin-medium: 30px;
+	--margin-large: 50px;
 }
 
 @media (prefers-color-scheme: dark) {

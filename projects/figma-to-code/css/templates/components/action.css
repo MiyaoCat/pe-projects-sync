@@ -1,0 +1,7 @@
+.hero .action {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: var(--medium);
+	border: 1px solid green;
+}

@@ -2,7 +2,7 @@
 @import 'logo.css';
 @import 'login.css';
 @import 'client-review-card.css';
-@import 'arrows';
+@import 'action.css';
 
 /*BUTTONS*/
 @import 'buttons/contained/corners/round/arrows/none/light/large.css';
