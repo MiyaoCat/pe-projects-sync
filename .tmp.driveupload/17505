@@ -1,0 +1,157 @@
+0000000000000000000000000000000000000000 5ac6c5e48f0a33867c09dc6d6ef9940f7939dcbc john <jjmiyao@gmail.com> 1655145884 -0700	commit (initial): fresh start - new folder, same files
+5ac6c5e48f0a33867c09dc6d6ef9940f7939dcbc 47d775ea91f24694c8c37a3b78ce7a36d79b1be5 john <jjmiyao@gmail.com> 1655145901 -0700	commit: commit new folder
+47d775ea91f24694c8c37a3b78ce7a36d79b1be5 9c97c4071914beddc61d07da0d9336925db6c43c john <jjmiyao@gmail.com> 1655145911 -0700	commit: commit3
+9c97c4071914beddc61d07da0d9336925db6c43c 4305ed738fea431e66f17e1e86bd2ad245c07ac5 john <jjmiyao@gmail.com> 1655145919 -0700	commit: commit4
+4305ed738fea431e66f17e1e86bd2ad245c07ac5 483d8d4ccdf7936987954c3e09601bc2d97f6249 john <jjmiyao@gmail.com> 1655145930 -0700	commit: commit
+483d8d4ccdf7936987954c3e09601bc2d97f6249 8c42e0b604a795ee205fa593ed88afc6fe13aceb john <jjmiyao@gmail.com> 1655145946 -0700	commit: commit5
+8c42e0b604a795ee205fa593ed88afc6fe13aceb 6ad1efae0e66b9e9e367ef87b72107ce814bfc57 john <jjmiyao@gmail.com> 1655145952 -0700	commit: commit6
+6ad1efae0e66b9e9e367ef87b72107ce814bfc57 d14528ce51c64916e03afe2f2a2c988b775483b9 john <jjmiyao@gmail.com> 1655145962 -0700	commit: commit7
+d14528ce51c64916e03afe2f2a2c988b775483b9 3daa89b3d96a8df038e52ab69e376e581d752113 john <jjmiyao@gmail.com> 1655145974 -0700	commit: commit8
+3daa89b3d96a8df038e52ab69e376e581d752113 a9207d9b8fb11f4e3fc1040a14cb918ffd045238 john <jjmiyao@gmail.com> 1655146057 -0700	commit: commit9
+a9207d9b8fb11f4e3fc1040a14cb918ffd045238 a742db51d2ae6455266e7d7d0773222d63a913f8 john <jjmiyao@gmail.com> 1655146349 -0700	commit: fresh start - new file name
+a742db51d2ae6455266e7d7d0773222d63a913f8 a0154f22c875edfe7dca95cfeade9fb1b9de0787 john <jjmiyao@gmail.com> 1655146550 -0700	checkout: moving from master to main
+a0154f22c875edfe7dca95cfeade9fb1b9de0787 a742db51d2ae6455266e7d7d0773222d63a913f8 john <jjmiyao@gmail.com> 1655146554 -0700	checkout: moving from main to master
+a742db51d2ae6455266e7d7d0773222d63a913f8 a0154f22c875edfe7dca95cfeade9fb1b9de0787 john <jjmiyao@gmail.com> 1655146556 -0700	checkout: moving from master to main
+a0154f22c875edfe7dca95cfeade9fb1b9de0787 b0aed9423a268e22dbe3ee525055781c791e9020 john <jjmiyao@gmail.com> 1655146826 -0700	commit: fresh start
+b0aed9423a268e22dbe3ee525055781c791e9020 b0aed9423a268e22dbe3ee525055781c791e9020 john <jjmiyao@gmail.com> 1655146838 -0700	reset: moving to HEAD
+b0aed9423a268e22dbe3ee525055781c791e9020 a742db51d2ae6455266e7d7d0773222d63a913f8 john <jjmiyao@gmail.com> 1655146838 -0700	checkout: moving from main to master
+a742db51d2ae6455266e7d7d0773222d63a913f8 a742db51d2ae6455266e7d7d0773222d63a913f8 john <jjmiyao@gmail.com> 1655151053 -0700	reset: moving to HEAD
+a742db51d2ae6455266e7d7d0773222d63a913f8 a0154f22c875edfe7dca95cfeade9fb1b9de0787 john <jjmiyao@gmail.com> 1655151053 -0700	pull -v --progress --rebase audiophile-data refs/heads/main: checkout a0154f22c875edfe7dca95cfeade9fb1b9de0787
+a0154f22c875edfe7dca95cfeade9fb1b9de0787 6a5fc99d69f7dd5ddb7d943552b7fb7b6cc37c53 john <jjmiyao@gmail.com> 1655153525 -0700	rebase: commit new folder
+6a5fc99d69f7dd5ddb7d943552b7fb7b6cc37c53 95fd872db7024b7a4b1de24301e78c63c38849c0 john <jjmiyao@gmail.com> 1655153525 -0700	rebase: commit3
+95fd872db7024b7a4b1de24301e78c63c38849c0 b8b42e5c9fae9abe34f4361e81edbc2a3cfbf4da john <jjmiyao@gmail.com> 1655153616 -0700	rebase: commit
+b8b42e5c9fae9abe34f4361e81edbc2a3cfbf4da 8adfdfa1ad339551655794e0bde414df30a21452 john <jjmiyao@gmail.com> 1655153676 -0700	rebase: commit5
+8adfdfa1ad339551655794e0bde414df30a21452 a742db51d2ae6455266e7d7d0773222d63a913f8 john <jjmiyao@gmail.com> 1655153755 -0700	rebase: updating HEAD
+a742db51d2ae6455266e7d7d0773222d63a913f8 7a62ec2d14dbb35193bf0afc4bd73f20166c1183 john <jjmiyao@gmail.com> 1655153771 -0700	commit: test
+7a62ec2d14dbb35193bf0afc4bd73f20166c1183 28be05b1d41f683548509c5e825146d62bc57305 john <jjmiyao@gmail.com> 1655153817 -0700	commit: clear commit
+28be05b1d41f683548509c5e825146d62bc57305 a0154f22c875edfe7dca95cfeade9fb1b9de0787 john <jjmiyao@gmail.com> 1655156827 -0700	pull -v --progress --rebase audiophile-data refs/heads/main: checkout a0154f22c875edfe7dca95cfeade9fb1b9de0787
+a0154f22c875edfe7dca95cfeade9fb1b9de0787 28be05b1d41f683548509c5e825146d62bc57305 john <jjmiyao@gmail.com> 1655156900 -0700	rebase: updating HEAD
+28be05b1d41f683548509c5e825146d62bc57305 b0aed9423a268e22dbe3ee525055781c791e9020 john <jjmiyao@gmail.com> 1655158618 -0700	checkout: moving from master to main
+b0aed9423a268e22dbe3ee525055781c791e9020 28be05b1d41f683548509c5e825146d62bc57305 john <jjmiyao@gmail.com> 1655158663 -0700	checkout: moving from main to master
+28be05b1d41f683548509c5e825146d62bc57305 c63b805b025a7c2e95f6f5df1d75bcbfdb7e0059 john <jjmiyao@gmail.com> 1655158681 -0700	commit: pe-repos
+c63b805b025a7c2e95f6f5df1d75bcbfdb7e0059 747aca5dbcb9fcf37f963346aae3a8464553651b john <jjmiyao@gmail.com> 1655158694 -0700	commit: clear commits
+747aca5dbcb9fcf37f963346aae3a8464553651b a0154f22c875edfe7dca95cfeade9fb1b9de0787 john <jjmiyao@gmail.com> 1655158833 -0700	pull -v --progress --rebase audiophile-data refs/heads/main: checkout a0154f22c875edfe7dca95cfeade9fb1b9de0787
+a0154f22c875edfe7dca95cfeade9fb1b9de0787 747aca5dbcb9fcf37f963346aae3a8464553651b john <jjmiyao@gmail.com> 1655158852 -0700	rebase: updating HEAD
+747aca5dbcb9fcf37f963346aae3a8464553651b 747aca5dbcb9fcf37f963346aae3a8464553651b john <jjmiyao@gmail.com> 1655158901 -0700	reset: moving to HEAD
+747aca5dbcb9fcf37f963346aae3a8464553651b a0154f22c875edfe7dca95cfeade9fb1b9de0787 john <jjmiyao@gmail.com> 1655158901 -0700	pull -v --progress --rebase audiophile-data refs/heads/main: checkout a0154f22c875edfe7dca95cfeade9fb1b9de0787
+a0154f22c875edfe7dca95cfeade9fb1b9de0787 88af508b260a0bc2890ed1cdd657c851aa8a89e8 john <jjmiyao@gmail.com> 1655158951 -0700	rebase: commit3
+88af508b260a0bc2890ed1cdd657c851aa8a89e8 747aca5dbcb9fcf37f963346aae3a8464553651b john <jjmiyao@gmail.com> 1655159412 -0700	rebase: updating HEAD
+747aca5dbcb9fcf37f963346aae3a8464553651b b0aed9423a268e22dbe3ee525055781c791e9020 john <jjmiyao@gmail.com> 1655159433 -0700	checkout: moving from master to main
+b0aed9423a268e22dbe3ee525055781c791e9020 747aca5dbcb9fcf37f963346aae3a8464553651b john <jjmiyao@gmail.com> 1655159445 -0700	checkout: moving from main to master
+747aca5dbcb9fcf37f963346aae3a8464553651b 3defcf194dd3285fac8095ec2ca0781790173683 john <jjmiyao@gmail.com> 1655159461 -0700	commit: clear commits (tmp.driveupload)
+3defcf194dd3285fac8095ec2ca0781790173683 707bca48f550eb07695cdc00500b245b0c43adec john <jjmiyao@gmail.com> 1655270903 -0700	commit: file rearrangement
+707bca48f550eb07695cdc00500b245b0c43adec e9da0c09a05df432e7fd8d82028ff904f05ac3d8 john <jjmiyao@gmail.com> 1655354651 -0700	commit: first pass at audiophile
+e9da0c09a05df432e7fd8d82028ff904f05ac3d8 7658839fae99d4a44697f30a7b8f5f182345ae62 john <jjmiyao@gmail.com> 1655354797 -0700	commit: clear commits
+7658839fae99d4a44697f30a7b8f5f182345ae62 0ec06670bfaf3e4ca232731712cde3a1191f5b15 john <jjmiyao@gmail.com> 1655354874 -0700	commit: clear commits
+0ec06670bfaf3e4ca232731712cde3a1191f5b15 73d567dd659eeeeaac9f8ded3ac92b784c3a8dfd john <jjmiyao@gmail.com> 1655355375 -0700	commit: clear commits
+73d567dd659eeeeaac9f8ded3ac92b784c3a8dfd 2504c4aed74f7df79386ebdd61fce8f2a1cc9fd3 john <jjmiyao@gmail.com> 1655769625 -0700	commit: layout-theme-challenge first commit
+2504c4aed74f7df79386ebdd61fce8f2a1cc9fd3 b14e392c9c53d5557ba6bbb6383d8f391d74591b john <jjmiyao@gmail.com> 1655774545 -0700	commit: theme-challenge-second-draft
+b14e392c9c53d5557ba6bbb6383d8f391d74591b 9c5c7084f9a36ea83c55ceb6261279bde5174537 john <jjmiyao@gmail.com> 1655774572 -0700	commit: clear .tmp-driveupload
+9c5c7084f9a36ea83c55ceb6261279bde5174537 11806e6119451fb4103e4cc1da4020550434f13f john <jjmiyao@gmail.com> 1655776701 -0700	commit: added fonts- styled text
+11806e6119451fb4103e4cc1da4020550434f13f 5dc3133cf6fc28c76df7158033ab59aff51be6bf john <jjmiyao@gmail.com> 1655776742 -0700	commit: add’l text styling
+5dc3133cf6fc28c76df7158033ab59aff51be6bf b8d4ea9161bf067c540ea8213394062b4d73de7f john <jjmiyao@gmail.com> 1655970488 -0700	commit: article-card color swatches added
+b8d4ea9161bf067c540ea8213394062b4d73de7f 67344691001cc567da38b27a97333d669d7af1d6 john <jjmiyao@gmail.com> 1656052445 -0700	commit: theme-challenge, cta images and text added
+67344691001cc567da38b27a97333d669d7af1d6 90ab7f57c2983fa69d440f5054f9c23b4662f280 john <jjmiyao@gmail.com> 1656093778 -0700	commit: final touches to theme challenge.
+90ab7f57c2983fa69d440f5054f9c23b4662f280 962461fc23527cf9a0e41952453cd93509b20f72 john <jjmiyao@gmail.com> 1656394521 -0700	commit: url-querystring
+962461fc23527cf9a0e41952453cd93509b20f72 0ff327d140739dbe23fb1460144e82f92f29f147 john <jjmiyao@gmail.com> 1656398486 -0700	commit: url-querystring partials
+0ff327d140739dbe23fb1460144e82f92f29f147 6d7612d93f68c72aafcef29f57fccadecfd8a02c john <jjmiyao@gmail.com> 1656482752 -0700	commit: php-crud project and practice
+6d7612d93f68c72aafcef29f57fccadecfd8a02c 8960d9668b380953e20cab5eafbc5d7f5a661ab0 john <jjmiyao@gmail.com> 1656489552 -0700	commit: php-crud project with movies
+8960d9668b380953e20cab5eafbc5d7f5a661ab0 df610cd4e34c2c07b823d70229dc97e91894ea65 john <jjmiyao@gmail.com> 1656520930 -0700	commit: movie-data update, edit image link for UW sports
+df610cd4e34c2c07b823d70229dc97e91894ea65 af8746ba721e814dbe7d3b6c7d14d7fa384dd651 john <jjmiyao@gmail.com> 1656647206 -0700	commit: added forms practiced filters convert data to json
+af8746ba721e814dbe7d3b6c7d14d7fa384dd651 4e3be2e37085cc0d33e4828fbbfb944effda5c35 john <jjmiyao@gmail.com> 1656729339 -0700	commit: php-crud fresh start
+4e3be2e37085cc0d33e4828fbbfb944effda5c35 73395b75ddbb2b4395838384f12627af0e5d4403 john <jjmiyao@gmail.com> 1656729364 -0700	commit: player json data cleanup
+73395b75ddbb2b4395838384f12627af0e5d4403 5e60db6910c2ba5974e03daf7da8b93f43a29ae3 john <jjmiyao@gmail.com> 1656800024 -0700	commit: added create page and fixed filtering
+5e60db6910c2ba5974e03daf7da8b93f43a29ae3 0062ab2f6ed9dfa043edf0acc18634d5ea6c8bfc john <jjmiyao@gmail.com> 1657054797 -0700	commit: read and update file, list page edit
+0062ab2f6ed9dfa043edf0acc18634d5ea6c8bfc 5cf522a6f9e28103b2f4cfdc5db51c4f3d6adf2c john <jjmiyao@gmail.com> 1657060495 -0700	commit: wordpress upload
+5cf522a6f9e28103b2f4cfdc5db51c4f3d6adf2c 6ebc39dbcf1f2681207d66fe0ac7cd818811dc58 john <jjmiyao@gmail.com> 1657331404 -0700	commit: wp relational data display
+6ebc39dbcf1f2681207d66fe0ac7cd818811dc58 c480cd8211ee17aa0f8e72db9913d686ff6ba074 john <jjmiyao@gmail.com> 1657348481 -0700	commit: wp project update w relational data
+c480cd8211ee17aa0f8e72db9913d686ff6ba074 d50f9a8f523963b11445eb977eaac6c034bc491c john <jjmiyao@gmail.com> 1657407314 -0700	commit: CRUD route-based styling site menu fix
+d50f9a8f523963b11445eb977eaac6c034bc491c c74ce68806f2d524f3006a790a3270956700db95 john <jjmiyao@gmail.com> 1657512395 -0700	commit: added portrait images to CRUD page
+c74ce68806f2d524f3006a790a3270956700db95 4e50b0e4b1388dd55f59d9fdb72f6a63085381c2 john <jjmiyao@gmail.com> 1657579494 -0700	commit: ACF pro added to plugins
+4e50b0e4b1388dd55f59d9fdb72f6a63085381c2 1ab0e15f5ce852104d90512f1ba93de44174ea80 john <jjmiyao@gmail.com> 1657692471 -0700	commit: convert goals page to php stage 1
+1ab0e15f5ce852104d90512f1ba93de44174ea80 e192d6cf26f05d8a40bb09ef7aae8d59105e2e99 john <jjmiyao@gmail.com> 1657755071 -0700	commit: styled goals. fixed goals.json data
+e192d6cf26f05d8a40bb09ef7aae8d59105e2e99 c9e8e63552c0dc96e681983963378a6d79f8e47e john <jjmiyao@gmail.com> 1657945497 -0700	commit: resume update
+c9e8e63552c0dc96e681983963378a6d79f8e47e c8873c7e367d86aa18dfca90401565c424234685 john <jjmiyao@gmail.com> 1657994413 -0700	commit: resume header, heading and skills update
+c8873c7e367d86aa18dfca90401565c424234685 f355683a4a4e68ef6ab6d99544c93b4454f2e0bf john <jjmiyao@gmail.com> 1658006168 -0700	commit: Boilerplate updates
+f355683a4a4e68ef6ab6d99544c93b4454f2e0bf 88944ffcea44df54d72ca65f4dd2427d71f4eeba john <jjmiyao@gmail.com> 1658034267 -0700	commit: added footer svg icons
+88944ffcea44df54d72ca65f4dd2427d71f4eeba c89d9ce04ba2ea34b66448f87209fcd47f85103c john <jjmiyao@gmail.com> 1658035357 -0700	commit: clip-path border for skills list items
+c89d9ce04ba2ea34b66448f87209fcd47f85103c 22efe27fc17a77aed4e7dc8ddc7829090bb01514 john <jjmiyao@gmail.com> 1658041256 -0700	commit: boilerplate update
+22efe27fc17a77aed4e7dc8ddc7829090bb01514 13dd0bdbe6a8134ed5d29238ededc95f3053c2d6 john <jjmiyao@gmail.com> 1658180336 -0700	commit: added education module
+13dd0bdbe6a8134ed5d29238ededc95f3053c2d6 253abc691ba9050d7a85e56cf4ddc0508c7eac97 john <jjmiyao@gmail.com> 1658180369 -0700	commit: updated boilerplate css
+253abc691ba9050d7a85e56cf4ddc0508c7eac97 e855ba20c726650b8514cee8488d163cd40e55a4 john <jjmiyao@gmail.com> 1658199185 -0700	commit: layout-challenge 1
+e855ba20c726650b8514cee8488d163cd40e55a4 7e8bb7925fc35fecc712d956cf36664051850468 john <jjmiyao@gmail.com> 1658199259 -0700	commit: layout challenge update
+7e8bb7925fc35fecc712d956cf36664051850468 27c58f2f1670dcea55e1dc686440d6922879bc2e john <jjmiyao@gmail.com> 1658251438 -0700	commit: self-checkout
+27c58f2f1670dcea55e1dc686440d6922879bc2e 071121d9162f158d4e4dfce00ddb1b04aef54c72 john <jjmiyao@gmail.com> 1658279939 -0700	commit: self-checkout fixes and layout-challenge updates
+071121d9162f158d4e4dfce00ddb1b04aef54c72 982eddfac4419db96bd799701eda08e380a20964 john <jjmiyao@gmail.com> 1658279986 -0700	commit: CRUD edits. Added images, light styling
+982eddfac4419db96bd799701eda08e380a20964 b45fb93d1f4bd8b3919a4493ccc874817cf818ad john <jjmiyao@gmail.com> 1658289398 -0700	commit: reworked inner-columns layout1; fixed header css
+b45fb93d1f4bd8b3919a4493ccc874817cf818ad 826c98b8cdf9a23b0d0dc9a9bcb02f06c92b559e john <jjmiyao@gmail.com> 1658290981 -0700	commit: width, margin fixes to main
+826c98b8cdf9a23b0d0dc9a9bcb02f06c92b559e d60f0d36d631a844c4a1f9432987680e6c4a607b john <jjmiyao@gmail.com> 1658299711 -0700	commit: moved inner-column outside of mudles within main
+d60f0d36d631a844c4a1f9432987680e6c4a607b 583f4bc93e60df0285ad0520ef920f34866ae20b john <jjmiyao@gmail.com> 1658300988 -0700	commit: layout challenge 2 finished
+583f4bc93e60df0285ad0520ef920f34866ae20b ff086e1902e1dbb7f72cf1136be2b30543bf6374 john <jjmiyao@gmail.com> 1658304089 -0700	commit: fixed self-checkout!
+ff086e1902e1dbb7f72cf1136be2b30543bf6374 bbd440941972d0b73747146f6bef8abb6e0f99d2 john <jjmiyao@gmail.com> 1658329624 -0700	commit: pizza party form final
+bbd440941972d0b73747146f6bef8abb6e0f99d2 a0ede34e6bde37bc214dafc263588725394a7430 john <jjmiyao@gmail.com> 1658329643 -0700	commit: pizza party form final
+a0ede34e6bde37bc214dafc263588725394a7430 b0838f00ac0e67067ceff9d64884efa1d50546fe john <jjmiyao@gmail.com> 1658330508 -0700	commit: test
+b0838f00ac0e67067ceff9d64884efa1d50546fe 5df91048f31721daab09b3c0063ebc31704fbd64 john <jjmiyao@gmail.com> 1658333183 -0700	commit: removed wp
+5df91048f31721daab09b3c0063ebc31704fbd64 5df91048f31721daab09b3c0063ebc31704fbd64 john <jjmiyao@gmail.com> 1658346181 -0700	reset: moving to HEAD
+5df91048f31721daab09b3c0063ebc31704fbd64 1be9ff219821e2a3b142352a3806626d04b98816 john <jjmiyao@gmail.com> 1658346182 -0700	pull -v --progress --no-rebase pe-projects-fork refs/heads/master: Fast-forward
+1be9ff219821e2a3b142352a3806626d04b98816 e87c437df296023f10d5c9e3905e513eb8c78404 john <jjmiyao@gmail.com> 1658349955 -0700	commit: Reformatted layout1 html/css; incl modules to index
+e87c437df296023f10d5c9e3905e513eb8c78404 53261e2f9756fa996e4548e13197ef04c7e00aa1 john <jjmiyao@gmail.com> 1658358056 -0700	commit: Layout3 completed
+53261e2f9756fa996e4548e13197ef04c7e00aa1 f5eba03784443a10a3238491a6679dfb73a0def3 john <jjmiyao@gmail.com> 1658365759 -0700	commit: layout4 completed less underline issue
+f5eba03784443a10a3238491a6679dfb73a0def3 80e5bfa8cf0813705c43e4c9e97451b056416288 john <jjmiyao@gmail.com> 1658367975 -0700	commit: fixed header; added margin to layout1 article grid
+80e5bfa8cf0813705c43e4c9e97451b056416288 c31698324811a2448f5c582e9742665e8d6f22a8 john <jjmiyao@gmail.com> 1658369844 -0700	commit: added section headers
+c31698324811a2448f5c582e9742665e8d6f22a8 7734b04adc4a54707b1562c0a58be26ed5a1e177 john <jjmiyao@gmail.com> 1658375567 -0700	commit: fixed flex and underline issue
+7734b04adc4a54707b1562c0a58be26ed5a1e177 d422ee7e8a3fab994d81d3aa69e129678597910e john <jjmiyao@gmail.com> 1658375611 -0700	commit: fixed intro card, changed accent color
+d422ee7e8a3fab994d81d3aa69e129678597910e ae3412e23ca64f20c1c70e93e293dab4ace4d0ea john <jjmiyao@gmail.com> 1658375780 -0700	commit: fixed excerpt font color
+ae3412e23ca64f20c1c70e93e293dab4ace4d0ea 318a49124964e00796f10f588a2e09f80e88609a john <jjmiyao@gmail.com> 1658375939 -0700	commit: fix summary icon switching from + to -
+318a49124964e00796f10f588a2e09f80e88609a a30c3512a6519e4353dddcee2e24993ca2f5c3f1 john <jjmiyao@gmail.com> 1658388280 -0700	commit: Fixed the tax issue!!!
+a30c3512a6519e4353dddcee2e24993ca2f5c3f1 f5c9ce712c97c27e74af4db492b37a5038fa93e8 john <jjmiyao@gmail.com> 1658389311 -0700	commit: simple interest
+f5c9ce712c97c27e74af4db492b37a5038fa93e8 a467f50afab13acc7ecde3bb251edbcba27326e0 john <jjmiyao@gmail.com> 1658389486 -0700	commit: added form links. Centered links
+a467f50afab13acc7ecde3bb251edbcba27326e0 3b2ab757140f38b89e38a967ae7b7d2cbab6f1bf john <jjmiyao@gmail.com> 1658390097 -0700	commit: styled output
+3b2ab757140f38b89e38a967ae7b7d2cbab6f1bf a26b8f5f6e085fabff337ea9e69bdb70dffacbfd john <jjmiyao@gmail.com> 1658421373 -0700	commit: deploybot test
+a26b8f5f6e085fabff337ea9e69bdb70dffacbfd 4711eaf53d7600a6bfcda1f750f8b37bfa79b9ca john <jjmiyao@gmail.com> 1658421655 -0700	commit: add gitignore
+4711eaf53d7600a6bfcda1f750f8b37bfa79b9ca f4344d847fcd94da2f8a93c5c53161102b0fa017 john <jjmiyao@gmail.com> 1658434341 -0700	commit: image grid alignment fix
+f4344d847fcd94da2f8a93c5c53161102b0fa017 5a96bcad3f2b608e08513122dd45677f214e884f john <jjmiyao@gmail.com> 1658439936 -0700	commit: layout video notes
+5a96bcad3f2b608e08513122dd45677f214e884f 6d334489fa9b23e44c73365a9751978f8f8f98fa john <jjmiyao@gmail.com> 1658450510 -0700	commit: players tirbune module
+6d334489fa9b23e44c73365a9751978f8f8f98fa d75f1ab24f474774809bfc4b3bbc6e7fea2b66c9 john <jjmiyao@gmail.com> 1658450568 -0700	commit: anchor link to thursday layout
+d75f1ab24f474774809bfc4b3bbc6e7fea2b66c9 c8a57e47556157e342c191b1e6e1bbc99ab28e44 john <jjmiyao@gmail.com> 1658464566 -0700	commit: layout5 fix feature card and article cards
+c8a57e47556157e342c191b1e6e1bbc99ab28e44 7668518570d4687fc19391b5e8650b2d6877f3fe john <jjmiyao@gmail.com> 1658464904 -0700	commit: added google font
+7668518570d4687fc19391b5e8650b2d6877f3fe ee857c7ca1641713b0939bc98c1b86bd20a45c52 john <jjmiyao@gmail.com> 1658465468 -0700	commit: fixed article card height
+ee857c7ca1641713b0939bc98c1b86bd20a45c52 7b630ac719f0311cd0f3c064571144671fd1432c john <jjmiyao@gmail.com> 1658466063 -0700	commit: left second detail open
+7b630ac719f0311cd0f3c064571144671fd1432c 0d50bfbe80137b898310063c989107fb6fa96ebd john <jjmiyao@gmail.com> 1660635647 -0700	commit: portfolio and router site first commits
+0d50bfbe80137b898310063c989107fb6fa96ebd 63d02ab16bab3ea16dbbb2d3fccfafc6e9cbb962 john <jjmiyao@gmail.com> 1660635792 -0700	commit (merge): Merge branch 'master' of https://github.com/MiyaoCat/pe-projects-sync
+63d02ab16bab3ea16dbbb2d3fccfafc6e9cbb962 96267112fa5eb888001b380469a388152c1f7711 john <jjmiyao@gmail.com> 1660845373 -0700	commit: footer wrap, project API
+96267112fa5eb888001b380469a388152c1f7711 9130b2aa38cfff0cb4a2341c9dd537c5dc8f185a john <jjmiyao@gmail.com> 1660847352 -0700	commit: add basic page router
+9130b2aa38cfff0cb4a2341c9dd537c5dc8f185a 29563007b8ff193197ec172f49894fd5983b495d john <jjmiyao@gmail.com> 1660853604 -0700	commit: Removed root page files; added pages to page folder
+29563007b8ff193197ec172f49894fd5983b495d ed76347558e127e7824139312689f9fdf7c2440d john <jjmiyao@gmail.com> 1660858243 -0700	commit: added projects data and loop featured projects
+ed76347558e127e7824139312689f9fdf7c2440d 2c5991aaa316068db44451c7545173c4a3fe208c john <jjmiyao@gmail.com> 1660865540 -0700	commit: Add Project detail page and routing
+2c5991aaa316068db44451c7545173c4a3fe208c 4b335f1a05e0e708bfe139e3442dc59a2aa579e5 john <jjmiyao@gmail.com> 1660942687 -0700	commit: setup default page template, started custom pages
+4b335f1a05e0e708bfe139e3442dc59a2aa579e5 abbfe9afd32665bb13d1aa3532aca304bfb994f8 john <jjmiyao@gmail.com> 1660948949 -0700	commit: added standard page, assigned templates via key in JSON
+abbfe9afd32665bb13d1aa3532aca304bfb994f8 0923fc20b2c75797d6e6572cca33b61b093e2ea6 john <jjmiyao@gmail.com> 1660976460 -0700	commit: routed goals and resume pages
+0923fc20b2c75797d6e6572cca33b61b093e2ea6 81ff04a267191a5413862c7d033cc93e09152529 john <jjmiyao@gmail.com> 1660976676 -0700	commit: routed project details page
+81ff04a267191a5413862c7d033cc93e09152529 7107c99737b9b96ec3cba4e1ed8ee35fd2a70ef2 john <jjmiyao@gmail.com> 1660980064 -0700	commit: added module detail link
+7107c99737b9b96ec3cba4e1ed8ee35fd2a70ef2 b4614a876b74888462e170cc9813504ea8de07eb john <jjmiyao@gmail.com> 1661038852 -0700	commit: added dynamic class page, dynamic class templates
+b4614a876b74888462e170cc9813504ea8de07eb e4873e3bc6155b0d60ac71c0b2b2d9cc0b1a5737 john <jjmiyao@gmail.com> 1661045387 -0700	commit: added exercise list and detail page
+e4873e3bc6155b0d60ac71c0b2b2d9cc0b1a5737 17cafde8b092445c6f109a5a6e9a096577786307 john <jjmiyao@gmail.com> 1661211914 -0700	commit: minor fixes, testing routes and functions
+17cafde8b092445c6f109a5a6e9a096577786307 e886b88117cb5b58926541d6c08ef341ea318848 john <jjmiyao@gmail.com> 1662609324 -0700	commit: Git ignore
+e886b88117cb5b58926541d6c08ef341ea318848 b4bf0b2bc23a42e125f9020a382dc6c20f759d71 john <jjmiyao@gmail.com> 1662609360 -0700	commit: Figma-to-Code file setup
+b4bf0b2bc23a42e125f9020a382dc6c20f759d71 ce1ac776dcf52d93df87b9edfaf2b964e34674ad john <jjmiyao@gmail.com> 1662616302 -0700	commit: First module rendering without buttons
+ce1ac776dcf52d93df87b9edfaf2b964e34674ad 5a0dac4732710a387345611f81ae656f798f72c3 john <jjmiyao@gmail.com> 1662673665 -0700	commit: Initial setup of JSON data structure and PHP loop
+5a0dac4732710a387345611f81ae656f798f72c3 e5506097653a447a2531fe10661fbcfc039055bf john <jjmiyao@gmail.com> 1662675759 -0700	commit: Feature-list php file setup
+e5506097653a447a2531fe10661fbcfc039055bf 8d7a592e7fe057ffabe0a3d013d4a238945a085d john <jjmiyao@gmail.com> 1662678201 -0700	commit: Setup button php rendering
+8d7a592e7fe057ffabe0a3d013d4a238945a085d 0670ccf6776dae5deb307be9ffcd18cf991decbc john <jjmiyao@gmail.com> 1662698252 -0700	commit: Added components to JSON file; added client-review
+0670ccf6776dae5deb307be9ffcd18cf991decbc d455902f2dddcdd0ba7c16b068b9ab262916ae63 john <jjmiyao@gmail.com> 1662698857 -0700	commit: Added SVG stars to client-review-card
+d455902f2dddcdd0ba7c16b068b9ab262916ae63 4b4ba2d6d13b01da6d5f90cbc25a084233babec0 john <jjmiyao@gmail.com> 1662699414 -0700	commit: Added accordion data to JSON file
+4b4ba2d6d13b01da6d5f90cbc25a084233babec0 bd4bb523bf59dab5ac305e7711237020de1e2e65 john <jjmiyao@gmail.com> 1662700253 -0700	commit: Added accordion php file
+bd4bb523bf59dab5ac305e7711237020de1e2e65 0539d36ffa818c6d7ca2a79cc1b8a599fed883dd john <jjmiyao@gmail.com> 1662708198 -0700	commit: Added site-header components
+0539d36ffa818c6d7ca2a79cc1b8a599fed883dd 81355d79c692410f2a4449956f20a4f1cdb9fe12 john <jjmiyao@gmail.com> 1662763937 -0700	commit: Fixing mast-head element grouping
+81355d79c692410f2a4449956f20a4f1cdb9fe12 68aaa37a05c93f46a6c85cd2644a94e6e4a193dc john <jjmiyao@gmail.com> 1662764712 -0700	commit: Regroup mast-head elements
+68aaa37a05c93f46a6c85cd2644a94e6e4a193dc b47753d3edb5db4c0284bfa1275740b0f855a561 john <jjmiyao@gmail.com> 1662767690 -0700	commit: Styled hero section and typography
+b47753d3edb5db4c0284bfa1275740b0f855a561 2397c41a124bcb3e46dd164fd0e66e825bab165e john <jjmiyao@gmail.com> 1662770505 -0700	commit: Styled Client section
+2397c41a124bcb3e46dd164fd0e66e825bab165e 78d28a1f68c0044a376c9c53d165043fa13f8aa3 john <jjmiyao@gmail.com> 1662791862 -0700	commit: Styled some of Hero and Client sections
+78d28a1f68c0044a376c9c53d165043fa13f8aa3 f86538a92aa76d7639a204ae1a2d48ad8e6b429e john <jjmiyao@gmail.com> 1662799165 -0700	commit: Added arrows to client section
+f86538a92aa76d7639a204ae1a2d48ad8e6b429e 1072fa216e1a79b81cc425ff1de1841809003318 john <jjmiyao@gmail.com> 1662800378 -0700	commit: Centered arrows in client section
+1072fa216e1a79b81cc425ff1de1841809003318 3930acd3747833eb005f3b4eedf3f956f6aba57f john <jjmiyao@gmail.com> 1662840290 -0700	commit: Setup font, button colors and border radius
+3930acd3747833eb005f3b4eedf3f956f6aba57f b923f2cb0a6e93bb360ae32b1e156d6ff94aa00c john <jjmiyao@gmail.com> 1662840326 -0700	commit: Setup button file system
+b923f2cb0a6e93bb360ae32b1e156d6ff94aa00c b68d2c6e4b05d709b7d8d27c6822a9fd2284b041 john <jjmiyao@gmail.com> 1662842005 -0700	commit: Color settings updated
+b68d2c6e4b05d709b7d8d27c6822a9fd2284b041 0550c40e503e03ea82e9d923e7b153f067d557c4 john <jjmiyao@gmail.com> 1662850680 -0700	commit: Wrapped buttons in action div
+0550c40e503e03ea82e9d923e7b153f067d557c4 feb262fa06315483f5d177160754f1c5afa4811c john <jjmiyao@gmail.com> 1662850711 -0700	commit: Removed old CSS rules

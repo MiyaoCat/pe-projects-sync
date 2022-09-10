@@ -2,6 +2,8 @@
 @import 'logo.css';
 @import 'login.css';
 @import 'client-review-card.css';
-@import 'buttons/contained.css';
-@import 'buttons/outline.css';
 @import 'arrows';
+
+/*BUTTONS*/
+@import 'buttons/contained/corners/round/arrows/none/light/large.css';
+@import 'buttons/outline/corners/sharp/arrows/none/light/large.css';

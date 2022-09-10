@@ -28,7 +28,7 @@ a:hover {
 .shout-voice {
 	font-family: var(--company-font);
 	font-size: 64px;
-	font-weight: 700px;
+	font-weight: 700;
 	line-height: 77.45px;
 	letter-spacing: 1.2px;
 }

@@ -1,4 +1,9 @@
 section.hero {
 	background-image: url("../../../images/background-diagonal-lines.png");
 	height: 735px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
+

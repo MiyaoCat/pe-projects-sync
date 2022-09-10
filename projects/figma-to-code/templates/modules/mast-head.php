@@ -12,7 +12,7 @@
 		<?php if ($type == "logo") { ?>
 			
 			<div class="<?=$type?>">
-			<?php	include("templates/components/$type.$fileType"); ?>
+				<?php	include("templates/components/$type.$fileType"); ?>
 			</div>
 
 		<?php } ?>
@@ -32,6 +32,7 @@
 			
 				<?php	} elseif ($type == "button") {
 						$buttonType = $component["buttonType"];
+
 						include("templates/components/buttons/$buttonType.php"); 
 				?>
 			</div>

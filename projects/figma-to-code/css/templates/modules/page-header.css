@@ -1,5 +1,13 @@
 .page-header {
-	text-align: center;
-	text-transform: capitalize;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    max-width: 975px;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-header {
+	max-width: 750px;
 }
 
