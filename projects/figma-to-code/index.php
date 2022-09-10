@@ -24,38 +24,52 @@
 	?>
 
 	<section class="<?=$name?>">
-		<h1 class="attention-voice"><?=$name?></h1>
+		<inner-column>
 
-		<?php foreach ($section["modules"] as $module) {
-					$type = $module["type"];
-		?>
+			<?php foreach ($section["modules"] as $module) {
+						$type = $module["type"];
+			?>
 
-			<module class="<?=$type?>">
-				<inner-column>
+				<module class="<?=$type?>">
 					<?php include("templates/modules/$type.php"); ?>
-					
+				</module>		
+
 					<?php if ( isset($section["components"]) ) {
+
 						foreach ($section["components"] as $component) {
+
 							if ($component["type"] == "button") {
-							$buttonType = $component["buttonType"];
+								$buttonType = $component["buttonType"];
 					
-							include("templates/components/buttons/$buttonType.php");
+								include("templates/components/buttons/$buttonType.php");
 							}
 					
 							if ($component["type"] !== "button") {
 								$type = $component["type"];
+								$fileType = $component["fileType"];
 							
-							include("templates/components/$type.php");	
+								include("templates/components/$type.$fileType");	
 							}
-					
+						}
+
+					} ?>
+
+					<?php if ( isset($section["icons"]) ) {
+
+						foreach ($section["icons"] as $icon) {
+							$type = $icon["type"];
+							$iconType = $icon["iconType"];
+
+							include("templates/icons/$type/$iconType.svg");
 						}
 					} ?>
-				</inner-column>
-			</module>
 
-		<?php } ?>
+			<?php } ?>
+
+		</inner-column>
 	</section>
-<?php } ?>
+
+	<?php } ?>
 
 </main>
 

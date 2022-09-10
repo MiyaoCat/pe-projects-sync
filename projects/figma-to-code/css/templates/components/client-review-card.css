@@ -4,10 +4,15 @@ client-review-card {
 	align-items: center;
 	width: 414px;
 	height: 323px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
 
 client-review-card .review {
 	padding: 27px 10px;
+	font-weight: 500;
+	line-height: 32px;
 }
 
 client-review-card picture img {
@@ -20,3 +25,4 @@ star-rating {
 	gap:  8px;
 	width: 152px;
 }
+

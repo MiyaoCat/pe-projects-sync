@@ -2,16 +2,16 @@
 body {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh; /* be at least a full viewport height */
+	min-height: 100vh; 
 } 
 
 main {
-	flex-grow: 1; /* fill up available space + push the footer down */
+	flex-grow: 1; 
 }
 
 inner-column {
 	display: block;
-	max-width: var(--wide); /* could be a variable in settings */
+	max-width: var(--standard); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
 }
