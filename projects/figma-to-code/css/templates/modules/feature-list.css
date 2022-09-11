@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: var(--space-xlarge);
+	gap: var(--space-small);
 }
 
 feature-card {
