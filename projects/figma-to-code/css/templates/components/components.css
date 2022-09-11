@@ -3,6 +3,7 @@
 @import 'login.css';
 @import 'client-review-card.css';
 @import 'action.css';
+@import 'accordion.css';
 
 /*BUTTONS CONTAINED*/
 @import 'buttons/contained/sharp/none/light/large.css';

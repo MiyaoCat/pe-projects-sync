@@ -1,0 +1,53 @@
+.faqs-accordion summary h3 {
+	font-weight: 500;
+	color: var(--ink);
+	text-transform: capitalize;
+}
+
+.faqs-accordion {
+	max-width: var(--sub-standard);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.faqs-card {
+	/*padding-bottom: var(--space-small);*/
+}
+.faqs-accordion details {
+	max-width: 840px;
+	box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+	padding: var(--space-small) 0;
+}
+
+.faqs-accordion summary {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.faqs-accordion .answer {
+	padding-top: var(--space-small);
+}
+.faqs-accordion arrow {
+	display: block;
+}
+.faqs-accordion arrow svg path {
+	stroke: var(--ink-support);
+}
+
+.faqs-accordion details p.answer {
+	color: var(--ink-support);
+}
+
+.faqs-accordion details > summary h3::after {
+	cursor: pointer;
+	position: absolute;
+	right: 15px;
+}
+
+@media (min-width: 600px) {
+	.faqs-accordion {
+		margin-right: 12px;
+	}
+}

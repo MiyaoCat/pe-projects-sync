@@ -1,0 +1,11 @@
+.faqs {
+	margin-top: var(--space-xlarge);
+}
+
+.faqs .section-header .sub-header {
+	max-width: 840px;
+}
+
+.faqs .section-header {
+	margin-bottom: var(--space-large);
+}

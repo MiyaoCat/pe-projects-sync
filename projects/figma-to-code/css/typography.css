@@ -71,7 +71,7 @@ a:hover {
 .alert-voice {
 	font-family: var(--company-font);
 	color: var(--ink);
-	font-size: 22px;
+	font-size: clamp(18px, 4vw, 22px);
 	line-height: 27px;
 	letter-spacing: 0.2px;
 }
@@ -79,8 +79,7 @@ a:hover {
 /* Paragraph text or similar */
 .normal-voice {
 	font-family: var(--company-font);
-	color: var(--ink-support);
-	font-size: 20px;
+	font-size: clamp(16px, 3vw, 20px);
 	line-height: 24px;
 	letter-spacing: 0.2px;
 }
@@ -89,7 +88,7 @@ a:hover {
 .calm-voice {
 	font-family: var(--company-font);
 	color: var(--ink-support-light);
-	font-size: 16px;
+	font-size: clamp(12px, 2vw, 16px);
 	font-weight: 400;
 	line-height: 24px;
 	letter-spacing: 0.2px;

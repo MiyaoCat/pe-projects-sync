@@ -33,6 +33,10 @@ section {
 	padding: 5px;
 }
 
+a, button {
+	cursor: pointer;
+}
+
 module {
 	border:1px solid red; 
 	display:block;
