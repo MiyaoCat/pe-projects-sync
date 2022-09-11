@@ -4,6 +4,6 @@
 	}	
 ?>
 
-	<video controls width="926" height="520">
+	<video controls>
 		<source src="<?=$source?>" type="video/mp4">birds
 	</video>

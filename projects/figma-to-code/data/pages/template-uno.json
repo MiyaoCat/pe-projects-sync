@@ -59,8 +59,8 @@
 			"modules": [
 				{
 					"type": "diptych",
-					"header": "DIPTYCH HEADER",
-					"supportTextA": "Neque, pulvinar vestibulum non aliquam.",
+					"header": "Etiam nulla lectus molestie at vulputate.",
+					"subHeader": "Neque, pulvinar vestibulum non aliquam.",
 					"figure": "https://peprojects.dev/images/square.jpg"
 				},
 				{
