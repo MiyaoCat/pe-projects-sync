@@ -6,11 +6,15 @@
 			$number = $item["number"];
 			$title = $item["title"];
 			$detail = $item["detail"];
+			$source = $item["source"];
 ?>
-	<ol>
-		<li><?=$number?></li>
-		<li><?=$title?></li>
-		<li><?=$detail?></li>
-	</ol>
+	<feature-card>
+		<number-icon><?php include($source); ?></number-icon>	
+		<feature-content>
+			<h3 class="alert-voice"><?=$title?></h3>
+			<p class="calm-voice"><?=$detail?></p>
+		</feature-content>
+	</feature-card>
 		<?php } ?>
 <?php } ?>
+

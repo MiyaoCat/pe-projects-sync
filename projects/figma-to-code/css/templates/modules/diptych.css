@@ -1,1 +1,30 @@
-diptych.css
+.diptych {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.diptych h2 {
+	text-transform: capitalize;
+}
+.diptych p {
+	color: var(--ink-support);
+}
+
+.diptych img {
+	max-width: 626px;
+	max-height: 491px;
+}
+
+@media (min-width: 800px) {
+	.diptych .heading {
+		margin-bottom: var(--space-xsmall);
+		max-width: 562px;
+	}
+
+	.diptych {
+		align-items: flex-start;
+		text-align: left;
+	}
+}

@@ -25,13 +25,21 @@ html {
 
 	--component-bg-light: hsla(225, 100%, 85%, 0.15);
 
-	--gap-narrow: 15px;
+	--gap-narrow: 22px;
 	--gap-medium: 30px;
 	--gap-wide: 40px;
 
+	--space-xxsmall: 15px;
+	--space-xsmall: 20px;
 	--space-small: 25px;
 	--space-medium: 30px;
 	--space-large: 50px;
+	--space-xlarge: 80px;
+
+	--space-mobile-small: 5px;
+	--space-mobile-medium: 10px;
+	--space-mobile-large: 20px;
+	--space-mobile-xlarge: 30px;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,1 +1,11 @@
-feature.css
+.feature inner-column {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 800px) {
+	.feature inner-column {
+		flex-direction: row;
+		margin-top: var(--space-xlarge);
+	}
+}

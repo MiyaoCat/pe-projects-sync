@@ -61,25 +61,40 @@
 					"type": "diptych",
 					"header": "Etiam nulla lectus molestie at vulputate.",
 					"subHeader": "Neque, pulvinar vestibulum non aliquam.",
-					"figure": "https://peprojects.dev/images/square.jpg"
+					"figure": "assets/images/image-example.png"
 				},
 				{
 					"type": "feature-list",
 					"list": [
 						{
 							"number": 1,
-							"title": "title1",
-							"detail": "detail text"
+							"title": "Sit quam gravida",
+							"detail": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
+							"source": "templates/icons/numbers/circle-one.svg"
 						},
 						{
 							"number": 2,
-							"title": "title2",
-							"detail": "detail text"
+							"title": "Elementum enim tempus",
+							"detail": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.",
+							"source": "templates/icons/numbers/circle-two.svg"
 						},
 						{
 							"number": 3,
-							"title": "title3",
-							"detail": "detail text"
+							"title": "Tempor egestas augue",
+							"detail": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
+							"source": "templates/icons/numbers/circle-three.svg"
+						},
+						{
+							"number": 4,
+							"title": "Nulla ac lacinia",
+							"detail": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non.",
+							"source": "templates/icons/numbers/circle-four.svg"
+						},
+						{
+							"number": 5,
+							"title": "Velit nibh a",
+							"detail": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis.",
+							"source": "templates/icons/numbers/circle-five.svg"
 						}
 					]
 				}

@@ -1,0 +1,35 @@
+.feature-list {
+	display: flex;
+	flex-direction: column;
+}
+
+feature-card {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+feature-content {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: var(--space-mobile-large);
+}
+
+feature-content h3 {
+	text-transform: capitalize;
+}
+
+feature-card number-icon {
+	display: block;
+	/*margin: 10px;*/
+}
+
+@media (min-width: 800px) {
+	feature-card {
+		gap: var(--gap-narrow);
+	}
+	feature-content {
+		gap: var(--xxsmall);
+		margin-bottom: var(--space-xsmall);
+	}
+}

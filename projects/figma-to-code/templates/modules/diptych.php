@@ -6,9 +6,12 @@
 	}	
 ?>
 
-<h2 class="attention-voice"><?=$header?></h2>
-<p class="normal-voice"><?=$subHeader?></p>
+<div class="heading">
+	<h2 class="attention-voice"><?=$header?></h2>
+	<p class="normal-voice"><?=$subHeader?></p>
+</div>
+
 
 <picture>
-	<img src="<?=$figure?>" alt="support figure for <?=$header?>" style="max-width: 200px">
+	<img src="<?=$figure?>" alt="support figure for <?=$header?>">
 </picture>

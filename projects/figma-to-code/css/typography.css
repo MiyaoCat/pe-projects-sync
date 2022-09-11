@@ -57,6 +57,17 @@ a:hover {
 /* Sub-header text or similar */
 .attention-voice {
 	font-family: var(--company-font);
+	font-size: 48px;
+	line-height: 58px;
+	letter-spacing: 0.2px;
+}
+
+.alert-voice {
+	font-family: var(--company-font);
+	color: var(--ink);
+	font-size: 22px;
+	line-height: 27px;
+	letter-spacing: 0.2px;
 }
 
 /* Paragraph text or similar */
@@ -70,10 +81,11 @@ a:hover {
 /* Caption text or similar */
 .calm-voice {
 	font-family: var(--company-font);
+	color: var(--ink-support-light);
 	font-size: 16px;
-	font-weight: 500;
-	line-height: 19.36px;
-	letter-spacing: 0.46px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.2px;
 }
 
 /* Fine print text or similar */
@@ -94,14 +106,6 @@ mast-head a {
 	line-height: 16.94px;
 	letter-spacing: .2px;
 	color: var(--ink-alt);
-}
-
-:is(.calm-voice, p, li) em {
-	font-style: italic;
-}
-
-:is(.calm-voice, p, li) strong {
-	font-weight: 700;
 }
 
 /* these would be scoped to section or to an article element */
