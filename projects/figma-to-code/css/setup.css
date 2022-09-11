@@ -23,6 +23,11 @@ picture {
 	overflow: hidden;
 }
 
+video {
+	display: block;
+	overflow: hidden;
+}
+
 img {
 	display: block;
 	width: 100%;
