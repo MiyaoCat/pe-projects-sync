@@ -27,20 +27,33 @@ a:hover {
 /* Main header or banner text or similar */
 .shout-voice {
 	font-family: var(--company-font);
-	font-size: 64px;
+	font-size: clamp(40px, 8vw, 64px);
 	font-weight: 700;
-	line-height: 77.45px;
+	line-height: 50px;
 	letter-spacing: 1.2px;
+}
+
+@media (min-width: 600px) {
+	.shout-voice {
+		line-height: 77.45px;
+	}
 }
 
 /* Header text or similar */
 .loud-voice {
 	font-family: var(--company-font);
-	font-size: 64px;
-	font-weight: 500px;
-	line-height: 77.45px;
-	letter-spacing: 1.2px;
+	font-size: clamp(30px, 7vw, 56px);
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 0.2px;
 }
+
+@media (min-width: 600px) {
+	.loud-voice {
+		line-height: 67.77px;
+	}
+}
+
 /* Sub-header text or similar */
 .attention-voice {
 	font-family: var(--company-font);
@@ -50,7 +63,7 @@ a:hover {
 .normal-voice {
 	font-family: var(--company-font);
 	font-size: 20px;
-	line-height: 24.2px;
+	line-height: 24px;
 	letter-spacing: 0.2px;
 }
 

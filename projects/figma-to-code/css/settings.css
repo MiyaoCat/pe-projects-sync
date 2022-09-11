@@ -5,6 +5,7 @@ html {
 
 	/*PAGE WIDTH*/
 	--standard: 1140px;
+	--sub-standard: 975px;
 	--tight: 800px;
 	--wide: 98vw;
 
@@ -12,7 +13,7 @@ html {
 
 	--ink: hsla(0, 0%, 13%, 1);
 	--ink-alt: hsla(0, 0%, 26%, 1);
-	--ink-support: #757575;
+	--ink-support: hsla(0, 0%, 46%, 1);
 	--ink-support-light: hsla(0, 0%, 38%, 1);
 	--ink-button: #9E9E9E;
 	--ink-highlight: hsla(225, 80%, 56%, 1);
@@ -35,8 +36,7 @@ html {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--paper: #000; 
-		--ink: #FFF;
+		
 	}
 
 }

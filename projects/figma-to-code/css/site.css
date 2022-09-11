@@ -1,8 +1,6 @@
-
 /* Setup */
 @import 'meyer-reset.css';
 @import 'setup.css';
-
 
 /* Ssetings */
 @import 'settings.css';
@@ -12,7 +10,6 @@
 
 /* Typography */
 @import 'typography.css';
-
 
 /* Sections and more stuff */
 @import 'footer.css';
