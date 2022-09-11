@@ -1,6 +1,5 @@
 section.hero {
-	background-image: url("../../../images/background-diagonal-lines.png");
-	height: 735px;
+	background-image: url("../../../assets/images/background-diagonal-lines.png");
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -17,6 +16,9 @@ section.hero {
 }
 
 @media (min-width: 600px) {
+	section.hero {
+		height: 735px;
+	}
 	.hero .action {
 		display: flex;
 		flex-direction: row;
