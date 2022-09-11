@@ -6,7 +6,7 @@
 feature-card {
 	display: flex;
 	align-items: flex-start;
-	gap: 10px;
+	gap: var(--space-mobile-medium);
 }
 
 feature-content {
@@ -21,7 +21,6 @@ feature-content h3 {
 
 feature-card number-icon {
 	display: block;
-	/*margin: 10px;*/
 }
 
 @media (min-width: 800px) {

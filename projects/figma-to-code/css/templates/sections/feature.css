@@ -1,6 +1,7 @@
 .feature inner-column {
 	display: flex;
 	flex-direction: column;
+	margin-top: var(--space-mobile-xlarge);
 }
 
 @media (min-width: 800px) {

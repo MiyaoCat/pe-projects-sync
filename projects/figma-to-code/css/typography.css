@@ -57,11 +57,17 @@ a:hover {
 /* Sub-header text or similar */
 .attention-voice {
 	font-family: var(--company-font);
-	font-size: 48px;
-	line-height: 58px;
+	font-size: clamp(26px, 6vw, 48px);
+	font-weight: 600;
+	line-height: 35px;
 	letter-spacing: 0.2px;
 }
 
+@media (min-width: 600px) {
+	.attention-voice {
+		line-height: 58px;
+	}
+}
 .alert-voice {
 	font-family: var(--company-font);
 	color: var(--ink);
