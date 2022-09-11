@@ -1,0 +1,34 @@
+{
+	"sections": [
+		{
+			"name": "site-footer",
+		}
+	],
+
+	"components": [
+		{
+			"type": "list",
+			"heading": "Product",
+			"listItems": [
+				{
+					"item": "Diam orci"
+				},
+				{
+					"item": "Mi feugiat"
+				},
+				{
+					"item": "Mi feugiat"
+				},
+				{
+					"item": "Suspendisse viverra"
+				},
+				{
+					"item": "Id dolor"
+				},
+				{
+					"item": "Erat mattis"
+				}
+			]
+		}
+	]	
+}

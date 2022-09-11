@@ -85,7 +85,7 @@
 
 	<footer>
 		<inner-column>
-			
+			<?php include("partials/site-footer.php"); ?>
 		</inner-column>
 	</footer>
 	

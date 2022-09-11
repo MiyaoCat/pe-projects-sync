@@ -1,0 +1,11 @@
+footer {
+	background-color: var(--highlight-dark);
+}
+
+footer h4 {
+	color: var(--ink-contrast);
+}
+
+footer li {
+	color: var(	--ink-contrast-soft);
+}

@@ -18,11 +18,14 @@ html {
 	--ink-button: #9E9E9E;
 	--ink-highlight: hsla(225, 80%, 56%, 1);
 	--ink-contrast: #FFF;
+	--ink-contrast-soft: hsla(0, 0%, 100%, .7);
 
 	--highlight: hsla(225, 80%, 56%, 1);
 	--highlight-dark: hsla(225, 80%, 56%, 1);
+	--highlight-darkest: hsla(227, 77%, 52%, 1);
 	--highlight-light: hsla(223, 78%, 98%, 1);
 	--highlight-alt: #EEEEEE;
+	--color-treatment: hsla(0, 0%, 100%, 1);
 
 	--component-bg-light: hsla(225, 100%, 85%, 0.15);
 

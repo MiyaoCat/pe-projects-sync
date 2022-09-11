@@ -4,6 +4,7 @@
 @import 'client-review-card.css';
 @import 'action.css';
 @import 'accordion.css';
+@import 'subscribe-box.css';
 
 /*BUTTONS CONTAINED*/
 @import 'buttons/contained/sharp/none/light/large.css';
