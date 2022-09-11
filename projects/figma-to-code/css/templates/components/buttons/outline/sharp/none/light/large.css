@@ -3,5 +3,11 @@ button.outline.sharp.none.light.large {
 	border: none;
 	color: var(--primary);
 	border: 1px solid var(--highlight);
-	padding: 14px 49px;
+	padding: 14px 36px;
+}
+
+@media (min-width: 600px) {
+	button.outline.sharp.none.light.large {
+		padding: 14px 49px;
+	}
 }

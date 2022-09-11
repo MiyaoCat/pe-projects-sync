@@ -1,7 +1,8 @@
 button.contained.sharp.none.light.large {
 	background-color: var(--highlight);
 	border: none;
-	color: white;
+	color: var(--ink-contrast);
 	padding: 15px 50px;
+	/*max-width: 227px;*/
 }
 
