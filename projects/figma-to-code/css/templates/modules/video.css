@@ -8,7 +8,7 @@
 	max-height: 520px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
 	.video video {
 		margin: 60px 0;
 		width: 926px; 
