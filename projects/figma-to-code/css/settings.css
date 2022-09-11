@@ -21,6 +21,7 @@ html {
 
 	--highlight: hsla(225, 80%, 56%, 1);
 	--highlight-dark: hsla(225, 80%, 56%, 1);
+	--highlight-light: hsla(223, 78%, 98%, 1);
 	--highlight-alt: #EEEEEE;
 
 	--component-bg-light: hsla(225, 100%, 85%, 0.15);

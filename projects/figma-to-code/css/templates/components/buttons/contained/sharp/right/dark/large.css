@@ -1,0 +1,4 @@
+button.contained.sharp.right.dark.large {
+	background-color: var(--highlight-dark);
+	color: var(--ink-contrast);
+}

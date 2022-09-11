@@ -1,0 +1,7 @@
+.call-to-action {
+	background-color: var(--highlight-light);
+	max-width: var(--standard);
+	margin-left: auto;
+	margin-right: auto;
+	padding: var(--space-xlarge) 0;
+}

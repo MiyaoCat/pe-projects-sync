@@ -31,6 +31,7 @@
 					"buttonType": "outline",
 					"corners": "sharp",
 					"arrows": "none",
+					"arrow-file": "",
 					"style": "light",
 					"size": "large",
 					"text": "Start free trial"
@@ -161,6 +162,7 @@
 					"buttonType": "contained",
 					"corners": "sharp",
 					"arrows": "right",
+					"arrowFile": "templates/icons/arrow/right-arrow.svg",
 					"style": "dark",
 					"size": "large",
 					"text": "Get free quotes"

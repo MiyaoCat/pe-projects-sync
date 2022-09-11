@@ -4,8 +4,14 @@
 @import 'client-review-card.css';
 @import 'action.css';
 
-/*BUTTONS*/
+/*BUTTONS CONTAINED*/
 @import 'buttons/contained/sharp/none/light/large.css';
+@import 'buttons/contained/sharp/right/dark/large.css';
+
 @import 'buttons/contained/round/none/dark/large.css';
+
+
+/*BUTTONS OUTLINE*/
 @import 'buttons/outline/sharp/none/light/large.css';
 @import 'buttons/outline/sharp/none/light/large.css';
+

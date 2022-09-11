@@ -49,6 +49,7 @@
 			"buttonType": "contained",
 			"corners": "round",
 			"arrows": "none",
+			"arrow-file": "",
 			"style": "dark",
 			"size": "medium",
 			"text": "LogIn"
