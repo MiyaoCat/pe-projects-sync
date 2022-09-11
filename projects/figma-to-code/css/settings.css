@@ -10,25 +10,27 @@ html {
 
 	--paper: #fff; 
 
-	--ink: #212121;
-	--ink-alt: #424242;
+	--ink: hsla(0, 0%, 13%, 1);
+	--ink-alt: hsla(0, 0%, 26%, 1);
 	--ink-support: #757575;
-	--ink-support-light: #616161;
+	--ink-support-light: hsla(0, 0%, 38%, 1);
 	--ink-button: #9E9E9E;
-	--ink-highlight: #3563E9;
+	--ink-highlight: hsla(225, 80%, 56%, 1);
 	--ink-contrast: #FFF;
 
-	--highlight: #3563E9;
-	--highlight-dark: #2851E3;
+	--highlight: hsla(225, 80%, 56%, 1);
+	--highlight-dark: hsla(225, 80%, 56%, 1);
 	--highlight-alt: #EEEEEE;
+
+	--component-bg-light: hsla(225, 100%, 85%, 0.15);
 
 	--gap-narrow: 15px;
 	--gap-medium: 30px;
 	--gap-wide: 40px;
 
-	--margin-small: 25px;
-	--margin-medium: 30px;
-	--margin-large: 50px;
+	--space-small: 25px;
+	--space-medium: 30px;
+	--space-large: 50px;
 }
 
 @media (prefers-color-scheme: dark) {

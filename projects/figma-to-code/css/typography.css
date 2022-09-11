@@ -56,8 +56,11 @@ a:hover {
 
 /* Caption text or similar */
 .calm-voice {
-	font-size: 16px;
 	font-family: var(--company-font);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.36px;
+	letter-spacing: 0.46px;
 }
 
 /* Fine print text or similar */
@@ -65,65 +68,19 @@ a:hover {
 	font-size: 14px;
 	font-family: var(--company-font);
 }
-@media (min-width: 600px) {
-	.loud-voice {
-		font-weight: 700; /* or variable font */
-	}
-}
 
-.attention-voice	{
-	font-family: sans-serif;
-	font-size: clamp(1.2rem, 3vw, 1.7rem);
-	text-transform: uppercase;
-}
 
 /* - - ARTICLE CARD - - */
-.title {
-	font-family: var(--serif);
-	text-transform: uppercase;
-	font-size: clamp(1rem, 2vw, 1.4rem);
-	/*font-style: italic;*/
-}
+
 
 /* - - SITE MENU - - */
-.site-menu a {
-	font-size: .9rem;
-}
-
-.x-menu .strong-voice	{
-	font-family: var(--sans-serif);
-	font-size:  1.2rem;
-	text-transform: uppercase;
-}
-
-.x-menu a {
-	font-size: .9rem;
-}
-.calm-voice, p, li {
-	font-family: var(--sans-serif);
-	font-size: .8rem;
-	font-weight: 300;
-	line-height: 1.4;
-	letter-spacing: .2rem;
-}
-
-.calm-voice, articles-intro p {
-	font-family: var(--sans-serif);
-	font-size: clamp(.8rem 2vw 1.1rem);
-	font-weight: 300;
-	text-transform: uppercase;
-	line-height: 1.4;
-	letter-spacing: .2rem;
-}
-
-article-intro header h2, article-intro header p{
-	text-transform: uppercase;
-}
-@media (min-width: 600px) {
-	.calm-voice, p, li {
-		font-size: 1rem;
-		font-weight: 300;
-	}
+mast-head a {
+	font-family: var(--company-font);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16.94px;
+	letter-spacing: .2px;
+	color: var(--ink-alt);
 }
 
 :is(.calm-voice, p, li) em {

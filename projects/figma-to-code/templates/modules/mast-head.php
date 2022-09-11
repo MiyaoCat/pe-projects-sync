@@ -31,9 +31,9 @@
 				<?php	include("templates/components/$type.$fileType"); ?>					
 			
 				<?php	} elseif ($type == "button") {
-						$buttonType = $component["buttonType"];
+						$type = $component["type"];
 
-						include("templates/components/buttons/$buttonType.php"); 
+						include("templates/components/$type.php"); 
 				?>
 			</div>
 
