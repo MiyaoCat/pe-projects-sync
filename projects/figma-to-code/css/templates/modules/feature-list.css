@@ -1,6 +1,7 @@
 .feature-list {
 	display: flex;
 	flex-direction: column;
+	margin-top: var(--space-mobile-xlarge);
 }
 
 feature-card {
