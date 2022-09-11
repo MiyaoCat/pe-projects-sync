@@ -1,4 +1,15 @@
 button.contained.sharp.right.dark.large {
 	background-color: var(--highlight-dark);
 	color: var(--ink-contrast);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: var(--space-small) var(--space-medium);
+	gap: var(--space-small);
+}
+
+@media (min-width: 600px) {
+	button.contained.sharp.right.dark.large {
+		padding: var(--space-xxsmall) var(--space-small);
+	}
 }

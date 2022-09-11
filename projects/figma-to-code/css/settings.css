@@ -40,8 +40,8 @@ html {
 
 @media (min-width: 600px) {
 	html {
-		--space-xxsmall: 15px;
-		--space-xsmall: 20px;
+		--space-xxsmall: 10px;
+		--space-xsmall: 15px;
 		--space-small: 25px;
 		--space-medium: 30px;
 		--space-large: 50px;

@@ -26,8 +26,8 @@ if ($component["arrows"] == "none") {
 ?>
 
 	 <button class="<?=$buttonType?> <?=$corners?> <?=$arrows?> <?=$style?> <?=$size?>">
-		<p class="normal-voice"><?=$text?></p>
-		<?php include("$arrowFile"); ?>
+			<p class="normal-voice"><?=$text?></p>
+			<arrow><?php include("$arrowFile"); ?></arrow>
 	</button>
 
 <?php } ?>
