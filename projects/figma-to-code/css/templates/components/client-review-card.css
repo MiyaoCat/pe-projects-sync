@@ -3,16 +3,14 @@ client-review-card {
 	flex-direction: column;
 	align-items: center;
 	width: 414px;
-	height: 323px;
+	height: 280px;
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 100px;
 }
 
 client-review-card .review {
-	padding: 27px 10px;
+	padding: var(--space-medium) 10px;
 	font-weight: 500;
-	line-height: 32px;
+	line-height: 26px;
 }
 
 client-review-card picture img {
@@ -26,3 +24,35 @@ star-rating {
 	width: 152px;
 }
 
+p.review {
+	color: var(--ink-alt);
+}
+@media (min-width: 800px) {
+	client-review-card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 414px;
+		height: 323px;
+		text-align: center;
+		margin-bottom: var(--space-xxlarge);
+	}
+
+	client-review-card .review {
+		padding: 27px 10px;
+		font-weight: 500;
+		line-height: 32px;
+	}
+
+	client-review-card picture img {
+		width: 40px;
+		margin-bottom: 8px;
+	}
+
+	star-rating {
+		display: flex;
+		gap:  8px;
+		width: 152px;
+	}
+
+}

@@ -1,19 +1,19 @@
 .feature-list {
 	display: flex;
 	flex-direction: column;
-	margin-top: var(--space-mobile-xlarge);
+	margin-top: var(--space-xlarge);
 }
 
 feature-card {
 	display: flex;
 	align-items: flex-start;
-	gap: var(--space-mobile-medium);
+	gap: var(--space-medium);
 }
 
 feature-content {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: var(--space-mobile-large);
+	margin-bottom: var(--space-large);
 }
 
 feature-content h3 {
@@ -25,6 +25,11 @@ feature-card number-icon {
 }
 
 @media (min-width: 800px) {
+	.feature-list {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0;
+	}
 	feature-card {
 		gap: var(--gap-narrow);
 	}

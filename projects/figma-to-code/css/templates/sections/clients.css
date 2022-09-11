@@ -1,16 +1,17 @@
 .clients inner-column {
+	/**/
 	display: grid;
-	grid-template-rows: 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	height: 671px;
+	grid-template-rows: auto repeat(2 minmax(0, 400px));
+	grid-template-columns: 1fr 1fr 1fr;
  	justify-items: center;
  	align-items: center;
 }
 
 .clients .section-header {
+	margin-top: var(--space-xlarge);
+	margin-bottom: var(--space-xlarge);
 	grid-row: 1;
 	grid-column: 1 / -1;
-	margin-top: 80px;
 }
 
 .clients client-review-card:nth-of-type(1) {
@@ -20,19 +21,49 @@
 }
 
 .clients client-review-card:nth-of-type(2) {
-	grid-row: 2;
-	grid-column: 3;
+	grid-row: 3;
+	grid-column: 2;
 	align-content: center;
 }
 
-.clients .left-arrow {
-	grid-row: 2;
-	grid-column: 1;
-	margin-bottom: 116px;
+.clients .left-arrow, .right-arrow {
+	display: none;
 }
 
-.clients .right-arrow {
-	grid-row: 2;
-	grid-column: 4;
-	margin-bottom: 116px;
+
+
+@media (min-width: 800px) {
+	.clients inner-column {
+		display: grid;
+		grid-template-rows: auto 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		max-height: 671px;
+	 	justify-items: center;
+	 	align-items: center;
+	}
+
+	.clients client-review-card:nth-of-type(1) {
+		grid-row: 2;
+		grid-column: 2;
+	}
+
+	.clients client-review-card:nth-of-type(2) {
+		grid-row: 2;
+		grid-column: 3;
+		align-content: center;
+	}
+
+	.clients .left-arrow {
+		display: block;
+		grid-row: 2;
+		grid-column: 1;
+		margin-bottom: 116px;
+	}
+
+	.clients .right-arrow {
+		display: block;
+		grid-row: 2;
+		grid-column: 4;
+		margin-bottom: 116px;
+	}
 }
