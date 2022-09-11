@@ -1,12 +1,13 @@
 .feature inner-column {
 	display: flex;
 	flex-direction: column;
-	margin-top: var(--space-mobile-xlarge);
+	margin-top: var(--space-xxlarge);
 }
 
 @media (min-width: 800px) {
 	.feature inner-column {
 		flex-direction: row;
-		margin-top: var(--space-xlarge);
+		align-items: flex-start;
+		margin-top: 0
 	}
 }
