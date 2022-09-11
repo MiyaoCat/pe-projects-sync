@@ -40,9 +40,9 @@
 						<?php	
 							foreach ($section["components"] as $component) {
 								if ($component["type"] == "button") {
-									$buttonType = $component["buttonType"];
+									$type = $component["type"];
 						
-									include("templates/components/buttons/$buttonType.php");
+									include("templates/components/$type.php");
 								}
 							} ?>
 					</div>

@@ -2,6 +2,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: var(--medium);
-	border: 1px solid green;
+	gap: var(--gap-medium);
+	margin-top: var(--space-large);
 }

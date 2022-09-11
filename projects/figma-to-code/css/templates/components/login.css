@@ -1,5 +1,12 @@
 .login {
 	display: flex;
 	align-items: center;
-	gap: 20px;
+}
+
+.login button {
+	margin-left: 20px;
+}
+
+.login svg {
+	margin: 0 3.5px;
 }

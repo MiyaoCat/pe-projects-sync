@@ -1,0 +1,14 @@
+button.contained.round.none.dark {
+	background-color: var(--highlight-dark);
+	border: none;
+	color: white;
+	width: 90px;
+	height: 35px;
+	border-radius: var(--corners);
+	padding: 0 22px;
+}
+
+button.contained.round.none.dark p {
+	font-weight: 500;
+	font-size: 16px;
+}

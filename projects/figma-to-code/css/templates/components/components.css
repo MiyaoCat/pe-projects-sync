@@ -5,5 +5,7 @@
 @import 'action.css';
 
 /*BUTTONS*/
-@import 'buttons/contained/corners/round/arrows/none/light/large.css';
-@import 'buttons/outline/corners/sharp/arrows/none/light/large.css';
+@import 'buttons/contained/sharp/none/light/large.css';
+@import 'buttons/contained/round/none/dark/large.css';
+@import 'buttons/outline/sharp/none/light/large.css';
+@import 'buttons/outline/sharp/none/light/large.css';

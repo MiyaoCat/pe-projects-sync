@@ -1,6 +1,7 @@
-button.contained {
+button.contained.sharp.none.light.large {
 	background-color: var(--highlight);
 	border: none;
 	color: white;
 	padding: 15px 50px;
 }
+

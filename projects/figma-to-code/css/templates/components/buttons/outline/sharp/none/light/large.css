@@ -1,5 +1,5 @@
-button.outline {
-	background-color: var(--white);
+button.outline.sharp.none.light.large {
+	background-color: var(--paper);
 	border: none;
 	color: var(--primary);
 	border: 1px solid var(--highlight);
