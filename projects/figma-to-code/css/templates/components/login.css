@@ -1,12 +1,18 @@
 .login {
-	display: flex;
-	align-items: center;
+	display: none;
 }
 
-.login button {
-	margin-left: 20px;
-}
+@media (min-width: 600px) {
+	.login {
+		display: flex;
+		align-items: center;
+	}
 
-.login svg {
-	margin: 0 3.5px;
+	.login button {
+		margin-left: 20px;
+	}
+
+	.login svg {
+		margin: 0 3.5px;
+	}
 }

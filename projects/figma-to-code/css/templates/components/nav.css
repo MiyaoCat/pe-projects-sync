@@ -1,5 +1,10 @@
 nav {
-	display: flex;
-	gap: 30px;
+	display: none;
 }
 
+@media (min-width: 600px){
+	nav {
+		display: flex;
+		gap: 30px;
+	}
+}
