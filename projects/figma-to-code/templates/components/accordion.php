@@ -3,14 +3,10 @@
 		if ($type == "accordion") {
 			foreach ($component["listItems"] as $item) {
 				$question = $item["question"];
-				$answer = $item["answer"];
-				$open = "";
-				if ($item["open"] == true) {
-					$open = "open";
-				}
+				$answer = $item["answer"];			
 	?>
 			<li class="faqs-card">
-				<details <?=$open?>>
+				<details>
 					<summary >
 						<h3 class="question normal-voice"><?=$question?></h3>
 						<arrow><?php include("templates/icons/arrow/right-arrow.svg"); ?></arrow>
