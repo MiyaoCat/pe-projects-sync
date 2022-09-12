@@ -28,11 +28,6 @@ body {
 	color: var(--ink);
 }
 
-section {
-	border: 2px solid black; 
-	padding: 5px;
-}
-
 a, button {
 	cursor: pointer;
 }
@@ -42,6 +37,5 @@ a:hover {
 }
 
 module {
-	border:1px solid red; 
 	display:block;
 }

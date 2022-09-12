@@ -27,5 +27,5 @@ inner-column {
 	top: 0;
 	z-index: 5;
 	background-color: var(--paper);
-	border-bottom: 1px solid var(--ink-support-light);
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.06);
 }
