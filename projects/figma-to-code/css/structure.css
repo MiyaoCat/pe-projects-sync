@@ -11,11 +11,16 @@ main {
 
 inner-column {
 	display: block;
-	max-width: var(--standard); /* could be a variable in settings */
+	max-width: var(--wide); 
 	margin-right: auto;
 	margin-left: auto;
 }
 
+@media (min-width: 600px) {
+	inner-column {
+		max-width: var(--standard);
+	}
+}
 
 .site-header {
 	position: sticky;
