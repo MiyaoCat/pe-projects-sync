@@ -17,22 +17,27 @@
 			"fileType": "php",
 			"listItems": [
 				{
+					"slug": "home",
 					"page": "Home",
 					"link": "?"
 				},
 				{
+					"slug": "template-one",
 					"page": "Template One",
 					"link": "?page=template-one"
 				},
 				{
+					"slug": "template-two",
 					"page": "Services",
 					"link": "?page=template-two"
 				},
 				{
+					"slug": "template-three",
 					"page": "Features",
 					"link": "#"
 				},
 				{
+					"slug": "about-us",
 					"page": "About Us",
 					"link": "#"
 				}
@@ -53,6 +58,11 @@
 			"style": "dark",
 			"size": "medium",
 			"text": "LogIn"
+		},
+		{
+			"type": "hamburger-menu",
+			"fileType": "svg",
+			"source": "templates/icons/hamburger-menu.svg"
 		}
 	]
 }

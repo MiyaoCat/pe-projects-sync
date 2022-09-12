@@ -38,9 +38,18 @@
 			</div>
 
 		<?php } ?>
-	
-	<?php } ?>
+		
+		<?php  if ($type == "hamburger-menu") { 
+			$source = $component["source"];
+		?>
 
+			<a href="#" class="menu">
+				<?php	include("$source"); ?>					
+			</a>
+
+		<?php } ?>
+
+	<?php } ?>
 
 </mast-head>
 
