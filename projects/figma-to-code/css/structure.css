@@ -22,7 +22,6 @@ inner-column {
 		max-width: var(--wide);
 		margin-right: auto;
 		margin-left: auto;
-		margin: 0 5px;
 	}
 }
 
