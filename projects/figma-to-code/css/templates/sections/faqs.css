@@ -1,5 +1,8 @@
 .faqs {
 	margin-top: var(--space-xlarge);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .faqs .section-header .sub-header {
