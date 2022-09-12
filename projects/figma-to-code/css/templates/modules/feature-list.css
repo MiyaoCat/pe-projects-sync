@@ -31,9 +31,11 @@ feature-card number-icon {
 		flex-direction: column;
 		margin-top: 0;
 	}
+
 	feature-card {
-		gap: var(--gap-narrow);
+		gap: var(--gap-medium);
 	}
+
 	feature-content {
 		gap: var(--xxsmall);
 		margin-bottom: var(--space-xsmall);
