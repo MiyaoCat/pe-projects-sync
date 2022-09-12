@@ -2,12 +2,13 @@
 html {
 	/*BUTTON CORNERS*/
 	--corners: 5px; 
+	--corners-rounder: 15px;
 
 	/*PAGE WIDTH*/
 	--standard: 1140px;
 	--sub-standard: 975px;
 	--tight: 800px;
-	--wide: 98vw;
+	--wide: 96vw;
 
 	--paper: #fff; 
 
