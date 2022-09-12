@@ -5,7 +5,7 @@
 	<input type="email" placeholder="Email address">
 	
 	<a href="#" class="button-wrap">
-		<?php include("templates/icons/arrow/right-arrow.svg"); ?>
+		<?php include("templates/icons/arrow/subscribe-arrow.svg"); ?>
 	</a>
 </subscribe-module>
 
