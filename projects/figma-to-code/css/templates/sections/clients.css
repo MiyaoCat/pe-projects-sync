@@ -57,13 +57,13 @@
 		display: block;
 		grid-row: 2;
 		grid-column: 1;
-		margin-bottom: 116px;
+		margin-bottom: 165px;
 	}
 
 	.clients .right-arrow {
 		display: block;
 		grid-row: 2;
 		grid-column: 4;
-		margin-bottom: 116px;
+		margin-bottom: 165px;
 	}
 }
