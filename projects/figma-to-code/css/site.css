@@ -37,6 +37,10 @@ a, button {
 	cursor: pointer;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 module {
 	border:1px solid red; 
 	display:block;

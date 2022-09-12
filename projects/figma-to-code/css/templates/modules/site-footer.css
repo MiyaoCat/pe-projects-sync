@@ -6,7 +6,8 @@ site-map {
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 	grid-template-columns:  1fr 1fr 1fr ;
-	margin: 0 var(--space-xlarge);
+	margin: 0 var(--space-medium);
+	
 }
 
 .product {
@@ -26,7 +27,8 @@ site-map {
 
 subscribe-box {
 	grid-row: 2;
-	grid-column: 1 / 4;
+	grid-column: 1 / span 3;
+	margin-left: 20px;
 }
 
 site-map h4 {
@@ -69,7 +71,39 @@ site-map h4 {
 	subscribe-box {
 		grid-row: 1;
 		grid-column: 4;
-	}
-
-	
+		margin-left: 0;
+	}	
 }
+
+/*- - BOTTOM HALF OF FOOTER - - */
+footer-requirements {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top: 1px solid hsla(0, 0%, 100%, 0.06);
+	margin-top: var(--space-large);
+	padding-top: var(--space-large);
+}
+
+footer-requirements logo {
+	display: block;
+	min-width: 150px;
+}
+
+legal-links {
+	display: flex;
+	gap: var(--space-medium);
+	margin: var(--space-large) 0;
+	color: var(--ink-contrast);
+}
+
+legal-links a:hover {
+	color: var(--ink-contrast);
+}
+
+social-links {
+	display: flex;
+	gap: var(--space-xsmall);
+}
+
+
