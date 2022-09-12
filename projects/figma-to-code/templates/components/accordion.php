@@ -10,8 +10,8 @@
 				}
 	?>
 			<li class="faqs-card">
-				<details>
-					<summary <?=$open?>>
+				<details <?=$open?>>
+					<summary >
 						<h3 class="question normal-voice"><?=$question?></h3>
 						<arrow><?php include("templates/icons/arrow/right-arrow.svg"); ?></arrow>
 					</summary>
