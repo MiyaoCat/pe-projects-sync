@@ -1,6 +1,7 @@
 .feature inner-column {
 	display: flex;
 	flex-direction: column;
+	max-width: var(--wide); 
 	margin-top: var(--space-xxlarge);
 }
 
@@ -10,5 +11,6 @@
 		align-items: flex-start;
 		margin-top: 0;
 		gap: var(--space-xlarge);
+		max-width: var(--standard);
 	}
 }
