@@ -1,12 +1,13 @@
 footer {
 	background-color: var(--highlight-dark);
 	padding: var(--space-xlarge) 0;
+	margin-top: var(--space-xxlarge);
 }
 site-map {
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns:  1fr 1fr 1fr ;
-	margin: 0 var(--space-medium);
+	margin: var(--space-medium) 0;
 	
 }
 

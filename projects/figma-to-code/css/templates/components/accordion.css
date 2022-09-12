@@ -8,6 +8,7 @@
 	max-width: var(--sub-standard);
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: var(--space-xxlarge);
 }
 
 .faqs-card {
@@ -32,6 +33,13 @@
 .faqs-accordion arrow {
 	display: block;
 }
+
+details[open] svg {
+	transform: rotate(-90deg);
+}
+details:nth-of-type(2)[open] {
+	
+}
 .faqs-accordion arrow svg path {
 	stroke: var(--ink-support);
 }
@@ -40,11 +48,10 @@
 	color: var(--ink-support);
 }
 
-.faqs-accordion details > summary h3::after {
+.faqs-accordion summary:hover {
 	cursor: pointer;
-	position: absolute;
-	right: 15px;
 }
+
 
 @media (min-width: 600px) {
 	.faqs-accordion {
