@@ -36,7 +36,7 @@
 <footer-requirements>
 	
 	<logo>
-
+		<?php include("templates/components/logo-reverse.svg"); ?>
 	</logo>
 
 	<legal-links>
@@ -46,8 +46,8 @@
 	</legal-links>
 
 	<social-links>
-		<a href="#"></a>
-		<a href="#"></a>
-		<a href="#"></a>
+		<a href="#"><?php include("templates/icons/linkedin.svg"); ?></a>
+		<a href="#"><?php include("templates/icons/facebook.svg"); ?></a>
+		<a href="#"><?php include("templates/icons/pin.svg"); ?></a>
 	</social-links>
 </footer-requirements>
