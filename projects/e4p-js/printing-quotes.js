@@ -13,22 +13,26 @@ function quote() {
 	var getQuote = prompt("What's your favorite quote to recite?");
 
 	if (getQuote) {
-
 		var getAuthor = prompt("Who said that?");
 
 		if (getAuthor) {
 			var message = getAuthor + " once said \"" + getQuote + ".\"";
 			alert(message);
-		} else {
-			alert("If you don't know who said it, just say so.");
+		
+		} if (getAuthor == null) {
+			alert("whatever, byeee!");
+
+			} else {
+			alert("You didn't who!");
+			getAuthor();
 		}
+
 	} else {
 		alert("We really need a quote");
 		quote();
-	}
-
-
-}
+	} 
+} 
+	
 
 var quoteButton = document.createElement('button');
 
@@ -38,7 +42,14 @@ document.querySelector('body').appendChild(quoteButton);
 
 
 
+	// var getAuthor = prompt("Who said that?");
 
+	// 	if (getAuthor) {
+	// 		var message = getAuthor + " once said \"" + getQuote + ".\"";
+	// 		alert(message);
+	// 	} else {
+	// 		alert("If you don't know who said it, just say so.");
+	// 	}
 
 
 
