@@ -12,8 +12,8 @@ function intro() {
 		var message = "Hi, " + name + "! Great to meetchya!";
 			alert(message);
 	} else {
-		alert("You're not leaving without your name!");
-		introduction();
+		alert("We're not leaving you without getting your name!");
+		intro();
 	}
 }
 
