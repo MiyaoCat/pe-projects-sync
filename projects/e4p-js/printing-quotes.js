@@ -14,34 +14,52 @@
 
 // Display a message that includes the author and the quote
 
-function author() {
-	
-	var getAuthor = prompt("Who said that?");
-
-	if (getAuthor == null) {
-		alert("Okay, byeee");
-
-	} else {
-		alert("Tell us who said it");
-		getAuthor();
-	}
-}
 
 function quote() {
-
 	var getQuote = prompt("What's your favorite quote to recite?");
+
+	if (getQuote) {
+		var getAuthor = prompt("Who said that?");
+
+		if (getAuthor) {
+			var message = getAuthor + " once said \"" + getQuote + ".\"";
+			alert(message);
+
+		} if (getAuthor == null) {
+			alert("Okay, byeee");
+
+		} if (getAuthor == 0) {
+			alert("Tell us who said it");
+			getAuthor();
+		}
+
+	} 
 
 	if (getQuote == null) {
 		alert("byeee");
 
-	} else {
+	} if (getQuote == 0) {
 		alert("We really need a quote");
 		quote();
 	}
 } 
 
 
+// function author() {
+// 	var getAuthor = prompt("Who said that?");
 
+// 	if (getAuthor) {
+// 		var getQuote = prompt("What's your favorite quote to recite?");
+// 	}
+	
+// 	if (getAuthor == null) {
+// 		alert("Okay, byeee");
+
+// 	} if (getAuthor == 0) {
+// 		alert("Tell us who said it");
+// 		getAuthor();
+// 	}
+// }
 
 var quoteButton = document.createElement('button');
 
@@ -54,8 +72,7 @@ document.querySelector('body').appendChild(quoteButton);
 // 		var getAuthor = prompt("Who said that?");
 
 // 		if (getAuthor) {
-// 			var message = getAuthor + " once said \"" + getQuote + ".\"";
-// 			alert(message);
+			
 		
 // 		} if (getAuthor == null) {
 // 			alert("whatever, byeee!");
