@@ -12,6 +12,15 @@ function quote() {
 
 	var getQuote = prompt("What's your favorite quote to recite?");
 
+	if (getQuote == 0) {
+		alert("We really need a quote");
+		quote();
+	} 
+
+	if (getQuote == null) {
+		alert("byeee");
+	}
+	
 	if (getQuote) {
 		var getAuthor = prompt("Who said that?");
 
@@ -23,14 +32,11 @@ function quote() {
 			alert("whatever, byeee!");
 
 			} else {
-			alert("You didn't who!");
-			getAuthor();
+				alert("You didn't say who!");
+				prompt("Who said that?");;
 		}
-
-	} else {
-		alert("We really need a quote");
-		quote();
 	} 
+
 } 
 	
 
