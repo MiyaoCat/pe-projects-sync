@@ -24,14 +24,40 @@ function quote() {
 		}
 	} else {
 		alert("We really need a quote");
+		quote();
 	}
 
 
 }
 
 var quoteButton = document.createElement('button');
+
 quoteButton.addEventListener('click', quote);
-quoteButton.textContent = "Quote";
+quoteButton.textContent = "3. Quote";
 document.querySelector('body').appendChild(quoteButton);
 
-console.log(message);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

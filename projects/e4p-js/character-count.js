@@ -9,26 +9,25 @@
 
 function getCharacterLength() {
 	var getString = prompt("Hi, write a word a phrase");
-	
+
 	if (getString) {
 		var stringLength = getString.length;
 
 		var message = "Your message, " + getString + " has " + stringLength + " characters.";
 
 		alert(message);
+
+	} if (getString == null) {
+		alert("I see you wish to quit");
+
 	} else {
 		alert("Type anything, anything!");
 		getCharacterLength();
 	}
 }
 
-
 var charCountButton = document.createElement('button');
+
 charCountButton.addEventListener('click', getCharacterLength);
-document.body.appendChild(startButton);
 charCountButton.textContent = "2. Character count";
 document.querySelector('body').appendChild(charCountButton);
-
-var message = "Your message, " + getString + " has " + stringLength + " characters.";
-
-		alert(message);

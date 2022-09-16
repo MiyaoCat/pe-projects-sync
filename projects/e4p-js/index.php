@@ -6,20 +6,22 @@
 	<meta property="og:image" content="[IMAGE URL]">
 	<meta name="description" content="[SHORT PAGE DESCRIPTION]">
 
-	<title>2</title>
+	<title>JS e4p</title>
 
 	<link rel="stylesheet" href="styles/site.css">
 </head>
-	<head>
-		
-	</head>
+
+
 	<body>
-		<h1>JS Testing Grounds</h1>
-	
+		<h1>JS E4P</h1>
+		<button class="name">What's ya name?</button>
+
 		<script>
 			<?php include('name.js'); ?>
 			<?php include('character-count.js'); ?>
 			<?php include('printing-quotes.js'); ?>
+
 		</script>
+
 	</body>
 </html>
