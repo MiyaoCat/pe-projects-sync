@@ -26,4 +26,5 @@ function intro() {
 }
 
 var startButton = document.querySelector(".name");
+startButton.textContent = "1. Name";
 startButton.addEventListener("click", intro);

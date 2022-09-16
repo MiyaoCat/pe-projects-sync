@@ -12,15 +12,13 @@ function getCharacterLength() {
 
 	if (getString) {
 		var stringLength = getString.length;
-
 		var message = "Your message, " + getString + " has " + stringLength + " characters.";
-
 		alert(message);
 
 	} if (getString == null) {
 		alert("I see you wish to quit");
 
-	} else {
+	} if (getString == 0) {
 		alert("Type anything, anything!");
 		getCharacterLength();
 	}
