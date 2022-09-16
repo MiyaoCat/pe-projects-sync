@@ -19,20 +19,22 @@ function quote() {
 	var getQuote = prompt("What's your favorite quote to recite?");
 
 	if (getQuote) {
-		var getAuthor = prompt("Who said that?");
+		function author() {
+			var getAuthor = prompt("Who said that?");
 
-		if (getAuthor) {
-			var message = getAuthor + " once said \"" + getQuote + ".\"";
-			alert(message);
+			if (getAuthor) {
+				var message = alert(getAuthor + " said \"" + getQuote + ".\"");
+			}
+			
+			if (getAuthor == null) {
+				alert("Okay, byeee");
 
-		} if (getAuthor == null) {
-			alert("Okay, byeee");
-
-		} if (getAuthor == 0) {
-			alert("Tell us who said it");
-			getAuthor();
+			} if (getAuthor == 0) {
+				alert("Tell us who said that!!!");
+				author();
+			}
 		}
-
+		author();
 	} 
 
 	if (getQuote == null) {
@@ -45,43 +47,27 @@ function quote() {
 } 
 
 
-// function author() {
-// 	var getAuthor = prompt("Who said that?");
+function author() {
+	var getAuthor = prompt("Who said that?");
 
-// 	if (getAuthor) {
-// 		var getQuote = prompt("What's your favorite quote to recite?");
-// 	}
+	if (getAuthor) {
+		var getQuote = prompt("What's your favorite quote to recite?");
+	}
 	
-// 	if (getAuthor == null) {
-// 		alert("Okay, byeee");
+	if (getAuthor == null) {
+		alert("Okay, byeee");
 
-// 	} if (getAuthor == 0) {
-// 		alert("Tell us who said it");
-// 		getAuthor();
-// 	}
-// }
+	} if (getAuthor == 0) {
+		alert("Tell us who said it");
+		getAuthor();
+	}
+}
 
 var quoteButton = document.createElement('button');
 
 quoteButton.addEventListener('click', quote);
 quoteButton.textContent = "3. Quote";
 document.querySelector('body').appendChild(quoteButton);
-
-
-// if (getQuote) {
-// 		var getAuthor = prompt("Who said that?");
-
-// 		if (getAuthor) {
-			
-		
-// 		} if (getAuthor == null) {
-// 			alert("whatever, byeee!");
-
-// 			} else {
-// 				alert("You didn't say who!");
-// 		}
-// 	} 
-
 
 
 
