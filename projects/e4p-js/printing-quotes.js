@@ -46,23 +46,6 @@ function quote() {
 	}
 } 
 
-
-function author() {
-	var getAuthor = prompt("Who said that?");
-
-	if (getAuthor) {
-		var getQuote = prompt("What's your favorite quote to recite?");
-	}
-	
-	if (getAuthor == null) {
-		alert("Okay, byeee");
-
-	} if (getAuthor == 0) {
-		alert("Tell us who said it");
-		getAuthor();
-	}
-}
-
 var quoteButton = document.createElement('button');
 
 quoteButton.addEventListener('click', quote);
