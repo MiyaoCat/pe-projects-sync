@@ -76,7 +76,7 @@ picture {
 }
 
 /* - - COLOR HOVER ANIMATION- - */
-@media (hover: hover) {
+/*@media (hover: hover) {*/
 	picture {
 		position: relative;
 		overflow: hidden;
@@ -105,7 +105,7 @@ picture {
 	.color:hover {
 		border: 1px solid black;
 	} 
-}
+/*}*/
 
 /* - - COLOR SWATCHES- - */
 li .color {
