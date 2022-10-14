@@ -39,7 +39,7 @@ cta-trio picture img:hover {
 }
 /* - - FONT STYLE - - */
 cta-trio .loud-voice {
-	text-shadow: 0 0 5px black;
+	/*text-shadow: 0 0 5px black;*/
 	font-size: clamp(2.4rem, 4vw, 6rem);
 	color: white;
 }

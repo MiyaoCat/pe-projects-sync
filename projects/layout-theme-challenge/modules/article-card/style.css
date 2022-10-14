@@ -20,12 +20,10 @@
 }
 
 /* - - MY CSS - - */
-.article-card picture  {
-	/*max-height: 450px;*/
-}
-
-picture {
+.article-card picture {
 	border: 1px solid hsla(20, 60%, 60%, 0);
+	display: flex;
+	flex-direction: column;
 }
 
 .size-chart {
@@ -75,37 +73,6 @@ picture {
 	}
 }
 
-/* - - COLOR HOVER ANIMATION- - */
-@media (hover: hover) {
-	picture {
-		position: relative;
-		overflow: hidden;
-	}
-
-	.article-card picture:hover {
-		border: 1px solid black;
-	}
-
-	picture .color-swatches {
-		position: absolute;
-		top: 0;
-		transform: translate(0, -100%);
-		gap: 0;
-		transition: 1s;
-		/*display: flex;*/
-		/*flex-direction: column;*/
-	}
-
-	picture:hover .color-swatches {
-		transform: translate(0, 0);
-		opacity: 1;
-		transition: .5s;
-	}
-
-	.color:hover {
-		border: 1px solid black;
-	} 
-}
 
 /* - - COLOR SWATCHES- - */
 li .color {
@@ -113,10 +80,47 @@ li .color {
 		height: 37px;
 	}
 
+.color-swatches {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 @media (min-width: 600px) {
 	li .color {
 		max-width: 23px;
 		height: 45px;
+	}
+
+	/* - - COLOR HOVER ANIMATION- - */
+	@media (hover: hover) {
+		picture {
+			position: relative;
+			overflow: hidden;
+		}
+
+		.article-card picture:hover {
+			border: 1px solid black;
+		}
+
+		picture .color-swatches {
+			position: absolute;
+			top: 0;
+			transform: translate(0, -100%);
+			gap: 0;
+			transition: 1s;
+			/*display: flex;*/
+			/*flex-direction: column;*/
+		}
+
+		picture:hover .color-swatches {
+			transform: translate(0, 0);
+			opacity: 1;
+			transition: .5s;
+		}
+
+		.color:hover {
+			border: 1px solid black;
+		} 
 	}
 }
 
