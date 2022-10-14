@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:image" content="[IMAGE URL]">
+	<meta name="description" content="[SHORT PAGE DESCRIPTION]">
+
+	<title>JS e4p</title>
+
+	<link rel="stylesheet" href="styles/site.css">
+</head>
+
+<body>
+	<h1>JS Day 4</h1>
+	<p>First Paragraph</p>
+	<p>Second Paragraph</p>
+
+
+	<script>
+		// var name = "John";
+		// console.log(name);
+
+		// var total = 2021 - 1986;
+		// console.log(name, " is ", total);
+
+		// var exampleArray = [1986, "year", "september"];
+		// console.log(exampleArray[2]);
+
+		// console.log(name, " was born in the month of ", exampleArray[2], " in ", exampleArray[0], " he is currently ", total, " years old." );
+
+
+		var array = ["jerry", "george", "elaine", "kramer", "david"];
+		// console.log('array item', array[1]);
+
+		var goats = ["Jordan", "Kobe", "Shaq", "LeBron", "Steph"];
+
+		var rappers = ["J Cole", "Kanye West", "Jay Z", "Kendrick Lamar", "Drake"]
+
+		function shoutName(name) {
+			console.log("I am " + name + "!!!");
+		}
+
+		function printItem(item, index) {
+			var listItem = document.createElement('li');
+			listItem.textContent = index + " " + item;
+			document.body.appendChild(listItem);
+		}
+
+
+		function doThings(anArray, aFunction) {
+			for (var i = 0; i < anArray.length; i++) {
+				aFunction( anArray[i], i, anArray );
+			}
+		}
+
+		// doThings( rappers, shoutName );
+		
+		// doThings( goats, printItem );
+
+		goats.forEach( function(cat, index, dog) {
+			console.log(cat, index, dog);
+		});
+
+	</script>
+</body>
+</html>
