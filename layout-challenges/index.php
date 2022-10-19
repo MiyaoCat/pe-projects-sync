@@ -25,12 +25,13 @@
 
 	<main>
 		<section class="layout1">
-			<div class='header'>
-				<h1 class="screaming-voice">Monday Layout</h1>
-			</div>
-
 			<inner-column>
+				<div class='header'>
+					<h1 class="screaming-voice">Monday Layout</h1>
+				</div>
+
 				<?php include('layouts/layout1.php'); ?>
+
 			</inner-column>
 		</section>
 
@@ -41,34 +42,31 @@
 		</section>
 
 		<section class="layout3" id="wednesday">
-			<div class='header'>
-				<h1 class="screaming-voice">Wednesday Layout #1</h1>
-			</div>
-			<!-- <inner-column> -->
-				<?php include('layouts/layout3.php'); ?>
-			<!-- </inner-column> -->
+			<inner-column>
+				<div class='header'>
+					<h1 class="screaming-voice">Wednesday Layout #1</h1>
+				</div>
+						
+					<?php include('layouts/layout3.php'); ?>
+			</inner-column>
 		</section>
 
 		<section class="layout4">
-			<div class='header'>
-				<inner-column>
-					<h1 class="screaming-voice">Wednesday Layout #2</h1>
-				</inner-column>
-			</div>
-
 			<inner-column>
+				<div class='header'>
+					<h1 class="screaming-voice">Wednesday Layout #2</h1>
+				</div>
+
 				<?php include('layouts/layout4.php'); ?>
 			</inner-column>
 		</section>
 
 		<section class="layout5" id="thursday">
-			<div class='header'>
-				<inner-column>
-					<h1 class="screaming-voice">Player's Tribune </h1>
-				</inner-column>
-			</div>
-
 			<inner-column>
+				<div class='header'>
+					<h1 class="screaming-voice">Player's Tribune </h1>
+				</div>
+
 				<?php include('layouts/layout5.php'); ?>
 			</inner-column>
 		</section>

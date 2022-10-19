@@ -9,10 +9,14 @@ main {
 	flex-grow: 1; /* fill up available space + push the footer down */
 }
 
+inner-column {
+	max-width: var(--standard);
+	padding: 0 10px;
+}
 
 main inner-column, footer inner-column {
 	display: block;
-	max-width: var(--wide);  
+	max-width: var(--standard);  
 	margin-right: auto;
 	margin-left: auto;
 }

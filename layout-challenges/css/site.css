@@ -76,5 +76,6 @@ body {
 	margin-top: 20px;
 	margin-bottom: 70px;
 	width: 100%;
+	grid-column: 1 / -1;
 }
 
