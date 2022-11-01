@@ -77,7 +77,7 @@
 					<h1 class="screaming-voice">The North Face </h1>
 				</div>
 
-				<?php include('layouts/layout5.php'); ?>
+				<?php include('layouts/the-north-face.php'); ?>
 			</inner-column>
 		</section>
 	</main>

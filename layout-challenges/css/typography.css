@@ -44,6 +44,12 @@ a:hover {
 	line-height: 1.2em;
 }
 
+.alert-voice {
+	font-family: var(--sans-serif);
+	font-size: 1.4rem;
+	line-height: 1.2em;
+}
+
 /* Paragraph text or similar */
 .normal-voice {
 	font-family: var(--sans-serif);
