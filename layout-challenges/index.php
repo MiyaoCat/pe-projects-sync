@@ -70,6 +70,16 @@
 				<?php include('layouts/layout5.php'); ?>
 			</inner-column>
 		</section>
+
+		<section class="layout6" id="the-north-face">
+			<inner-column>
+				<div class='header'>
+					<h1 class="screaming-voice">The North Face </h1>
+				</div>
+
+				<?php include('layouts/layout5.php'); ?>
+			</inner-column>
+		</section>
 	</main>
 
 	<footer>
