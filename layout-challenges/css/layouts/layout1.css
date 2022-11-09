@@ -26,6 +26,10 @@
 	
 }
 
+.layout1 .article-list {
+	border-top: 1px solid var(--ink);
+	padding-top: 10px;
+}
 
 .layout1 article p {
 	margin: 10px 0;
