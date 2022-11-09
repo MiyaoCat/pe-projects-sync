@@ -39,13 +39,24 @@ html {
 a {
 	display: block;
 	text-decoration: none;
-	color: inherit;
+	color: var(--standout);
+}
+
+a:hover {
+	text-decoration: none;
+	color: var(--standout);
+}
+
+@media (prefers-color-scheme: dark) {
+	a:hover {
+		color: var(--standout);
+	}
 }
 
 p a {
 	display: inline;
 	color: blue;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 picture {
@@ -59,19 +70,25 @@ img {
 	height: auto;
 }
 
+.logo a {
+	fill: var(--ink);
+}
+.logo svg:hover {
+	fill: var(--standout);
+}
+
 svg {
   display: block;
-  width: 100%;
+  width: clamp(40px, 6vw, 60px);
 }
 
 body {
-	background-color: var(--paper);
+	background-color: var(--background);
 	color: var(--ink);
 }
 
 .header {
-	color: var(--highlight);
-	text-shadow: 2px 2px 2px var(--black);
+	color: var(--ink);
 	text-align: center;
 	padding-top: 90px;
 	margin-top: 20px;

@@ -1,33 +1,28 @@
 
 html {
 	--marker: Permanent Marker, Noto Serif;
-	--sans-serif: Encode Sans, Helvetica;
+	--sans-serif: Rubik, Helvetica;
 	--serif: Noto Serif Display, Old Standard TT, Times New Roman;
 
 	
 }
+
 a {
 	font-family: var(--sans-serif);
-	text-transform: uppercase;
-	font-weight: 200;
-	letter-spacing: .2rem;
+	font-weight: 500;
+	letter-spacing: .06rem;
+	font-size: 1rem;
 }
 
 
-a:hover {
-	text-decoration: underline;
-	color: var(--highlight);
-}
-
-@media (prefers-color-scheme: dark) {
-	a:hover {
-		color: var(--highlight);
-	}
-}
 /* Main header or banner text or similar */
 .screaming-voice {
-	font-family: var(--marker);
-	font-size: clamp(60px, 8vw, 160px);
+	font-family: var(--sans-serif);
+	font-size: clamp(40px, 8vw, 125px);
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -.045em;
+	line-height: .8em;
 }
 
 /* Header text or similar */
@@ -67,24 +62,6 @@ a:hover {
 .quiet-voice {
 	font-family:  var(--sans-serif);
 	line-height: 1.4em;
-}
-
-@media (min-width: 600px) {
-	.loud-voice {
-	
-	}
-}
-
-.attention-voice	{
-
-}
-
-/* - - ARTICLE CARD - - */
-.title {
-	/*font-family: var(--serif);
-	text-transform: uppercase;
-	font-size: clamp(1rem, 2vw, 1.4rem);*/
-	/*font-style: italic;*/
 }
 
 

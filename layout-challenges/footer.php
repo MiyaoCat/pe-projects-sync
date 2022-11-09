@@ -1,5 +1,5 @@
 <div class="footer-wrapper">
-	<p>Get to know me through my blog or socials below.</p>
+	<p class="normal-voice">Get to know me through my blog or socials below.</p>
 
 	<div class="socials">
 		<div class="twitter">

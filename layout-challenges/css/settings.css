@@ -12,10 +12,11 @@ html {
 	--wide: 90vw;
 	--extra-wide: 98vw;
 
-	--paper: hsl(37, 32%, 92%); /* light brown */
+	--paper: white;
+	--background: hsla(50, 100%, 86%, 1);
 	--ink: black;
 
-	--highlight: hsl(360, 100%, 39%); /* red */
+	--highlight: hsl(360, 100%, 39%);
 	--accent-color: #17F0E3;  /* dark purple */
 
 	--think: 5px;
@@ -25,10 +26,13 @@ html {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--paper: hsl(28, 17%, 30%); /* dark brown */
-		--ink: white;
-		--highlight: yellow;
-		 /* light purple */
+		--paper: hsla(0, 0%, 4%, 1);
+		--ink: hsla(50, 70%, 80%, 1);
+		--highlight: #6200ee;
+		--background: hsla(189, 20%, 12%, 1);
+		--trim: hsla(60, 7%, 40%, 1);
+		--lightest: #FFF;
+		--standout: hsla(170, 56%, 49%, 1);
 	}
 
 	.logo {
