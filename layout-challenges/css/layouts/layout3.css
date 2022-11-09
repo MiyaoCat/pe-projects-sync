@@ -1,6 +1,3 @@
-.layout3 inner-column {
-	/*width: var(--extra-wide);*/
-}
 
 /* INTRO */
 .layout3 intro {
@@ -20,9 +17,17 @@
 	display: none;
 }
 
+:is(.layout3 intro teaser, .layout3 intro h2, .layout3 intro p) {
+	margin: 0 20px;
+}
+
 /* ARTICLE CARDS */
 .layout3 article {
 	margin-top: 20px;
+	transform: translateY(-25px);
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .layout3 icon {

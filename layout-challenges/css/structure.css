@@ -13,7 +13,7 @@ main {
 
 main inner-column, footer inner-column {
 	display: block;
-	max-width: var(--standard);  
+	max-width: var(--wide);  
 	margin-right: auto;
 	margin-left: auto;
 }
