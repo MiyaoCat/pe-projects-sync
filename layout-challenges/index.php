@@ -82,7 +82,7 @@
 		</section>
 	</main>
 
-	<footer>
+	<footer class="site-footer">
 		<inner-column>
 			<?php include('footer.php'); ?>
 		</inner-column>

@@ -1,18 +1,9 @@
-<div class="footer-wrapper">
-	<p class="normal-voice">Get to know me through my blog or socials below.</p>
-
-	<div class="socials">
-		<div class="twitter">
-			<?php include('images/twitter.php'); ?>
-		</div>
-				
-		<div class="substack">
-			<?php include('images/substack.php'); ?>
-		</div>
-		
-		<div class="linkedin">
-			<?php include('images/linkedin.php'); ?>
-		</div>
-	</div>
-	
+<div class='logo'>
+	<a href='https://peprojects.dev/alpha-4/john/?page=home'>
+		<?php include('images/logo.svg') ?>
+	</a>
 </div>
+
+<a href="?page=style-guide">Style Guide</a>
+<a href="?page=resume">Resume</a>
+<a href="?page=exercises">Exercises</a>
