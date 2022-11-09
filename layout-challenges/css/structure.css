@@ -10,6 +10,10 @@ main {
 }
 
 
+main section {
+	border-bottom: 5px dashed var(--ink);
+	padding-bottom: 80px;
+}
 
 main inner-column, footer inner-column {
 	display: block;
