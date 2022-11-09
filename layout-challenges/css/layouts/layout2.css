@@ -48,11 +48,6 @@
     position: absolute;
 }
 
-.layout2 .article-card {
-	border: 2px solid black;
-	gap: 20px;
-}
-
 @media (min-width: 600px) {
 	.layout2 intro {
 		display: block;
@@ -60,7 +55,7 @@
 	}
 	.layout2 .article-card {
 		padding: 10px;
-		border: 2px solid var(--highlight);
+		border: 2px solid var(--ink);
 	}
 	.layout2 .article-list {
 	    display: grid;
