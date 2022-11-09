@@ -7,7 +7,7 @@
 <feature-products>
 	<div class="apparel">
 		<picture class="feature-image portrait">
-			<img src="../images/denali-w.png" alt="">
+			<img src="./images/denali-w.png" alt="">
 		</picture>
 		
 		<button class="north-face">
@@ -17,7 +17,7 @@
 	
 	<div class="apparel">
 		<picture class="feature-image portrait">
-			<img src="../images/denali-m.png" alt="">
+			<img src="./images/denali-m.png" alt="">
 		</picture>
 
 		<button class="north-face">
