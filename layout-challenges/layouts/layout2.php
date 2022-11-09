@@ -51,7 +51,7 @@
 	 	
 	 	<li class="article-card">
 	 		<icon>
-	 		<?php include("./images/circle.php"); ?>
+	 		<?php include("./images/icon.svg"); ?>
 	 		</icon>
 	 
 	 		<h3 class="attention-voice"><?=$item2['heading'];?></h3>
