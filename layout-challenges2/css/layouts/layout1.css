@@ -25,6 +25,9 @@
 .layout1 image-grid picture {
 	margin: 10px 0;
 	max-width: 800px;
+}
+
+.layout1 img {
 	border: 1px solid black;
 }
 
