@@ -1,0 +1,55 @@
+.layout1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.layout1 page-header {
+	display: block;	
+	margin-bottom: 3rem;
+}
+
+.layout1 page-header p, .layout1 article-card p {
+	margin: 10px 0;
+}
+
+.layout1 article-card {
+	display: block;
+	border-top: 1px solid black;
+	padding: 15px 0;
+}
+
+.layout1 image-grid {
+	display: block;
+}
+
+.layout1 image-grid picture {
+	margin: 10px 0;
+	max-width: 800px;
+	border: 1px solid black;
+}
+
+@media (min-width: 600px) {
+	.layout1 article-grid, .layout1 image-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}	
+
+	.layout1 image-grid picture {
+		margin: 0;
+	}
+}
+
+@media (min-width: 900px) {
+	.layout1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 15px;
+	}
+
+	.layout1 article-grid {
+		grid-column: 1 / 2;
+	}
+
+
+}
