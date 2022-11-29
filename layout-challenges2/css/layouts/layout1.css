@@ -54,5 +54,7 @@
 		grid-column: 1 / 2;
 	}
 
-
+	.layout1 image-grid {
+		transform: translateY(-120px);
+	}
 }
