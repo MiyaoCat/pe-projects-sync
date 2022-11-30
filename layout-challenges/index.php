@@ -82,6 +82,17 @@
 				<?php include('layouts/the-north-face.php'); ?>
 			</inner-column>
 		</section>
+
+		<section class="layout7" id="bleacher-report">
+			<inner-column>
+				<div class='header'>
+					<h1 class="screaming-voice">Bleacher Report </h1>
+				</div>
+
+				<?php include('layouts/bleacher-report.php'); ?>
+			</inner-column>
+		</section>
+
 	</main>
 
 	<footer class="site-footer">
