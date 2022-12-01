@@ -13,8 +13,32 @@
 	$addMessage = "";
 	$failMessage = "";
 
+	$hasWord = false;
+	$wordInput = "";
+	
 	if ( isset($_POST["add"]) ) {
-		$addMessage = "Your word has been added!";
+
+		if ( isset($_POST["word"]) ) {
+			$wordInput = $_POST["word"];
+
+			if (strlen($wordInput) > 0 ) {
+				$hasWord = true;
+				$addMessage = "<h4 class='success-message'>Your word has been added!</h4>";
+			} 
+			else {
+				$failMessage = "<h4 class='fail-message'>no word</h4>";
+			}
+
+		} 
+
+		if ($hasWord) {
+			$newWord = [
+				$_POST["word"]
+			];
+
+			var_dump($newWord);
+		}
+
 	} 
 ?>
 
@@ -35,13 +59,14 @@
 </word-list>
 
 <h2>Add More Words!</h2>
-<h4 class="success-message"><?=$addMessage?></h4>
-<h4 class="fail-message"><?=$failMessage?></h4>
+
+
 
 <form action="" method="POST">
 	<label for="word">Type your word</label>
-	<input type="text">
-
+	<input type="text" name="word" value="<?=$wordInput?>">
+	<?=$addMessage?><?=$failMessage?>
+	
 	<button type="submit" name="add">Add Word</button>
 </form>
 
