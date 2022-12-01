@@ -1,0 +1,37 @@
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	max-width: 300px;
+	border: 3px solid black;
+	padding: 5px;
+}
+
+button {
+	max-width: 150px;
+	margin: 10px 0;
+	padding: 5px;
+	border: 3px solid blue;
+	background: lightblue;
+	text-transform: uppercase;
+	font-size: 16px;
+	box-shadow: 3px 3px 2px black;
+}
+
+button:hover {
+	cursor: pointer;
+}
+button:active {
+	transform: translateX(3px) translateY(3px);
+	box-shadow: 0 0 black;
+}
+
+.success-message {
+	color: blue;
+}
+
+.fail-message {
+	color: red;
+}
