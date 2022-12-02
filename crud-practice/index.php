@@ -8,7 +8,7 @@
 
 <?php 
 	$json = file_get_contents("word-list.json");
-	$words = json_decode($json, true);
+	$wordsData = json_decode($json, true);
 
 	$addMessage = "";
 	$failMessage = "";
@@ -16,27 +16,38 @@
 	$hasWord = false;
 	$wordInput = "";
 	
-	if ( isset($_POST["add"]) ) {
+	$formSubmitted = isset($_POST["submitted"]);
+
+	if ($formSubmitted) {
 
 		if ( isset($_POST["word"]) ) {
-			$wordInput = $_POST["word"];
+			$wordInput = trim($_POST["word"]);
 
 			if (strlen($wordInput) > 0 ) {
 				$hasWord = true;
 				$addMessage = "<h4 class='success-message'>Your word has been added!</h4>";
+
+				// Create new word
+				$newWord = 
+					$wordInput;
+
+				var_dump($newWord);
+
+				//Add new word to database
+				array_push($wordsData, $newWord); 
+
+				// //convert file back to JSON 	
+				$wordJSON = json_encode($wordsData);
+
+				// //save JSON file with new record	
+				file_put_contents("word-list.json", $wordJSON);
+
+				
 			} 
 			else {
 				$failMessage = "<h4 class='fail-message'>no word</h4>";
 			}
 
-		} 
-
-		if ($hasWord) {
-			$newWord = [
-				$_POST["word"]
-			];
-
-			var_dump($newWord);
 		}
 
 	} 
@@ -49,7 +60,7 @@
 <word-list>
 
 	<ol>
-		<?php foreach ($words as $word) { ?>
+		<?php foreach ($wordsData as $word) { ?>
 			<li>
 				<?=$word?>
 			</li>
@@ -67,7 +78,7 @@
 	<input type="text" name="word" value="<?=$wordInput?>">
 	<?=$addMessage?><?=$failMessage?>
 	
-	<button type="submit" name="add">Add Word</button>
+	<button type="submit" name="submitted">Add Word</button>
 </form>
 
 
