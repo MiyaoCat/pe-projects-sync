@@ -1,1 +1,19 @@
-["create","read","update","delete","adsf","adsf","test","test","testing","testing","testing","testing","testing","adsf","adsf","test"]
+[{
+	"id": "1",
+	"word": "create"
+}, {
+	"id": 2,
+	"word": "test, testy, testing"
+}, {
+	"id": 3,
+	"word": "test, testy, testing"
+}, {
+	"id": 4,
+	"word": "test"
+}, {
+	"id": 5,
+	"word": "test"
+}, {
+	"id": 6,
+	"word": "test"
+}]

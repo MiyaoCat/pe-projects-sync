@@ -27,23 +27,26 @@
 				$hasWord = true;
 				$addMessage = "<h4 class='success-message'>Your word has been added!</h4>";
 
+				$id = (count($wordsData) + 1);
+
 				// Create new word
-				$newWord = 
-					$wordInput;
+				$newWord = [
+						"id" => $id,
+						"word" => $wordInput
+					];	
 
 				var_dump($newWord);
 
 				//Add new word to database
 				array_push($wordsData, $newWord); 
 
-				// //convert file back to JSON 	
+				//convert file back to JSON 	
 				$wordJSON = json_encode($wordsData);
 
-				// //save JSON file with new record	
+				//save JSON file with new record	
 				file_put_contents("word-list.json", $wordJSON);
-
-				
 			} 
+
 			else {
 				$failMessage = "<h4 class='fail-message'>no word</h4>";
 			}
@@ -62,7 +65,7 @@
 	<ol>
 		<?php foreach ($wordsData as $word) { ?>
 			<li>
-				<?=$word?>
+				<?=$word["word"];?>
 			</li>
 		<?php } ?>	
 	</ol>	
