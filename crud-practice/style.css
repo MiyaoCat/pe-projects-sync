@@ -35,3 +35,8 @@ button:active {
 .fail-message {
 	color: red;
 }
+
+.delete {
+	border: 3px solid red;
+	background: pink;
+}

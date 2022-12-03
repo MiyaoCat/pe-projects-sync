@@ -50,11 +50,44 @@
 			else {
 				$failMessage = "<h4 class='fail-message'>no word</h4>";
 			}
-
 		}
-
 	} 
 ?>
+
+<?php
+
+	$formDeleted = isset($_POST["deleted"]);
+
+	// if delete button is submitted
+	if ( $formDeleted && isset($_POST["remove"]) ) {
+		
+		//And if the number input is entered and NOT blank
+		
+			
+			// AND if the number input equals the ID number of the word in the data file
+
+			$filtered = [];
+
+			foreach ($wordsData as $word) {
+				if ($_POST["remove"] != $word["id"]) {
+					array_push($filtered, $word);
+				}
+			}	
+			print_r($filtered);
+
+			//convert file back to JSON 	
+			$wordJSON = json_encode($filtered);
+
+			//save JSON file with new record	
+			file_put_contents("word-list.json", $wordJSON);
+
+			//Reset list variable name;
+			// $wordsData = $filtered;
+		
+	}
+
+?>
+
 
 <h1>Create. Read. Update. Delete</h1>
 
@@ -85,4 +118,10 @@
 </form>
 
 
+<form class="delete-word" action="" method="POST">
+	<label for="word">Enter the number corresponding to the word you want deleted</label>
+	<input type="number" name="remove" value="" min="1">
+	
+	<button class="delete" type="submit" name="deleted">Delete Word</button>
+</form>
 
