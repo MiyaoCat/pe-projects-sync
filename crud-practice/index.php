@@ -56,6 +56,8 @@
 ?>
 
 <?php
+	$deleteMessage = "";
+	$noMatchMessage = "";
 
 	$formDeleted = isset($_POST["deleted"]);
 
@@ -65,9 +67,16 @@
 			$filtered = [];
 
 			foreach ($wordsData as $word) {
-				if ($_POST["remove"] != $word["word"]) {
+				if ($_POST["remove"] !== $word["word"]) {
+
 					array_push($filtered, $word);
-				}
+
+					$noMatchMessage = "Your word <b>$_POST[remove]</b> was not found in the list";
+
+				} else {
+					$deleteMessage = "Your word $_POST[remove] was deleted";
+				} 
+
 			}	
 			var_dump($filtered);
 
@@ -79,9 +88,7 @@
 
 			//Reset list variable name;
 			$wordsData = $filtered;
-		
-	}
-
+	} 
 ?>
 
 
@@ -115,9 +122,10 @@
 
 
 <form class="delete-word" action="" method="POST">
-	<label for="word">Enter the number corresponding to the word you want deleted</label>
+	<label for="word">Type the word you want deleted</label>
 	<input type="text" name="remove" value="">
 	
 	<button class="delete" type="submit" name="deleted">Delete Word</button>
+	<?=$deleteMessage?><?=$noMatchMessage?>
 </form>
 
