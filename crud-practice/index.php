@@ -34,7 +34,6 @@
 						"id" => $id,
 						"word" => $wordInput
 					];	
-
 				
 				var_dump($newWord);
 
@@ -61,20 +60,26 @@
 
 	$formDeleted = isset($_POST["deleted"]);
 
-	// if delete button is submitted
+	// if delete button is submitted and a word is entered
 	if ( $formDeleted && isset($_POST["remove"]) ) {
 
+			//Set an empty array
 			$filtered = [];
 
+			//Look through the word list
 			foreach ($wordsData as $word) {
+
+				//if the input word does not equal a word in the list
 				if ($_POST["remove"] !== $word["word"]) {
 
+					//Update the word list with the entered word filtered out
 					array_push($filtered, $word);
 
-					$noMatchMessage = "Your word <b>$_POST[remove]</b> was not found in the list";
-
+					// $noMatchMessage = "Your word <b>$_POST[remove]</b> was not found in the list";
+					
 				} else {
-					$deleteMessage = "Your word $_POST[remove] was deleted";
+
+					// $deleteMessage = "Your word $_POST[remove] was deleted";
 				} 
 
 			}	
@@ -89,6 +94,7 @@
 			//Reset list variable name;
 			$wordsData = $filtered;
 	} 
+
 ?>
 
 
