@@ -60,7 +60,6 @@
 
 	$formDeleted = isset($_POST["deleted"]);
 
-	// if delete button is submitted and a word is entered
 	if ( $formDeleted && isset($_POST["remove"]) ) {
 
 			//Set an empty array
@@ -75,13 +74,12 @@
 					//Update the word list with the entered word filtered out
 					array_push($filtered, $word);
 
-					// $noMatchMessage = "Your word <b>$_POST[remove]</b> was not found in the list";
-					
+					$noMatchMessage = "Your word <b>$_POST[remove]</b> was not found in the list";
+
 				} else {
 
-					// $deleteMessage = "Your word $_POST[remove] was deleted";
+					$deleteMessage = "Your word $_POST[remove] was deleted";
 				} 
-
 			}	
 			var_dump($filtered);
 
