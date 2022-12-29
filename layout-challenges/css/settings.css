@@ -19,7 +19,7 @@ html {
 	--standout: hsl(360, 100%, 39%);
 	--accent-color: #17F0E3;  /* dark purple */
 
-	--think: 5px;
+	--thick: 5px;
 	--thin: 2px;
 	--pencil: 1px;
 }

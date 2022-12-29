@@ -55,30 +55,31 @@
 ?>
 
 <?php
-	$deleteMessage = "";
-	$noMatchMessage = "";
+	$message = "";
 
+	//Form is submitted with the delete button
 	$formDeleted = isset($_POST["deleted"]);
-
+	//If form is submitted and there's a word to be removed
 	if ( $formDeleted && isset($_POST["remove"]) ) {
-
-			//Set an empty array
+	//Find entered word, create a new array without that word
+			//Set an empty filtered array
 			$filtered = [];
 
 			//Look through the word list
 			foreach ($wordsData as $word) {
 
-				//if the input word does not equal a word in the list
+				//Check if the entered word is not a match
 				if ($_POST["remove"] !== $word["word"]) {
 
+					//If not a match, add it to the new array.
 					//Update the word list with the entered word filtered out
 					array_push($filtered, $word);
 
-					$noMatchMessage = "Your word <b>$_POST[remove]</b> was not found in the list";
+					$message = "Your word <b>$_POST[remove]</b> was not found in the list";
 
 				} else {
 
-					$deleteMessage = "Your word $_POST[remove] was deleted";
+					$message = "Your word $_POST[remove] was deleted";
 				} 
 			}	
 			var_dump($filtered);
@@ -96,7 +97,9 @@
 ?>
 
 
-<h1>Create. Read. Update. Delete</h1>
+<a href="?">
+	<h1>Create. Read. Update. Delete</h1>
+</a>
 
 <h2 class="">Word List</h2>
 
@@ -130,6 +133,6 @@
 	<input type="text" name="remove" value="">
 	
 	<button class="delete" type="submit" name="deleted">Delete Word</button>
-	<?=$deleteMessage?><?=$noMatchMessage?>
+	<?=$message?>
 </form>
 

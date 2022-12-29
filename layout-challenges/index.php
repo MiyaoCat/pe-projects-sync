@@ -79,7 +79,7 @@
 					<h1 class="screaming-voice">The North Face </h1>
 				</div>
 
-				<?php include('layouts/the-north-face.php'); ?>
+				<?php include('layouts/layout6.php'); ?>
 			</inner-column>
 		</section>
 
@@ -89,10 +89,19 @@
 					<h1 class="screaming-voice">Bleacher Report </h1>
 				</div>
 
-				<?php include('layouts/bleacher-report.php'); ?>
+				<?php include('layouts/layout7.php'); ?>
 			</inner-column>
 		</section>
 
+		<section class="layout8" id="tech-crunch">
+			<inner-column>
+				<div class='header'>
+					<h1 class="screaming-voice">Tech Crunch </h1>
+				</div>
+
+				<?php include('layouts/layout8.php'); ?>
+			</inner-column>
+		</section>
 	</main>
 
 	<footer class="site-footer">

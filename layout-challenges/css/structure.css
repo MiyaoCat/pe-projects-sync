@@ -15,9 +15,9 @@ main section {
 	padding-bottom: 80px;
 }
 
-main inner-column, footer inner-column {
+inner-column {
 	display: block;
-	max-width: var(--wide);  
+	max-width: var(--extra-wide);  
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -25,4 +25,11 @@ main inner-column, footer inner-column {
 
 article {
 	display: block;
+}
+
+
+@media (min-width: 700px) {
+	inner-column {
+		max-width: var(--standard);
+	}
 }
