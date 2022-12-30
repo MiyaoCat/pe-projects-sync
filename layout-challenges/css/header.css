@@ -2,7 +2,7 @@
 header inner-column {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 auto;
+/*	margin: 0 auto;*/
 }
 
 .site-header {
@@ -10,7 +10,6 @@ header inner-column {
 	top: 0;
 	z-index: 9;
 	background-color: var(--background);
-	width: var(--extra-wide);
 	margin-top: 8px;
 }
 
