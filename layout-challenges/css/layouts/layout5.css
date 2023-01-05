@@ -1,6 +1,6 @@
 /* TYPOGRAPHY */
 .layout5 .loud-voice {
-	font-family: var(--serif);
+	font-family: var(--sans-serif);
 	font-size: clamp(1rem, 4vw, 1.5rem);
 	font-weight: 500;
 	line-height: 1.2;
