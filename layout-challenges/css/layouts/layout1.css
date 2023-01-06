@@ -57,7 +57,7 @@
 }
 
 @media (min-width: 600px) {
-	.layout1 inner-column picture, .layout1 article {
+	.layout1  picture, .layout1 article {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 10px;
@@ -69,7 +69,7 @@
 
 @media (min-width: 900px) {
 
-	.layout1 inner-column {
+	.layout1  {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		/*width: var(--wide);*/

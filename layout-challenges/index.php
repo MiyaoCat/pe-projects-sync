@@ -26,82 +26,74 @@
 	</header>
 
 	<main>
-		<section class="layout1">
-			<inner-column>
+		<inner-column>
+			<section class="intro">
+			<p class="normal-voice"></p>
+			</section>
+
+			<section class="layout1">
 				<div class='header'>
 					<h1 class="screaming-voice">Monday Layout</h1>
 				</div>
 
 				<?php include('layouts/layout1.php'); ?>
 
-			</inner-column>
-		</section>
 
-		<section class="layout2">
-			<inner-column>
+			</section>
+
+			<section class="layout2">
 				<?php include('layouts/layout2.php'); ?>
-			</inner-column>
-		</section>
+			</section>
 
-		<section class="layout3" id="wednesday">
-			<inner-column>
+			<section class="layout3" id="wednesday">
 				<div class='header'>
 					<h1 class="screaming-voice">Wednesday Layout #1</h1>
 				</div>
-						
+							
 					<?php include('layouts/layout3.php'); ?>
-			</inner-column>
-		</section>
+			</section>
 
-		<section class="layout4">
-			<inner-column>
+			<section class="layout4">
 				<div class='header'>
 					<h1 class="screaming-voice">Wednesday Layout #2</h1>
 				</div>
 
 				<?php include('layouts/layout4.php'); ?>
-			</inner-column>
-		</section>
+			</section>
 
-		<section class="layout5" id="thursday">
-			<inner-column>
+			<section class="layout5" id="thursday">
 				<div class='header'>
 					<h1 class="screaming-voice">Player's Tribune </h1>
 				</div>
 
 				<?php include('layouts/layout5.php'); ?>
-			</inner-column>
-		</section>
+			</section>
 
-		<section class="layout6" id="the-north-face">
-			<inner-column>
+			<section class="layout6" id="the-north-face">
 				<div class='header'>
 					<h1 class="screaming-voice">The North Face </h1>
 				</div>
 
 				<?php include('layouts/layout6.php'); ?>
-			</inner-column>
-		</section>
+			</section>
 
-		<section class="layout7" id="bleacher-report">
-			<inner-column>
+			<section class="layout7" id="bleacher-report">
 				<div class='header'>
 					<h1 class="screaming-voice">Bleacher Report </h1>
 				</div>
 
 				<?php include('layouts/layout7.php'); ?>
-			</inner-column>
-		</section>
+			</section>
 
-		<section class="layout8" id="tech-crunch">
-			<inner-column>
+			<section class="layout8" id="tech-crunch">
 				<div class='header'>
 					<h1 class="screaming-voice">Tech Crunch </h1>
 				</div>
 
 				<?php include('layouts/layout8.php'); ?>
-			</inner-column>
-		</section>
+			</section>
+
+		</inner-column>
 	</main>
 
 	<footer class="site-footer">
