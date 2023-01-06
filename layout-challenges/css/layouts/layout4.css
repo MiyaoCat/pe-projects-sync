@@ -3,7 +3,7 @@
 	flex-direction: column;
 }
 
-.layout4
+
 .layout4 p {
 	line-height: 1.6rem;
 }
@@ -58,7 +58,7 @@ summary {
 }
 
 @media (min-width: 900px) {
-	.layout4 inner-column {
+	.layout4 {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;

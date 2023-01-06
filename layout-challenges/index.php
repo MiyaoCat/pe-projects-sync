@@ -28,7 +28,10 @@
 	<main>
 		<inner-column>
 			<section class="intro">
-			<p class="normal-voice"></p>
+				<div class='header'>
+					<h1 class="screaming-voice">Responsive Layout Garden</h1>
+				</div>
+				<p class="normal-voice">This is a collection of responsive layouts that are commonly found on mondern websites. The modules range from news publications, ecommerce to company homepages. If you change the width of your browser you'll see how the modules <span>respond</span> to make the best use of the screen size.  </p>
 			</section>
 
 			<section class="layout1">
@@ -37,8 +40,6 @@
 				</div>
 
 				<?php include('layouts/layout1.php'); ?>
-
-
 			</section>
 
 			<section class="layout2">
