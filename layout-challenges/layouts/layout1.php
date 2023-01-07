@@ -1,5 +1,5 @@
 <?php 
-	$json = file_get_contents('data/data.json');
+	$json = file_get_contents('data/layout1.json');
 	$pageData = json_decode($json, true);
 
 	function getPageDataByType ($items, $type) {
@@ -21,6 +21,9 @@
 	$imageCard = getPageDataByType($pageData, 'image');
 ?>
 
+<div class='header'>
+					<h1 class="screaming-voice">Monday Layout</h1>
+				</div>
 
 <intro>
 	<?php foreach ($introCard as $item) { ?>	

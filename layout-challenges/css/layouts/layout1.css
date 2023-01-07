@@ -21,13 +21,13 @@
 
 .layout1 picture img {
 	display: block;
-	width:  100%;
+	max-width: 100%;
 	height:  auto;
 	
 }
 
 .layout1 .article-list {
-	border-top: 1px solid var(--ink);
+	border-top: 2px solid var(--ink);
 	padding-top: 10px;
 }
 
@@ -36,14 +36,14 @@
 }
 
 .layout1 article li {
-	border-top: 1px solid grey;
+	border-top: 1px solid var(--ink);
 	margin: 15px 0;
 	padding: 15px 0;
 }
 
 .layout1 .images {
 	/*margin: 10px 0;*/
-	border: 1px solid black;
+	border: 2px solid var(--ink);
 	align-self: start;
 }
 
@@ -54,6 +54,10 @@
 
 .layout1 thumbnail img {
 		max-width: 50px;
+}
+
+.layout1 image-grid picture img:nth-of-type(4){
+	transform: rotate(90deg);
 }
 
 @media (min-width: 600px) {

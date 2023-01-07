@@ -24,9 +24,7 @@
 	$excerpt2 = getPageDataByType2($pageData2, 'excerpt');
 ?>
 <div class='header'>
-	<inner-column>
-		<h1 class="screaming-voice">Tuesday Layout</h1>
-	</inner-column>
+	<h1 class="screaming-voice">Tuesday Layout</h1>
 </div>
 
 <intro>

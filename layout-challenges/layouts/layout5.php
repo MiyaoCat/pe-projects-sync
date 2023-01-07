@@ -31,10 +31,10 @@
 		</div>
 
 		<picture class="feature-image portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/layout5-players-tribune/feature-portrait.jpeg" alt="">
 		</picture>
 		<picture class="feature-image landscape">
-			<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<img src="./images/layout5-players-tribune/feature-landscape.jpeg" alt="">
 		</picture>
 
 	</li>
@@ -43,7 +43,7 @@
 	<?php foreach ( [1, 2, 3] as $article) { ?>
 	<li class="article-card">
 		<picture class="article-image">
-			<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<img src="./images/layout5-players-tribune/john-wall.jpeg" alt="">
 		</picture>
 
 		<div class="article-snippet narrow">

@@ -1,4 +1,6 @@
-
+<div class='header'>
+	<h1 class="screaming-voice">Wednesday Layout #1</h1>
+</div>
 
 <intro>
 	<teaser>

@@ -35,10 +35,6 @@
 			</section>
 
 			<section class="layout1">
-				<div class='header'>
-					<h1 class="screaming-voice">Monday Layout</h1>
-				</div>
-
 				<?php include('layouts/layout1.php'); ?>
 			</section>
 
@@ -46,12 +42,8 @@
 				<?php include('layouts/layout2.php'); ?>
 			</section>
 
-			<section class="layout3" id="wednesday">
-				<div class='header'>
-					<h1 class="screaming-voice">Wednesday Layout #1</h1>
-				</div>
-							
-					<?php include('layouts/layout3.php'); ?>
+			<section class="layout3" id="wednesday">		
+				<?php include('layouts/layout3.php'); ?>
 			</section>
 
 			<section class="layout4">
