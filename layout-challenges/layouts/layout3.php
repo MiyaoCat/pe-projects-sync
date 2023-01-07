@@ -1,15 +1,15 @@
 <div class='header'>
-	<h1 class="screaming-voice">Wednesday Layout #1</h1>
+	<h1 class="screaming-voice">Feature Content</h1>
 </div>
 
 <intro>
 	<teaser>
-		<p class="teaser normal-voice">Little teaser</p>
+		<p class="teaser normal-voice">Psst...Spend Money!</p>
 	</teaser>
 	
-	<h2 class="attention-voice">Heading Level 2 small</h2>
+	<h2 class="attention-voice">Let the Plan Choose You</h2>
 
-	<p class="intro normal-voice">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi. Dolor voluptate facilis officia nisi!</p>
+	<p class="intro normal-voice">You may find this module on a SaaS type site that offers three tiers. Or this could be on a news site and below is the featured content.</p>
 </intro>
 
 <article>

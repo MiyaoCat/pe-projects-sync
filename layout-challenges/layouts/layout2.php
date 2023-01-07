@@ -1,7 +1,7 @@
 
 <?php 
-	$json2 = file_get_contents('data/data2.json');
-	$pageData2 = json_decode($json, true);
+	$json2 = file_get_contents('data/layout2.json');
+	$pageData2 = json_decode($json2, true);
 
 	function getPageDataByType2 ($items2, $type2) {
 
@@ -24,7 +24,7 @@
 	$excerpt2 = getPageDataByType2($pageData2, 'excerpt');
 ?>
 <div class='header'>
-	<h1 class="screaming-voice">Tuesday Layout</h1>
+	<h1 class="screaming-voice">Article Grid Layout 2</h1>
 </div>
 
 <intro>
@@ -60,11 +60,9 @@
 	</ul>
 </article>
 
-
 <excerpt>
-	<p class="quiet-voice">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus id cupiditate repellendus, officiis, iusto saepe.</p>
-		<!-- <?php foreach ($excerpt2 as $item2) {?>
-			<p class="quiet-voice"><?=$item2['text']?></p>
-		<?php } ?>	 -->
+	<?php foreach ($excerpt2 as $item2) {?>
+		<p class="quiet-voice"><?=$item2['text']?></p>
+	<?php } ?>	
 </excerpt>
 			

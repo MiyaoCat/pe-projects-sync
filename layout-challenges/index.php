@@ -34,31 +34,28 @@
 				<p class="normal-voice">This is a collection of responsive layouts that are commonly found on mondern websites. The modules range from news publications, ecommerce to company homepages. If you change the width of your browser you'll see how the modules <span>respond</span> to make the best use of the screen size.  </p>
 			</section>
 
+			<!-- article-grid1 -->
 			<section class="layout1">
 				<?php include('layouts/layout1.php'); ?>
 			</section>
 
+			<!-- article-grid2 -->
 			<section class="layout2">
 				<?php include('layouts/layout2.php'); ?>
 			</section>
 
-			<section class="layout3" id="wednesday">		
+			<!-- FEATURE-CONTENT -->
+			<section class="layout3">		
 				<?php include('layouts/layout3.php'); ?>
 			</section>
 
+			<!-- FAQS -->
 			<section class="layout4">
-				<div class='header'>
-					<h1 class="screaming-voice">Wednesday Layout #2</h1>
-				</div>
-
 				<?php include('layouts/layout4.php'); ?>
 			</section>
 
-			<section class="layout5" id="thursday">
-				<div class='header'>
-					<h1 class="screaming-voice">Player's Tribune </h1>
-				</div>
-
+			<!-- PLAYERS TRIBUNE -->
+			<section class="layout5" id="players-tribune">
 				<?php include('layouts/layout5.php'); ?>
 			</section>
 

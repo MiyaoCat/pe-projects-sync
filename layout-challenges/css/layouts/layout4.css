@@ -27,7 +27,7 @@
 }
 
 .layout4 .article-card h3 {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid var(--ink);
 }
 summary {
 	list-style: none;

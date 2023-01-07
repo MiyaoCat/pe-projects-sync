@@ -22,8 +22,8 @@
 ?>
 
 <div class='header'>
-					<h1 class="screaming-voice">Monday Layout</h1>
-				</div>
+	<h1 class="screaming-voice">Article Grid Layout 1</h1>
+</div>
 
 <intro>
 	<?php foreach ($introCard as $item) { ?>	
