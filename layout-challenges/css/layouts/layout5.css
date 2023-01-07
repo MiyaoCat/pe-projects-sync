@@ -67,6 +67,18 @@
 }
 
 @media (min-width: 700px) {
+	.layout5 .article-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 20px;
+	}
+
+	.layout5 .feature-article {
+		grid-row: 1;
+		grid-column: 1 / span 3;
+	}
+
 	.layout5 .feature-article {
 		justify-content: space-between;
 	}
