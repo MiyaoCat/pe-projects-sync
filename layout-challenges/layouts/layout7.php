@@ -4,7 +4,7 @@
 
 <article-card>
 	<picture class="feature-image portrait">
-			<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<img src="./images/layout7-bleacher-report/cmc.jpeg" alt="">
 	</picture>
 
 	<article-content>
@@ -16,7 +16,7 @@
 
 <article-card>
 	<picture class="feature-image portrait">
-			<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<img src="./images/layout7-bleacher-report/tcu.jpeg" alt="">
 	</picture>
 
 	<article-content>
