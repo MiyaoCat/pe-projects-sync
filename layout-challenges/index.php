@@ -77,7 +77,7 @@
 
 			<section class="layout8" id="tech-crunch">
 				<div class='header'>
-					<h1 class="screaming-voice">Tech Crunch </h1>
+					<!-- <h1 class="screaming-voice">Tech Crunch </h1> -->
 				</div>
 
 				<?php include('layouts/layout8.php'); ?>

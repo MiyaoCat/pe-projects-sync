@@ -25,6 +25,9 @@
 	margin-top: 2.5em;
 }
 
+.layout7 picture {
+	border: 2px solid var(--ink);
+}
 @media (min-width: 1000px) {
 	.layout7 article-card {
 		flex-direction: row;
