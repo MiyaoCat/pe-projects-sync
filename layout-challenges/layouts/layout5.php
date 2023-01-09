@@ -1,5 +1,5 @@
 <div class='header'>
-	<h1 class="screaming-voice">Player's Tribune </h1>
+	<h1 class="screaming-voice">The Player's Tribune </h1>
 </div>
 
 <div class="module-heading">

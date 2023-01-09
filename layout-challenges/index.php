@@ -59,6 +59,7 @@
 				<?php include('layouts/layout5.php'); ?>
 			</section>
 
+			<!-- THE NORTH FACE -->
 			<section class="layout6" id="the-north-face">
 				<div class='header'>
 					<h1 class="screaming-voice">The North Face </h1>
@@ -67,6 +68,7 @@
 				<?php include('layouts/layout6.php'); ?>
 			</section>
 
+			<!-- BLEACHER REPORT -->
 			<section class="layout7" id="bleacher-report">
 				<div class='header'>
 					<h1 class="screaming-voice">Bleacher Report </h1>
