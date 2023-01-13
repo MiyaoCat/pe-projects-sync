@@ -17,28 +17,28 @@
 
 			<ul class="john">
 				<li>
-					<a href="001-project-virtual-library/virtual-library.html" target="new"><h3>Johnslist</h3></a>
-					<p>Examples of creating lists. This is a curation of sites I like.</p>
+					<a href="crud-practice/index.php" target="new"><h3>Crud Practice</h3></a>
+					<p>Practice CRUD Site.</p>
 				</li>
 
 				<li>
-					<a href="000-project-google-doc/my-faves.html" target="new"><h3>My Faves</h3></a>
-					<p>Learned how to add style to elements. In this example we emulated a Google doc.</p>
+					<a href="php-crud2" target="new"><h3>2nd Crud Site</h3></a>
+					<p>Another practice CRUD site</p>
 				</li>
 
 				<li>
-					<a href="002-project-90s-style/90s-style-site.html" target="new"><h3>Bring Back the 90s!</h3></a>
-					<p>We created a site reminscent of 1990s websites.</p>
+					<a href="layout-challenges/index.php" target="new"><h3>Layout Challenges</h3></a>
+					<p>Responsive Module Layouts</p>
 				</li>
 
 				<li>
-					<a href="challenge-1/index.html" target="new"><h3>Challenge-1</h3></a>
-					<p>Combining what we had learned from metadata, lists and CSS style into one site.</p>
+					<a href="router-site/index.php" target="new"><h3>Router Site</h3></a>
+					<p>Practice Router site</p>
 				</li>
 
 				<li>
-					<a href="https://codepen.io/miyaocodes" target="new"><h3>Codepen</h3></a>
-					<p>My codepen projects plus some practice pages.</p>
+					<a href="scratchpad/example.html" target="new"><h3>JS ForEach</h3></a>
+					<p>Practice For Each</p>
 				</li>
 
 				<li>
