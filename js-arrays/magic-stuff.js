@@ -76,7 +76,7 @@ players.forEach( function(athlete) {
 	if (athlete.mvp) {
 		console.log(athlete.name);
 		console.log("You da real MVP! ");
-	}
+	} 
 });
 
 console.log("-----------------------------------");
@@ -111,34 +111,95 @@ function printList(list, heading) {
 
 	list.forEach( function(list) {
 		var team = document.createElement("li");
-		team.textContent = list.team + ": " + list.name;
+		team.textContent = list.name;
 
 		ol.appendChild(team);
 	});
 
 	document.body.appendChild(ol);
 
+	if (newPlayer) {
+
+	}
 }
 
 printList(players, "Best Players in Pacific Coast Division by Team");
 
-printList(mvp, "MVP's");
+// printList(mvp, "MVP's");
 
-printList(pointGuards, "Point Guards");
+// printList(pointGuards, "Point Guards");
 
-printList(smallForwards, "Small Forwards");
+// printList(smallForwards, "Small Forwards");
 
+function createLine(){
+	var line = document.createElement("div");
+	line.style.border = "2px solid black";
+	document.body.appendChild(line);
+}
 
+createLine();
 
+var newPlayer = players.push(
+	{
+		name: "Domantas Sabonis",
+		team: "Sacramento Kings",
+		position: "Power Forward",
+		mvp: false,
+	});
 
+// console.log(players);
 
+printList(players, "Player Pushed to List");
 
+createLine();
 
+function createTitle(title) {
+	var h3 = document.createElement("h3");
+	h3.textContent = title;
+	document.body.appendChild(h3);
+};
 
+createTitle("Is it an Array?");
 
+function anArray(testArray) {
+	var test = Array.isArray(testArray);
 
+	if (test) {
+		var p = document.createElement("p");
+		p.textContent = "Yes. You are an Array";
+		document.body.appendChild(p);
+	} else {
+		var p = document.createElement("p");
+		p.textContent = "No. You are not an Array";
+		document.body.appendChild(p);
+	}
+}
 
+anArray(players);
+anArray("one");
+anArray(newPlayer);
 
+createLine();
 
+createTitle("How Many Objects in the Array?");
+
+function arrayLength(array) {
+	var length = array.length;
+	message = "The array has " + length + " objects.";
+	
+	var p = document.createElement("p");
+	p.textContent = message;
+	document.body.appendChild(p);
+};
+
+arrayLength(players);
+
+arrayLength([1, 2, 3, 4, 5,]);
+
+arrayLength(simplePlayers);
+
+createLine();
+
+createTitle("Using Array.From");
 
 
