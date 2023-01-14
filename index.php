@@ -37,8 +37,8 @@
 				</li>
 
 				<li>
-					<a href="scratchpad/example.html" target="new"><h3>JS ForEach</h3></a>
-					<p>Practice For Each</p>
+					<a href="js-arrays/example.html" target="new"><h3>JS ForEach</h3></a>
+					<p>Practice forEach Loops</p>
 				</li>
 
 				<li>
