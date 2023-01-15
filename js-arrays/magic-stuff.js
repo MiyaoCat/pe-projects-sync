@@ -154,9 +154,9 @@ printList(players, "Player Pushed to List");
 createLine();
 
 function createTitle(title) {
-	var h3 = document.createElement("h3");
-	h3.textContent = title;
-	document.body.appendChild(h3);
+	var h2 = document.createElement("h2");
+	h2.textContent = title;
+	document.body.appendChild(h2);
 };
 
 createTitle("Is it an Array?");
