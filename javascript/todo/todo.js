@@ -3,6 +3,12 @@ function update(note = "") {
 	console.log('Groceries', groceryList);
 }
 
+function findById(customId) {
+	const found = groceryList.find(function(list) {
+		return list.id === customId;
+	})
+}
+
 const groceryList = [];
 var customID = 1;
 
@@ -17,24 +23,50 @@ function add(item) {
 
 
 function remove(id) { 
+	// update(`Removed ${groceryList[id].item}`);
+	// groceryList.splice(groceryList.id, 1);
+
 	update(`Removed ${groceryList[id].item}`);
 	groceryList.splice(groceryList.id, 1);
 };
 
-function complete(id) {
-	groceryList[id].complete = true;
-	update(`Retreived ${groceryList[id].item}`);
+function complete(searchId) {
+	const found = findById(searchId);
+
+	if (found) {
+		found.complete = true;
+	} else {
+		console.log(searchId + " not found");
+	}
+	// groceryList[id].complete = true;
+	// update(`Retreived ${groceryList[id].item}`);
 }
 
-function updateList(id, newItem) {
-	groceryList[id].item = newItem;
-	update(`Item Updated ${groceryList[id].item}`);
+function updateList(searchId, newItem) {
+	// groceryList[id].item = newItem;
+	// update(`Item Updated ${groceryList[id].item}`);
+
+	const found = groceryList.find(function(list) {
+	return list.id == searchId;
+});
+
+	if (found) {
+		found.content = newItem;
+		update(`Updated ${found.item} to ${newItem}`);
+
+	} else {
+		console.log('searchId not found');
+	}
+
+	console.log(found);
+
+	// update(`Updated ${found.content}`);
 }
 
 add('parsley');
 add('lemon');
 
-complete(0);
+
 
 add('ground beef');
 
@@ -42,24 +74,11 @@ remove(0);
 
 add('tomatoes');
 
-updateList(1, 'noodles');
+updateList('a2', 'noodles');
+
+complete('a4');
 
 console.log(add);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
