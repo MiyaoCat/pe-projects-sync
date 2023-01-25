@@ -4,11 +4,11 @@ function update(note = "") {
 }
 
 const groceryList = [];
-var count = 1;
+var customID = 1;
 
 function add(item) {
 	const list = {
-		id: `a${count++}`,
+		id: `a${customID++}`,
 		item: item
 	};
 	groceryList.push(list);
@@ -27,7 +27,7 @@ function complete(id) {
 }
 
 function updateList(id, newItem) {
-		groceryList[id].item = newItem;
+	groceryList[id].item = newItem;
 	update(`Item Updated ${groceryList[id].item}`);
 }
 
@@ -44,7 +44,7 @@ add('tomatoes');
 
 updateList(1, 'noodles');
 
-
+console.log(add);
 
 
 
