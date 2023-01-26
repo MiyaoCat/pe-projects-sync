@@ -180,32 +180,32 @@ GroceryList.prototype.update = function() {
 
 
 // //WORK WITH DEREK
-// // function update(note = "") {
-// // 	console.log(`----- ${note}`);
-// // 	console.log('todos: ', todos);
-// // }
+// function update(note = "") {
+// 	console.log(`----- ${note}`);
+// 	console.log('todos: ', todos);
+// }
 
-// // const todos = [];
-// // var count = 1;
+// const todos = [];
+// var count = 1;
 
-// // function add(content) {
-// // 	const todo = {
-// // 		id: `a${count++}`,
-// // 		content: content
-// // 	};
-// // 	todos.push(todo);
-// // 	update(`Added ${content}`);
-// // }
+// function add(content) {
+// 	const todo = {
+// 		id: `a${count++}`,
+// 		content: content
+// 	};
+// 	todos.push(todo);
+// 	update(`Added ${content}`);
+// }
 
-// // function remove(id) {
-// // 	update(`Removed ${todos[id].content}`);
-// // 	todos.splice(id, 1);
-// // }
+// function remove(id) {
+// 	update(`Removed ${todos[id].content}`);
+// 	todos.splice(id, 1);
+// }
 
-// // function complete(id) {
-// // 	todos[id].complete = true;
-// // 	update(`Completed ${todos[id].content}`);
-// // }
+// function complete(id) {
+// 	todos[id].complete = true;
+// 	update(`Completed ${todos[id].content}`);
+// }
 
 
 // // function updateObject(searchId, newContent) {

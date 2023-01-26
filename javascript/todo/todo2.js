@@ -1,48 +1,43 @@
-function log(note = ""){
-	console.log(`----${note}`);
-	console.log('Athletes: ', athletes);
+function log(note = "") {
+	console.log(`---- ${note}`);
+	console.log('Thing to do: ', pdxThingsToDo);
 }
 
-const athletes = [];
+var pdxThingsToDo = [];
 var count = 1;
 
-log();
-
-function add(athlete, team) {
-	var list = {
+function add(thing) {
+	const list = {
 		id: `a${count++}`,
-		athlete: athlete,
-		team: team,
+		activity: thing,
 	};
-	athletes.push(list);
-	log(`Added: ${athlete}`);
+	pdxThingsToDo.push(list);
+	log(`Added: ${thing}`);
 }
 
 function remove(id) {
-	log(`Removed: ${athletes[id].athlete}`);
-	athletes.splice(id, 1);
+	log(`Removed: ${pdxThingsToDo[id].activity}`);
+	pdxThingsToDo.splice(id, 1);
 }
 
-function allStar(id) {
-	athletes[id].complete = true;
-	log(`Added ${athletes[id].athlete} to All Stars`);
+function complete(id) {
+	pdxThingsToDo.complete = true;
+	log(`Completed: ${pdxThingsToDo[id].activity}`);
 }
 
+function update(id, newActivity) {
+	var oldActivity = pdxThingsToDo[id].activity;
 
-function update(id, newAthlete) {
-	athletes[id].athlete = newAthlete;
-	log(`${newAthlete} has been updated`)
+	log(`Update: ${oldActivity} has been updated to ${newActivity}`);
+
+	pdxThingsToDo[id].activity = newActivity;
 }
 
-add('Michael Jordan', 'Bulls');
-add('Steph Curry', 'Warriors');
-add('Damian Lillard', 'Blazers');
-add("De'Aaron Fox", 'Kings');
-log();
-
-
-remove(0);
-log();
-
-allStar(1);
-update(1, 'Trae Young');
+add('Go to Powells Books');
+add('Trailblazers Game');
+add('Rose Garden');
+add('Shave Ice at Wailua');
+complete(1);
+remove(1);
+update(1, 'Explore Pearl District');
+console.log(pdxThingsToDo);
