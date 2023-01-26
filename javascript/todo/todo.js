@@ -1,3 +1,4 @@
+
 //CONSTRUCTOR FUNCTION
 function GroceryList(enteredId, enteredItem) {
 	
@@ -29,13 +30,7 @@ milk.complete();
 milk.item = 'choco milk';
 
 console.log(milk.item);
-console.log(GroceryList);
 
-
-GroceryList.prototype.update = function() {
-	this.update = newItem;
-	console.log(`Item Updated ${this.list[id].item}`);
-}
 // eggs.remove();
 
 // const groceryList = {
