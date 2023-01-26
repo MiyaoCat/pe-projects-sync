@@ -1,5 +1,3 @@
-console.log('new list');
-
 var goals = [];
 var count = 1;
 
@@ -25,7 +23,6 @@ function add(newItem) {
 };
 
 function remove(customID) {
-
 	const found = findById(customID); 
 		if (found) {
 			goals.splice(customID, 1);
@@ -33,7 +30,7 @@ function remove(customID) {
 		} else {
 			console.log(customID + ' not found');
 		}
-	
+
 	// log(`Removed: ${goals[id].goal}`)
 	// goals.splice(id, 1);
 }
@@ -56,8 +53,8 @@ function update(searchID, newGoal) {
 	const found = findById(searchID);
 
 	if (found) {
+		log(`Updated goal: ${found.goal} changed to ${newGoal}`);
 		found.goal = newGoal;
-		log(`Updated goal: ${newGoal}`);
 	} else {
 		console.log(searchID + ' not found');
 	}
@@ -72,7 +69,7 @@ add('Cycle 200 miles in a month');
 add('Create a JS list without help!');
 complete('a1');
 remove('a12');
-update('a2', 'Enter a Century cycle event');
+update('a2', 'Complete a Century Ride');
 
 
 
