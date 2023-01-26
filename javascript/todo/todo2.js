@@ -8,6 +8,12 @@ function log(note = "") {
 	console.log('Goals: ', goals);
 }
 
+function findById(searchId) {
+	return goals.find( function(specificGoal) {
+		return specificGoal.id === searchId;
+	});
+}
+
 function add(newItem) {
 	const list = {
 		id: `a${count++}`,
@@ -18,29 +24,55 @@ function add(newItem) {
 	log(`Added: ${newItem}`);
 };
 
-function remove(id) {
-	log(`Removed: ${goals[id].goal}`)
-	goals.splice(id, 1);
+function remove(customID) {
+
+	const found = findById(customID); 
+		if (found) {
+			goals.splice(customID, 1);
+			log(`Removed: ${found.goal}`);
+		} else {
+			console.log(customID + ' not found');
+		}
+	
+	// log(`Removed: ${goals[id].goal}`)
+	// goals.splice(id, 1);
 }
 
-function complete(id) {
-	goals[id].complete = true;
-	log(`Completed: ${goals[id].goal}`)
+function complete(searchID) {
+	const found = findById(searchID);
+
+	if (found) {
+		found.complete = true;
+		log(`Completed: ${found.goal}`)
+	} else {
+		console.log(searchID + ' not found');
+	}
+
+	// goals[searchID].complete = true;
+	// log(`Completed: ${goals[searchID].goal}`)
 }
 
-function update(id, newGoal) {
-	log(`Updated goal: ${goals[id].goal} changed to ${newGoal}`)
+function update(searchID, newGoal) {
+	const found = findById(searchID);
 
-	goals[id].goal = newGoal;
+	if (found) {
+		found.goal = newGoal;
+		log(`Updated goal: ${newGoal}`);
+	} else {
+		console.log(searchID + ' not found');
+	}
+
+	// log(`Updated goal: ${goals[id].goal} changed to ${newGoal}`)
+	// goals[id].goal = newGoal;
 	
 }
 
 add('Get a Front End Dev Job');
 add('Cycle 200 miles in a month');
 add('Create a JS list without help!');
-complete(0);
-remove(0);
-update(0, 'Enter a Century cycle event');
+complete('a1');
+remove('a12');
+update('a2', 'Enter a Century cycle event');
 
 
 
