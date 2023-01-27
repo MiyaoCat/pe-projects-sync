@@ -20,7 +20,11 @@ const morningRoutine = {
 			id: `a${this.customId++}`,
 			action: step,
 		}
-		this.routine.push(routineObject);
+		//Instead of changing the value in memory, it's reassigned
+		this.routine = [...this.routine, routineObject];
+
+		//.push changes the list
+		// this.routine.push(routineObject);
 		this.log(`Added: ${step}`);
 	},
 
