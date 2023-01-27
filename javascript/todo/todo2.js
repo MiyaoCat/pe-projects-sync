@@ -1,3 +1,49 @@
+//LOCAL STORAGE PRACTICE
+const data = localStorage;
+
+data.setItem('myDog', 'Sunny');
+data.setItem('myTeam', 'Huskies');
+
+data.setItem( 'org',  JSON.stringify({team: 'Kings', city: 'Sacramento'}) );
+
+const org = data.getItem('org');
+let kingsObject = JSON.parse(org);
+
+console.log(kingsObject);
+console.log(kingsObject.team);
+console.log(kingsObject.city);
+
+function setData(key, value) {
+	data.setItem(key, value);
+
+	console.log(`Added: ${value}`);
+}
+setData('team','Blazers');
+setData('team', 'Warriors');
+
+let dog = data.getItem('myDog');
+console.log(`My dog's name is ${dog}`);
+
+data.setItem('blazers', JSON.stringify({
+	id: 'a1',
+	team: 'Blazers',
+	city: 'Portland',
+	colors: 'Red and black'
+}) );
+
+const org2 = data.getItem('blazers');
+let blazersObject = JSON.parse(org2);
+
+console.log(blazersObject);
+console.log(blazersObject.id);
+// localStorage.setItem("favoritePlayer", "Steph Curry");
+
+// const player = localStorage.getItem('favoritePlayer');
+
+// const message = `My favorite player is ${player}.`;
+
+// document.body.textContent = message;
+
 
 
 // //CONSTRUCTOR FUNCTION
