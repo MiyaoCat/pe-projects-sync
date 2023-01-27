@@ -1,74 +1,102 @@
-//LIST WITH ENCAPSULATION (FUNCTIONS AS OBJECTS)
-const morningRoutine = {
 
-	routine: [],
-	customId: 1,
 
-	log: function(note = "") {
-		console.log(`----${note}`);
-		console.log('Routine: ', this.routine);
-	},
+// //CONSTRUCTOR FUNCTION
+// function Athlete(id, name, team, position) {
 
-	findCustomId: function(searchId) {
-		return this.routine.find( function(routineStep) {
-			return routineStep.customId === this.searchId;
-		});
-	},
+// 	this.id = id;
+// 	this.name = name;
+// 	this.team = team;
+// 	this.position = position;
 
-	add: function(step) {
-		const routineObject = {
-			id: `a${this.customId++}`,
-			action: step,
-		}
-		//Instead of changing the value in memory, it's reassigned
-		this.routine = [...this.routine, routineObject];
+// 	this.addAthlete = function() {
+// 		console.log(`You added ${this.name} to the list`);
+// 	};
+// };
 
-		//.push changes the list
-		// this.routine.push(routineObject);
-		this.log(`Added: ${step}`);
-	},
 
-	remove: function(searchId) {
-		let found = this.findCustomId(searchId);
-		if (found) {
-			this.routine.splice(searchId, 1);
-			this.log(`Removed: ${found.action}`);
-		} else {
-			console.log(searchId + ' not found');
-		}
-	},
+// const jordan = new Athlete('a1', 'Michael Jordan', 'Bulls', 'SG');
+// const curry = new Athlete('a2', 'Steph Curry', 'Warriors', 'PG');
+// const lillard = Athlete('a3', 'Damian Lillard', 'Blazers', 'PG');
 
-	complete: function(searchId) {
-		let found = this.findCustomId(searchId);
-		if (found) {
-			this.log(`Completed: ${found.action}`);
-		} else {
-			console.log(searchId + ' not found');
-		}
-	},
+// Athlete.prototype.intro = function() {
+// 	console.log(`${jordan.name} plays ${jordan.position} for the ${jordan.team}`);
+// }
 
-	update: function(searchId, newAction) {
-		let found = this.findCustomId(searchId);
-		if (found) {
-			this.log(`Update: ${found.action} has been changed to ${newAction}`);
-		} else {
-			console.log(searchId + ' not found');
-		}
-	}
-}
+// jordan.intro();
 
-morningRoutine.add('Make coffee');
-morningRoutine.add('Brush teeth');
-morningRoutine.add('stetch');
-morningRoutine.add('Read email');
+// console.log(jordan);
 
-morningRoutine.complete('a1');
+// curry.addAthlete();
 
-morningRoutine.remove('a1');
 
-morningRoutine.update('a4', 'Water plants');
 
-//LIST WITH NO INTERFACE
+// //LIST WITH ENCAPSULATION (FUNCTIONS AS OBJECTS)
+// const morningRoutine = {
+
+// 	routine: [],
+// 	customId: 1,
+
+// 	log: function(note = "") {
+// 		console.log(`----${note}`);
+// 		console.log('Routine: ', this.routine);
+// 	},
+
+	// findCustomId: function(searchId) {
+	// 	return this.routine.find( function(routineStep) {
+	// 		return routineStep.customId === this.searchId;
+	// 	});
+	// },
+
+// 	add: function(step) {
+// 		const routineObject = {
+// 			id: `a${this.customId++}`,
+// 			action: step,
+// 		}
+// 		//Instead of changing the value in memory, it's reassigned
+// 		this.routine = [...this.routine, routineObject];
+
+// 		//.push changes the list
+// 		// this.routine.push(routineObject);
+// 		this.log(`Added: ${step}`);
+// 	},
+
+// 	remove: function(searchId) {
+// 		let found = this.findCustomId(searchId);
+// 		if (found) {
+// 			this.routine.splice(searchId, 1);
+// 			this.log(`Removed: ${found.action}`);
+// 		} else {
+// 			console.log(searchId + ' not found');
+// 		}
+// 	},
+
+// 	complete: function(searchId) {
+// 		let found = this.findCustomId(searchId);
+// 		if (found) {
+// 			this.log(`Completed: ${found.action}`);
+// 		} else {
+// 			console.log(searchId + ' not found');
+// 		}
+// 	},
+
+// 	update: function(searchId, newAction) {
+// 		let found = this.findCustomId(searchId);
+// 		if (found) {
+// 			this.log(`Update: ${found.action} has been changed to ${newAction}`);
+// 		} else {
+// 			console.log(searchId + ' not found');
+// 		}
+// 	}
+// }
+// morningRoutine.add('Make coffee');
+// morningRoutine.add('Brush teeth');
+// morningRoutine.add('stetch');
+// morningRoutine.add('Read email');
+// morningRoutine.complete('a1');
+// morningRoutine.remove('a1');
+// morningRoutine.update('a4', 'Water plants');
+
+// LIST WITH NO INTERFACE
 // var goals = [];
 // var count = 1;
 
@@ -142,7 +170,8 @@ morningRoutine.update('a4', 'Water plants');
 // remove('a1');
 // update('a2', 'Complete a Century Ride');
 
-
+// add('Complete a freelance project');
+// remove('a5');
 
 
 
