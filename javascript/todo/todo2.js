@@ -1,3 +1,95 @@
+var groceryList = [];
+var customId = 0;
+
+const $form = document.querySelector('form');
+const $input = $form.querySelector('input');
+const $output = document.querySelector('output');
+const $actions = $form.querySelector('actions');
+
+// function findById(searchId) {
+// 	return groceryList.find( function(listItem) {
+// 		return listItem.id === searchId;
+// 	});
+// }
+
+function add(groceryItem) {
+	const item = {
+		id: `a${customId++}`,
+		item: groceryItem,
+		retreived: false,
+	};
+
+	groceryList = [...groceryList, item];
+	renderGroceryList(groceryList);
+}
+
+function remove(id) {
+	const filtered = groceryList.filter( function(item) {
+		//Return all items except the searched id
+		return item.id != id;
+	});
+
+	groceryList = [...filtered];
+	renderGroceryList(groceryList);
+}
+ 
+function complete(id) {
+	for (let i = 0; i < groceryList.length; i++) {
+		if ( groceryList[i].id == id) {
+			groceryList[i].complete = true;
+		}
+	}
+	renderGroceryList(groceryList);
+}
+
+function renderItem(item) {
+	return `
+	<li data-id='${item.id}'>
+		<item-card class='${item.complete ? "complete" : ""}'>
+			<h2>${item.item}</h2>
+			
+			<actions>
+				<button>Remove</button>
+				<button>Complete</button>
+			</actions>
+		</item-card>
+	</li>
+	`
+}
+
+function renderGroceryList(groceryList) {
+	var template = "<ul>";
+	groceryList.forEach( function(item) {
+		template += renderItem(item);
+	});
+	template += "</ul>";
+	$output.innerHTML = template;
+}
+
+add('onions');
+
+$form.addEventListener('submit', function(event) {
+	event.preventDefault();
+
+	add($input.value);
+	$input.value = "";
+	console.log('Grocery List: ', groceryList)
+
+});
+
+$output.addEventListener('click', function(event) {
+
+	if (event.target.textContent == 'Remove') {
+		const id = event.target.closest('li').dataset.id;
+		remove(id);
+	}
+
+	if (event.target.textContent == 'Complete') {
+		const id = event.target.closest('li').dataset.id;
+		complete(id);
+	}
+});
+
 //LOCAL STORAGE PRACTICE
 // const data = localStorage;
 
@@ -50,64 +142,65 @@
 // document.body.textContent = message;
 
 
-
 // //CONSTRUCTOR FUNCTION
-function GroceryList() {
-	this.list = [];
-	this.customId = 1,
+// function GroceryList() {
+// 	this.list = [];
+// 	this.customId = 1,
 
-	this.display = function(note = "") {
-		console.log(`---- ${note}`);
-		console.log('All Items: ', this.list);
-	},
+// 	this.display = function(note = "") {
+// 		console.log(`---- ${note}`);
+// 		console.log('All Items: ', this.list);
+// 	},
 
-	this.findCustomId = function(searchId) {
-		return this.list.find( function(item) {
-			return item.customId === searchId;
-		})
-	},
+// 	this.findCustomId = function(searchId) {
+// 		return this.list.find( function(item) {
+// 			return item.customId === searchId;
+// 		})
+// 	},
 
-	this.add = function(item, count) {
-		const newItem = {
-			id: `a${this.customId++}`,
-			item: item,
-			count,
-		}
+// 	this.add = function(item, count) {
+// 		const newItem = {
+// 			id: `a${this.customId++}`,
+// 			item: item,
+// 			count,
+// 		}
 
-		this.list = [...this.list, newItem];
-		this.display(`Added: ${count} ${item}`)
-	},
+// 		this.list = [...this.list, newItem];
+// 		this.display(`Added: ${count} ${item}`)
+// 	},
 
-	this.remove = function(searchId) {
-		// this.display(`Removed: ${this.list[id].item}`);
-		// this.list.splice(id, 1);
+// 	this.remove = function(searchId) {
+// 		// this.display(`Removed: ${this.list[id].item}`);
+// 		// this.list.splice(id, 1);
 
-		let found = this.findCustomId(searchId);
-		if (found) {
-			this.display(`Removed: ${this.list[searchId].item}`);
-			this.list.splice(searchId, 1);
-		} else {
-			console.log('item not found');
-		}
-	} 
-}
+// 		let found = this.findCustomId(searchId);
+// 		if (found) {
+// 			this.display(`Removed: ${this.list[searchId].item}`);
+// 			this.list.splice(searchId, 1);
+// 		} else {
+// 			console.log('item not found');
+// 		}
+// 	} 
+// }
 
-const list = new GroceryList();
+// const list = new GroceryList();
 
-list.add('beer', 6);
-list.add('chocolate', 1);
-list.add('ice cream', 2);
+// list.add('beer', 6);
+// list.add('chips', 1);
+// list.add('ice cream', 2);
 
-list.remove('a1');
+// list.remove('a1');
 
-list.add('cookies', 1);
+// list.add('cookies', 1);
 
-GroceryList.prototype.update = function(id) {
-	this.list[id].retrieved = true;
-	this.display(`Retreived: ${this.list[id].item}`);
-}
+// GroceryList.prototype.update = function(id) {
+// 	this.list[id].retrieved = true;
+// 	this.display(`Retreived: ${this.list[id].item}`);
+// }
 
-list.update('2');
+// list.update('2');
+
+
 // //LIST WITH ENCAPSULATION (FUNCTIONS AS OBJECTS)
 // const morningRoutine = {
 
@@ -250,44 +343,6 @@ list.update('2');
 
 // add('Complete a freelance project');
 // remove('a5');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
