@@ -1,41 +1,46 @@
 //LOCAL STORAGE PRACTICE
-const data = localStorage;
+// const data = localStorage;
 
-data.setItem('myDog', 'Sunny');
-data.setItem('myTeam', 'Huskies');
+// const score = 0;
 
-data.setItem( 'org',  JSON.stringify({team: 'Kings', city: 'Sacramento'}) );
+// let click = window.addEventListener('click');
 
-const org = data.getItem('org');
-let kingsObject = JSON.parse(org);
+// score++
+// data.setItem('myDog', 'Sunny');
+// data.setItem('myTeam', 'Huskies');
 
-console.log(kingsObject);
-console.log(kingsObject.team);
-console.log(kingsObject.city);
+// data.setItem( 'org',  JSON.stringify({team: 'Kings', city: 'Sacramento'}) );
 
-function setData(key, value) {
-	data.setItem(key, value);
+// const org = data.getItem('org');
+// let kingsObject = JSON.parse(org);
 
-	console.log(`Added: ${value}`);
-}
-setData('team','Blazers');
-setData('team', 'Warriors');
+// console.log(kingsObject);
+// console.log(kingsObject.team);
+// console.log(kingsObject.city);
 
-let dog = data.getItem('myDog');
-console.log(`My dog's name is ${dog}`);
+// function setData(key, value) {
+// 	data.setItem(key, value);
 
-data.setItem('blazers', JSON.stringify({
-	id: 'a1',
-	team: 'Blazers',
-	city: 'Portland',
-	colors: 'Red and black'
-}) );
+// 	console.log(`Added: ${value}`);
+// }
+// setData('team','Blazers');
+// setData('team', 'Warriors');
 
-const org2 = data.getItem('blazers');
-let blazersObject = JSON.parse(org2);
+// let dog = data.getItem('myDog');
+// console.log(`My dog's name is ${dog}`);
 
-console.log(blazersObject);
-console.log(blazersObject.id);
+// data.setItem('blazers', JSON.stringify({
+// 	id: 'a1',
+// 	team: 'Blazers',
+// 	city: 'Portland',
+// 	colors: 'Red and black'
+// }) );
+
+// const org2 = data.getItem('blazers');
+// let blazersObject = JSON.parse(org2);
+
+// console.log(blazersObject);
+// console.log(blazersObject.id);
 // localStorage.setItem("favoritePlayer", "Steph Curry");
 
 // const player = localStorage.getItem('favoritePlayer');
@@ -47,35 +52,62 @@ console.log(blazersObject.id);
 
 
 // //CONSTRUCTOR FUNCTION
-// function Athlete(id, name, team, position) {
+function GroceryList() {
+	this.list = [];
+	this.customId = 1,
 
-// 	this.id = id;
-// 	this.name = name;
-// 	this.team = team;
-// 	this.position = position;
+	this.display = function(note = "") {
+		console.log(`---- ${note}`);
+		console.log('All Items: ', this.list);
+	},
 
-// 	this.addAthlete = function() {
-// 		console.log(`You added ${this.name} to the list`);
-// 	};
-// };
+	this.findCustomId = function(searchId) {
+		return this.list.find( function(item) {
+			return item.customId === searchId;
+		})
+	},
 
+	this.add = function(item, count) {
+		const newItem = {
+			id: `a${this.customId++}`,
+			item: item,
+			count,
+		}
 
-// const jordan = new Athlete('a1', 'Michael Jordan', 'Bulls', 'SG');
-// const curry = new Athlete('a2', 'Steph Curry', 'Warriors', 'PG');
-// const lillard = Athlete('a3', 'Damian Lillard', 'Blazers', 'PG');
+		this.list = [...this.list, newItem];
+		this.display(`Added: ${count} ${item}`)
+	},
 
-// Athlete.prototype.intro = function() {
-// 	console.log(`${jordan.name} plays ${jordan.position} for the ${jordan.team}`);
-// }
+	this.remove = function(searchId) {
+		// this.display(`Removed: ${this.list[id].item}`);
+		// this.list.splice(id, 1);
 
-// jordan.intro();
+		let found = this.findCustomId(searchId);
+		if (found) {
+			this.display(`Removed: ${this.list[searchId].item}`);
+			this.list.splice(searchId, 1);
+		} else {
+			console.log('item not found');
+		}
+	} 
+}
 
-// console.log(jordan);
+const list = new GroceryList();
 
-// curry.addAthlete();
+list.add('beer', 6);
+list.add('chocolate', 1);
+list.add('ice cream', 2);
 
+list.remove('a1');
 
+list.add('cookies', 1);
 
+GroceryList.prototype.update = function(id) {
+	this.list[id].retrieved = true;
+	this.display(`Retreived: ${this.list[id].item}`);
+}
+
+list.update('2');
 // //LIST WITH ENCAPSULATION (FUNCTIONS AS OBJECTS)
 // const morningRoutine = {
 
