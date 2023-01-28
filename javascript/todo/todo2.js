@@ -5,7 +5,7 @@ const $form = document.querySelector('form');
 const $input = $form.querySelector('input');
 const $output = document.querySelector('output');
 const $actions = $form.querySelector('actions');
-
+const $warning = $form.querySelector('warning-message');
 // function findById(searchId) {
 // 	return groceryList.find( function(listItem) {
 // 		return listItem.id === searchId;
@@ -71,9 +71,14 @@ add('onions');
 $form.addEventListener('submit', function(event) {
 	event.preventDefault();
 
-	add($input.value);
-	$input.value = "";
-	console.log('Grocery List: ', groceryList)
+	if ($input.value != "") {
+		add($input.value);
+		$input.value = "";
+		console.log('Grocery List: ', groceryList)
+	} else {
+		$warning.innerHTML = 'Add something!';
+	}
+	
 
 });
 
