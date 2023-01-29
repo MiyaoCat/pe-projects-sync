@@ -98,12 +98,47 @@
 // });
 
 // - - - - CLASS FUNCTION - - - -
+class Item {
+	constructor(id, item) {
+		this.id = id,
+		this.item = item;
+		this.dateCreated = new Date();
+		this.complete = false
+	}
+
+	toggleComplete() {
+		this.complete = !this.complete;
+	}
+
+	get isComplete() {
+		return (this.complete) ? "complete" : "";
+	}
+
+	render() {
+		const { id, item, isComplete } = this;
+		return `
+			<item-card class='${isComplete}' data-id='${this.item}'>
+				<h2>${this.item}</h2>
+
+				<actions>
+					<button>Complete</button>
+				</actions>
+			</item-card>
+		`;
+	}
+}
 class groceryList {
 
 	constructor(item) {
 		this.item = item;
 		this.list = [];
 		this.count = 0;
+
+		this.$form = document.querySelector('form');
+		this.$input = document.querySelector('input');
+		this.$output = document.querySelector('output');
+
+		this.addEventListeners();
 	}
 
 	display(note = "") {
@@ -111,11 +146,16 @@ class groceryList {
 		console.log('All Items: ', this.list);
 	}
 
+	findById() {
+
+	}
+
 	add(addItem) {
-		const groceryItem = {
-			id: this.count++,
-			item: addItem,
-		};
+		var newItem = new Item(this.count++, item);
+		// const groceryItem = {
+		// 	id: this.count++,
+		// 	item: addItem,
+		// };
 		this.list = [...this.list, groceryItem];
 		this.display(`Added: ${addItem}`);
 	}
@@ -130,6 +170,15 @@ class groceryList {
 		this.list[index].complete = true;
 		this.display(`Completed: ${this.list[index].item}`)
 	}
+
+	renderList() {
+
+	}
+
+	addEventListeners() {
+
+	}
+	
 }
 
 var newProduce = new groceryList('produce');
