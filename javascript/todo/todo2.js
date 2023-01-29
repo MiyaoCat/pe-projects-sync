@@ -103,7 +103,7 @@ class Item {
 		this.id = id,
 		this.item = item;
 		this.dateCreated = new Date();
-		this.complete = false
+		this.complete = false;
 	}
 
 	toggleComplete() {
@@ -150,14 +150,15 @@ class groceryList {
 
 	}
 
-	add(addItem) {
-		var newItem = new Item(this.count++, item);
+	add(addItem) {	
+		var newItem = new Item(this.count++, addItem);
+		this.list = [...this.list, newItem];
+		this.display(`Added: ${addItem}`);
+
 		// const groceryItem = {
 		// 	id: this.count++,
 		// 	item: addItem,
-		// };
-		this.list = [...this.list, groceryItem];
-		this.display(`Added: ${addItem}`);
+		// };	
 	}
 
 	remove(index) {
@@ -168,7 +169,7 @@ class groceryList {
 
 	complete(index) {
 		this.list[index].complete = true;
-		this.display(`Completed: ${this.list[index].item}`)
+		this.display(`Completed: ${this.list[index].item}`);
 	}
 
 	renderList() {
@@ -178,7 +179,6 @@ class groceryList {
 	addEventListeners() {
 
 	}
-	
 }
 
 var newProduce = new groceryList('produce');
