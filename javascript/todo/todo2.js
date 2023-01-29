@@ -1,5 +1,107 @@
 
+// - - - - CLASS FUNCTION - - - -
+// class Item {
+// 	constructor(id, item) {
+// 		this.id = id,
+// 		this.item = item;
+// 		this.dateCreated = new Date();
+// 		this.complete = false;
+// 	}
 
+// 	toggleComplete() {
+// 		this.complete = !this.complete;
+// 	}
+
+// 	get isComplete() {
+// 		return (this.complete) ? "complete" : "";
+// 	}
+
+// 	render() {
+// 		const { id, item, isComplete } = this;
+// 		return `
+// 			<item-card class='${isComplete}' data-id='${this.item}'>
+// 				<h2>${this.item}</h2>
+
+// 				<actions>
+// 					<button>Complete</button>
+// 				</actions>
+// 			</item-card>
+// 		`;
+// 	}
+// }
+// class groceryList {
+
+// 	constructor(item) {
+// 		this.item = item;
+// 		this.list = [];
+// 		this.count = 0;
+
+// 		this.$form = document.querySelector('form');
+// 		this.$input = document.querySelector('input');
+// 		this.$output = document.querySelector('output');
+
+// 		this.addEventListeners();
+// 	}
+
+// 	display(note = "") {
+// 		console.log(`${this.item.toUpperCase()}---- ${note}`);
+// 		console.log('All Items: ', this.list);
+// 	}
+
+// 	findById() {
+
+// 	}
+
+// 	add(addItem) {	
+// 		var newItem = new Item(this.count++, addItem);
+// 		this.list = [...this.list, newItem];
+// 		this.display(`Added: ${addItem}`);
+
+// 		// const groceryItem = {
+// 		// 	id: this.count++,
+// 		// 	item: addItem,
+// 		// };	
+// 	}
+
+// 	remove(index) {
+// 		var removed = this.list[index].item;
+// 		this.list.splice(index, 1);
+// 		this.display(`Removed: ${removed}`);
+// 	}
+
+// 	complete(index) {
+// 		this.list[index].complete = true;
+// 		this.display(`Completed: ${this.list[index].item}`);
+// 	}
+
+// 	renderList() {
+
+// 	}
+
+// 	addEventListeners() {
+
+// 	}
+// }
+
+// new groceryList('nuts');
+// console.log(new groceryList('nuts', 'cherries'));
+// console.log(new Item(1,'test'));
+// var newProduce = new groceryList('produce');
+// newProduce.add('peanuts');
+// newProduce.add('tomatoes');
+// newProduce.add('peppers');
+// var newNonPerishable = new groceryList('non-pershible');
+// newNonPerishable.add('canned beans');
+// newNonPerishable.add('canned tuna');
+// newNonPerishable.add('ramen');
+
+// newProduce.remove(1);
+// newNonPerishable.complete(2);
+// newNonPerishable.remove(2);
+
+
+
+//RENDERED LIST WITH GLOBAL FUNCTIONS
 // var groceryList = [];
 // var customId = 0;
 
@@ -97,102 +199,7 @@
 // 	}
 // });
 
-// - - - - CLASS FUNCTION - - - -
-class Item {
-	constructor(id, item) {
-		this.id = id,
-		this.item = item;
-		this.dateCreated = new Date();
-		this.complete = false;
-	}
 
-	toggleComplete() {
-		this.complete = !this.complete;
-	}
-
-	get isComplete() {
-		return (this.complete) ? "complete" : "";
-	}
-
-	render() {
-		const { id, item, isComplete } = this;
-		return `
-			<item-card class='${isComplete}' data-id='${this.item}'>
-				<h2>${this.item}</h2>
-
-				<actions>
-					<button>Complete</button>
-				</actions>
-			</item-card>
-		`;
-	}
-}
-class groceryList {
-
-	constructor(item) {
-		this.item = item;
-		this.list = [];
-		this.count = 0;
-
-		this.$form = document.querySelector('form');
-		this.$input = document.querySelector('input');
-		this.$output = document.querySelector('output');
-
-		this.addEventListeners();
-	}
-
-	display(note = "") {
-		console.log(`${this.item.toUpperCase()}---- ${note}`);
-		console.log('All Items: ', this.list);
-	}
-
-	findById() {
-
-	}
-
-	add(addItem) {	
-		var newItem = new Item(this.count++, addItem);
-		this.list = [...this.list, newItem];
-		this.display(`Added: ${addItem}`);
-
-		// const groceryItem = {
-		// 	id: this.count++,
-		// 	item: addItem,
-		// };	
-	}
-
-	remove(index) {
-		var removed = this.list[index].item;
-		this.list.splice(index, 1);
-		this.display(`Removed: ${removed}`);
-	}
-
-	complete(index) {
-		this.list[index].complete = true;
-		this.display(`Completed: ${this.list[index].item}`);
-	}
-
-	renderList() {
-
-	}
-
-	addEventListeners() {
-
-	}
-}
-
-var newProduce = new groceryList('produce');
-newProduce.add('peanuts');
-newProduce.add('tomatoes');
-newProduce.add('peppers');
-var newNonPerishable = new groceryList('non pershible');
-newNonPerishable.add('canned beans');
-newNonPerishable.add('canned tuna');
-newNonPerishable.add('ramen');
-
-newProduce.remove(1);
-newNonPerishable.complete(2);
-newNonPerishable.remove(2);
 //LOCAL STORAGE PRACTICE
 // const data = localStorage;
 
