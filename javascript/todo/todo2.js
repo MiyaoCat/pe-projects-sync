@@ -1,100 +1,149 @@
-var groceryList = [];
-var customId = 0;
 
-const $form = document.querySelector('form');
-const $input = $form.querySelector('input');
-const $output = document.querySelector('output');
-const $actions = $form.querySelector('actions');
-const $warning = $form.querySelector('warning-message');
-// function findById(searchId) {
-// 	return groceryList.find( function(listItem) {
-// 		return listItem.id === searchId;
-// 	});
+
+// var groceryList = [];
+// var customId = 0;
+
+// const $form = document.querySelector('form');
+// const $input = $form.querySelector('input');
+// const $output = document.querySelector('output');
+// const $actions = $form.querySelector('actions');
+// const $warning = $form.querySelector('warning-message');
+// // function findById(searchId) {
+// // 	return groceryList.find( function(listItem) {
+// // 		return listItem.id === searchId;
+// // 	});
+// // }
+
+// function add(groceryItem) {
+// 	const item = {
+// 		id: `a${customId++}`,
+// 		item: groceryItem,
+// 		retreived: false,
+// 	};
+
+// 	groceryList = [...groceryList, item];
+// 	renderGroceryList(groceryList);
 // }
 
-function add(groceryItem) {
-	const item = {
-		id: `a${customId++}`,
-		item: groceryItem,
-		retreived: false,
-	};
+// function remove(id) {
+// 	const filtered = groceryList.filter( function(item) {
+// 		//Return all items except the searched id
+// 		return item.id != id;
+// 	});
 
-	groceryList = [...groceryList, item];
-	renderGroceryList(groceryList);
-}
-
-function remove(id) {
-	const filtered = groceryList.filter( function(item) {
-		//Return all items except the searched id
-		return item.id != id;
-	});
-
-	groceryList = [...filtered];
-	renderGroceryList(groceryList);
-}
+// 	groceryList = [...filtered];
+// 	renderGroceryList(groceryList);
+// }
  
-function complete(id) {
-	for (let i = 0; i < groceryList.length; i++) {
-		if ( groceryList[i].id == id) {
-			groceryList[i].complete = true;
-		}
-	}
-	renderGroceryList(groceryList);
-}
+// function complete(id) {
+// 	for (let i = 0; i < groceryList.length; i++) {
+// 		if ( groceryList[i].id == id) {
+// 			groceryList[i].complete = true;
+// 		}
+// 	}
+// 	renderGroceryList(groceryList);
+// }
 
-function renderItem(item) {
-	return `
-	<li data-id='${item.id}'>
-		<item-card class='${item.complete ? "complete" : ""}'>
-			<h2>${item.item}</h2>
+// function renderItem(item) {
+// 	return `
+// 	<li data-id='${item.id}'>
+// 		<item-card class='${item.complete ? "complete" : ""}'>
+// 			<h2>${item.item}</h2>
 			
-			<actions>
-				<button>Remove</button>
-				<button>Complete</button>
-			</actions>
-		</item-card>
-	</li>
-	`
-}
+// 			<actions>
+// 				<button>Remove</button>
+// 				<button>Complete</button>
+// 			</actions>
+// 		</item-card>
+// 	</li>
+// 	`
+// }
 
-function renderGroceryList(groceryList) {
-	var template = "<ul>";
-	groceryList.forEach( function(item) {
-		template += renderItem(item);
-	});
-	template += "</ul>";
-	$output.innerHTML = template;
-}
+// function renderGroceryList(groceryList) {
+// 	var template = "<ul>";
+// 	groceryList.forEach( function(item) {
+// 		template += renderItem(item);
+// 	});
+// 	template += "</ul>";
+// 	$output.innerHTML = template;
+// }
 
-add('onions');
+// add('onions');
 
-$form.addEventListener('submit', function(event) {
-	event.preventDefault();
+// $form.addEventListener('submit', function(event) {
+// 	event.preventDefault();
 
-	if ($input.value != "") {
-		add($input.value);
-		$input.value = "";
-		console.log('Grocery List: ', groceryList)
-	} else {
-		$warning.innerHTML = 'Add something!';
-	}
+// 	if ($input.value != "") {
+// 		add($input.value);
+// 		$input.value = "";
+// 		console.log('Grocery List: ', groceryList)
+// 	} else {
+// 		$warning.innerHTML = 'Add something!';
+// 	}
 	
 
-});
+// });
 
-$output.addEventListener('click', function(event) {
+// $output.addEventListener('click', function(event) {
 
-	if (event.target.textContent == 'Remove') {
-		const id = event.target.closest('li').dataset.id;
-		remove(id);
+// 	if (event.target.textContent == 'Remove') {
+// 		const id = event.target.closest('li').dataset.id;
+// 		remove(id);
+// 	}
+
+// 	if (event.target.textContent == 'Complete') {
+// 		const id = event.target.closest('li').dataset.id;
+// 		complete(id);
+// 	}
+// });
+
+// - - - - CLASS FUNCTION - - - -
+class groceryList {
+
+	constructor(item) {
+		this.item = item;
+		this.list = [];
+		this.count = 0;
 	}
 
-	if (event.target.textContent == 'Complete') {
-		const id = event.target.closest('li').dataset.id;
-		complete(id);
+	display(note = "") {
+		console.log(`${this.item.toUpperCase()}---- ${note}`);
+		console.log('All Items: ', this.list);
 	}
-});
 
+	add(addItem) {
+		const groceryItem = {
+			id: this.count++,
+			item: addItem,
+		};
+		this.list = [...this.list, groceryItem];
+		this.display(`Added: ${addItem}`);
+	}
+
+	remove(index) {
+		var removed = this.list[index].item;
+		this.list.splice(index, 1);
+		this.display(`Removed: ${removed}`);
+	}
+
+	complete(index) {
+		this.list[index].complete = true;
+		this.display(`Completed: ${this.list[index].item}`)
+	}
+}
+
+var newProduce = new groceryList('produce');
+newProduce.add('peanuts');
+newProduce.add('tomatoes');
+newProduce.add('peppers');
+var newNonPerishable = new groceryList('non pershible');
+newNonPerishable.add('canned beans');
+newNonPerishable.add('canned tuna');
+newNonPerishable.add('ramen');
+
+newProduce.remove(1);
+newNonPerishable.complete(2);
+newNonPerishable.remove(2);
 //LOCAL STORAGE PRACTICE
 // const data = localStorage;
 
