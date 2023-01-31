@@ -15,5 +15,17 @@
 				"text": "Start Free Trial"
 			}
 		]
+	},
+	{
+		"type": "center-content",
+		"header": "Etiam nulla lfulputate.",
+		"sub-header": "Neque, pulvinar vestibulum non aliquam.",
+		"sub-header2": "Rhoncus, accumsan dictum",
+		"components": [
+			{
+				"type": "video-placeholder",
+				"source": "./assets/images/video-placeholder.jpg"
+			}
+		]
 	}
 ]

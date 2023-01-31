@@ -14,6 +14,8 @@
 
 		<?php include("modules/hero.php"); ?>
 
+		<?php include("modules/center-content.php"); ?>
+
 	<?php } ?>
 </inner-column>
 </main>
