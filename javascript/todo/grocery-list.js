@@ -52,6 +52,10 @@ function GroceryList() {
 			console.log('Item not found');
 		}
 	}
+
+	this.render = function() {
+		
+	}
 }
 
 let groceryList = new GroceryList();
