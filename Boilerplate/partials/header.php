@@ -6,29 +6,16 @@
 
 	<meta property="og:image" content="[IMAGE URL]">
 	<meta name="description" content="[SHORT PAGE DESCRIPTION]">
-	<title></title>
+	<title>Figma to Code</title>
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="styles/site.css">
 </head>
+
 <body>
 	<header class="site-header">
+
 		<inner-column>
-			
+			<p class="attention-voice">Site Header</p>
 		</inner-column>
+		
 	</header>
-
-	<main>
-		<inner-column>
-			
-		</inner-column>
-
-	</main>
-
-	<footer>
-		<inner-column>
-			
-		</inner-column>
-	</footer>
-	
-</body>
-</html>

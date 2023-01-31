@@ -1,0 +1,45 @@
+[
+	{
+		"type": "logo",
+		"source": "./assets/logo.svg"
+	},
+	{
+		"type": "navigation",
+		"listItems": [
+		{
+			"slug": "home",
+			"page": "Home",
+			"link": "#"
+		},
+		{
+			"slug": "updates",
+			"page": "Updates",
+			"link": "#"
+		},
+		{
+			"slug": "services",
+			"page": "Services",
+			"link": "?"
+		},
+		{
+			"slug": "features",
+			"page": "Features",
+			"link": "#"
+		},
+		{
+			"slug": "about-us",
+			"page": "About Us",
+			"link": "#"
+		}]
+	},
+	{
+		"type": "language",
+		"source": "assets/icons/globe.svg",
+		"text": "EN"
+	},
+	{
+		"type": "button",
+		"style": "contained",
+		"text": "LogIn"
+	}
+]

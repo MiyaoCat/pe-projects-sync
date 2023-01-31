@@ -1,0 +1,39 @@
+/* - - - HEADER - - - */
+.site-header {
+	display: flex;
+	width: 100vw;
+	position: sticky;
+	top: 0;
+	z-index: 9;
+	box-shadow: 0 2px 3px rgba(0,0,0,.3);
+}
+
+.site-header inner-column {
+	display: flex;
+	flex-direction: row;
+	align-items:  center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.site-header nav {
+	flex-grow: 1;
+	display: flex;
+	margin: 0 15px;
+	height: 25px;
+}
+
+.site-header ul {
+
+}
+
+.site-header li {
+
+}
+
+/* - - - HEADER LARGE SCREEN - - - */
+
+
+

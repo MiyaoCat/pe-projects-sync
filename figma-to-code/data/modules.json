@@ -1,0 +1,19 @@
+[
+	{
+		"type": "hero",
+		"header": "Arcu suscipit massa aliquam proin amet",
+		"sub-header": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+		"components": [
+			{
+				"type": "button",
+				"style": "contained",
+				"text": "Get Started"
+			},
+			{
+				"type": "button",
+				"style": "outline",
+				"text": "Start Free Trial"
+			}
+		]
+	}
+]

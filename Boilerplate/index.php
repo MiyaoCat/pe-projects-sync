@@ -1,57 +1,11 @@
-<!DOCTYPE html>
-<html>
-	<?php include('head.php'); ?>
-<body>
-	<header class='site-header'>
-		<inner-column>
-			<?php include('header.php'); ?>
-		</inner-column>
-	</header>
+<?php include("partials/header/header.php"); ?>
 
-	<main>
-		
-		<section class="heading">
-			<inner-column>
-				
-			</inner-column>
-		</section>
-
-		<section class="summary">
-			<inner-column>
-				
-			</inner-column>
-		</section>
-
-		<section class="jobs">
-			<inner-column>
-				
-			</inner-column>
-		</section>
-
-		<section class="skills">
-
-			<inner-column>
-			
-			</inner-column>
-
-		</section>
-
-		<section class="skills">
-
-			<inner-column>
-				
-			</inner-column>
-
-		</section>
-
-	</main>
-
-	<footer>
-		<inner-column>
-			<?php include('footer.php'); ?>
-		</inner-column>
-
-	</footer>
+<main>
 	
-</body>
-</html>
+	<inner-column>
+		<p class="attetion-voice">Main Content</p>
+	</inner-column>
+
+</main>
+
+<?php include("partials/footer/footer.php"); ?>
