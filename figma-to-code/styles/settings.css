@@ -12,22 +12,22 @@ html {
 
 	--standard: 1140px;
 	--tight: 800px;
-	--wide: 98vw;
+	--wide: 95vw;
 
 	--paper: hsl(37, 32%, 92%); /* light brown */
 
 	--ink-dark: #212121;
 	--ink-medium: #424242;
 	--ink-light: #616161;
+	--ink: white;
 
-	--highlight: #3563E9;
+	--brand-color: #3563E9;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
 /*		--paper: #F7F9FE; /* dark brown */*/
 		--ink: white;
-		--highlight: yellow;
 	}
 
 	.logo {

@@ -9,16 +9,17 @@ main {
 	flex-grow: 1; /* fill up available space + push the footer down */
 }
 
-inner-column, .site-header inner-column {
+inner-column {
 	display: block;
 	max-width: var(--wide); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 5px;
+	border: 1px solid red;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
 	inner-column {
-		width: var(--tight);
+		max-width: var(--standard);
 	}
 }

@@ -6,41 +6,45 @@
 	},
 	{
 		"type": "navigation",
-		"listItems": [
-		{
-			"slug": "template-1",
-			"page": "Home",
-			"link": "?page=template-1"
-		},
-		{
-			"slug": "updates",
-			"page": "Updates",
-			"link": "?page=template-2"
-		},
-		{
-			"slug": "services",
-			"page": "Services",
-			"link": "?"
-		},
-		{
-			"slug": "features",
-			"page": "Features",
-			"link": "#"
-		},
-		{
-			"slug": "about-us",
-			"page": "About Us",
-			"link": "#"
-		}]
+		"listItems": 
+		[
+			{
+				"slug": "template-1",
+				"page": "Home",
+				"link": "?page=template-1"
+			},
+			{
+				"slug": "updates",
+				"page": "Updates",
+				"link": "?page=template-2"
+			},
+			{
+				"slug": "services",
+				"page": "Services",
+				"link": "?"
+			},
+			{
+				"slug": "features",
+				"page": "Features",
+				"link": "#"
+			},
+			{
+				"slug": "about-us",
+				"page": "About Us",
+				"link": "#"
+			}
+		]
 	},
 	{
-		"type": "language",
+		"type": "icon",
 		"source": "assets/icons/globe.svg",
 		"text": "EN"
 	},
 	{
 		"type": "button",
 		"style": "contained",
+		"size": "medium",
+		"corners": "rounded",
 		"text": "LogIn"
 	}
 ]

@@ -1,6 +1,6 @@
 <?php if($type == "clients") { ?>
 
-	<section class=<?=$type?>>
+
 		<p class="attention-voice"><?=$header?></p>
 		<p class="normal-voice"><?=$subHeader?></p>		
 
@@ -14,5 +14,5 @@
 			?>
 		</div>
 		
-	</section>
+
 <?php } ?>

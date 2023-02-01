@@ -1,54 +1,66 @@
-<div class="mast-head">
-	<?php 
-		$json = file_get_contents("data/site-header.json");
-		$headerComponents = json_decode($json, true);
+<?php 
+	$json = file_get_contents("data/site-header.json");
+	$headerComponents = json_decode($json, true);
+?>
 	
+	<?php 
 		foreach ($headerComponents as $component) {
 			$type = $component["type"];
+			
+			if($type == "logo") { 
+				$link = $component["link"];
+				$source = $component["source"];
 	?>
-		
-		<?php 
-			if($type == 'logo') { 
-				$link = $component['link'];
+		<div class=<?=$type?>>
+			<a href="<?=$link?>"><?php include($source); ?></a>
+		</div>
+			<?php } ?>
+ 		<?php } ?>
+
+ 	<?php 
+ 		foreach ($headerComponents as $component) {	
+ 			if($component["type"] == "navigation") { ?>
+
+ 		<nav>
+ 			<ul>
+ 				<?php 
+ 					foreach($component["listItems"] as $item) { 
+ 						$link = $item["link"];
+ 						$page = $item["page"];
+ 						$slug = $item["slug"];
+ 				?>
+ 					<li>
+ 						<a class="<?php if ( $page == $slug ) { echo 'active'; } ?>" href="<?=$link?>"><?=$page?></a>
+ 					</li>
+ 				<?php } ?>	
+ 			</ul>
+		</nav>
+
+ 		<?php } ?>
+ 	<?php } ?>
+
+ 	<div class="menu">
+ 		<?php include("./assets/icons/hamburger-menu.svg"); ?>
+ 	</div>
+
+	<?php 
+		foreach ($headerComponents as $component) {
+			$type = $component["type"];
+
+			if($component["type"] == "icon") { 	
+				$text = $component["text"]; 
+				$source = $component["source"]; 
 		?>
-			<div class=<?=$type?>>
-				<a href="<?=$link?>"><?php include($component["source"]); ?></a>
+
+			<div class="login">
+				<?php include($source); ?>
+				<span><?=$text?></span>
+
+	<?php } 
+			elseif ($component["type"] == "button") { 
+		 		include("components/$type.php"); ?>
 			</div>
+
+			<?php } ?>
 		<?php } ?>
-	 		
-	 	<?php if($type == 'navigation') { ?>
-	 		<nav>
-	 			<ul>
-	 				<?php foreach($component["listItems"] as $item) { 
-	 					$link = $item['link'];
-	 					$page = $item['page'];
-	 				?>
-	 					<li>
-	 						<a class="calm-voice" href="<?=$link?>"><?=$page?></a>
-	 					</li>
-	 				<?php } ?>	
-	 			</ul>
-			</nav>
-	 	<?php } ?>
-	
-	 	
-		
-			<?php 
-				if($type == "language") { 
-					$text = $component['text'];
-			?> 
-				<div class="login-wrap">
-	
-					<div class="language">
-						<?php include($component["source"]); ?>
-						<p class="calm-voice"><?=$text?></p>
-					</div>
-				 	<?php } ?>		
-				
-				 	<?php if($type == "button"){ 
-				 		include("components/$type.php"); 
-				 	} ?>
-				 	
-				</div>
-	<?php } ?>
-</div>
+

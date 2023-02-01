@@ -18,6 +18,6 @@
 <body>
 	<header class="site-header">
 		<inner-column>
-			<?php include("modules/site-header.php"); ?>
+			<mast-head><?php include("modules/site-header.php"); ?></mast-head>
 		</inner-column>
 	</header>

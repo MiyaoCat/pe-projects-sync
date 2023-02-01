@@ -23,9 +23,9 @@
 				$subHeader = $module['sub-header'];
 				$components = $module['components'];
 	?>	
-
-		<?php include("modules/$type.php"); ?>
-
+		<section class=<?=$type?>>
+			<?php include("modules/$type.php"); ?>
+		</section>
 <?php } ?>
 	<?php } ?>
 </inner-column>

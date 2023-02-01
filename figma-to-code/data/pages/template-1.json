@@ -12,12 +12,18 @@
 				{
 					"type": "button",
 					"style": "contained",
-					"text": "Get Started"
+					"size": "medium",
+					"corners": "square",
+					"text": "Get Started",
+					"arrow": ""
 				},
 				{
 					"type": "button",
 					"style": "outline",
-					"text": "Start Free Trial"
+					"size": "medium",
+					"corners": "square",					
+					"text": "Start Free Trial",
+					"arrow": ""
 				}
 			]
 		},
@@ -109,6 +115,8 @@
 				{
 					"type": "button",
 					"style": "contained",
+					"size": "medium",
+					"corners": "square",
 					"text": "Get free quotes",
 					"arrow": "./assets/icons/arrow-right.svg"
 				}

@@ -1,40 +1,48 @@
 .site-header {
-	display: flex;
-/*	width: 100vw;*/
 	position: sticky;
 	top: 0;
 	z-index: 9;
 	box-shadow: 0 2px 3px rgba(0,0,0,.3);
 	background-color: var(--paper);
+	border: 1px solid blue;
 }
 
-.site-header inner-column {
+mast-head {
 	display: flex;
-	flex-direction: row;
 	align-items:  center;
-	align-content: space-between;
-	margin-left: auto;
-	margin-right: auto;
 }
 
-.site-header nav {
+mast-head nav {
 	flex-grow: 1;
 	display: flex;
 	margin: 0 15px;
 	height: 25px;
 }
 
-
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 nav ul {
 	display: none;
 }
 
-.language {
-	display: flex;
+.login {
+	display: none;
+	align-items: center;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 655px) {
 	nav ul {
+		display: flex;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.login {
 		display: flex;
 	}
 }
