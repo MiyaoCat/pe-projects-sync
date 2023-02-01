@@ -9,6 +9,7 @@
 		padding: 8px 22px;
 		height: 35px;
 		background-color: var(--primary);
+		border: none;
 		
 		font-weight: 500;
 		font-size: var(--font-med);
@@ -26,6 +27,7 @@ button.contained.medium.square {
 	border-radius: 0px;
 	padding: 10px 38px;
 	background-color: var(--primary);
+	border: none;
 
 	font-weight: 500;
 	line-height: 22px;
