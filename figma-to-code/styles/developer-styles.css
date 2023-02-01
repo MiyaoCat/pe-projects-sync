@@ -1,11 +1,7 @@
 
 body * {
 	border: 1px solid lightgray;
-	padding: 2px;
-}
-
-section:nth-of-type(odd) {
-	background-color: rgba(0,0,0,.03);
+/*	padding: 2px;*/
 }
 
 picture img {

@@ -1,18 +1,20 @@
 <?php if($type == "feature") { ?>
 	
-	<p class="attention-voice"><?=$header?></p>
-	<p class="normal-voice"><?=$subHeader?></p>
-
-	<div class="image">
-		<?php 
-			foreach($components as $component) {
-				if($component["type"] == "image-placeholder"){
-					include("components/$component[type].php");
-				}
-			} ?>
+	<div class="main-content">
+		<h2 class="sub-header attention-voice"><?=$header?></h2>
+		<p class="info alert-voice"><?=$subHeader?></p>
+		
+		<div class="image">
+			<?php 
+				foreach($components as $component) {
+					if($component["type"] == "image-placeholder"){
+						include("components/$component[type].php");
+					}
+				} ?>
+		</div>
 	</div>
 
-	<div class="feature-list">
+	<div class="feature-cards">
 		<?php 
 			foreach($components as $component) {
 				if($component["type"] == "feature-list") {

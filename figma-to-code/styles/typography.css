@@ -42,6 +42,14 @@ a:active {
 	color: var(--ink-dark);
 }
 
+.raised-voice {
+	font-size: clamp(16px, 5vw, 22px);
+	font-weight: 600;
+	line-height: 27px;
+	letter-spacing: 0.2px;
+	color: var(--ink-dark);
+}
+
 .alert-voice {
 	font-size: 17px;
 	font-weight: 400;
@@ -59,9 +67,17 @@ a:active {
 
 /* Paragraph text or similar */
 .normal-voice {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.2px;
 	color: var(--ink-medium);
+}
+@media(min-width: 700px) {
+	.normal-voice {
+		font-size: 16px;
+		line-height: 24px;
+	}
 }
 
 /* Caption text or similar */

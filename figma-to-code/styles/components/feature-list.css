@@ -1,0 +1,40 @@
+li.feature-item + li.feature-item {
+	margin-top: 10px;
+}
+
+feature-card {
+	display: flex;
+	gap: 10px;
+}
+
+feature-card .numbers.icon {
+	margin-right: 5px;
+/*	margin-top: auto;*/
+/*	margin-bottom: auto;*/
+}
+
+feature-card .numbers.icon svg {
+/*	transform: translateY(19%);*/
+	min-width: 35px;
+}
+
+feature-card .content-wrap {
+	text-align: left;
+}
+
+@media (min-width: 900px) {
+	li.feature-item {
+		margin: 0;
+	}
+
+	.feature-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+	}
+
+	feature-card .content-wrap p {
+		margin-top: 16px;
+	}
+}
