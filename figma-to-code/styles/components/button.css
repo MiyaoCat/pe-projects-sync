@@ -32,7 +32,7 @@ button.contained.medium.square {
 	font-weight: 500;
 	line-height: 22px;
 	text-align: center;
-	font-size: var(--font-med);
+/*	font-size: var(--font-med);*/
 	letter-spacing: 0.46px;
 	color: var(--ink);
 }
