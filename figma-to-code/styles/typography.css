@@ -3,52 +3,54 @@ html {
 	--marker: Permanent Marker, Noto Serif;
 	--sans-serif: Inter, Encode Sans, Helvetica;
 	--serif: Noto Serif Display, Old Standard TT, Times New Roman;
-
-	
-}
-a {
 	font-family: var(--sans-serif);
-	text-transform: uppercase;
-	font-weight: 200;
-	letter-spacing: .2rem;
 }
 
+a {
+
+}
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	color: var(--highlight);
 }
 
-@media (prefers-color-scheme: dark) {
-	a:hover {
-		color: var(--highlight);
-	}
+a:active {
+	font-weight: 700;
 }
-
 /* Main header or banner text or similar */
 .screaming-voice {
-	font-family: var(--marker);
-	font-size: clamp(60px, 8vw, 160px);
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 77.45px;
+	color: var(--ink-dark);
 }
 
 /* Header text or similar */
 .loud-voice {
-
+	font-size: 56px;
+	font-weight: 600;
+	color: var(--ink-dark);
 }
 
 /* Sub-header text or similar */
 .attention-voice {
-	font-family: var(--sans-serif);
+	font-size: 48px;
+	font-weight: 600;
+	color: var(--ink-dark);
 }
 
 /* Paragraph text or similar */
 .normal-voice {
-
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--ink-medium);
 }
 
 /* Caption text or similar */
 .calm-voice {
-
+	font-size: 14px;
+	font-weight: 200;
 }
 
 /* Fine print text or similar */

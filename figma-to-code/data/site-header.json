@@ -1,20 +1,21 @@
 [
 	{
 		"type": "logo",
-		"source": "./assets/logo.svg"
+		"source": "./assets/logo.svg",
+		"link": "?page=template-1"
 	},
 	{
 		"type": "navigation",
 		"listItems": [
 		{
-			"slug": "home",
+			"slug": "template-1",
 			"page": "Home",
-			"link": "#"
+			"link": "?page=template-1"
 		},
 		{
 			"slug": "updates",
 			"page": "Updates",
-			"link": "#"
+			"link": "?page=template-2"
 		},
 		{
 			"slug": "services",

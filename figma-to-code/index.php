@@ -16,20 +16,17 @@
 			$pageData = json_decode($jsonData, true);
 		}
 
-		$json = file_get_contents("data/pages/template1.json");
-		$template1Modules = json_decode($json, true);
-
-		foreach ($template1Modules['modules'] as $module) {
-			$type = $module['type'];
-			$header = $module['header'];
-			$subHeader = $module['sub-header'];
-			$components = $module['components'];
+		if ($pageData) {
+			foreach ($pageData['modules'] as $module) {
+				$type = $module['type'];
+				$header = $module['header'];
+				$subHeader = $module['sub-header'];
+				$components = $module['components'];
 	?>	
 
 		<?php include("modules/$type.php"); ?>
 
-	
-
+<?php } ?>
 	<?php } ?>
 </inner-column>
 </main>
