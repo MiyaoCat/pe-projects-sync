@@ -2,7 +2,6 @@
 	position: sticky;
 	top: 0;
 	z-index: 9;
-	box-shadow: 0 2px 3px rgba(0,0,0,.3);
 	background-color: var(--paper);
 	border: 1px solid blue;
 }
@@ -15,15 +14,12 @@ mast-head {
 mast-head nav {
 	flex-grow: 1;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin: 0 15px;
 	height: 25px;
 }
 
-nav {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 nav ul {
 	display: none;
 }
@@ -33,7 +29,7 @@ nav ul {
 	align-items: center;
 }
 
-@media (min-width: 655px) {
+@media (min-width: 725px) {
 	nav ul {
 		display: flex;
 	}
@@ -44,5 +40,15 @@ nav ul {
 
 	.login {
 		display: flex;
+	}
+
+	.login button {
+		margin-left: 10px;
+	}
+}
+
+@media (min-width: 850px) {
+	nav ul {
+		gap: 30px;
 	}
 }

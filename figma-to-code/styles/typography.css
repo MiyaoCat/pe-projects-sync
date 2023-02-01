@@ -4,29 +4,31 @@ html {
 	--company-font: Inter, Encode Sans, Helvetica;
 	--serif: Noto Serif Display, Old Standard TT, Times New Roman;
 	font-family: var(--company-font);
+	font-size: 16px;
 }
 
 a {
 
 }
-
-a:hover {
-	text-decoration: none;
-	color: var(--highlight);
-}
-
 a:active {
 	font-weight: 700;
 }
 
 /* Main header or banner text or similar */
 .screaming-voice {
-	font-size: 64px;
+	font-size: clamp(40px, 8vw, 64px);
 	font-weight: 700;
-	line-height: 77.45px;
+	line-height: 40px;
 	color: var(--ink-dark);
 }
 
+@media(min-width: 700px) {
+	.screaming-voice {
+		font-weight: 700;
+		line-height: 77.45px;
+		
+	}
+}
 /* Header text or similar */
 .loud-voice {
 	font-size: 56px;
@@ -39,6 +41,21 @@ a:active {
 	font-size: 48px;
 	font-weight: 600;
 	color: var(--ink-dark);
+}
+
+.alert-voice {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: var(--ink-medium);
+}
+
+@media(min-width: 700px) {
+	.alert-voice {
+		font-size: 20px;
+		line-height: 24px;
+	}
 }
 
 /* Paragraph text or similar */

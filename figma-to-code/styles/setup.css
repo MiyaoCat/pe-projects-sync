@@ -12,6 +12,11 @@ a {
 	color: inherit;
 }
 
+a:hover {
+	text-decoration: none;
+	color: var(--primary);
+}
+
 p a {
 	display: inline;
 	color: blue;

@@ -21,12 +21,16 @@ html {
 	--ink-light: #616161;
 	--ink: white;
 
-	--brand-color: #3563E9;
+	--primary: #3563E9;
+
+	--font-small: 14px;
+	--font-med: 16px;
+	--font-large: 18px;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
-/*		--paper: #F7F9FE; /* dark brown */*/
+/*		--paper: #2851E3;*/
 		--ink: white;
 	}
 

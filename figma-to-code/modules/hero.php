@@ -1,7 +1,7 @@
 <?php if($type == "hero") { ?>
 
-		<p class="attention-voice"><?=$header?></p>
-		<p class="normal-voice"><?=$subHeader?></p>
+		<h1 class="header screaming-voice"><?=$header?></h1>
+		<p class="teaser alert-voice"><?=$subHeader?></p>
 
 		<div class="buttons">
 			<?php foreach($components as $component) {

@@ -1,0 +1,45 @@
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-image: url("../../assets/background/diagonal-lines.png");
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.hero .header {
+	max-width: 974px;
+}
+
+.hero .teaser  {
+	max-width: 733px;
+	color: var(--ink-medium);
+	margin: 16px 0;
+}
+.hero .buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+@media (min-width: 700px) {
+	.hero {
+		padding-top: 120px;
+		padding-bottom: 195px;
+	}
+
+	.hero .teaser  {
+		margin: 16px 0;
+	}
+
+	.hero .buttons {
+		flex-direction: row;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		gap: 30px;
+	}
+}

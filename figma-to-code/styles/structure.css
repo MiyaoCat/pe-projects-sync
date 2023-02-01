@@ -15,7 +15,6 @@ inner-column {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 5px;
-	border: 1px solid red;
 }
 
 @media (min-width: 900px) {
