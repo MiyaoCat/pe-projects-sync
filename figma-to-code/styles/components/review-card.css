@@ -9,7 +9,10 @@ review-card {
 	max-width: 414px;
 	max-height: 323px;
 	text-align: center;
+	margin-top: 20px;
 }
+
+
 
 star-rating {
 	display: flex;
@@ -48,3 +51,6 @@ client-details img {
 	}
 }
 
+@media (min-width: 850px) {
+	review-card
+}

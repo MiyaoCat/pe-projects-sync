@@ -15,11 +15,6 @@ left-arrow, right-arrow {
 	display: none;
 }
 
-@media (min-width: 700px) {
-
-
-}
-
 @media (min-width: 850px) {
 	.clients .review-card-wrap {
 		display: flex;
@@ -30,5 +25,9 @@ left-arrow, right-arrow {
 		display: block;
 		margin-top: auto;
 		margin-bottom: auto;
+	}
+
+	.review-card-wrap svg {
+		min-width: 16px;
 	}
 }

@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"type": "cta",
+			"type": "call-to-action",
 			"header": "Etiam nulla lectus amet nunc molestie at vulputate.",
 			"sub-header": "Etiam nulla lectus amet nunc molestie at vulputate.",
 			"components": [
