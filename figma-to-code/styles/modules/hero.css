@@ -17,7 +17,8 @@
 .hero .teaser  {
 	max-width: 733px;
 	color: var(--ink-medium);
-	margin: 16px 0;
+	margin-top: 20px;
+	margin-bottom: 35px;
 }
 .hero .buttons {
 	display: flex;
@@ -32,7 +33,8 @@
 	}
 
 	.hero .teaser  {
-		margin: 16px 0;
+		margin-top: 25px;
+		margin-bottom: 45px;
 	}
 
 	.hero .buttons {
