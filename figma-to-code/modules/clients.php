@@ -1,10 +1,13 @@
 <?php if($type == "clients") { ?>
 
+	<h2 class="header attention-voice"><?=$header?></h2>
+	<p class="teaser alert-voice"><?=$subHeader?></p>		
 
-		<p class="attention-voice"><?=$header?></p>
-		<p class="normal-voice"><?=$subHeader?></p>		
-
-		<div class="review-card-wrap">
+	<div class="review-card-wrap">
+		<left-arrow>
+			<?php include("./assets/icons/arrow-left.svg"); ?>
+		</left-arrow>
+		
 			<?php  
 				foreach($components as $component) {
 					if($component["type"] == "client-review-card") {
@@ -12,7 +15,9 @@
 					}
 				}
 			?>
-		</div>
 		
-
+		<right-arrow>
+			<?php include("./assets/icons/arrow-right.svg"); ?>
+		</right-arrow>
+	</div>
 <?php } ?>

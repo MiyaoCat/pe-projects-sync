@@ -105,6 +105,16 @@
 					"avatar": "./assets/images/avatar.jpg",
 					"name": "Courtney Henry"
 
+				},
+				{
+					"type": "icon",
+					"name": "arrow-left",
+					"source": "./assets/icons/arrow-left.svg"
+				},
+				{
+					"type": "icon",
+					"name": "arrow-right",
+					"source": "./assets/icons/arrow-right.svg"
 				}
 			]
 		},

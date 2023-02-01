@@ -14,11 +14,12 @@ html {
 	--tight: 800px;
 	--wide: 95vw;
 
-	--paper: hsl(37, 32%, 92%); /* light brown */
+	--paper: white; /* hsl(37, 32%, 92%)*/
 
 	--ink-dark: #212121;
 	--ink-medium: #424242;
 	--ink-light: #616161;
+	--ink-lightest: #757575;
 	--ink: white;
 
 	--primary: #3563E9;

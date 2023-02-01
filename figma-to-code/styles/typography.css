@@ -51,7 +51,7 @@ a:active {
 }
 
 .alert-voice {
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
 	letter-spacing: 0.2px;
@@ -83,7 +83,10 @@ a:active {
 /* Caption text or similar */
 .calm-voice {
 	font-size: 14px;
-	font-weight: 200;
+	font-weight: 500;
+	line-height: 17px;
+	letter-spacing: 0.2px;
+	color: var(--ink-lightest);
 }
 
 /* Fine print text or similar */
