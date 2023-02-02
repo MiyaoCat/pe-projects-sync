@@ -15,7 +15,14 @@
 	<link rel="stylesheet" href="styles/site.css">
 </head>
 
-<body>
+<?php  
+	$page = "home";
+		if ( isset($_GET["page"]) ) {
+			$page = $_GET["page"];
+		}
+?>
+
+<body class=<?=$page?>>
 	<header class="site-header">
 		<inner-column>
 			<mast-head><?php include("modules/site-header.php"); ?></mast-head>
