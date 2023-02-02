@@ -8,11 +8,12 @@
 			"type": "hero",
 			"header": "Arcu suscipit massa aliquam proin amet",
 			"sub-header": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+			"background": ".assets/background/wave.png",
 			"components": [
 				{
 					"type": "button",
 					"style": "contained",
-					"size": "medium",
+					"size": "large",
 					"corners": "square",
 					"text": "Get Started",
 					"arrow": ""
@@ -20,7 +21,7 @@
 				{
 					"type": "button",
 					"style": "outline",
-					"size": "medium",
+					"size": "large",
 					"corners": "square",					
 					"text": "Start Free Trial",
 					"arrow": ""
@@ -126,7 +127,7 @@
 				{
 					"type": "button",
 					"style": "contained",
-					"size": "medium",
+					"size": "large",
 					"corners": "square",
 					"text": "Get free quotes",
 					"arrow": "./assets/icons/arrow-right.svg"
