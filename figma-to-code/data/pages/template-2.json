@@ -6,40 +6,40 @@
 	"modules": [
 		{
 			"type": "hero",
-			"header": "TEMPLATE 2",
+			"header": "Arcu suscipit massa aliquam proin amet",
 			"sub-header": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+			"background": "./assets/background/waves.png",
 			"components": [
 				{
 					"type": "button",
 					"style": "contained",
-					"text": "Get Started"
-				},
+					"size": "large",
+					"corners": "square",
+					"text": "Get Started",
+					"arrow": "",
+					"arrow-direction": ""
+				}
+			]
+		},
+		{
+			"type": "center-content",
+			"header": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"sub-header": "Neque, pulvinar vestibulum non aliquam.",
+			"sub-header2": "Rhoncus, accumsan dictum",
+			"components": [
 				{
 					"type": "button",
-					"style": "outline",
-					"text": "Start Free Trial"
-				}
-			]
-		},
-		{
-			"type": "center-content",
-			"header": "Etiam nulla lfulputate.",
-			"sub-header": "Neque, pulvinar vestibulum non aliquam.",
-			"components": [
+					"style": "text",
+					"size": "large",
+					"corners": "",
+					"text": "Learn More",
+					"arrow": "./assets/icons/arrow-right-tail.svg",
+					"arrow-direction": "right"
+				},
 				{
-					"type": "video-placeholder",
-					"source": "./assets/images/video-placeholder.jpg"
-				}
-			]
-		},
-		{
-			"type": "center-content",
-			"header": "test.",
-			"sub-header": "testsetsetadsf.",
-			"components": [
-				{
-					"type": "video-placeholder",
-					"source": "./assets/images/video-placeholder.jpg"
+					"type": "icon", 
+					"name": "cloud",
+					"source": "./assets/icons/cloud.svg"
 				}
 			]
 		}

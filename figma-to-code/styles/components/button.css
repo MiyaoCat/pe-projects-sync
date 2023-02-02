@@ -1,6 +1,13 @@
 button {
 	cursor: pointer;
 }
+
+.button-info {
+/*	display: flex;
+	justify-content: space-between;
+	align-items: center;*/
+}
+
 @media (min-width: 700px) {
 	button.contained.large.rounded {
 		align-items: center;
@@ -23,6 +30,7 @@ button {
 	}
 }
 
+/* - - CONTAINED LARGE SQUARE - - - */
 button.contained.large.square {
 	max-height: 40px;
 	min-width: 180px;
@@ -30,7 +38,7 @@ button.contained.large.square {
 	padding: 10px 38px;
 	border: none;
 	background-color: var(--primary);
-	
+
 	font-weight: 500;
 	line-height: 22px;
 	text-align: center;
@@ -48,6 +56,18 @@ button.contained.large.square {
 	}
 }
 
+/* - - CONTAINED LARGE SQUARE RIGHT ARROW - - - */
+button.contained.large.square.right {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+button.contained.large.square.right .arrow {
+	margin-left: 20px;
+}
+
+/* - - OUTLINE LARGE SQUARE RIGHT ARROW - - - */
 button.outline.large.square {
 	max-height: 40px;
 	min-width: 180px;
@@ -73,6 +93,7 @@ button.outline.large.square {
 	}
 }
 
+/* - - CONTAINED LARGE SQUARE TEXT - - - */
 button.text.large {
 	max-height: 40px;
 	min-width: 180px;

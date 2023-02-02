@@ -26,7 +26,7 @@
 }
 
 .footer-top {
-	padding: 50px 5px;
+	padding: 50px 20px 60px 20px;
 	border-bottom: 2px solid hsla(0,0%,100%, .06);
 }
 
@@ -55,7 +55,6 @@
 
 .footer-bottom .logo {
 	margin-top: 40px;
-	min-width: 170px;
 }
 
 .footer-bottom .legal {
@@ -80,7 +79,6 @@
 	.footer-bottom .logo {
 		margin: 0;
 		padding: 0;
-		max-width: 250px;
 	}
 
 	.footer-bottom .legal {

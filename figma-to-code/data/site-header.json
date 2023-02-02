@@ -43,8 +43,10 @@
 	{
 		"type": "button",
 		"style": "contained",
-		"size": "medium",
+		"size": "large",
 		"corners": "rounded",
-		"text": "LogIn"
+		"text": "LogIn",
+		"arrow": "",
+		"arrow-direction": ""
 	}
 ]

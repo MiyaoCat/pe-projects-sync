@@ -35,7 +35,7 @@
 .email-input button {
 	background-color: var(--primary);
 	border: none;
-	max-width: 50px;
+	min-width: 50px;
 	border-radius: 0 5px 5px 0;
 }
 

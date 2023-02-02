@@ -26,6 +26,6 @@ stuff */
 
 /* then other contextual styles */
 body {
-	background-color: var(--paper);
+	background-color: lightblue;
 	color: var(--ink);
 }

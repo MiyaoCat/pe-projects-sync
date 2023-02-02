@@ -16,7 +16,8 @@
 					"size": "large",
 					"corners": "square",
 					"text": "Get Started",
-					"arrow": ""
+					"arrow": "",
+					"arrow-direction": ""
 				},
 				{
 					"type": "button",
@@ -24,7 +25,8 @@
 					"size": "large",
 					"corners": "square",					
 					"text": "Start Free Trial",
-					"arrow": ""
+					"arrow": "",
+					"arrow-direction": ""
 				}
 			]
 		},
@@ -130,7 +132,8 @@
 					"size": "large",
 					"corners": "square",
 					"text": "Get free quotes",
-					"arrow": "./assets/icons/arrow-right.svg"
+					"arrow": "./assets/icons/arrow-right-small.svg",
+					"arrow-direction": "right"
 				}
 			]
 		},

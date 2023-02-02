@@ -1,15 +1,43 @@
 <?php if($type == "center-content") { ?>
-	<?php if ( isset($module['sub-header2']) ) { ?>
-		<p class="alert-voice"><?=$module['sub-header2']?></p>
-	<?php } ?>
 
-	<h2 class="sub-header attention-voice"><?=$header?></h2>
-	<p class="info alert-voice"><?=$subHeader?></p>
+		<div class="icon">
+			<?php  
+				 foreach($components as $component) {
+						if($component["type"] == "icon") {
+							include("$component[source]");
+						}
+					}
+			?>
+		</div>
 
-	<div class="video">
-		<?php foreach($components as $component) {
-			include("components/$component[type].php");
-		} ?>
-	</div>
+		<?php if ( isset($module['sub-header2']) ) { ?>
+			<p class="alert-voice"><?=$module['sub-header2']?></p>
+		<?php } ?>
 
-<?php } ?>
+		<h2 class="sub-header attention-voice"><?=$header?></h2>
+		<p class="info alert-voice"><?=$subHeader?></p>
+
+		
+			<?php 
+				foreach($components as $component) {
+					if($component["type"] == "video-placeholder") {
+				?>		
+					<div class="video">
+						<?php include("components/$component[type].php");?>
+					</div>
+					<?php } ?>
+				<?php } ?>
+		
+		
+		
+			<?php 
+				foreach($components as $component) {
+					if($component["type"] == "button") {
+			?>
+				<button>	
+					<?php include("components/$component[type].php"); ?>	
+				</button>
+					<?php } ?>
+				<?php } ?>
+		
+<?php } ?>	

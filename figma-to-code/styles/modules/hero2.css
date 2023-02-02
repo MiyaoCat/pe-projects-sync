@@ -1,4 +1,4 @@
-.template-1 .hero {
+.template-2 .hero {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -7,44 +7,44 @@
 	text-align: center;
 	
 	padding-top: 60px;
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 }
 
-.template-1 .hero {
-	background-image: url("../../assets/background/diagonal-lines.png");
+.template-2 .hero {
+	background-image: url("../../assets/background/wave.png");
 }
 
-.template-1 .hero .background img {
+.template-2 .hero .background img {
 	z-index: 1;
 }
-.template-1 .hero .header {
+.template-2 .hero .header {
 	max-width: 974px;
 }
 
-.template-1 .hero .teaser  {
+.template-2 .hero .teaser  {
 	max-width: 733px;
 	color: var(--ink-medium);
 	margin-top: 20px;
 	margin-bottom: 35px;
 }
-.template-1 .hero .buttons {
+.template-2 .hero .buttons {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
 
 @media (min-width: 700px) {
-	.template-1 .hero {
+	.template-2 .hero {
 		padding-top: 120px;
-		padding-bottom: 195px;
+		padding-bottom: 265px;
 	}
 
-	.template-1 .hero .teaser  {
+	.template-2 .hero .teaser  {
 		margin-top: 25px;
 		margin-bottom: 45px;
 	}
 
-	.template-1 .hero .buttons {
+	.template-2 .hero .buttons {
 		flex-direction: row;
 		align-items: center;
 		margin-left: auto;
