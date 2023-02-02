@@ -16,7 +16,7 @@
 							</div>	
 
 						</summary>
-						<p class="normal-voice"><?=$answer?></p>
+							<p class=" answer normal-voice"><?=$answer?></p>
 					</details>
 				</li>
 		<?php }  ?>

@@ -1,7 +1,14 @@
+.faqs .heading .header {
+	margin-bottom: 16px;
+}
+
+.faqs .heading + .faqs-accordion {
+	margin-top: 25px;
+}
 
 @media (min-width: 700px) {
 	.faqs {
-		padding: 80px 120px;
+		padding: 40px 60px;
 	}
 
 	.faqs > * {
@@ -9,4 +16,15 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.faqs .heading + .faqs-accordion {
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 900px) {
+	.faqs {
+		padding: 80px 120px;
+	}
+
 }

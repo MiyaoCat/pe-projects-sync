@@ -1,12 +1,23 @@
 .faq-card {
 	max-width: 843px;
+	padding: 10px 7.5px;
+	box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
 }
+
+.faq-card + .faq-card {
+	margin-top: 15px;
+}
+
 .faq-card summary {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	list-style: none;
 	cursor: pointer;
+}
+
+.faq-card :is(.question, .answer) {
+	max-width: 90%;
 }
 
 .faq-card .arrow {
@@ -20,4 +31,17 @@
 
 .faq-card details[open] > summary .arrow {
 	transform: rotate(-90deg);
+}
+
+@media (min-width:700px) {
+	.faq-card {
+		padding: 20px 15px;
+	}
+	.faq-card :is(.question, .answer) {
+		max-width: 100%;
+	}
+
+	.faq-card .answer {
+		margin-top: 24px;
+	}
 }
