@@ -3,13 +3,14 @@
 	$footerData = json_decode($json, true);
 ?>
 
+<div class="site-map">
+
 <?php  foreach ($footerData as $component) { ?>
 	
 	<?php 
-		if($component["type"] == "product-list") { 
+		if($component["type"] == "site-map") { 
 			$heading = $component["heading"]; ?>
-			
-			<div class="site-map">
+				
 				<ul class=<?=$heading?>>
 					<h4 class="alert-voice"><?=$heading?></h4>
 					<?php  
@@ -23,52 +24,7 @@
 				</ul>
 
 		<?php } ?>
-			
-	<?php  
-		if($component["type"] == "information-list") { 
-			$heading = $component["heading"];
-	?>
-
-			<ul class=<?=$heading?>>
-				<h4 class="alert-voice"><?=$heading?></h4>
-		
-				<?php  
-					foreach($component["items"] as $item) {
-						$text = $item['text'];
-				?>
-					<li>
-						<p class="alert-voice"><?=$text;?></p>
-					</li>
-				<?php } ?>
-
-			</ul>
-		</div>
-
-	<?php } ?>
-
-	<?php  
-		if($component["type"] == "company-list") { 
-			$heading = $component["heading"];
-	?>
-
-			<ul class=<?=$heading?>>
-				<h4 class="alert-voice"><?=$heading?></h4>
-		
-				<?php  
-					foreach($component["items"] as $item) {
-						$text = $item['text'];
-				?>
-					<li>
-						<p class="alert-voice"><?=$text;?></p>
-					</li>
-				<?php } ?>
-				
-			</ul>
-		<?php } ?>
-		
-		</div>
-
-	
 
 <?php } ?>
 
+</div>

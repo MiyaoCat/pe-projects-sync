@@ -1,6 +1,6 @@
 [
 	{
-		"type": "product-list",
+		"type": "site-map",
 		"heading": "Product",
 		"items": 
 		[
@@ -31,7 +31,7 @@
 		]
 	},
 	{
-		"type": "information-list",
+		"type": "site-map",
 		"heading": "Information",
 		"items": 
 		[
@@ -50,7 +50,7 @@
 		]
 	},
 	{
-		"type": "company-list",
+		"type": "site-map",
 		"heading": "Company",
 		"items": 
 		[
@@ -84,6 +84,8 @@
 	},
 	{
 		"type": "legal",
+		"heading": "",
+		"category": "legal",
 		"items": [
 			{
 				"text": "Terms",
@@ -101,6 +103,7 @@
 	},
 	{
 		"type": "socials",
+		"heading": "",
 		"items": [
 			{
 				"item": "linkedIn",
