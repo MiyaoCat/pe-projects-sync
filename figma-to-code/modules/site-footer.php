@@ -40,13 +40,24 @@
 </div>
 
 <div class="footer-bottom">
+	
+	<div class="logo">
+		<?php  
+			foreach ($footerData as $component) { 
+				if($component["type"] == "logo") { 
+					include($component["source"]);
+				}
+			}	
+		?>
+	</div>
+
 	<ul class="legal">
 	<?php  
 		foreach ($footerData as $component) { 
 			if($component["type"] == "legal") { 
 				foreach($component["items"] as $item) { 
 					$text = $item['text'];
-		?>
+	?>
 			<li>
 				<p class="normal-voice"><?=$text?></p>
 			</li>
