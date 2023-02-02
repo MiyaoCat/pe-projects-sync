@@ -82,16 +82,29 @@ a:active {
 
 /* Caption text or similar */
 .calm-voice {
-	font-size: 14px;
+	font-size: clamp(12px, 2vw, 16px);
 	font-weight: 500;
 	line-height: 17px;
 	letter-spacing: 0.2px;
-	color: var(--ink-lightest);
+}
+
+.calm-voice-bold {
+	font-size: clamp(12px, 3vw, 16px);
+	font-weight: 700;
+	line-height: 28px;
 }
 
 /* Fine print text or similar */
 .quiet-voice {
+	font-size: clamp(12px, 2vw, 16px);
+	font-weight: 400;
+	line-height: 19px;
+}
 
+.whisper-voice {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
 }
 
 mast-head a {

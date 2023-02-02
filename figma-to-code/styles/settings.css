@@ -25,6 +25,9 @@ html {
 
 	--primary: #3563E9;
 	--primary-light: #F7F9FE;
+	--primary-dark: #2851E3;
+
+	--secondary-light: #D6D6D6;
 
 	--font-small: 14px;
 	--font-med: 16px;

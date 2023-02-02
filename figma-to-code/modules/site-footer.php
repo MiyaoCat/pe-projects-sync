@@ -12,22 +12,24 @@
 					$heading = $component["heading"]; ?>
 						
 						<ul class=<?=$heading?>>
-							<h4 class="alert-voice"><?=$heading?></h4>
+							<h4 class="calm-voice-bold">
+								<?=ucfirst($heading)?>			
+							</h4>
+
 							<?php  
 								foreach($component["items"] as $item) {
 									$text = $item['text'];
 							?>
 								<li>
-									<p class="alert-voice"><?=$text;?></p>
+									<p class="quiet-voice"><?=$text;?></p>
 								</li>
 							<?php } ?>
 						</ul>
 		
 				<?php } ?>
 		<?php } ?>
-	</div>
-	
-	<div class="subscribe">
+
+		<!-- SUBSCRIBE-BOX -->
 		<?php  
 			foreach ($footerData as $component) { 
 				if($component["type"] == "subscribe-box") { 
@@ -40,7 +42,7 @@
 </div>
 
 <div class="footer-bottom">
-	
+
 	<div class="logo">
 		<?php  
 			foreach ($footerData as $component) { 
@@ -52,28 +54,21 @@
 	</div>
 
 	<ul class="legal">
-	<?php  
-		foreach ($footerData as $component) { 
-			if($component["type"] == "legal") { 
-				foreach($component["items"] as $item) { 
-					$text = $item['text'];
-	?>
-			<li>
-				<p class="normal-voice"><?=$text?></p>
-			</li>
+		<?php  
+			foreach ($footerData as $component) { 
+				if($component["type"] == "legal") { 
+					foreach($component["items"] as $item) { 
+						$text = $item['text'];
+		?>
+				<li>
+					<p class="calm-voice"><?=$text?></p>
+				</li>
+					<?php } ?>
 				<?php } ?>
-			<?php } ?>
-		<?php } ?>			
+			<?php } ?>			
 	</ul>
 
 	<ul class="socials">
-	<?php  
-		// foreach ($footerData as $component) { 
-		// 	if($component["type"] == "socials") { 
-		// 	}
-		// }
-	?>	
-	
 		<?php	foreach($component["items"] as $social) { ?>
 			<li>
 				<?php include($social['source']) ?>

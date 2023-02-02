@@ -1,7 +1,7 @@
 [
 	{
 		"type": "site-map",
-		"heading": "Product",
+		"heading": "product",
 		"items": 
 		[
 			{
@@ -32,7 +32,7 @@
 	},
 	{
 		"type": "site-map",
-		"heading": "Information",
+		"heading": "information",
 		"items": 
 		[
 			{
@@ -51,7 +51,7 @@
 	},
 	{
 		"type": "site-map",
-		"heading": "Company",
+		"heading": "company",
 		"items": 
 		[
 			{

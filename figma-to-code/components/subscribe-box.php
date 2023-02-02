@@ -6,13 +6,16 @@
 		$text = $component["text"];
 ?>
 	
-		<h4 class="alert-voice"><?=$heading?></h4>
+		<h4 class="calm-voice-bold"><?=$heading?></h4>
 
 		<div class="email-input">
-			<input type="email" placeholder="<?=$placeHolder?>">
-			<?php include("./assets/icons/arrow-right.svg") ?>
+			<input type="email" placeholder="<?=ucfirst($placeHolder)?>">
+
+			<button>
+				<?php include("./assets/icons/arrow-right-small.svg") ?>	
+			</button>
 		</div>
 		
-		<p class="normal-voice"><?=$text?></p>
+		<p class="blurb whisper-voice"><?=$text?></p>
 <?php } ?>
 </div>
