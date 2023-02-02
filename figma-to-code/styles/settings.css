@@ -16,6 +16,7 @@ html {
 
 	--paper: white; /* hsl(37, 32%, 92%)*/
 
+	--ink-darkest: black;
 	--ink-dark: #212121;
 	--ink-medium: #424242;
 	--ink-light: #616161;
@@ -23,6 +24,7 @@ html {
 	--ink: white;
 
 	--primary: #3563E9;
+	--primary-light: #F7F9FE;
 
 	--font-small: 14px;
 	--font-med: 16px;

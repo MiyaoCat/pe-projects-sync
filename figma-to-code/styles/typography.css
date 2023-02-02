@@ -37,7 +37,7 @@ a:active {
 
 /* Sub-header text or similar */
 .attention-voice {
-	font-size: clamp(36px, 6vw, 48px);
+	font-size: clamp(30px, 6vw, 48px);
 	font-weight: 600;
 	color: var(--ink-dark);
 }
@@ -114,6 +114,23 @@ mast-head .active {
 		letter-spacing: 0.2px;
 		color: var(--ink-light);
 }
+
+/* SPECIFIC ELEMENT FONT */
+.faq-card summary {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0.2px;
+	color: var(--ink-darkest);
+}
+
+@media (min-width: 700px) {
+	.faq-card summary .question {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now */
 /* or smaller group of article-like styles such as a <text-content> custom element */

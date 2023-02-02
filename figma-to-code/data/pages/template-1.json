@@ -132,6 +132,43 @@
 					"arrow": "./assets/icons/arrow-right.svg"
 				}
 			]
+		},
+		{
+			"type": "faqs",
+			"header": "Frequent Ask Questions",
+			"sub-header": "Pellentesque Cras Adipiscing Tempus Libero Vel Nullam Mauris Tellus. Aliquam Ultrices Tellus Consequat Amet, Lectus Aliquam Est In Neque.",
+			"components": [
+				{
+					"type": "accordion",
+					"listItems": [
+						{
+							"question": "How soon will my order ship?",
+							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
+							"state": false
+						},
+						{
+							"question": "Is there any warranty exclusions?",
+							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
+							"state": true
+						},
+						{
+							"question": "How soon will my order ship?",
+							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
+							"state": false
+						},
+						{
+							"question": "Will I be charged for a replacement item?",
+							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
+							"state": false
+						},
+						{
+							"question": "How can I track my orders & payment?",
+							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
+							"state": false
+						}
+					]
+				}
+			]
 		}
 	]
 }

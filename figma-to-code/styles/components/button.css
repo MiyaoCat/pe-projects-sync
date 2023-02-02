@@ -1,4 +1,6 @@
-
+button {
+	cursor: pointer;
+}
 @media (min-width: 700px) {
 	button.contained.medium.rounded {
 		align-items: center;

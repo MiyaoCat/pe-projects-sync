@@ -1,0 +1,23 @@
+.faq-card {
+	max-width: 843px;
+}
+.faq-card summary {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	cursor: pointer;
+}
+
+.faq-card .arrow {
+	width: 24px;
+	height: 24px;
+}
+.faq-card .arrow svg {
+	max-width: 12px;
+	max-height: 24px;
+}
+
+.faq-card details[open] > summary .arrow {
+	transform: rotate(-90deg);
+}

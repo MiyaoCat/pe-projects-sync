@@ -1,0 +1,23 @@
+.call-to-action {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 30px;
+	gap: 25px;
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: var(--primary-light);
+}
+
+@media (min-width: 700px) {
+	.call-to-action {
+		max-width: 1200px;
+		max-height: 376px;
+		padding: 60px 91px;
+		gap: 48px;
+		margin: 80px auto;
+	}
+}
