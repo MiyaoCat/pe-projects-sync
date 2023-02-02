@@ -1,6 +1,7 @@
 <footer class="site-footer">
 	<inner-column>
-		<p class="attention-voice">This is a footer</p>
+		<site-footer> 
+			<?php include("modules/site-footer.php"); ?> </site-footer>
 	</inner-column>
 </footer>
 
