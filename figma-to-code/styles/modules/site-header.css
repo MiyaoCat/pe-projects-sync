@@ -9,6 +9,7 @@
 mast-head {
 	display: flex;
 	align-items:  center;
+	padding: 10px 0;
 }
 
 mast-head nav {
@@ -30,8 +31,13 @@ nav ul {
 }
 
 @media (min-width: 725px) {
+	mast-head {
+		padding: 15px 95px;
+	}
+
 	nav ul {
 		display: flex;
+		gap: 10px;
 	}
 
 	.menu {
@@ -42,12 +48,17 @@ nav ul {
 		display: flex;
 	}
 
-	.login button {
-		margin-left: 10px;
+	.login span {
+		margin-left: 8px;
+		margin-right: 20px;
 	}
 }
 
 @media (min-width: 850px) {
+	mast-head {
+		padding: 20px 120px;
+	}
+
 	nav ul {
 		gap: 30px;
 	}
