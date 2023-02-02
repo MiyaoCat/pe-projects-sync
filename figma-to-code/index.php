@@ -1,4 +1,5 @@
 <?php include("partials/header.php"); ?>
+
 <main>
 <inner-column>
 	<?php
@@ -23,7 +24,7 @@
 				$subHeader = $module['sub-header'];
 				$components = $module['components'];
 	?>	
-		<section class=<?=$type?>>
+		<section class="<?=$type?>">
 			<?php include("modules/$type.php"); ?>
 		</section>
 <?php } ?>

@@ -73,8 +73,9 @@
 		]
 	},
 	{
-		"type": "subscribe",
+		"type": "subscribe-box",
 		"heading": "Subscribe",
+		"placeholder-text": "email address",
 		"text": "Gravida sed justo, justo, id est et. Amet tristique convallis sed porttitor nullam eu ut. Duis et odio aliquam bibendum. Metus et lectus id viverra fringilla magna morbi. "
 	},
 	{
@@ -85,7 +86,6 @@
 	{
 		"type": "legal",
 		"heading": "",
-		"category": "legal",
 		"items": [
 			{
 				"text": "Terms",
