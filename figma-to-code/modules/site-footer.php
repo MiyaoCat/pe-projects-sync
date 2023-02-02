@@ -5,21 +5,41 @@
 
 <?php  
 	foreach ($footerData as $component) {
-		$type = $component["type"];
-
-		if($component["type"] == "product-list") { ?>
-	?>
-		<ul>
-			<?php  
-				foreach($component["items"] as $item) {
-					$text = $item['text'];
-			?>
-			<li>
-				<p class="alert-voice"><?=$text;?></p>
-			</li>
-		</ul>
+		if($component["type"] == "product-list") { 
+			$heading = $component["heading"];
+?>
+		<div class="site-map">
+			<ul class=<?=$heading?>>
+				<h4 class="alert-voice"><?=$heading?></h4>
+				<?php  
+					foreach($component["items"] as $item) {
+						$text = $item['text'];
+				?>
+				<li>
+					<p class="alert-voice"><?=$text;?></p>
+				</li>
+				<?php } ?>
+			</ul>
+				<?php } ?>
 			
-		<?php } ?>
+	<?php  
+		if($component["type"] == "information-list") { 
+		$heading = $component["heading"];
+	?>
+			<ul class=<?=$heading?>>
+				<h4 class="alert-voice"><?=$heading?></h4>
+		
+				<?php  
+					foreach($component["items"] as $item) {
+						$text = $item['text'];
+				?>
+					<li>
+						<p class="alert-voice"><?=$text;?></p>
+					</li>
+				<?php } ?>
+			</ul>
+		</div>
+
 	<?php } ?>
 <?php } ?>
 
