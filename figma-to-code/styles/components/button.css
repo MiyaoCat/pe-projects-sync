@@ -2,7 +2,7 @@ button {
 	cursor: pointer;
 }
 @media (min-width: 700px) {
-	button.contained.medium.rounded {
+	button.contained.large.rounded {
 		align-items: center;
 		max-width: 89px;
 		left: 0px;
@@ -23,24 +23,23 @@ button {
 	}
 }
 
-button.contained.medium.square {
+button.contained.large.square {
 	max-height: 40px;
 	min-width: 180px;
 	border-radius: 0px;
 	padding: 10px 38px;
-	background-color: var(--primary);
 	border: none;
-
+	background-color: var(--primary);
+	
 	font-weight: 500;
 	line-height: 22px;
 	text-align: center;
-/*	font-size: var(--font-med);*/
 	letter-spacing: 0.46px;
 	color: var(--ink);
 }
 
 @media (min-width: 700px) {
-	button.contained.medium.square {
+	button.contained.large.square {
 		max-height: 52px;
 		min-width: 205px;
 		padding: 15px 50px;
@@ -49,7 +48,7 @@ button.contained.medium.square {
 	}
 }
 
-button.outline.medium.square {
+button.outline.large.square {
 	max-height: 40px;
 	min-width: 180px;
 	border-radius: 0px;
@@ -65,7 +64,32 @@ button.outline.medium.square {
 }
 
 @media (min-width: 700px) {
-	button.outline.medium.square {
+	button.outline.large.square {
+		max-height: 52px;
+		min-width: 227px;
+		padding: 15px 50px;
+		
+		font-size: var(--font-large);
+	}
+}
+
+button.text.large {
+	max-height: 40px;
+	min-width: 180px;
+	border-radius: 0px;
+	padding: 10px 38px;
+	border: none;
+	background-color: var(--ink);
+
+	font-weight: 500;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.46px;
+	color: var(--primary);
+}
+
+@media (min-width: 700px) {
+	button.text.large {
 		max-height: 52px;
 		min-width: 227px;
 		padding: 15px 50px;
