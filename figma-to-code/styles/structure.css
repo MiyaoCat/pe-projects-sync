@@ -21,7 +21,7 @@ section + section {
 	margin-top: 30px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1500px) {
 	inner-column {
 		max-width: var(--standard);
 	}
