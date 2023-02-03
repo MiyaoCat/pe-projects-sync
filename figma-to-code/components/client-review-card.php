@@ -16,14 +16,17 @@
 				}
 			} ?>
 		</star-rating>
-		<p class="normal-voice"><?=$review?></p>
+		<p class="review normal-voice"><?=$review?></p>
 
 		<client-details>
 			<img src="<?=$avatar?>" alt="picture of client">
-			<p class="calm-voice"><?=$name?></p>
-			<?php if ( isset($component['role']) ) { ?>
-			<p class="calmvoice"><?=$component['role']?></p>	
+			
+			<div class="contact">
+					<p class="calm-voice-bold"><?=$name?></p>
+					<?php if ( isset($component['role']) ) { ?>
+					<p class="whisper-voice"><?=$component['role']?></p>
 			<?php	} ?>
+			</div>	
 		</client-details>
 
 	</review-card>

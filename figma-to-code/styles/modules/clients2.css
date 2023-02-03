@@ -1,33 +1,38 @@
-.template-1 .clients {
+.template-2 .clients {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	margin-top: 20px;
+	max-height: 640px;
 }
 
-.template-1 .clients .teaser {
+.template-2 .clients .teaser {
 	margin-top: 10px;
 	margin-bottom: 15px;
 }
 
-.template-1 left-arrow, .template-1 right-arrow {
+.template-2 left-arrow, .template-2 right-arrow {
 	display: none;
 }
 
 @media (min-width: 850px) {
-	.template-1 .clients .review-card-wrap {
+	.template-2 .clients .review-card-wrap {
 		display: flex;
 		gap: 55px;
 	}
 
-	.template-1 left-arrow, .template-1 right-arrow {
+	.template-2 left-arrow, .template-2 right-arrow {
 		display: block;
 		margin-top: auto;
 		margin-bottom: auto;
 	}
 
-	.template-1 .review-card-wrap svg {
+	.template-2 .review-card-wrap svg {
 		min-width: 16px;
 	}
+}
+
+.template-2 star-rating {
+	display: none;
 }
