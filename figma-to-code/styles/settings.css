@@ -9,6 +9,7 @@ html {
 	--shadow: rgba(0,0,0,.8);
 
 	--corners: 10px; /* or whatevers */
+	--soft-corner: 5px;
 
 	--standard: 1440px;
 	--tight: 800px;
@@ -28,6 +29,7 @@ html {
 	--primary-dark: #2851E3;
 
 	--secondary-light: #D6D6D6;
+	--border: #E0E0E0;
 
 	--font-small: 14px;
 	--font-med: 16px;
