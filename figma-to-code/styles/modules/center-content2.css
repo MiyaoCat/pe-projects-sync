@@ -21,7 +21,7 @@
 .template-2 .center-content .sub-header {
 	margin-top: 10px;
 	margin-bottom: 15px;
-	font-size: clamp(30px, 6vw, 56px);
+	font-size: clamp(30px, 7vw, 56px);
 }
 
 .template-2 .center-content button {
