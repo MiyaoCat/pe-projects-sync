@@ -148,27 +148,32 @@
 						{
 							"question": "How soon will my order ship?",
 							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
-							"state": false
+							"state": false,
+							"arrow": "./assets/icons/arrow-right-faq.svg"
 						},
 						{
 							"question": "Is there any warranty exclusions?",
 							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
-							"state": true
+							"state": true,
+							"arrow": "./assets/icons/arrow-right-faq.svg"
 						},
 						{
 							"question": "How soon will my order ship?",
 							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
-							"state": false
+							"state": false,
+							"arrow": "./assets/icons/arrow-right-faq.svg"
 						},
 						{
 							"question": "Will I be charged for a replacement item?",
 							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
-							"state": false
+							"state": false,
+							"arrow": "./assets/icons/arrow-right-faq.svg"
 						},
 						{
 							"question": "How can I track my orders & payment?",
 							"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa. ",
-							"state": false
+							"state": false,
+							"arrow": "./assets/icons/arrow-right-faq.svg"
 						}
 					]
 				}
