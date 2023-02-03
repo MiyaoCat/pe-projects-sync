@@ -42,6 +42,139 @@
 					"source": "./assets/icons/cloud.svg"
 				}
 			]
+		},
+		{
+			"type": "feature",
+			"header": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"sub-header": "Neque, pulvinar vestibulum non aliquam.",
+			"components": [
+				{
+					"type": "feature-list",
+					"list": [
+						{
+							"number": 1,
+							"title": "Et, odio elementum",
+							"detail": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+							"source": "./assets/icons/cloud.svg"
+						},
+						{
+							"number": 2,
+							"title": "Et, odio elementum",
+							"detail": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+							"source": "./assets/icons/cloud.svg"
+						},
+						{
+							"number": 3,
+							"title": "Et, odio elementum",
+							"detail": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+							"source": "./assets/icons/cloud.svg"
+						},
+						{
+							"number": 4,
+							"title": "Et, odio elementum",
+							"detail": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+							"source": "./assets/icons/cloud.svg"
+						},
+						{
+							"number": 5,
+							"title": "Et, odio elementum",
+							"detail": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+							"source": "./assets/icons/cloud.svg"
+						},
+						{
+							"number": 6,
+							"title": "Et, odio elementum",
+							"detail": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+							"source": "./assets/icons/cloud.svg"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "clients",
+			"header": "What Our Clients Say",
+			"sub-header": "Neque, pulvinar vestibulum non aliquam.",
+			"components": [
+				{
+					"type": "client-review-card",
+					"rating": "",
+					"review": "“Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.”",
+					"avatar": "./assets/icons/avatar-blank.png",
+					"name": "Courtney Henry",
+					"role": "Marketing Coordinator"
+				},
+				{
+					"type": "icon",
+					"name": "arrow-left",
+					"source": "./assets/icons/arrow-left.svg"
+				},
+				{
+					"type": "icon",
+					"name": "arrow-right",
+					"source": "./assets/icons/arrow-right-circle.svg"
+				}
+			]
+		},
+		{
+			"type": "call-to-action",
+			"header": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"sub-header": "Rhoncus, accumsan dictum",
+			"components": [
+				{
+					"type": "button",
+					"style": "contained",
+					"size": "large",
+					"corners": "square",
+					"text": "Get free quotes",
+					"arrow": "./assets/icons/arrow-right.svg",
+					"arrow-direction": "right"
+				},
+				{
+					"type": "button",
+					"style": "outline",
+					"size": "large",
+					"corners": "square",
+					"text": "Free SignUp",
+					"arrow": "./assets/icons/arrow-right.svg",
+					"arrow-direction": "right"
+				}
+			]
 		}
 	]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
