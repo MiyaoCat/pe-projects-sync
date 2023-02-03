@@ -12,17 +12,15 @@
 
 .template-2 .hero {
 	background-image: url("../../assets/background/wave.png");
+	background-repeat: no-repeat;
 }
 
-.template-2 .hero .background img {
-	z-index: 1;
-}
 .template-2 .hero .header {
 	max-width: 974px;
 }
 
 .template-2 .hero .teaser  {
-	max-width: 733px;
+	max-width: clamp(300px, 60vw, 733px);
 	color: var(--ink-medium);
 	margin-top: 20px;
 	margin-bottom: 35px;

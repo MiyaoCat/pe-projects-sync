@@ -29,14 +29,13 @@
 				<?php } ?>
 		
 		
-		
+			
 			<?php 
 				foreach($components as $component) {
 					if($component["type"] == "button") {
 			?>
-				<button>	
 					<?php include("components/$component[type].php"); ?>	
-				</button>
+				
 					<?php } ?>
 				<?php } ?>
 		

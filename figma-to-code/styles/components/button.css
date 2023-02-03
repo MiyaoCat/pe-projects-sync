@@ -95,12 +95,15 @@ button.outline.large.square {
 
 /* - - CONTAINED LARGE SQUARE TEXT - - - */
 button.text.large {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
 	max-height: 40px;
-	min-width: 180px;
-	border-radius: 0px;
-	padding: 10px 38px;
+	max-width: 191px;
+	padding: 8px 22px;
+	background-color: hsla(37, 32%, 92%, 0);
 	border: none;
-	background-color: var(--ink);
 
 	font-weight: 500;
 	line-height: 22px;
@@ -108,13 +111,28 @@ button.text.large {
 	letter-spacing: 0.46px;
 	color: var(--primary);
 }
+button.text.large svg {
+	margin-left: 6px;
+}
 
+button.text.large svg path {
+	stroke: var(--primary);
+}
 @media (min-width: 700px) {
 	button.text.large {
 		max-height: 52px;
-		min-width: 227px;
+		min-width: 233px;
 		padding: 15px 50px;
 		
 		font-size: var(--font-large);
 	}
+
+	button.text.large .button-text {
+		padding-right: 5px;
+	}
+	button.text.large svg {
+		margin-left: 0;		
+	}
 }
+
+/* - - TEXT LARGE SQUARE TEXT - - - */
