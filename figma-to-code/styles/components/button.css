@@ -8,6 +8,7 @@ button {
 	align-items: center;*/
 }
 
+/* - - CONTAINED LARGE SQUARE ROUNDED - - - */
 @media (min-width: 700px) {
 	button.contained.large.rounded {
 		align-items: center;
@@ -56,18 +57,7 @@ button.contained.large.square {
 	}
 }
 
-/* - - CONTAINED LARGE SQUARE RIGHT ARROW - - - */
-button.contained.large.square.right {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-button.contained.large.square.right .arrow {
-	margin-left: 20px;
-}
-
-/* - - OUTLINE LARGE SQUARE RIGHT ARROW - - - */
+/* - - OUTLINE LARGE SQUARE - - - */
 button.outline.large.square {
 	max-height: 40px;
 	min-width: 180px;
@@ -91,6 +81,32 @@ button.outline.large.square {
 		
 		font-size: var(--font-large);
 	}
+}
+/* - - CONTAINED LARGE SQUARE RIGHT ARROW - - - */
+button.contained.large.square.right {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 10px 25px;
+}
+
+/*RIGHT ARROW WITH TAIL*/
+button.contained.large.square.right .arrow {
+	margin-left: 20px;
+}
+
+/* - - OUTLINE LARGE SQUARE RIGHT- - - */
+button.outline.large.square.right {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 10px 25px;
+}
+
+button.outline.large.square.right .arrow {
+	margin-left: 20px;
 }
 
 /* - - CONTAINED LARGE SQUARE TEXT - - - */

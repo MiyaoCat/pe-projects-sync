@@ -127,7 +127,7 @@
 					"size": "large",
 					"corners": "square",
 					"text": "Get free quotes",
-					"arrow": "./assets/icons/arrow-right.svg",
+					"arrow": "./assets/icons/arrow-right-white.svg",
 					"arrow-direction": "right"
 				},
 				{
@@ -136,7 +136,7 @@
 					"size": "large",
 					"corners": "square",
 					"text": "Free SignUp",
-					"arrow": "./assets/icons/arrow-right.svg",
+					"arrow": "./assets/icons/arrow-right-blue.svg",
 					"arrow-direction": "right"
 				}
 			]

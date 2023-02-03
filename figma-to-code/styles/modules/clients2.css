@@ -27,10 +27,28 @@
 		margin-bottom: auto;
 	}
 
+	.template-2 left-arrow, .template-2 right-arrow {
+		width: 30px;
+	   height: 30px;
+	   border-radius: 25px;
+	   background-color: hsla(0, 0%, 96%, 0);
+
+	   display: inline-block;
+	   transition: all 0.2s ease-in-out;	   
+  	}
+	
+	.template-2 left-arrow:hover, .template-2 right-arrow:hover {
+		background-color: hsla(0, 0%, 96%, 1);
+	}
+
 	.template-2 .review-card-wrap svg {
 		min-width: 16px;
 	}
 }
+
+
+
+
 
 .template-2 star-rating {
 	display: none;
