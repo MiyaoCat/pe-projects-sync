@@ -25,7 +25,6 @@
 			<?php } ?>	
 			
 			<div class="client-flex">
-
 				<p class="review normal-voice"><?=$review?></p>
 			
 				<client-details>
@@ -39,7 +38,6 @@
 						<p class="whisper-voice"><?=$component['role']?></p>
 								<?php	} ?>
 					</div>
-					
 				</client-details>
 			</div>
 
