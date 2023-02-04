@@ -30,7 +30,7 @@
 }
 
 .template-3 .hero button.contained.large.rounded {
-		background-color: var(--border);
+		background-color: var(--ink);
 		color: var(--primary);
 		border-radius: 5px;
 		padding: 10px 10px;

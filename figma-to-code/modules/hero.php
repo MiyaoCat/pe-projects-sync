@@ -1,3 +1,4 @@
+
 <?php 
 	if($type == "hero") { 
 		$background = $module['background'];
@@ -17,10 +18,7 @@
 		</div>
 
 <?php } ?>
-	
 
-
-	
 
 
 

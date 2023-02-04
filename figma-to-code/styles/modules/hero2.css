@@ -1,4 +1,7 @@
-.template-2 .hero {
+.template-2 .hero inner-column {
+	max-width: 100%;
+}
+.template-2 .hero inner-column {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -12,7 +15,10 @@
 
 .template-2 .hero {
 	background-image: url("../../assets/background/wave.png");
+	margin-left: auto;
+	margin-right: auto;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .template-2 .hero .header {

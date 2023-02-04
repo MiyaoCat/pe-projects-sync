@@ -11,7 +11,7 @@
 		padding: 40px 60px;
 	}
 
-	.faqs > * {
+	.faqs inner-column > * {
 		max-width: 843px;
 		margin-left: auto;
 		margin-right: auto;

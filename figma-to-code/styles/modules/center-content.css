@@ -5,8 +5,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 50px;
+/*	padding-top: 60px;*/
+/*	padding-bottom: 50px;*/
 }
 
 .center-content .sub-header {
@@ -19,7 +19,7 @@
 }
 @media (min-width: 700px) {
 	.center-content {
-		padding: 120px 0;
+/*		padding: 120px 0;*/
 	}
 
 	.center-content .sub-header {

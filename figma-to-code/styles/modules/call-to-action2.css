@@ -1,4 +1,4 @@
-.template-2 .call-to-action {
+.template-2 .call-to-action inner-column {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -12,6 +12,9 @@
 	background-color: var(--primary-light);
 }
 
+.template-2 .call-to-action .header {
+	margin-bottom: 20px;
+}
 .template-2 .buttons {
 	display: flex;
 	flex-direction: column;
