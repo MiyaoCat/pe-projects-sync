@@ -1,33 +1,52 @@
 .template-3 .email-signup {
 	display: flex;
+	align-items: center;
 }
 .template-3 .hero email-signup {
 	display: flex;
+	align-items: center;
 }
 
-.template-3 .hero .button button.contained.large.rounded {
-		background-color: var(--ink);
+.template-3 .hero .svg {
+	padding: 5px 2px 5px 20px;
+	background-color: var(--primary-dark);
+	border-radius: 5px 0 0 5px;
+}
+
+.template-3 .hero email-signup input {
+	padding: 10px;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	background-color: var(--primary-dark);
+	color: var(--border);
+}
+
+.template-3 .hero email-signup input:focus {
+	outline: none;
+}
+
+.template-3 .hero email-signup input::placeholder {
+	color: var(--border);
+}
+
+.template-3 .hero button.contained.large.rounded {
+		background-color: var(--border);
 		color: var(--primary);
-		border: 2px solid var(--ink);
-	}
-
-
-.template-3 .hero .button button.contained.large.rounded {
-/*		align-items: center;
 		border-radius: 5px;
-		padding: 8px 22px;
-		height: 35px;
-		
-		font-weight: 500;
-		font-size: var(--font-med);
-		line-height: 19px;
-		text-align: center;
-		letter-spacing: 0.46px;
-		height: 35px;
-		color: var(--primary);*/
-
-
-		background-color: var(--ink);
-		color: var(--primary);
-		border-radius: 0 5px 5px 0;
+		padding: 10px 10px;
+		border: none;
+		padding-bottom: 12px;
+		line-height: 15px;
+		margin-left: 10px;
 	}
+
+@media(min-width: 700px) {
+	.template-3 .hero email-signup .svg {
+		padding-right: 8px;
+	}
+
+	.template-3 .hero email-signup input {
+		padding: 10px 100px 10px 0;
+		min-width: 80px;
+	}
+}
