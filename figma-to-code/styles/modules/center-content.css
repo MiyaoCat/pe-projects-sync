@@ -16,6 +16,9 @@
 
 .center-content .video {
 	margin-top: 20px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 @media (min-width: 700px) {
 	.center-content {

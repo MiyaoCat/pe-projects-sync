@@ -30,12 +30,37 @@
 		{
 			"type": "center-content",
 			"header": "Etiam nulla lfulputate.",
-			"sub-header": "Neque, pulvinar vestibulum non aliquam.",
+			"sub-header": "",
 			"sub-header2": "Rhoncus, accumsan dictum",
 			"components": [
 				{
-					"type": "video-placeholder",
-					"source": "./assets/images/video-placeholder.jpg"
+					"type": "button",
+					"style": "text",
+					"size": "large",
+					"corners": "",
+					"text": "See All",
+					"arrow": "./assets/icons/select-all.svg",
+					"arrow-direction": ""
+				},
+				{
+					"type": "feature-list",
+					"list": [
+						{
+							"number": 1,
+							"title": "Nibh mattis gravida",
+							"detail": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu"
+						},
+						{
+							"number": 1,
+							"title": "Nibh mattis gravida",
+							"detail": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu"
+						},
+						{
+							"number": 1,
+							"title": "Nibh mattis gravida",
+							"detail": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu"
+						}
+					]
 				}
 			]
 		},

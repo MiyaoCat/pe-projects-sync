@@ -1,3 +1,9 @@
+.template-3 .hero {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: var(--primary);
+}
+
 .template-3 .hero inner-column {
 	display: flex;
 	flex-direction: column;
@@ -5,10 +11,6 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	
-	padding-top: 60px;
-	padding-bottom: 50px;
-	background-color: var(--primary);
 }
 
 
@@ -17,17 +19,15 @@
 	margin: 0 15px;
 	color: var(--ink);
 	text-transform: uppercase;
-	font-family: Inter;
-	font-size: 36px;
 	font-weight: 700;
-	line-height: 45px;
+	line-height: 50px;
 	letter-spacing: 3.2px;
 }
 
 .template-3 .hero .teaser  {
 	max-width: 733px;
 	color: var(--ink);
-	margin: 20px 15px 35px 15px;
+	margin: 40px 15px 60px 15px;
 }
 
 .template-3 .hero .buttons {
@@ -42,6 +42,9 @@
 		padding-bottom: 195px;
 	}
 
+	.template-3 .hero .header {
+		line-height: 70px;
+	}
 	.template-3 .hero .teaser  {
 		margin-top: 25px;
 		margin-bottom: 45px;
@@ -53,5 +56,21 @@
 		margin-left: auto;
 		margin-right: auto;
 		gap: 30px;
+	}
+}
+
+@media (min-width: 900px) {
+	.template-3 .hero {
+		padding-top: 170px;
+		padding-bottom: 150px;
+	}
+
+	.template-3 .hero .header {
+		font-size: 64px;
+		line-height: 80px;
+	}
+
+	.template-3 .hero .teaser  {
+		margin-bottom: 55px;
 	}
 }

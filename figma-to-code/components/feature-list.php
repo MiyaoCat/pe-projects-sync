@@ -5,21 +5,22 @@
 			foreach($component["list"] as $listItem) {
 				$title = $listItem["title"];
 				$detail = $listItem["detail"];
-				$source = $listItem["source"];
+				
 		?>
 
-				<li class="feature-item">
-					
-					<feature-card>
-						<div class="numbers icon"><?php include($source); ?></div>
-						
-						<div class="content-wrap">
-							<h3 class="raised-voice"><?=$title?></h3>
-							<p class="normal-voice"><?=$detail?></p>
-						</div>
-					</feature-card>
+			<li class="feature-item">
+				
+				<feature-card>
+					<?php if( isset($listItem["source"]) ) {?>
+					<div class="numbers icon"><?php include($listItem["source"]); ?></div>
+					<?php } ?>
+					<div class="content-wrap">
+						<h3 class="raised-voice"><?=$title?></h3>
+						<p class="normal-voice"><?=$detail?></p>
+					</div>
+				</feature-card>
 
-				</li>
+			</li>
 
 		<?php } ?>
 	</ol>

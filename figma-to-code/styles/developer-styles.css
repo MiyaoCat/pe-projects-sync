@@ -11,3 +11,11 @@ picture img {
 picture {
 	background-color: var(--shadow);
 }
+
+section {
+	border: 1px solid red;
+}
+
+section + section {
+	margin-top: 2px;
+}

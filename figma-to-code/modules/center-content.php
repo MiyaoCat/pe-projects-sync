@@ -26,15 +26,6 @@
 					</div>
 					<?php } ?>
 				<?php } ?>
-		
-			<?php 
-				foreach($components as $component) {
-					if($component["type"] == "button") {
-			?>
-					<?php include("components/$component[type].php"); ?>	
-				
-					<?php } ?>
-				<?php } ?>
 			
 			<?php 
 				foreach($components as $component) {
@@ -44,4 +35,14 @@
 				
 					<?php } ?>
 				<?php } ?>
+				
+			<?php 
+				foreach($components as $component) {
+					if($component["type"] == "button") {
+			?>
+					<?php include("components/$component[type].php"); ?>	
+				
+					<?php } ?>
+				<?php } ?>
+			
 <?php } ?>	
