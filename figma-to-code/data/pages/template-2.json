@@ -2,7 +2,7 @@
 {	
 	"page": "template-two",
 	"slug": "template-two",
-	"title": "example figma-to-code",
+	"site-header": "data/site-header.json",
 	"modules": [
 		{
 			"type": "hero",

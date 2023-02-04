@@ -6,7 +6,7 @@
 ?>
 
 	<email-signup>
-		<input type="email" placeholder="<?=$placeholder?>">
+		<input type="email" placeholder="<?=$icon?> <?=$placeholder?>"> <?=$icon?>
 	</email-signup>
 
 <?php } ?>
