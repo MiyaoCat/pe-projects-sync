@@ -6,13 +6,22 @@
 	<h1 class="header screaming-voice"><?=$header?></h1>
 	<p class="teaser alert-voice"><?=$subHeader?></p>
 
-	<div class="buttons">
-		<?php foreach($components as $component) {
-			include("components/$component[type].php");
-		} ?>
-	</div>
+	<?php 
+		foreach($components as $component) { 
+			$type = $component["type"];
+	?>
+
+		<div class=<?=$type?>>	
+			<?php include("components/$type.php"); ?>
+		<?php } ?>
+		</div>
 
 <?php } ?>
+	
+
+
+	
+
 
 
 

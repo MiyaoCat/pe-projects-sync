@@ -36,9 +36,13 @@
 		]
 	},
 	{
-		"type": "icon",
-		"source": "assets/icons/globe.svg",
-		"text": "EN"
+		"type": "button",
+		"style": "outline",
+		"size": "large",
+		"corners": "rounded",
+		"text": "Signup",
+		"arrow": "",
+		"arrow-direction": ""
 	},
 	{
 		"type": "button",
