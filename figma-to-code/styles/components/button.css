@@ -18,7 +18,7 @@ button.outline.large.rounded {
 	height: 35px;
 	color: var(--primary);
 }
-
+/* - - CONTAINED LARGE SQUARE ROUNDED - - - */
 button.contained.large.rounded {
 	align-items: center;
 	max-width: 89px;

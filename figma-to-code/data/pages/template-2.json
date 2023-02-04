@@ -2,7 +2,7 @@
 {	
 	"page": "template-two",
 	"slug": "template-two",
-	"site-header": "data/site-header.json",
+	"site-header": "data/site-header2.json",
 	"modules": [
 		{
 			"type": "hero",

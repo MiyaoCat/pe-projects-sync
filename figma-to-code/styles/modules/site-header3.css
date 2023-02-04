@@ -8,7 +8,7 @@
 mast-head {
 	display: flex;
 	align-items:  center;
-	padding: 10px 0;
+	padding: 10px 5px;
 }
 
 mast-head nav {

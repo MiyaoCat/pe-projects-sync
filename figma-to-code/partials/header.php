@@ -25,6 +25,22 @@
 <body class=<?=$page?>>
 	<header class="site-header">
 		<inner-column>
-			<mast-head><?php include("modules/site-header.php"); ?></mast-head>
+			<mast-head>
+
+				<?php 
+					if ($page == "template-1") {
+						include("modules/site-header.php"); 
+					}
+
+					if ($page == "template-2") {
+						include("modules/site-header2.php"); 
+					}
+					
+					if ($page == "template-3") {
+						include("modules/site-header3.php"); 
+					}
+				?>
+					
+			</mast-head>
 		</inner-column>
 	</header>

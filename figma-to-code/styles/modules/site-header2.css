@@ -1,21 +1,15 @@
-.template-1 .site-header, .template-3 .site-header {
-	position: sticky;
-	top: 0;
-	z-index: 9;
-	background-color: var(--paper);
-}
-
 .template-2 .site-header {
 	position: sticky;
 	top: 0;
 	z-index: 9;
 	background-color: var(--primary);
+	color: var(--ink);
 }
 
 mast-head {
 	display: flex;
 	align-items:  center;
-	padding: 10px 0;
+	padding: 10px 5px;
 }
 
 mast-head nav {
@@ -36,6 +30,9 @@ nav ul {
 	align-items: center;
 }
 
+.template-2 .menu svg path {
+	stroke: var(--border);
+}
 @media (min-width: 725px) {
 	mast-head {
 		padding: 15px 50px;
@@ -49,6 +46,9 @@ nav ul {
 		display: flex;
 		gap: 10px;
 	}
+	.template-2 li a {
+		color: var(--border);
+	}
 
 	.menu {
 		display: none;
@@ -58,19 +58,24 @@ nav ul {
 		display: flex;
 	}
 
-	.login span {
+	.template-2 .login span {
 		margin-left: 8px;
 		margin-right: 15px;
 		font-size: 15px;
+		color: var(--ink);
 	}
 
-	.login svg {
+	.template-2 .login svg {
 		max-width: 18px;
+		
 	}
-
-	.login button.contained.medium.rounded {
-/*		max-width: 80px;*/
-/*		padding: 4px 18px;*/
+	.template-2 .login svg path  {
+		stroke: var(--ink);
+	}
+	
+	.template-2 .login button.contained.large.rounded {
+		background-color: var(--ink);
+		color: var(--primary);
 	}
 }
 

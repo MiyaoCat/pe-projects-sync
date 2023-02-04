@@ -1,5 +1,7 @@
 @import 'site-header.css';
+@import 'site-header2.css';
 @import 'site-header3.css';
+
 @import 'hero.css';
 @import 'hero2.css';
 @import 'hero3.css';
@@ -25,3 +27,4 @@
 @import 'faqs3.css';
 
 @import 'site-footer.css';
+@import 'site-footer2.css';
