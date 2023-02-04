@@ -22,8 +22,10 @@
 .template-2 client-details {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	text-align: left;
-	gap: 8px;
+	gap: 10px;
+	margin: 15px 0;
 }
 
 .template-2 client-details img {
@@ -45,6 +47,10 @@
 		line-height: 56px; 
 	}
 
+	.template-2 client-details {
+		margin-top: 25px;
+	}
+	
 	.template-2 client-details img {
 		margin-top: 15px;
 	}

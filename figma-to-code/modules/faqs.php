@@ -1,7 +1,7 @@
 <?php if($type == "faqs") { ?>
 
 	<div class="heading">
-		<h2 class="header attention-voice"><?=$header?></h2>
+		<h2 class="header attention-voice"><?=ucwords($header)?></h2>
 		<p class="teaser alert-voice"><?=$subHeader?></p>
 	</div>	
 

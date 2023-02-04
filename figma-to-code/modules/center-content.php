@@ -14,7 +14,7 @@
 			<p class="alert-voice"><?=$module['sub-header2']?></p>
 		<?php } ?>
 
-		<h2 class="sub-header attention-voice"><?=$header?></h2>
+		<h2 class="sub-header attention-voice"><?=ucwords($header)?></h2>
 		<p class="info alert-voice"><?=$subHeader?></p>
 		
 			<?php 

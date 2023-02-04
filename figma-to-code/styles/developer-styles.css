@@ -19,3 +19,7 @@ section {
 section + section {
 	margin-top: 2px;
 }
+
+review-card {
+	border: 1px solid blue;
+}

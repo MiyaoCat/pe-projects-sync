@@ -99,7 +99,6 @@
 					"review": "“Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.”",
 					"avatar": "./assets/images/avatar.jpg",
 					"name": "Courtney Henry"
-
 				},
 				{
 					"type": "client-review-card",
@@ -107,7 +106,6 @@
 					"review": "“Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.”",
 					"avatar": "./assets/images/avatar.jpg",
 					"name": "Courtney Henry"
-
 				},
 				{
 					"type": "icon",

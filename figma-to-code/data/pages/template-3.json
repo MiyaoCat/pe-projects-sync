@@ -66,45 +66,48 @@
 		},
 		{
 			"type": "feature",
-			"header": "Etiam nulla lectus molestie at vulputate",
+			"header": "Etiam nulla lectus amet nunc molestie at vulputate.",
 			"sub-header": "Neque, pulvinar vestibulum non aliquam",
+			"sub-header2": "Rhoncus, accumsan dictum",
 			"components": [
-				{
-					"type": "image-placeholder",
-					"source": "./assets/images/image-placeholder.jpg"
-				},
 				{
 					"type": "feature-list",
 					"list": [
 						{
 							"number": 1,
-							"title": "Sit quam gravida",
-							"detail": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
-							"source": "./assets/icons/circle-1.svg"
+							"title": "Et, odio elementum",
+							"detail": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+							"source": "./assets/icons/cloud-small.svg"
 						},
 						{
 							"number": 2,
-							"title": "Elementum enim tempus",
-							"detail": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.",
-							"source": "./assets/icons/circle-2.svg"
+							"title": "Massa leo scelerisque",
+							"detail": "Velit nulla eu tortor elit sed. Volutpat ornare mi tempor, hac morbi faucibus. ",
+							"source": "./assets/icons/watch.svg"
 						},
 						{
 							"number": 3,
-							"title": "Tempor egestas augue",
-							"detail": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
-							"source": "./assets/icons/circle-3.svg"
+							"title": "Phasellus non sit",
+							"detail": "Lobortis adipiscing sit senectus id. Rhoncus lacus mi aliquam tortor nibh.",
+							"source": "./assets/icons/youtube.svg"
 						},
 						{
 							"number": 4,
-							"title": "Nulla ac lacinia",
-							"detail": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non.",
-							"source": "./assets/icons/circle-4.svg"
+							"title": "Enim scelerisque dictum",
+							"detail": "Turpis eget ut sed vitae in sapien egestas ultrices feugiat. Elementum platea.",
+							"source": "./assets/icons/temperature.svg"
 						},
 						{
 							"number": 5,
-							"title": "Velit nibh a",
-							"detail": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis.",
-							"source": "./assets/icons/circle-5.svg"
+							"title": "Vulputate et enim",
+							"detail": "Amet, eros nisl vestibulum tincidunt pellentesque. Congue id sapien dictum a.",
+							"source": "./assets/icons/speed.svg"
+						},
+						{
+							"number": 5,
+							"title": "Faucibus eget blandit",
+							"detail": "Tristique viverra lorem nibh eget tellus eget morbi porttitor. Faucibus sit.",
+							"source": "./assets/icons/magnify.svg"
 						}
 					]
 				}
@@ -116,30 +119,16 @@
 			"sub-header": "Neque, pulvinar vestibulum non aliquam.",
 			"components": [
 				{
-					"type": "client-review-card",
-					"rating": "./assets/icons/star.svg",
-					"review": "“Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.”",
-					"avatar": "./assets/images/avatar.jpg",
-					"name": "Courtney Henry"
-
+					"type": "image-placeholder",
+					"source": "./assets/images/image-placeholder.jpg"
 				},
 				{
 					"type": "client-review-card",
-					"rating": "./assets/icons/star.svg",
-					"review": "“Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.”",
-					"avatar": "./assets/images/avatar.jpg",
-					"name": "Courtney Henry"
-
-				},
-				{
-					"type": "icon",
-					"name": "arrow-left",
-					"source": "./assets/icons/arrow-left.svg"
-				},
-				{
-					"type": "icon",
-					"name": "arrow-right",
-					"source": "./assets/icons/arrow-right.svg"
+					"rating": "",
+					"review": "“Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.”",
+					"name": "Courtney Henry",
+					"role": "Marketing Coordinator",
+					"image": "./assets/images/image-placeholder.jpg"
 				}
 			]
 		},

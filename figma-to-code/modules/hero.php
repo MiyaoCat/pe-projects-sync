@@ -4,7 +4,7 @@
 		$background = $module['background'];
 ?>
 
-	<h1 class="header screaming-voice"><?=$header?></h1>
+	<h1 class="header screaming-voice"><?=ucwords($header)?></h1>
 	<p class="teaser alert-voice"><?=$subHeader?></p>
 
 	<?php 
