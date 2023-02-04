@@ -17,8 +17,11 @@ inner-column {
 /*	padding: 0 5px;*/
 }
 
+section {
+	padding: ;
+}
 section + section {
-/*	margin-top: 30px;*/
+	margin-top: 50px;
 }
 
 @media (min-width: 1500px) {
