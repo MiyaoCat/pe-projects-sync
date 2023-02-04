@@ -9,16 +9,21 @@
 				if($component["type"] == "button") {
 					include("components/$component[type].php");
 				}
-			}
+				if($component["type"] == "email-signup") {
+					include("components/$component[type].php");
+				}
+			} 
+
+
 		?>
 	</div>
 
 		<?php  
-			foreach($components as $component) {
-				if($component["type"] == "email-signup") {
-					include("components/$component[type].php");
-				}
-			}
+			// foreach($components as $component) {
+			// 	if($component["type"] == "email-signup") {
+			// 		include("components/$component[type].php");
+			// 	}
+			// }
 		?>
 
 		<?php  
