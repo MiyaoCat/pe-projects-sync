@@ -12,6 +12,21 @@
 	background-color: var(--primary-light);
 }
 
+.template-1 .call-to-action .header {
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+.template-1 .call-to-action .buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	max-width: 175px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media (min-width: 700px) {
 	.template-1 .call-to-action {
 		max-width: 1200px;

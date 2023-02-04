@@ -13,12 +13,18 @@
 }
 
 .template-2 .call-to-action .header {
-	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 35px;
 }
-.template-2 .buttons {
+
+.template-2 .call-to-action .buttons {
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
+	max-width: 175px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media (min-width: 700px) {
@@ -30,8 +36,9 @@
 		margin: 80px auto;
 	}
 
-	.template-2 .buttons {
+	.template-2 .call-to-action .buttons {
 		flex-direction: row;
 		gap: 20px;
+		justify-content: center;
 	}
 }
