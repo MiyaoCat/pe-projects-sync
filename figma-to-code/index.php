@@ -1,7 +1,7 @@
 <?php include("partials/header.php"); ?>
 
 <main>
-<inner-column>
+<!-- <inner-column> -->
 	<?php
 		$page = "home";
 		if ( isset($_GET["page"]) ) {
@@ -24,11 +24,13 @@
 				$components = $module['components'];
 	?>	
 		<section class="<?=$type?>">
-			<?php include("modules/$type.php"); ?>
+			<inner-column>
+				<?php include("modules/$type.php"); ?>
+			</inner-column>
 		</section>
 <?php } ?>
 	<?php } ?>
-</inner-column>
+<!-- </inner-column> -->
 </main>
 
 
