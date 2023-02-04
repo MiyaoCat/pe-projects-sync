@@ -1,0 +1,37 @@
+.template-3 .call-to-action inner-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 30px;
+	gap: 25px;
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: var(--primary-light);
+}
+
+.template-3 .call-to-action .header {
+	margin-bottom: 20px;
+}
+.template-3 .buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+@media (min-width: 700px) {
+	.template-3 .call-to-action {
+		max-width: 1200px;
+		max-height: 376px;
+		padding: 60px 91px;
+		gap: 48px;
+		margin: 80px auto;
+	}
+
+	.template-3 .buttons {
+		flex-direction: row;
+		gap: 20px;
+	}
+}

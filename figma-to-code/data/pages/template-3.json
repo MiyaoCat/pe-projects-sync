@@ -176,17 +176,18 @@
 		},
 		{
 			"type": "call-to-action",
-			"header": "Etiam nulla lectus amet nunc molestie at vulputate.",
-			"sub-header": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"header": "Etiam nulla lectus amet nunc",
+			"sub-header": "Etiam nulla lectus amet nunc ",
 			"components": [
 				{
-					"type": "button",
-					"style": "contained",
-					"size": "large",
-					"corners": "square",
-					"text": "Get free quotes",
-					"arrow": "./assets/icons/arrow-right-small.svg",
-					"arrow-direction": "right"
+					"type": "email-signup",
+					"placeholder-text": "Email Address",
+					"icon": "./assets/icons/envelope.svg",
+					"button": "./components/button.php"
+				},
+				{
+					"type": "image-placeholder",
+					"source": "./assets/images/image-placeholder.jpg"
 				}
 			]
 		}
