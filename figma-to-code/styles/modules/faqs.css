@@ -1,29 +1,29 @@
-.faqs .heading .header {
+.template-1 .faqs .heading .header {
 	margin-bottom: 16px;
 }
 
-.faqs .heading + .faqs-accordion {
+.template-1 .faqs .heading + .faqs-accordion {
 	margin-top: 25px;
 }
 
 @media (min-width: 700px) {
-	.faqs {
+	.template-1 .faqs {
 		padding: 40px 60px;
 	}
 
-	.faqs inner-column > * {
+	.template-1 .faqs inner-column > * {
 		max-width: 843px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	.faqs .heading + .faqs-accordion {
+	.template-1 .faqs .heading + .faqs-accordion {
 		margin-top: 40px;
 	}
 }
 
 @media (min-width: 900px) {
-	.faqs {
+	.template-1 .faqs {
 		padding: 80px 120px;
 	}
 
