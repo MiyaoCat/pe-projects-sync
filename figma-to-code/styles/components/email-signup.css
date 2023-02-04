@@ -1,0 +1,33 @@
+.template-3 .email-signup {
+	display: flex;
+}
+.template-3 .hero email-signup {
+	display: flex;
+}
+
+.template-3 .hero .button button.contained.large.rounded {
+		background-color: var(--ink);
+		color: var(--primary);
+		border: 2px solid var(--ink);
+	}
+
+
+.template-3 .hero .button button.contained.large.rounded {
+/*		align-items: center;
+		border-radius: 5px;
+		padding: 8px 22px;
+		height: 35px;
+		
+		font-weight: 500;
+		font-size: var(--font-med);
+		line-height: 19px;
+		text-align: center;
+		letter-spacing: 0.46px;
+		height: 35px;
+		color: var(--primary);*/
+
+
+		background-color: var(--ink);
+		color: var(--primary);
+		border-radius: 0 5px 5px 0;
+	}

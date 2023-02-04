@@ -11,19 +11,15 @@
 			$arrowDirection = $component["arrow-direction"];
 ?>
 	<button class="<?=$buttonStyle?> <?=$buttonSize?> <?=$buttoncorners?> <?=$arrowDirection?>">
-
 	
-		<!-- <div class="button-info"> -->
 			<div class="button-text"><?=$buttonText?></div>
 			
-			<div class="arrow">
-				<?php 
-					if( $component["arrow"] != "" ) {
-						include($component["arrow"]);
-					} 
-				 ?>
-			</div>
-		<!-- </div> -->
+		<?php if( $component["arrow"] != "" ) {?>	
+			<div class="arrow">	
+				<?php	include($component["arrow"]); ?>
+			</div>	
+		<?php } ?>
+
 	</button>
 
 <?php } ?>

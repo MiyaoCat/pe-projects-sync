@@ -1,12 +1,14 @@
-<?php  
-	if($component["type"] == "email-signup") {
-		$placeholder = $component["placeholder-text"];
-		$icon = $component["icon"];
-		$button = $component["button"];
-?>
+<email-signup>
 
-	<email-signup>
-		<input type="email" placeholder="<?=$icon?> <?=$placeholder?>"> <?=$icon?>
-	</email-signup>
+	<?php  
+		if($component["type"] == "email-signup") {
+			$placeholder = $component["placeholder-text"];
+			$icon = $component["icon"];
+			
+			include($icon);
+	?>
+			<input type="email" placeholder=" <?=$placeholder?>"> 
+			
+	<?php } ?>
 
-<?php } ?>
+</email-signup>

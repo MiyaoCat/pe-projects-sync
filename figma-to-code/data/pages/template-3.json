@@ -15,6 +15,15 @@
 					"placeholder-text": "Email Address",
 					"icon": "./assets/icons/envelope.svg",
 					"button": "./components/button.php"
+				},
+				{
+					"type": "button",
+					"style": "contained",
+					"size": "large",
+					"corners": "rounded",
+					"text": "SignUp",
+					"arrow": "",
+					"arrow-direction": ""
 				}
 			]
 		},
