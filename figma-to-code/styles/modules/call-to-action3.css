@@ -23,8 +23,6 @@
 
 @media (min-width: 700px) {
 	.template-3 .call-to-action {
-		max-width: 1200px;
-		max-height: 376px;
 		padding: 60px 91px;
 		gap: 48px;
 		margin: 80px auto;

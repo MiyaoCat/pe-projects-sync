@@ -186,6 +186,15 @@
 					"button": "./components/button.php"
 				},
 				{
+					"type": "button",
+					"style": "contained",
+					"size": "large",
+					"corners": "rounded",
+					"text": "SignUp",
+					"arrow": "",
+					"arrow-direction": ""
+				},
+				{
 					"type": "image-placeholder",
 					"source": "./assets/images/image-placeholder.jpg"
 				}
