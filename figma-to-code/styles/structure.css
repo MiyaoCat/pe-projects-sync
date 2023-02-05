@@ -14,18 +14,10 @@ inner-column {
 	max-width: var(--wide); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
-/*	padding: 0 5px;*/
 }
 
-section {
-	padding: ;
-}
 section + section {
-	margin-top: 70px;
-}
-
-@media (min-width: 700px) {
-
+	margin-top: 60px;
 }
 
 @media (min-width: 900px) {
