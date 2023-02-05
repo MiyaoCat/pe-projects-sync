@@ -23,7 +23,8 @@
 					"type": "button",
 					"style": "outline",
 					"size": "large",
-					"corners": "square",					
+					"corners": "square",				
+						
 					"text": "Start Free Trial",
 					"arrow": "",
 					"arrow-direction": ""
