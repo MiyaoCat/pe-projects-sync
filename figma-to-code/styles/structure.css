@@ -24,6 +24,16 @@ section + section {
 	margin-top: 50px;
 }
 
+@media (min-width: 700px) {
+
+}
+
+@media (min-width: 900px) {
+	section + section {
+		margin-top: 80px;
+	}
+}
+
 @media (min-width: 1500px) {
 	inner-column {
 		max-width: var(--standard);

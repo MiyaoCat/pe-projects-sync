@@ -15,6 +15,7 @@
 .template-1 .call-to-action .header {
 	margin-top: 20px;
 	margin-bottom: 35px;
+	max-width: 900px;
 }
 
 .template-1 .call-to-action .buttons {
@@ -28,9 +29,9 @@
 }
 
 @media (min-width: 700px) {
-	.template-1 .call-to-action {
+	.template-1 .call-to-action inner-column {
 		max-width: 1200px;
-		max-height: 376px;
+
 		padding: 60px 91px;
 		gap: 48px;
 		margin: 80px auto;

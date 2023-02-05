@@ -5,7 +5,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	padding: 60px 10px;
+	padding: 60px 0;
 	gap: 30px;	
 }
 .template-1 .feature .main-content {
@@ -20,7 +20,7 @@
 	.template-1 .feature inner-column {
 		flex-direction: row;
 		align-items: stretch;
-		padding: 0 10px;
+		padding: 0 0;
 	}
 
 	.template-1 .feature .main-content  {

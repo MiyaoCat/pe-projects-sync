@@ -9,12 +9,9 @@
 
 .template-1 feature-card .numbers.icon {
 	margin-right: 5px;
-/*	margin-top: auto;*/
-/*	margin-bottom: auto;*/
 }
 
 .template-1 feature-card .numbers.icon svg {
-/*	transform: translateY(19%);*/
 	min-width: 35px;
 }
 

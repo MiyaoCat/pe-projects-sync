@@ -17,9 +17,7 @@
 .template-2 .feature .info {
 	margin: 15px 0;
 }
-.template-2 .feature .feature-cards {
-	margin: 0 10px;
-}
+
 @media (min-width: 700px) {
 	.template-2 .feature {
 		padding: 80px 0;	

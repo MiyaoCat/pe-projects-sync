@@ -13,6 +13,9 @@
 	padding-bottom: 70px;
 }
 
+.template-2 .hero inner-column > * {
+	max-width: 90vw;
+}
 .template-2 .hero {
 	background-image: url("../../assets/background/wave.png");
 	margin-left: auto;

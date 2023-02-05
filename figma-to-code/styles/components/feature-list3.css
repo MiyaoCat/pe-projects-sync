@@ -2,9 +2,6 @@
 	margin-top: 10px;
 }
 
-.template-3 .feature-item {
-	padding: 8px;
-}
 
 .template-3 feature-card .content-wrap {
 	display: flex;
@@ -14,11 +11,10 @@
 }
 
 
-
 .template-3 feature-card {
 	display: flex;
 	gap: 10px;
-	max-width: 80%;
+
 	margin-left: auto;
 	margin-right: auto;
 }
