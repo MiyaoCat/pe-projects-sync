@@ -24,12 +24,9 @@
 
 .template-2 feature-card .numbers.icon {
 	margin-right: 5px;
-/*	margin-top: auto;*/
-/*	margin-bottom: auto;*/
 }
 
 .template-2 feature-card .numbers.icon svg {
-/*	transform: translateY(19%);*/
 	min-width: 35px;
 }
 
@@ -56,6 +53,7 @@
 	.template-2 feature-card {
 		display: flex;
 		flex-direction: column;
+		padding: 0 10px 5px 10px;
 	}
 
 	.template-2 .icon svg {

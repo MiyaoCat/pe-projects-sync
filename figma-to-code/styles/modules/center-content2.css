@@ -7,9 +7,7 @@
 	text-align: center;
 	padding-top: clamp(60px, 10vh, 120px);
 	padding-bottom: clamp(50px, 10vh, 120px);
-	max-width: 956px;
 }
-
 
 .template-2 .center-content .icon svg {
 	width: clamp(50px, 8vw, 100px);
@@ -35,5 +33,11 @@
 	.template-2 .center-content .sub-header {
 		margin-top: 24px;
 		margin-bottom: 32px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.template-2 .center-content inner-column {
+		max-width: 950px;
 	}
 }

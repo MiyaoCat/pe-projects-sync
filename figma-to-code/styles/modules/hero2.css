@@ -25,7 +25,7 @@
 }
 
 .template-2 .hero .header {
-	max-width: 974px;
+/*	max-width: 974px;*/
 }
 
 .template-2 .hero .teaser  {
@@ -45,7 +45,9 @@
 		padding-top: 120px;
 		padding-bottom: 265px;
 	}
-
+	.template-2 .hero .header {
+		max-width: 974px;
+	}
 	.template-2 .hero .teaser  {
 		margin-top: 25px;
 		margin-bottom: 45px;

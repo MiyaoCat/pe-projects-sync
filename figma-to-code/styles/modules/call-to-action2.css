@@ -41,4 +41,11 @@
 		gap: 20px;
 		justify-content: center;
 	}
+	.template-2 .call-to-action .contained.large.square.right {
+		min-width: 210px;
+	}
+	
+	.template-2 .call-to-action button.outline.large.square.right {
+		min-width: 210px;
+	}
 }

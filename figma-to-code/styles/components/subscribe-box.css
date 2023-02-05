@@ -1,8 +1,7 @@
 .subscribe-box {
 	background-color: var(--primary-dark);
-	min-height: 256px;
-	min-width: 338px;
-	padding: 30px 42px 35px 42px;
+
+	padding: 30px 20px 35px 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -39,3 +38,10 @@
 	border-radius: 0 5px 5px 0;
 }
 
+@media (min-width: 400px) {
+	.subscribe-box {
+		min-height: 256px;
+		min-width: 338px;
+		padding: 30px 42px 35px 42px;
+	}
+}
