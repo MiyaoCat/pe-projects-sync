@@ -14,7 +14,7 @@ a {
 
 p a {
 	display: inline;
-	color: blue;
+/*	color: blue;*/
 	text-decoration: underline;
 }
 

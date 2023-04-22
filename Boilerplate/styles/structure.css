@@ -21,18 +21,6 @@ inner-column {
 	inner-column {
 		width: var(--tight);
 	}
-	.heading inner-column {
-		width: var(--wide);
-		text-align: center;
-	}
 }
 
-inner-column.tight {
-	max-width: var(--tight);
-}
 
-.site-header {
-	position: sticky;
-	top: 0;
-	z-index: 5;
-}

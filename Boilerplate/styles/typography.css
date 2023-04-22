@@ -28,32 +28,33 @@ a:hover {
 /* Main header or banner text or similar */
 .screaming-voice {
 	font-family: var(--marker);
-	font-size: clamp(60px, 8vw, 160px);
+	font-size: clamp(40px, 7.5vw, 140px);
 }
 
 /* Header text or similar */
 .loud-voice {
-
+	font-size: 30px;
 }
 
 /* Sub-header text or similar */
 .attention-voice {
 	font-family: var(--sans-serif);
+	font-size: 26px;
 }
 
 /* Paragraph text or similar */
 .normal-voice {
-
+	font-size: 16px;
 }
 
 /* Caption text or similar */
 .calm-voice {
-
+	font-size: 12px;
 }
 
 /* Fine print text or similar */
 .quiet-voice {
-
+	font-size: 10px;
 }
 
 :is(.calm-voice, p) em {
@@ -67,10 +68,3 @@ a:hover {
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now */
 /* or smaller group of article-like styles such as a <text-content> custom element */
-p + p {
-	margin-top: ;
-}
-
-h2 + p {
-	margin-top: ;
-}
