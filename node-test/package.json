@@ -1,0 +1,23 @@
+{
+  "name": "my-node-project",
+  "version": "0.0.0",
+  "description": "Practice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-me",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "author": "@miyaocodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
