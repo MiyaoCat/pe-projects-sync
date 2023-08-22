@@ -36,7 +36,7 @@ function GroceryList() {
 	},
 
 	this.update = function(idToSearch, updatedItem) {
-		counst found = this.findById(idToSearch);
+		const found = this.findById(idToSearch);
 
 		if (found) {
 			this.display(`Updated ${found.item} to ${updatedItem}`)

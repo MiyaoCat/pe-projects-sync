@@ -1,19 +1,22 @@
-import { URL } from 'url';
+import playerData from './playerData.json' assert { type: 'json' };
+
+import { URL } from 'node:url';
 const __dirname = new URL ('.', import.meta.url).pathname;
+
 import express from 'express';
+const PORT = 1950;
+
 
 const app = express();
-const PORT = 1986;
 
-// Setup EJS view engine. EJS allows for .render method
 app.set('view engine', 'ejs');
 
-// Automatically serve up static files in the public directory
+// SERVE STATIC FILES
 app.use(express.static('public'));
 
-// Page Routing
+// PAGE ROUTING
 app.get('/', function(request, response) {
-	response.render('home', { pageName: 'The Home Page' } );
+	response.render('home', { playerData } );
 });
 
 app.get('/about', function(request, response) {
@@ -28,10 +31,10 @@ app.get('/api', function(request, response) {
 	response.send({ "name": "John" });
 });
 
-// If not route defined
 app.use( function(request, response) {
-  response.status(404).send("Sorry can't find that!")
-})
+	response.status(404).send("<h1>Sorry! Can't find that page!</h1>")
+});
 
-// Start app
-app.listen(PORT);
+app.listen(PORT, function() {
+	console.log('App listening on port ' + PORT);
+});
