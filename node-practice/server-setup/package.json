@@ -1,0 +1,19 @@
+{
+  "name": "server-setup-practice",
+  "version": "0.0.1",
+  "description": "practicing server setup, request/response",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "server",
+    "request",
+    "response",
+    "miyao"
+  ],
+  "author": "miyaomix",
+  "license": "ISC"
+}
