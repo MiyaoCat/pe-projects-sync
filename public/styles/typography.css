@@ -1,0 +1,110 @@
+
+html {
+	--sans-serif: Rubik, Helvetica;
+	--serif: Noto Serif Display, Old Standard TT, Times New Roman;
+}
+
+a {
+	font-family: var(--sans-serif);
+	font-weight: 500;
+	letter-spacing: .06rem;
+	color: var(--standout);
+}
+
+b {
+	font-weight: 700;
+}
+
+/* Main header or banner text or similar */
+.screaming-voice {
+	font-family: var(--sans-serif);
+	font-size: clamp(40px, 7vw, 75px);
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -.045em;
+	line-height: .8em;
+}
+
+/* Header text or similar */
+.loud-voice {
+	font-family: var(--sans-serif);
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+/* Sub-header text or similar */
+.attention-voice {
+	font-family: var(--sans-serif);
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+/* Sub-header text or similar */
+.alert-voice {
+	font-family: var(--sans-serif);
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+/* Paragraph text or similar */
+.normal-voice {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+/* Caption text or similar */
+.calm-voice {
+	font-size: .9rem;
+}
+
+/* Fine print text or similar */
+.quiet-voice {
+	font-size: .6rem;
+}
+
+.title {
+	font-family: var(--sans-serif);
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.special {
+	font-family: var(--sans-serif);
+	font-weight: 600;
+	line-height: 1.5em;
+	color: var(--standout);
+}
+/* - - SITE MENU - - */
+/*.site-menu a {
+	font-size: .9rem;
+}
+
+.calm-voice, p, li {
+	font-family: var(--sans-serif);
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.2;
+	letter-spacing: .05rem;
+}
+
+.calm-voice, articles-intro p {
+	font-family: var(--sans-serif);
+	font-size: clamp(.8rem 2vw 1.1rem);
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 1.4;
+	letter-spacing: .05rem;
+}
+
+:is(.calm-voice, p, li) em {
+	font-style: italic;
+}
+
+:is(.calm-voice, p, li) strong {
+	font-weight: 700;
+}
+*/
+
+
+

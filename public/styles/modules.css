@@ -1,0 +1,12 @@
+@import "../partials/footer/footer.css";
+@import "../partials/header/header.css";
+@import "../modules/page-header/page-header.css";
+@import "../modules/generic-text/generic-text.css";
+@import "../modules/project-card/project-card.css";
+@import "../modules/social-icons/social-icons.css";
+@import "../modules/projects-spotlight/projects-spotlight.css";
+@import "../modules/figure/figure.css";
+@import "../modules/button/button.css"; 
+@import "../modules/email-form/email-form.css"; 
+@import "../modules/sub-header/sub-header.css"; 
+@import "../modules/module-template/module-template.css"; 
