@@ -22,7 +22,6 @@ const server = http.createServer( function(request, response) {
 	response.write("I'm a webpage!!!");
 	response.write("<h1>I'm not webpage!!!</h1>");
 	// response.write( JSON.stringify(person) );
-	
 	response.end();
 
 	
