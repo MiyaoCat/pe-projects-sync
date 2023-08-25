@@ -16,8 +16,10 @@ const server = http.createServer( function(request, response) {
 	}
 
 	fileSystem.readFile(pagePath, function(error, data) {
-		if (error) return console.log(error);
-
+		if (error) {
+			return console.log("ERROR!", error);
+			response.statusCode = 404;
+		}	
 		response.statusCode = 200;
 		response.setHeader('Content-Type', 'text/html');
 		response.write( data, 'utf-8' );

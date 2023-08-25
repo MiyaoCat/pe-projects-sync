@@ -1,0 +1,17 @@
+{
+  "name": "express-app",
+  "version": "0.0.1",
+  "description": "practice with express and node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "miyaooooomix",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
