@@ -25,7 +25,7 @@ app.get('/team', function(request, response) {
 });
 
 app.get('/api', function(request, response) {
-	response.send( {"name": "De'Aaron Fox"} );
+	response.send( {"names": ["De'Aaron Fox", "Malik Monk", "Keegan Murray"]} );
 });
 
 //This is like an 'else' statement. If none of the above work, then use this statement
