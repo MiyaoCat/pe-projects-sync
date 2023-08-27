@@ -1,14 +1,17 @@
 [
 	{
 		"id": 0,
+		"slug": "bunchy",
 		"name": "Bunchy"
 	},
 	{
 		"id": 1,
+		"slug": "crunchy",
 		"name": "Crunchy"
 	},
 	{
 		"id": 2,
+		"slug": "lumpy",
 		"name": "Lumpy"
 	}
 ]
