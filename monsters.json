@@ -1,17 +1,42 @@
 [
 	{
 		"id": 0,
-		"slug": "bunchy",
-		"name": "Bunchy"
+		"slug": "bang",
+		"name": "Bang",
+		"color": "green",
+		"portrait": "green.png",
+		"adopted": true
 	},
 	{
 		"id": 1,
-		"slug": "crunchy",
-		"name": "Crunchy"
+		"slug": "nawt",
+		"name": "Nawt",
+		"color": "red",
+		"portrait": "red.png",
+		"adopted": false
 	},
 	{
 		"id": 2,
-		"slug": "lumpy",
-		"name": "Lumpy"
+		"slug": "blanco",
+		"name": "Blanco",
+		"color": "blue",
+		"portrait": "blue.png",
+		"adopted": false
+	},
+	{
+		"id": 3,
+		"slug": "bupkus",
+		"name": "Bupkus",
+		"color": "purple",
+		"portrait": "purple.png",
+		"adopted": true
+	},
+	{
+		"id": 4,
+		"slug": "pound",
+		"name": "Pound",
+		"color": "orange",
+		"portrait": "orange.png",
+		"adopted": true
 	}
 ]

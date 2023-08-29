@@ -1,7 +1,15 @@
 <%- include('header.ejs') %>
 
-<header class="loud-voice">
-	<h1><%=monster.name%></h1>
-</header>
+<section>
+	<inner-column>
+
+		<picture>
+			<img src="/assets/monsters/<%=monster.portrait%>" alt="">
+		</picture>
+
+		<h3 class="attention-voice"><%=monster.name%></h3>
+	
+	</inner-column>
+</section>
 
 <%- include('footer.ejs') %>

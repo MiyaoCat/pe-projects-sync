@@ -1,16 +1,17 @@
 <%- include('header.ejs') %>
-<header>
-	<h1 class="loud-voice">Monsters Page</h1>
-</header>
 
 <section>
 	<inner-column>
+		<h1 class="loud-voice">Monsters Page</h1>
+
 		<ul>
 			<% monsters.forEach( function(monster) { %>
-			<li>
-				<a href="monster/<%= monster.slug%>"><%= monster.name%></a>
-			</li>
+				<li>
+					<%- include('monster-card.ejs', {monster}) %>	
+				</li>
 			<% }); %>
 		</ul>
 	</inner-column>
 </section>
+
+<%- include('footer.ejs') %>
