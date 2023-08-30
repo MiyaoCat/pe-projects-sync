@@ -1,0 +1,376 @@
+/* P reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Setup */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+} /* https://www.paulirish.com/2012/box-sizing-border-box-ftw */
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+p a {
+  display: inline;
+  color: blue;
+  text-decoration: underline;
+}
+
+picture {
+  display: block;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+svg {
+  display: block;
+  width: 100%;
+}
+
+/* Ssetings */
+html {
+  --black: #111111;
+  --white: #FFF;
+  --color: #5E321F;
+  --highlight: #aadee9;
+  --shadow: rgba(0,0,0,.8);
+  --corners: 10px; /* or whatevers */
+  --standard: 1140px;
+  --tight: 800px;
+  --wide: 98vw;
+  --paper: hsl(37, 32%, 92%); /* light brown */
+  --ink: black;
+  --highlight: hsl(360, 100%, 39%); /* red */
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --paper: hsl(28, 17%, 30%); /* dark brown */
+    --ink: white;
+    --highlight: yellow;
+  }
+  .logo {
+    fill: white;
+  }
+}
+body * {
+  border: 1px solid lightgray;
+  padding: 4px;
+}
+
+section:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+/*picture img {
+	opacity: 0;
+}
+
+picture {
+	background-color: var(--shadow);
+}
+*/
+/* Structure */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* be at least a full viewport height */
+}
+
+main {
+  flex-grow: 1; /* fill up available space + push the footer down */
+}
+
+inner-column {
+  display: block;
+  max-width: var(--wide); /* could be a variable in settings */
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 5px;
+}
+
+inner-column.tight {
+  max-width: var(--tight);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+/* Typography */
+html {
+  --marker: Permanent Marker, Noto Serif;
+  --sans-serif: Encode Sans, Helvetica;
+  --serif: Noto Serif Display, Old Standard TT, Times New Roman;
+}
+
+a {
+  font-family: var(--sans-serif);
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--highlight);
+}
+
+@media (prefers-color-scheme: dark) {
+  a:hover {
+    color: var(--highlight);
+  }
+}
+/* Main header or banner text or similar */
+.screaming-voice {
+  font-family: var(--marker);
+  font-size: clamp(60px, 8vw, 160px);
+}
+
+/* Header text or similar */
+.loud-voice {
+  font-family: var(--sans-serif);
+  font-size: 3em;
+}
+
+/* Sub-header text or similar */
+.attention-voice {
+  font-family: var(--sans-serif);
+  font-size: 1.5em;
+}
+
+/* Paragraph text or similar */
+/* Caption text or similar */
+/* Fine print text or similar */
+:is(.calm-voice, p) em {
+  font-style: italic;
+}
+
+:is(.calm-voice, p) strong {
+  font-weight: 700;
+}
+
+/* these would be scoped to section or to an article element */
+/* this is just a loose setting for now */
+/* or smaller group of article-like styles such as a <text-content> custom element */
+/* Sections and more 
+stuff */
+monster-card {
+  display: block;
+}
+
+monster-card img {
+  max-width: 400px;
+}
+
+.adopted {
+  border: 2px solid red;
+}
+
+monster-card.green {
+  background-color: hsl(275, 28%, 33%);
+}
+
+monster-card.red {
+  background-color: hsl(98, 46%, 47%);
+}
+
+monster-card.orange {
+  background-color: hsl(203, 86%, 38%);
+}
+
+monster-card.purple {
+  background-color: hsl(38, 94%, 59%);
+}
+
+monster-card.blue {
+  background-color: hsl(354, 56%, 57%);
+}
+
+/* - - - FOOTER - - - */
+footer {
+  padding-bottom: 90px;
+  min-height: 20vh;
+}
+
+footer .footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.socials :is(.twitter, .substack, .linkedin) {
+  max-width: 50px;
+  margin: 0 20px;
+}
+
+.socials :is(.twitter, .substack, .linkedin):hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+/* - - - HEADER - - - */
+.site-header {
+  display: flex;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.site-header .inner-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  min-width: 100vw;
+}
+
+/*
+.site-header img {
+	max-width: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: 15px;
+	/*height: 6vh;
+}*/
+.site-header nav {
+  flex-grow: 1;
+  display: flex;
+  margin: 0 15px;
+  height: 25px;
+}
+
+.site-header ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  gap: 10px;
+}
+
+.site-header li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.logo {
+  max-width: 50px;
+  margin: 5px 0 5px 10px;
+}
+
+/* - - - HEADER LARGE SCREEN - - - */
+/*@media (min-width: 600px) {
+	.site-header .inner-column {
+		height: 14vh;
+	}
+
+	.site-header picture {
+		max-width: 100px;
+		max-height: 100px;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+
+	.site-header nav {
+		margin-left: auto;
+		margin-right: 20px;
+		max-width: 30%;
+	}
+
+	.logo {
+	max-width: 70px;
+	}
+}
+
+*/
+/* then other contextual styles */
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+.heading {
+  color: var(--highlight);
+  margin: 50px 0;
+}
+
+/*# sourceMappingURL=site-minified.css.map */

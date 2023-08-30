@@ -1,0 +1,12 @@
+<%
+	function adoptedStyle() {
+		if (monster.adopted) {
+			return "adopted";
+		}
+	}
+%>
+
+<monster-card class="<%=adoptedStyle()%> <%=monster.color%>">
+	<h3 class="attention-voice"><%=monster.name%></h3>
+	<a href="monster/<%= monster.slug%>">Learn more</a>
+</monster-card>

@@ -1,0 +1,30 @@
+monster-card {
+	display: block;
+}
+monster-card img {
+	max-width: 400px;
+}
+
+.adopted {
+	border: 2px solid red;
+}
+
+monster-card.green {
+	background-color: hsla(275, 28%, 33%, 1.00);
+}
+
+monster-card.red {
+	background-color: hsla(98, 46%, 47%, 1.00);
+}
+
+monster-card.orange {
+	background-color: hsla(203, 86%, 38%, 1.00);
+}
+
+monster-card.purple {
+	background-color: hsla(38, 94%, 59%, 1.00);
+}
+
+monster-card.blue {
+	background-color: hsla(354, 56%, 57%, 1.00);
+}
