@@ -45,17 +45,17 @@ a:hover {
 
 /* Paragraph text or similar */
 .normal-voice {
-
+	font-family: var(--sans-serif);
 }
 
 /* Caption text or similar */
 .calm-voice {
-
+	font-family: var(--sans-serif);
 }
 
 /* Fine print text or similar */
 .quiet-voice {
-
+	font-family: var(--sans-serif);
 }
 
 :is(.calm-voice, p) em {
