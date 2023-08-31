@@ -32,7 +32,15 @@ app.get('/monster/:slug', function(request, response) {
 	response.render('detail', { monster });
 });
 
+app.get('/monsters/:adopted', function(request, response) {
+	
+	const adoptedMonsters = monsterData.find( function(monster) {
+		return monster.adopted == request.params.adopted;
+	})
+	response.render('adopted', { monster });
+});
 
 app.use( function(request, response) {
 	response.status(404).render('404', { query: request.url });
 })
+ 

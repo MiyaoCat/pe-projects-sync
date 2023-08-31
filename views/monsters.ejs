@@ -3,6 +3,17 @@
 <section>
 	<inner-column>
 		<h1 class="loud-voice">Monsters Page</h1>
+		<button id="filter-adopted-button">Filter Adopted</button>
+
+    <ul>
+      <% monsters.filter( function(monster) { 
+          if (monster.adopted) {   
+      %>
+          <li>
+            <p><%=monster.name%></p>
+          </li>
+        <%} }); %>
+    </ul>  
 
 		<ul>
 			<% monsters.forEach( function(monster) { %>
@@ -13,5 +24,8 @@
 		</ul>
 	</inner-column>
 </section>
+
+<script>
+</script>
 
 <%- include('footer.ejs') %>

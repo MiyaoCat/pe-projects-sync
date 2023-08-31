@@ -385,4 +385,8 @@ body {
   margin: 50px 0;
 }
 
+picture {
+  max-width: 500px;
+}
+
 /*# sourceMappingURL=site-minified.css.map */
