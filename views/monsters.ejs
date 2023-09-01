@@ -5,16 +5,6 @@
 		<h1 class="loud-voice">Monsters Page</h1>
 		<button id="filter-adopted-button">Filter Adopted</button>
 
-    <ul>
-      <% monsters.filter( function(monster) { 
-          if (monster.adopted) {   
-      %>
-          <li>
-            <p class='normal-voice'><%=monster.name%></p>
-          </li>
-        <%} }); %>
-    </ul>  
-
 		<ul id='monster-list'>
 			<% monsters.forEach( function(monster) { 
           
