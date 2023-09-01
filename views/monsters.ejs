@@ -10,22 +10,53 @@
           if (monster.adopted) {   
       %>
           <li>
-            <p><%=monster.name%></p>
+            <p class='normal-voice'><%=monster.name%></p>
           </li>
         <%} }); %>
     </ul>  
 
-		<ul>
-			<% monsters.forEach( function(monster) { %>
-				<li>
+		<ul id='monster-list'>
+			<% monsters.forEach( function(monster) { 
+          
+      %>
+				<li data-adopted="<%= monster.adopted %>">
 					<%- include('monster-card.ejs', {monster}) %>	
 				</li>
-			<% }); %>
+			<%  }); %>
 		</ul>
 	</inner-column>
 </section>
 
 <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const filterButton = document.getElementById('filter-adopted-button');
+  const monsterList = document.getElementById('monster-list');
+
+  let showAllMonsters = true; // Flag to track whether all monsters are currently shown
+
+  filterButton.addEventListener('click', function () {
+    // Get all monster list items
+    const monsterItems = monsterList.querySelectorAll('li');
+
+    // Toggle visibility for each monster item
+    monsterItems.forEach(function (monsterItem) {
+      const isAdopted = monsterItem.dataset.adopted === 'true';
+
+      if (showAllMonsters || isAdopted) {
+        // Toggle visibility: Show if all monsters are shown or if it's an adopted monster
+        monsterItem.style.display = 'block';
+      } else {
+        // Hide non-adopted monsters when not showing all monsters
+        monsterItem.style.display = 'none';
+      }
+    });
+
+    // Update the flag to toggle between showing all and filtering adopted monsters
+    showAllMonsters = !showAllMonsters;
+  });
+});
+
 </script>
+
 
 <%- include('footer.ejs') %>
