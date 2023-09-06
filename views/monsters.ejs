@@ -22,7 +22,7 @@
     const filterButton = document.getElementById('filter-adopted-button');
     const monsterList = document.getElementById('monster-list');
 
-    let showAllMonsters = true; // Flag to track whether all monsters are currently shown
+    let showAllMonsters = false; // Flag to track whether all monsters are currently shown
 
     filterButton.addEventListener('click', function () {
       // Get all monster list items
@@ -35,14 +35,22 @@
         if (showAllMonsters || isAdopted) {
           // Toggle visibility: Show if all monsters are shown or if it's an adopted monster
           monsterItem.style.display = 'block';
+          
         } else {
           // Hide non-adopted monsters when not showing all monsters
           monsterItem.style.display = 'none';
+          filterButton.innerHTML = 'Show All';
         }
       });
 
       // Update the flag to toggle between showing all and filtering adopted monsters
       showAllMonsters = !showAllMonsters;
+
+      if (showAllMonsters) {
+        filterButton.textContent = 'Show All';
+      } else {
+        filterButton.textContent = 'Filter Adopted';
+      }
     });
   });
 
