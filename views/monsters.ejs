@@ -3,7 +3,7 @@
 <section>
 	<inner-column>
 		<h1 class="loud-voice">Monsters Page</h1>
-		<button id="filter-adopted-button">Filter </button>
+		<button id="filter-adopted-button">Filter Adopted</button>
 
 		<ul id='monster-list'>
 			<% monsters.forEach( function(monster) { 
@@ -49,7 +49,7 @@
       if (showAllMonsters) {
         filterButton.textContent = 'Show All';
       } else {
-        filterButton.textContent = 'Filter ';
+        filterButton.textContent = 'Filter Adopted';
       }
     });
   });
