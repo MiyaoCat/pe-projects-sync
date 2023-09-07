@@ -3,4 +3,19 @@
 	<h1 class="loud-voice">Home Page</h1>
 </header>
 
+
+<section>
+	<inner-column>
+		<ul>
+			<% content.forEach( function(monster) { 
+				if ( monster.page == "home") {
+      %>
+				<li>
+					<%= monster.content %>	
+				</li>
+			<% } }); %>
+		</ul>
+	</inner-column>
+</section>
+
 <%- include('footer.ejs') %>

@@ -2,6 +2,21 @@
 
 <section>
 	<inner-column>
+		<ul>
+			<% content.forEach( function(monster) { 
+				if ( monster.page == "monsters") {
+      %>
+				<li>
+					<%= monster.content %>	
+				</li>
+			<% } }); %>
+		</ul>
+	</inner-column>
+</section>
+
+
+<section>
+	<inner-column>
 
 		<picture>
 			<img src="/assets/monsters/<%=monster.portrait%>" alt="">

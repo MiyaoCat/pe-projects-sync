@@ -1,8 +1,28 @@
 <%- include('header.ejs') %>
 
+<header>
+  <inner-column>
+    <h1 class="loud-voice">Monsters Page</h1>
+  </inner-column>
+</header>
+
+<section>
+  <inner-column>
+    <ul>
+      <% content.forEach( function(pageContent) { 
+        if ( pageContent.page == "monsters") {
+      %>
+        <li>
+          <%= pageContent.content %>  
+        </li>
+      <% } }); %>
+    </ul>
+  </inner-column>
+</section>
+
 <section>
 	<inner-column>
-		<h1 class="loud-voice">Monsters Page</h1>
+
 		<button id="filter-adopted-button">Filter Adopted</button>
 
 		<ul id='monster-list'>

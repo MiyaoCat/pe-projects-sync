@@ -1,5 +1,6 @@
 import express from 'express';
 import monsterData from './monsters.json' assert { type: 'json' };
+import contentData from './app-content.json' assert { type: 'json' };
 import { URL } from 'node:url';
 const __dirname = new URL('.', import.meta.url).pathname;
 
@@ -16,11 +17,12 @@ app.use( express.static('styles') );
 
 //Page routes
 app.get('/', function(request, response) {
-	response.render('home')
+	response.render('home', { content: contentData })
 });
 
 app.get('/monsters', function(request, response) {
-	response.render('monsters', { monsters: monsterData })
+	response.render('monsters', { monsters: monsterData, content: contentData })
+
 });
 
 app.get('/monster/:slug', function(request, response) {
