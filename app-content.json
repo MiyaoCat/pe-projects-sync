@@ -10,5 +10,9 @@
 	{
 		"page": "monsters",
 		"content": "This is the monster list page where you can view all of the monsters."
+	},
+	{
+		"page": "adopted",
+		"content": "These are the monsters that have found new homes."
 	}
 ]

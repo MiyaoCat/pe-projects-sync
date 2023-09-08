@@ -34,12 +34,12 @@ app.get('/monster/:slug', function(request, response) {
 	response.render('detail', { monster });
 });
 
-app.get('/monsters/:adopted', function(request, response) {
+app.get('/adopted', function(request, response) {
 	
-	const adoptedMonsters = monsterData.find( function(monster) {
-		return monster.adopted == request.params.adopted;
+	const adoptedMonsters = monsterData.filter( function(monster) {
+		return monster.adopted == true;
 	})
-	response.render('adopted', { monster });
+	response.render('adopted', { adoptedMonsters, content: contentData });
 });
 
 app.use( function(request, response) {
