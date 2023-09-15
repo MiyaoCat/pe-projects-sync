@@ -7,6 +7,10 @@
 %>
 
 <monster-card class=" <%=monster.color%>">
+	<picture>
+		<img src="<%=monster.portrait%>" alt="">
+	</picture>
 	<h3 class="attention-voice"><%=monster.name%></h3>
+	<p class="normal-ovice"><%=monster.story%></p>
 	<a href="monster/<%= monster.slug%>">Learn more</a>
 </monster-card>

@@ -232,33 +232,33 @@ a:hover {
 /* Sections and more 
 stuff */
 monster-card {
-  display: block;
+  display: grid;
+  border: 2px solid black;
 }
-
-monster-card img {
-  max-width: 400px;
+monster-card picture {
+  aspect-ratio: 1/1;
+  max-width: 300px;
 }
-
-.adopted {
+monster-card picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+monster-card .adopted {
   border: 2px solid red;
 }
-
 monster-card.green {
   background-color: hsl(275, 28%, 33%);
 }
-
 monster-card.red {
   background-color: hsl(98, 46%, 47%);
 }
-
 monster-card.orange {
   background-color: hsl(203, 86%, 38%);
 }
-
 monster-card.purple {
   background-color: hsl(38, 94%, 59%);
 }
-
 monster-card.blue {
   background-color: hsl(354, 56%, 57%);
 }
