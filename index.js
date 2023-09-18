@@ -51,7 +51,7 @@ app.get('/monsters', function(request, response) {
 			const monsterData = data.items.map( function(item) {
 				return {
 					name: item.fields.name,
-					story: item.fields.story.content[0].value,
+					story: item.fields.story.content[0],
 					portrait: item.fields.portrait.fields.file.url,
 					adopted: item.fields.adopted,
 					birthday: item.fields.birthday,
