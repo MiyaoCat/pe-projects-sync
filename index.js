@@ -1,11 +1,13 @@
 import path from 'path'
 import express from 'express';
 
-// import monsterData from './monsters.json' assert { type: 'json' };
+import monsterData from './monsters.json' assert { type: 'json' };
 import contentData from './app-content.json' assert { type: 'json' };
 import { URL } from 'node:url';
 
 import contentful from 'contentful';
+import documentToHtmlString from '@contentful/rich-text-html-renderer';
+import BLOCKS from '@contentful/rich-text-types';
 
 const client = contentful.createClient({
   space: 'pbgxh8642zcb',
@@ -27,6 +29,22 @@ app.listen(PORT, () => {
 app.use( express.static('public') );
 app.use( express.static('styles') );
 
+function renderRichText(richTextData) {
+	let html = '';
+
+	richTextData.content.forEach( function(node) {
+		if (node.nodeType === 'paragraph') {
+			node.content.forEach( function(textNode) {
+
+				html += textNode.value;
+			});
+		}
+	});
+
+	return html;
+}
+
+
 //Page routes
 app.get('/', function(request, response) {
 
@@ -34,6 +52,15 @@ app.get('/', function(request, response) {
 		.then( function(entry) {
 			console.log('ENTRY: ', entry)
 			response.render('home', { page: entry.fields, content: contentData });
+			//Rich Text Fields
+			const document = entry.fields.body;
+         return documentToHtmlString(document);
+		})
+		//Rich Text Fields
+		.then( function(renderedHtml) {
+			// do something with html, like write to a file
+			console.log(renderedHtml);
+			document.getElementById('rich-text-body').innerHTML = renderedHtml;
 		})
 		.catch(console.error)
 
@@ -49,9 +76,11 @@ app.get('/monsters', function(request, response) {
 			
 
 			const monsterData = data.items.map( function(item) {
+				const storyContent = renderRichText(item.fields.story);
+
 				return {
 					name: item.fields.name,
-					story: item.fields.story.content[0],
+					story: storyContent,
 					portrait: item.fields.portrait.fields.file.url,
 					adopted: item.fields.adopted,
 					birthday: item.fields.birthday,

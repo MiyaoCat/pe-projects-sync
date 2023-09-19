@@ -11,6 +11,38 @@
 		<img src="<%=monster.portrait%>" alt="">
 	</picture>
 	<h3 class="attention-voice"><%=monster.name%></h3>
-	<p class="normal-ovice"><%=monster.story%></p>
+	<p class="normal-voice">Birthday: <%=monster.birthday%></p>
+	<p class="normal-voice"><%=monster.story%></p>
 	<a href="monster/<%= monster.slug%>">Learn more</a>
 </monster-card>
+
+<script>
+	function renderRichText(richTextData) {
+  let html = '';
+
+  richTextData.content.forEach((node) => {
+    if (node.nodeType === 'paragraph') {
+      html += '<p>';
+      node.content.forEach((textNode) => {
+        if (textNode.marks && textNode.marks.length > 0) {
+          textNode.marks.forEach((mark) => {
+            if (mark.type === 'bold') {
+              html += '<strong>' + textNode.value + '</strong>';
+            } else if (mark.type === 'italic') {
+              html += '<em>' + textNode.value + '</em>';
+            }
+            // Handle other mark types as needed
+          });
+        } else {
+          html += textNode.value;
+        }
+      });
+      html += '</p>';
+    }
+    // Handle other node types as needed
+  });
+
+  return html;
+}
+
+</script>
