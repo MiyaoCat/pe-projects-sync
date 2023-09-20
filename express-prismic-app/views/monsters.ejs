@@ -1,0 +1,80 @@
+<%- include('header.ejs') %>
+
+<header>
+  <inner-column>
+    <h1 class="loud-voice">Monsters Page</h1>
+  </inner-column>
+</header>
+
+<section>
+  <inner-column>
+    <ul>
+      <% content.forEach( function(pageContent) { 
+        if ( pageContent.page == "monsters") {
+      %>
+        <li>
+          <%= pageContent.content %>  
+        </li>
+      <% } }); %>
+    </ul>
+  </inner-column>
+</section>
+
+<section>
+	<inner-column>
+
+		<button id="filter-adopted-button">Filter Adopted</button>
+
+		<ul id='monster-list'>
+			<% monsters.forEach( function(monster) { 
+          
+      %>
+				<li data-adopted="<%= monster.adopted %>">
+					<%- include('monster-card.ejs', {monster}) %>	
+				</li>
+			<%  }); %>
+		</ul>
+	</inner-column>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const filterButton = document.getElementById('filter-adopted-button');
+    const monsterList = document.getElementById('monster-list');
+
+    let showAllMonsters = false; // Flag to track whether all monsters are currently shown
+
+    filterButton.addEventListener('click', function () {
+      // Get all monster list items
+      const monsterItems = monsterList.querySelectorAll('li');
+
+      // Toggle visibility for each monster item
+      monsterItems.forEach(function (monsterItem) {
+        const isAdopted = monsterItem.dataset.adopted === 'true';
+
+        if (showAllMonsters || isAdopted) {
+          // Toggle visibility: Show if all monsters are shown or if it's an adopted monster
+          monsterItem.style.display = 'block';
+          
+        } else {
+          // Hide non-adopted monsters when not showing all monsters
+          monsterItem.style.display = 'none';
+          filterButton.innerHTML = 'Show All';
+        }
+      });
+
+      // Update the flag to toggle between showing all and filtering adopted monsters
+      showAllMonsters = !showAllMonsters;
+
+      if (showAllMonsters) {
+        filterButton.textContent = 'Show All';
+      } else {
+        filterButton.textContent = 'Filter Adopted';
+      }
+    });
+  });
+
+</script>
+
+
+<%- include('footer.ejs') %>

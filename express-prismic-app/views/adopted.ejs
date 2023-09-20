@@ -1,0 +1,38 @@
+<%- include('header.ejs') %>
+
+<header>
+  <inner-column>
+    <h1 class="loud-voice">Adopted Monstah's</h1>
+  </inner-column>
+</header>
+
+<section>
+  <inner-column>
+    <ul>
+      <% content.forEach( function(pageContent) { 
+        if ( pageContent.page == "adopted") {
+      %>
+        <p class="normal-voice">
+          <%= pageContent.content %>  
+        </p>
+      <% } }); %>
+    </ul>
+  </inner-column>
+</section>
+
+<section>
+	<inner-column>
+		<ul id='monster-list'>
+			<% adoptedMonsters.forEach( function(monster) { 
+          
+      %>
+				<li data-adopted="<%= monster.adopted %>">
+					<%- include('monster-card.ejs', {monster}) %>	
+				</li>
+			<%  }); %>
+		</ul>
+	</inner-column>
+</section>
+
+
+<%- include('footer.ejs') %>

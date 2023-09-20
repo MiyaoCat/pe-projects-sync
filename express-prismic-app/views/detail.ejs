@@ -1,0 +1,21 @@
+<%- include('header.ejs') %>
+
+<section>
+	<inner-column>
+
+		<picture>
+			<img src="/assets/monsters/<%=monster.portrait%>" alt="">
+		</picture>
+
+		<h3 class="attention-voice"><%=monster.name%></h3>
+	
+	</inner-column>
+</section>
+
+<section>
+	<inner-column>
+		<a href="/monsters"><button id="back">Go Back</button></a>
+	</inner-column>
+</section>
+<%- include('footer.ejs') %>
+

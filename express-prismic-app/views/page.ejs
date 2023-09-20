@@ -1,0 +1,9 @@
+<img src="<%- document.data.image.url %>" />
+
+<h1>
+	<%- ctx.prismic.asText(document.data.title) %>
+</h1>
+
+<%- ctx.prismic.asHTML(document.data.description) %>
+
+<script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=monster-app"></script>
